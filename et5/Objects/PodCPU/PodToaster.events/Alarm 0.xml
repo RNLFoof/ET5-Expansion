@@ -1,0 +1,2849 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="ALARM" id="0">
+  <actions>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">36</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">50</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">5</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">29</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">40</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">5</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">4</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">30</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">5</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">30</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">20</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">5</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">38</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">10</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">5</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">6</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">30</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">8</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">7</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">20</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">8</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">8</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">10</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">8</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">9</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">5</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">5</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">31</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">10</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">16</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">10</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">30</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">random(12)+1</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">11</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">20</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">random(12)+1</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">12</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">10</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">random(12)+1</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">13</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">5</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">random(12)+1</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">25</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">3</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">4</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">32</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">40</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">6</argument>
+        <argument kind="EXPRESSION">135-random(90)</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">14</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">30</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">6</argument>
+        <argument kind="EXPRESSION">135-random(90)</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">15</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">20</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">6</argument>
+        <argument kind="EXPRESSION">135-random(90)</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">16</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">10</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">6</argument>
+        <argument kind="EXPRESSION">135-random(90)</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">17</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">5</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">6</argument>
+        <argument kind="EXPRESSION">135-random(90)</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">33</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">40</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">5</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">8</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">18</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">30</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">5</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">8</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">19</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">20</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">5</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">8</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">20</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">15</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">5</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">8</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">21</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">10</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">16</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">34</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">15</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">5</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">22</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">10</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">8</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">23</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">20</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">random(12)+1</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">20</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">6</argument>
+        <argument kind="EXPRESSION">135-random(90)</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">26</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">15</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">5</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">8</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">27</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">10</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">5</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">35</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">10</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">8</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">45</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">25</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">5</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">8</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">47</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">10</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">random(12)+1</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">46</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">1</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="206" library="1">
+      <!--action name: Create_Object_Motion-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object_motion</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">5</argument>
+        <argument kind="EXPRESSION">90</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">draw_rectangle_color(x-129,y-129,x+128,y+128,c_black,c_black,c_black,c_black,true);
+draw_set_color(merge_color(c_white,c_black,obj_Cheats_v.pz/255));
+draw_self();
+draw_set_color(c_white);
+//draw_circle(x+px-128,y+py-128,3,false);
+draw_sprite_ext(spr_Cheats_ColorCircle,0,x+px-128,y+py-128,1,1,0,make_color_hsv(px,255-py,255-obj_Cheats_v.pz),1);
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

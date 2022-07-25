@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">//Enclosing a part of a message in square brackets [] will cause the 
+//enclosed string to be highlighted.
+
+//Placing an asterisk * at the end of a message tells the code that
+//the current message is the last message.
+
+//Putting an exponent sign ^ at the end of a message followed by a number will cause the 
+//next position to be at the number. If it is followed by a number, a comma, and then another number,
+//then the code will open up a box for the player to choose which path to take.
+//The first number is for the yes position, and the second is for the no position.
+
+//If you surround a number by a less than sign &lt; and a greater then sign &gt;, the code will do a manual
+//pause for the  specified number of steps.
+
+//These are the actual messages.
+str[0] = "And here we are again at the meeting place of the [Anti-Kitchen Society,] or [AKS.] So how were your days?"
+str[1] = "Pretty terrible. I fell off of an airship."
+str[2] = "At least it wasn't a bottomless pit."
+str[3] = "We've all had a pretty rough day today, to be honest."
+str[4] = "So was your raid on the [Airship of Evil] successful?"
+str[5] = "Yeah. I beat up [Motewolon] and defeated the [Evil Toaster] for good, even with his new body. Then [Soap] blew everything up. The end."
+str[6] = "That's great!"
+str[7] = "So, now that the [Evil Toaster] is dead, can I retire or something?"
+str[8] = "Nope. We still need to figure out whatever is going on with this [Arch Protector] and [Zanifer] business. Plus, you've only freed half of the apples and [Roaster] is still out there somewhere. Prepare to get back to work, punk!"
+str[9] = "Bother. I thought I was finally done."
+str[10] = "You're never done. Anyways, [Angela,] did you find [Gertrude?]"
+str[11] = "Yes, I did. She hasn't told me anything related to what happened in the tunnel yet, though. I'm supposed to meet her at the old [ARS] meeting place tomorrow morning, THEN she'll tell me what happened. She's still as angry as ever, of course."
+str[12] = "Considering her recent behavior, I wouldn't trust her. It could be a trap."
+str[13] = "Don't worry, I know all of her tricks, considering I've worked with her for several years. Besides, it's the only lead we have on the tunnel right now."
+str[14] = "What if we just went into the tunnel ourselves?"
+str[15] = "No. It's too dangerous. We can't afford to have a glowing thing take one of your eyes out."
+str[16] = "But [Jim] might be in there. I'd imagine he would have a lot of answers for us."
+str[17] = "It's still too risky. There's no way I'm letting any of us go in there after what has happened to other apples in the past."
+str[18] = "But-"
+str[19] = "No."
+str[20] = "Alright, fine. (I guess I'm going to have to go into the tunnel myself tonight, while everyone else is asleep. Maybe I'll find something substantial, like what happened to [Crystal] or who the [Arch Protector] is...)"
+str[21] = "Anyways, I've found a place for all of us to sleep tonight. I moved all of [ARS's] old weaponry and other equipment there, along with enough beds for everyone."
+str[22] = "Great! I'm enjoying all the good news I'm hearing here."
+str[23] = "So, in return for the good news, can you give us some more stories from your past?"
+str[24] = "Well, nothing particularly important happened during my time living with the [Bots.] Except for one thing."
+str[25] = "What?"
+str[26] = "There was a huge explosion in tunnel area about nine years ago. I never found out the cause of it. Whenever I asked the [Bots,] they kept telling me it was classified or something stupid like that."
+str[27] = "So that's why the area near the tunnel is charred."
+str[28] = "Yeah. It's even referred to as the [Charred Lands] now."
+str[29] = "Do you know anything important about [Jim?]"
+str[30] = "There's nothing really worth mentioning, aside from the fact he personally knew [Aneroid,] who I never met directly."
+str[31] = "That gives us all the more reason to find [Jim.]"
+str[32] = "He's probably dead by now or something."
+str[33] = "Speaking of [Aneroid,] I still haven't mentioned what he told me. In case you didn't know, he knocked me unconscious and transported me to [Frank's Fleet] while I was inside [Mount Refrigerator,] hence the earpiece that was left behind."
+str[34] = "Well then, tell us what he told you."
+str[35] = "He told me mostly the same things as what he told [App] and [Soap.] However, there was one notable difference. He briefly mentioned someone named [Riddle] while he was talking about the [Arch Protector's] wrath."
+str[36] = "[Riddle?] I don't recognize that name. Does that ring a bell for anyone here?"
+str[37] = "Maybe [Riddle] is the creator of the [Bots] or something."
+str[38] = "No. I remember that the [Bot Blueprints] were written by someone named [Seth Steins,] as a signature in the top left of the blueprints demonstrated."
+str[39] = "[Seth Steins? Aneroid] mentioned someone named [Seth] and how it would be better if I didn't know who he is."
+str[40] = "Hmm, I think we're finally onto something here. [Chroma,] does the name [Seth] sound familiar to you either? You had the strongest connection to [Frank,] so I'd imagine he at least talked about this [Seth.]"
+str[41] = "No, I've never seen or heard the name [Seth.]"
+str[42] = "Hmm."
+str[43] = "Unless [Angela] can get anything out of [Gertrude,] which I doubt, we'll just have to hope the [Arch Protector] is a myth. The trail has nearly gone cold."
+str[44] = "Wait. There's one very important thing that I've refrained from mentioning to anyone before."
+str[45] = "WHAT?! WHAT?! WHAT?!"
+str[46] = "Ever since the [Anti-Toaster Society,] or [ATS,] broke through the [Great Stone Wall,] I've been receiving letters from someone who refers to him or herself as ['the Agent.']"
+str[47] = "Big surprise. Lots of weird stuff has been happening ever since you punks crashed through the wall on that missile. So yeah, what were you saying?"
+str[48] = "I've received five letters so far. The first one I received a short time before [App] went to destroy the second [Caginator.] The intervals at which they're sent are very inconsistent."
+str[49] = "At first, I thought the letters were some kind of joke from [ARS] and I ignored them. However, with the most recent letter it became clear that whoever's sending me these letters is no jokester."
+str[50] = "All of the letters have been brief, and they're all signed at their bottoms with ['-The Agent'.] I don't know how [the Agent] has located me, but no matter how much I've moved around I've always found a letter lying in my path at some point."
+str[51] = "So, here's what the first letter says: 'Greetings, [Mach.]' That's it. That's all it says. Needless to say, I was pretty creeped out. I have no idea how [the Agent] even knew my name."
+str[52] = "Maybe [the Agent] is someone that knows you personally. Perhaps there's a reason why [the Agent] is sending the letters to YOU of all people."
+str[53] = "Oh, you've got to be joking. These letters are so fake."
+str[54] = "They're real. Too real for comfort. I have no reason to try to scare you. Really, we're done screwing around after [Crystal] disappeared."
+str[55] = "If I had to guess, I'd say that [the Agent] is just sending the letters to the somewhat self-proclaimed leader of [AKS.] And it's your job to forward them to us."
+str[56] = "Mmm. I suppose that makes sense. There's no way we can really confirm anything at this point. Anyways, here's the second letter I received: 'Unleash your inner self.'"
+str[57] = "Is everyone cryptic?!"
+str[58] = "Apparently so. I don't know what to make of that letter. Anyways, here's the third letter I received: 'Remain seated. You will be saved.'"
+str[59] = "Meanwhile, I'll be doing all the work."
+str[60] = "You're not the one dealing with [Gertrude.]"
+str[61] = "I have the guns."
+str[62] = "I'm [Soap.]"
+str[63] = "Shut up, punks. Here's the fourth letter. All in caps lock and no apostrophe, even though these letters are handwritten: 'DONT RUN'"
+str[64] = "Why's [the Agent] getting illiterate and angry all of the sudden?"
+str[65] = "It's hard to write with good grammar when you're really mad. Assuming [the Agent] was angry when he wrote this..."
+str[66] = "'Don't run?' Run from what?"
+str[67] = "No idea. Here's the fifth and latest letter I've received: 'They were right in attempting to destroy the curse of sight.'"
+str[68] = "Just when I thought this planet couldn't get any more confusing."
+str[69] = "Oh well. These letters are meaningless to me. I was wondering if you guys could get any clues out of them, but apparently not. Anyways, moving on..."
+str[70] = "What happened to [Shaman?]"
+str[71] = "I actually forgot about him."
+str[72] = "I'm starting to get quite worried. He's been gone all day. What if something happened to him?"
+str[73] = "Who cares? If he's dead or something, it's his fault for refusing to tell us where he was going."
+str[74] = "That's harsh... but good point, I suppose."
+str[75] = "Well, we don't seem to have a whole lot more to talk about in this meeting. To wrap things up, how about we have [Chroma] tell us her backstory?"
+str[76] = "Sure, but I have no idea where to start."
+str[77] = "Well then, I'll ask the questions. How old are you?"
+str[78] = "I don't know. But [Frank] told me I'm nine years old."
+str[79] = "Wait, what? You were a prototype apple?"
+str[80] = "I don't know for sure. I can only remember things up to six years ago. According to [Frank,] I suffer from amnesia."
+str[81] = "Amnesia? Well, this is inconvenient. Do you know what caused this amnesia?"
+str[82] = "No, I do not."
+str[83] = "What was daily life like on [Frank's Fleet?]"
+str[84] = "It was simple. There were no chores I had to do. I just woke up and went to sleep, almost like a pet. [Frank] almost never talked to me unless it was important. I can't recall ever even seeing the two [Frank] clones."
+str[85] = "A pet, eh? Why was he keeping you up there?"
+str[86] = "He wanted to make sure that at least one apple would stay alive if something terrible happened to [Planet Stone.] Thus, I was kept in a mostly empty ship of the fleet."
+str[87] = "But now [Frank's Fleet] has self-destructed and you're here."
+str[88] = "Yes. I suppose I'm in just as much danger as the rest of you.*"
+//These are the headshots that correspond to each message.
+img[0] = MachFace
+img[1] = TexFace
+img[2] = AppFace
+img[3] = AngelaFace
+img[4] = MachFace
+img[5] = AppFace
+img[6] = MachFace
+img[7] = AppFace
+img[8] = MachFace
+img[9] = AppFace
+img[10] = MachFace
+img[11] = AngelaFace
+img[12] = TexFace
+img[13] = AngelaFace
+img[14] = AppFace
+img[15] = MachFace
+img[16] = AppFace
+img[17] = MachFace
+img[18] = AppFace
+img[19] = MachFace
+img[20] = AppFace
+img[21] = TexFace
+img[22] = MachFace
+img[23] = TexFace
+img[24] = MachFace
+img[25] = TexFace
+img[26] = MachFace
+img[27] = AppFace
+img[28] = MachFace
+img[29] = TexFace
+img[30] = MachFace
+img[31] = AppFace
+img[32] = SoapFace
+img[33] = AngelaFace
+img[34] = MachFace
+img[35] = AngelaFace
+img[36] = MachFace
+img[37] = SoapFace
+img[38] = AngelaFace
+img[39] = AppFace
+img[40] = MachFace
+img[41] = ChromaFace
+img[42] = MachFace
+img[43] = TexFace
+img[44] = MachFace
+img[45] = SoapFace
+img[46] = MachFace
+img[47] = TexFace
+img[48] = MachFace
+img[49] = MachFace
+img[50] = MachFace
+img[51] = MachFace
+img[52] = AngelaFace
+img[53] = TexFace
+img[54] = MachFace
+img[55] = AppFace
+img[56] = MachFace
+img[57] = TexFace
+img[58] = MachFace
+img[59] = AppFace
+img[60] = AngelaFace
+img[61] = TexFace
+img[62] = SoapFace
+img[63] = MachFace
+img[64] = AppFace
+img[65] = TexFace
+img[66] = AngelaFace
+img[67] = MachFace
+img[68] = AppFace
+img[69] = MachFace
+img[70] = SoapFace
+img[71] = AngelaFace
+img[72] = AppFace
+img[73] = MachFace
+img[74] = AppFace
+img[75] = MachFace
+img[76] = ChromaFace
+img[77] = MachFace
+img[78] = ChromaFace
+img[79] = MachFace
+img[80] = ChromaFace
+img[81] = MachFace
+img[82] = ChromaFace
+img[83] = MachFace
+img[84] = ChromaFace
+img[85] = MachFace
+img[86] = ChromaFace
+img[87] = MachFace
+img[88] = ChromaFace
+//These are the names of the person talking in each message.
+name[0] = "Mach"
+name[1] = "Tex"
+name[2] = "App"
+name[3] = "Angela"
+name[4] = "Mach"
+name[5] = "App"
+name[6] = "Mach"
+name[7] = "App"
+name[8] = "Mach"
+name[9] = "App"
+name[10] = "Mach"
+name[11] = "Angela"
+name[12] = "Tex"
+name[13] = "Angela"
+name[14] = "App"
+name[15] = "Mach"
+name[16] = "App"
+name[17] = "Mach"
+name[18] = "App"
+name[19] = "Mach"
+name[20] = "App"
+name[21] = "Tex"
+name[22] = "Mach"
+name[23] = "Tex"
+name[24] = "Mach"
+name[25] = "Tex"
+name[26] = "Mach"
+name[27] = "App"
+name[28] = "Mach"
+name[29] = "Tex"
+name[30] = "Mach"
+name[31] = "App"
+name[32] = "Soap"
+name[33] = "Angela"
+name[34] = "Mach"
+name[35] = "Angela"
+name[36] = "Mach"
+name[37] = "Soap"
+name[38] = "Angela"
+name[39] = "App"
+name[40] = "Mach"
+name[41] = "Chroma"
+name[42] = "Mach"
+name[43] = "Tex"
+name[44] = "Mach"
+name[45] = "Soap"
+name[46] = "Mach"
+name[47] = "Tex"
+name[48] = "Mach"
+name[49] = "Mach"
+name[50] = "Mach"
+name[51] = "Mach"
+name[52] = "Angela"
+name[53] = "Tex"
+name[54] = "Mach"
+name[55] = "App"
+name[56] = "Mach"
+name[57] = "Tex"
+name[58] = "Mach"
+name[59] = "App"
+name[60] = "Angela"
+name[61] = "Tex"
+name[62] = "Soap"
+name[63] = "Mach"
+name[64] = "App"
+name[65] = "Tex"
+name[66] = "Angela"
+name[67] = "Mach"
+name[68] = "App"
+name[69] = "Mach"
+name[70] = "Soap"
+name[71] = "Angela"
+name[72] = "App"
+name[73] = "Mach"
+name[74] = "App"
+name[75] = "Mach"
+name[76] = "Chroma"
+name[77] = "Mach"
+name[78] = "Chroma"
+name[79] = "Mach"
+name[80] = "Chroma"
+name[81] = "Mach"
+name[82] = "Chroma"
+name[83] = "Mach"
+name[84] = "Chroma"
+name[85] = "Mach"
+name[86] = "Chroma"
+name[87] = "Mach"
+name[88] = "Chroma"
+//As you can see, it is quite easy to add extra details for
+//each message simply by adding an extra array. 
+//It's that simple!
+
+//This determines the number of pixels each line can be.
+line_length = 420
+//This controls the speed of the the text.
+text_speed = 1
+//This is the  x position in which the string starts at.
+string_x = 16
+//This is the y position in which the string starts at.
+string_y = 48
+//This determines the vertical spacing between lines.
+//When set to zero, the spacing will only be the string's height.
+vertical_spacing = 0
+//This is the x position of the question box.
+question_box_x = 32
+//This is the y position of the question box.
+question_box_y = 128
+//This is the x position of the text drawn in relevance to question_box_x.
+question_x = 18
+//This is the y position of the text drawn in relevance to question_box_y.
+question_y = 7
+//This is the x position of the names.
+name_x = 50
+//This is the y position of the names.
+name_y = 22
+//This is the x position of the headshot.
+headshot_x = 12
+//This is the y position of the headshot.
+headshot_y = 12
+//This is the vertical spacing in between "Yes" and "No".
+question_vert_spacing = 2
+//This is the x postion in relevance to question_box_x.
+highlight_x = 2
+//If this charcter is detected, initiate a highlight.
+highlight_open_character = "["
+//This character determines the end of a highlight. Anything enclosed
+//will be highlighted.
+highlight_close_character = "]"
+//If this charcter is detected, end messages.
+end_character = "*"
+//If this charcter is detected, ask question or jump to next position.
+jump_character = "^"
+//If this character is detected, initiate a manual pause.
+pause_open_character = "&lt;"
+//This character determines the number. The enclosed number
+//is the length of the manual pause.
+pause_close_character = "&gt;"
+
+
+//The following variables do not need to be changed and are only used
+//by the code.
+
+
+
+//This determins if the messages end.
+message_end = 0
+//This determines when the typing is finished.
+type_end = 0
+//This determines if the meesage is a question message.
+message_question = 0
+//This is the target position if yes is selected.
+yes_position = 0
+//This is the target position if no is selected.
+no_position = 0
+//This is the option selected by the user.
+question_selection = 1
+//This detemins if the message is a jump message.
+message_jump = 0
+//This is the position of the next message.
+jump_position = 0
+//This is the string that is going to be displayed. It contains the
+//modified version of the actual string.
+display_string = ""
+//This states the current position we are at in str[x] for adding
+//characters into display_string.
+position = 0
+//This states the current position we are in display_string. This is
+//used to prevent line breaks in the middle of a word.
+display_position= 0
+//This counter tells us when it's time to make a line break.
+width_counter = 0
+//This finds the last space.
+last_space = 0
+//The array index of the message that is currently being displayed.
+message_display = 0
+//This is used to count the number of phrases that will be highlighted.
+highlight_number = 0
+//This stores the starting position of the highlighted text.
+highlight_position[0] = 0
+//This stores the length of the highlighted text.
+highlight_length[0] = 0
+//This is used to count the number of manual pauses that are in the message.
+pause_number = 0
+//This stores the position of the manual pause.
+pause_position[0] = 0
+//This stores the number of steps the manual pause lasts.
+pause_length[0] = 0
+//This variable stores the edited message.
+current_string = ""
+
+
+//Gives the user a second to realize the window has opened before the text
+//starts typing out.
+alarm[0] = 10
+</argument>
+      </arguments>
+    </action>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">nexted</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="201" library="1">
+      <!--action name: Create_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">Uncontrollable</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

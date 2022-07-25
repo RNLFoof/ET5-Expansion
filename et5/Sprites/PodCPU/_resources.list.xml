@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="PodCPU" type="RESOURCE"/>
+  <resource name="Pod" type="RESOURCE"/>
+  <resource name="Door" type="RESOURCE"/>
+  <resource name="Zap" type="RESOURCE"/>
+  <resource name="RedZap" type="RESOURCE"/>
+  <resource name="Missile" type="RESOURCE"/>
+</resources>

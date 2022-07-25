@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">//exit;
+if alarm[0] != -1
+    exit
+
+for(i = 0; i &lt; projectiletypes; i += 1)
+{
+    if timer mod delay[i] == 0
+    {
+        s = string(currentoffx[i]) + " " +string(offxspace[i]) + " ";
+        for(offx = currentoffx[i]; offxmin[i] &lt;= offx and offx &lt;= offxmax[i]; offx+=offxspace[i])
+        {
+            s+=string(offx)+" ";
+            for(dir = currentangle[i]; dir &lt; 360; dir+=angspace[i])
+            {
+                if dir &gt;= angmin[i] and dir &lt;= angmax[i]
+                {
+                    o = instance_create(x+offx, y, projtype[i]);
+                    o.direction = dir;
+                    o.speed = projspeed[i];
+                    o.spawnerx = x;
+                    o.spawnery = y;
+                    o.rotate = projrotate[i];
+                    o.appeardistance = projdistance[i];
+                    o.appeardistancey = projdistancey[i];
+                    o.lifetime = lifetime[i];
+                    o.trailcolor = ds_map_find_value(trailcolors, projtype[i]);
+                }
+            }
+        
+            currentangle[i] += angincrease[i];
+            currentangle[i] = currentangle[i] mod angspace[i];
+        }
+        
+        currentoffx[i] += offxincrease[i];
+        while currentoffx[i] - offxspace[i] &gt;= offxmin[i]
+        {   
+            s +="wow";
+            currentoffx[i] -= offxspace[i];
+        }
+    }
+}
+timer += 1
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

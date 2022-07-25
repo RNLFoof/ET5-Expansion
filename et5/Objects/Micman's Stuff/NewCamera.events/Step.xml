@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">//say the view changes to someone that isn't app when app is in the room? stop camera updating then
+if view_object[0] != object_index &amp;&amp; focusedApp = 1
+{
+    focusedApp = 0
+}
+
+//say app is mysteriously now the new focus
+if view_object[0] = 0 &amp;&amp; focusedApp = 0
+{
+    //show_message("hehe.. app time")
+    focusedApp = 1
+    xpos = MainApple.x+16
+    ypos = MainApple.y+16
+    xgoal = MainApple.x+16
+    ygoal = MainApple.y+16
+    view_object[0] = object_index 
+    
+    view_enabled = true
+    view_visible[0] = true
+    view_wview[0] = 640;
+    view_hview[0] = 480;
+    view_wport[0] = 640;
+    view_hport[0] = 480;
+    view_hborder[0] = 320;
+    view_vborder[0] = 640;
+}
+
+//AGH! WHERE DID HE GO!?!?
+if instance_number(MainApple) = 0 &amp;&amp; focusedApp = 1
+{
+    focusedApp = 0
+}
+
+//camera updating
+if focusedApp = 1
+{
+    //block that describes new updates to app that affect the camera
+    followSpeed = startingFollowSpeed
+    maxSpeed = startingMaxSpeed
+    changedxpos = 0
+    changedypos = 0
+    xgoal = MainApple.x+16
+    ygoal = MainApple.y+16
+    {
+        //if MainApple.dsmash = 1
+        //maxSpeed = 128
+        
+        if instance_number(objCameraApproach) &gt; 0
+        {
+            var success; success = 1
+            var distToApproach; distToApproach = distance_to_object(instance_nearest(MainApple.x+16,MainApple.y+16,objCameraApproach))
+            
+            if distToApproach &gt; 320 success = 0;
+            if instance_number(objCameraStop) &gt; 0
+            {
+                if distance_to_object(instance_nearest(MainApple.x+16,MainApple.y+16,objCameraStop)) &lt; distToApproach success = 0;
+            }
+            
+            if success = 1
+            {
+                near = instance_nearest(MainApple.x+16,MainApple.y+16,objCameraApproach)
+                //dist = distance_to_object(instance_nearest(MainApple.x+16,MainApple.y+16,objCameraApproach))
+                xgoal = xgoal + (near.x-xgoal)/4
+                ygoal = ygoal + (near.y-ygoal)/4
+            }
+        }
+    }
+    
+    var zoomdifference;
+    zoomdifference = zoom-currentZoom;
+    currentZoom += zoomdifference/zoomSpeed;
+    
+    if abs(zoomdifference) &lt; 0.01 currentZoom=zoom;
+    
+    view_wview[0] = 640/currentZoom;
+    view_hview[0] = 480/currentZoom;
+    view_wport[0] = 640///currentZoom;
+    view_hport[0] = 480///currentZoom;
+    view_hborder[0] = 320/currentZoom;
+    view_vborder[0] = 640/currentZoom;
+
+    var xdifference, ydifference, tp;
+    tp = 0
+    xdifference = (xgoal+changedxpos)-xpos
+    ydifference = (ygoal+changedypos)-ypos
+    
+    if sqrt(power(xdifference,2)+power(ydifference,2)) &gt; maxDistance tp = 1
+    
+    if abs(xdifference/followSpeed) &gt; maxSpeed xdifference = followSpeed*maxSpeed*sign(xdifference);
+    if abs(ydifference/followSpeed) &gt; maxSpeed ydifference = followSpeed*maxSpeed*sign(ydifference);
+    
+    xpos += xdifference/followSpeed;
+    ypos += ydifference/followSpeed;
+    
+    if abs(xdifference) &lt; pixelAccuracy xpos = xgoal
+    if abs(ydifference) &lt; pixelAccuracy ypos = ygoal
+    
+    //show_message("app y: "+string(MainApple.x)+" and my y: "+string(y))
+    if tp = 1
+    {
+        xpos=xgoal;
+        ypos=ygoal;
+    }
+    x=xpos
+    y=ypos
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

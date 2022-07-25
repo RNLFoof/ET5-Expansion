@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="541" library="1">
+      <!--action name: Set_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_sprite_set</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">GemBlank</argument>
+        <argument kind="EXPRESSION">-1</argument>
+        <argument kind="EXPRESSION">1</argument>
+      </arguments>
+    </action>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">finished</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">global.gem70</argument>
+        <argument kind="EXPRESSION">1</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="203" library="1">
+      <!--action name: Kill_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_kill_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+  </actions>
+</event>

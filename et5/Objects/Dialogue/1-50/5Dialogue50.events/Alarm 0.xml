@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="ALARM" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">var i,pause;
+//This variable takes the string from the current message.
+if current_string = ""
+    current_string = str[message_display]
+//If display_string hasn't finished typing out...
+if !type_end
+{
+    //Activate scr_type.
+    scr_type()
+    //Sets the length of the pause before the next character.
+    pause = text_speed
+    //This checks if the current position has a manual pause.
+    //If it does, then it will pause for the specfied period
+    //instead of the automatic pause.
+    for(i=0;i&lt;pause_number;i+=1)
+    {
+        if display_position = pause_position[i]-1
+        {
+            pause = pause_length[i]
+            break
+        }
+    }
+    //Prepare the next character    
+    alarm[0] = pause
+    //Play a typing sound if string is typing out.
+    if display_position &gt; 0
+        sound_play(snd_type)
+}
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

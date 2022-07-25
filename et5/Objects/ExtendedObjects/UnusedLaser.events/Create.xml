@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">collision=true;
+distance=sqrt(room_width^2+room_height^2);
+add_distance=distance/2;
+amount=0;
+accuracy=2;
+</argument>
+      </arguments>
+    </action>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">dirn</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

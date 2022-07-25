@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="TheHouse" type="RESOURCE"/>
+  <resource name="TheOutside" type="RESOURCE"/>
+  <resource name="TheWilderness" type="RESOURCE"/>
+  <resource name="TheIndustries" type="RESOURCE"/>
+  <resource name="TheSpace" type="RESOURCE"/>
+  <resource name="TheLair" type="RESOURCE"/>
+  <resource name="TheEnd" type="RESOURCE"/>
+  <resource name="ChapterLabels" type="RESOURCE"/>
+</resources>

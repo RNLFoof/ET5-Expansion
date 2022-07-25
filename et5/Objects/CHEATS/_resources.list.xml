@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="obj_CheatsBox" type="RESOURCE"/>
+  <resource name="obj_CheatsOptions" type="RESOURCE"/>
+  <resource name="obj_CheatsBack" type="RESOURCE"/>
+  <resource name="obj_CheatsSelection" type="RESOURCE"/>
+  <resource name="obj_CheatsCircle" type="RESOURCE"/>
+  <resource name="obj_FuckItItsEasier" type="RESOURCE"/>
+  <resource name="obj_Cheats_hs" type="RESOURCE"/>
+  <resource name="obj_Cheats_v" type="RESOURCE"/>
+  <resource name="obj_Cheats_Picker" type="RESOURCE"/>
+  <resource name="obj_Cheats_PickerBottom" type="RESOURCE"/>
+  <resource name="obj_Cheats_PickerArrow" type="RESOURCE"/>
+  <resource name="obj_CustomParts" type="RESOURCE"/>
+</resources>

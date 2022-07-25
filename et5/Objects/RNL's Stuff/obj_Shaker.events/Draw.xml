@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">// Need to wait for the creation code
+if alarm[3] != -1
+{
+    exit;
+}
+// Glide
+if gliding
+{
+//    draw_sprite(BlueRoflcopter, 0, anchorx, anchory);
+ //   draw_sprite(GreenRoflcopter, 0, glidestartx, glidestarty);
+}
+else
+// Shake
+{
+    // Set angle to shake direction
+    image_angle = direction + ((path_speed &gt;= 0) * 180);
+    if lineredrawneeded
+    {
+        image_angle = pathenddir;
+    }
+    // Fall
+    if path_speed &gt;= 0 
+    {
+        path_speed -= pathupgravity;
+    }
+    else
+    {
+        path_speed -= pathdowngravity;
+    }
+    // Draw the spawning surface
+    draw_surface(saltedsurface, anchorx+pathendx-w/2, anchory+pathendy-h/2);
+    // Draw shake lines
+    if lineredrawneeded
+    {
+        var i, workingindex;
+        for(i=0; i&lt;pixelsatonce; i+=1)
+        {
+            workingindex = pixelshuffleindex+i;
+            // Skip a bunch so it's less fuckin slow
+            if workingindex mod 10 != 0
+            {
+                continue;
+            };
+            if workingindex &lt; ds_list_size(pixelshuffle)
+            {
+                var saltyx, saltyy, saltycolor, saltyalpha, po, fromx, tox, fromy, toy;
+                saltyx = ds_list_find_value(ds_list_find_value(pixelshuffle, workingindex), 0);
+                saltyy = ds_list_find_value(ds_list_find_value(pixelshuffle, workingindex), 1);
+                saltycolor = ds_list_find_value(ds_list_find_value(pixelshuffle, workingindex), 2);
+                saltyalpha = ds_list_find_value(ds_list_find_value(pixelshuffle, workingindex), 3);
+                draw_set_color(saltycolor);
+                draw_set_alpha(saltyalpha/3);
+                // draw_line(xstart+pathendx, ystart+pathendy+saltyy, x+lengthdir_x(8, random(360)), y+lengthdir_y(8, random(360)));
+                po = 12; //possible offset
+                
+                tox = anchorx+pathendx+saltyx-w/2;
+                toy = anchory+pathendy+saltyy-h/2;
+                fromx = anchorx+(saltyx/w*po)-po/2;
+                fromy = anchory+(saltyy/h*po)-po/2;
+                draw_line(
+                    fromx-(fromx-tox)/lineredrawframecount*lineredrawcurrentframe,
+                    fromy-(fromy-toy)/lineredrawframecount*lineredrawcurrentframe,
+                    fromx-(fromx-tox)/lineredrawframecount*(lineredrawcurrentframe+1),
+                    fromy-(fromy-toy)/lineredrawframecount*(lineredrawcurrentframe+1)
+                );
+            }
+        }
+        lineredrawcurrentframe += 1;
+        if lineredrawcurrentframe == lineredrawframecount
+        {
+            lineredrawneeded = false;
+        }
+        
+        draw_set_color(c_white);
+        draw_set_alpha(1);
+    }
+}
+// Draw the actual shaker
+draw_sprite_ext(sprite_index, 2, x, y, 1, 1, image_angle, dustcolor, 1);
+draw_sprite_ext(sprite_index, 1, x, y, 1, 1, image_angle, c_white, 1);
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

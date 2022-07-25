@@ -1,0 +1,1893 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="404" library="1">
+      <!--action name: If_Number-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_number</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">MainApple</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="425" library="1">
+      <!--action name: Exit-->
+      <kind>EXIT</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if global.chapter &lt; 6 chapm = 3;
+if global.chapter &gt; 5 &amp;&amp; global.chapter &lt; 11 chapm = 1.5;
+if global.chapter &gt; 10 chapm = 1;
+</argument>
+      </arguments>
+    </action>
+    <action id="404" library="1">
+      <!--action name: If_Number-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_number</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">draw_set_font(fnt_text)
+draw_set_color(c_white)
+</argument>
+      </arguments>
+    </action>
+    <action id="421" library="1">
+      <!--action name: Else-->
+      <kind>ELSE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">draw_set_font(-1)
+draw_set_color(c_black)
+</argument>
+      </arguments>
+    </action>
+    <action id="404" library="1">
+      <!--action name: If_Number-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_number</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">1</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="425" library="1">
+      <!--action name: Exit-->
+      <kind>EXIT</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">draw_text(view_xview+6,view_yview+8,"Gropples: " + string(global.gropples))
+draw_text(view_xview+506,view_yview+8,"Gripples: " + string(global.gripples))
+</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">LifeTransparent</argument>
+        <argument kind="EXPRESSION">view_xview+2</argument>
+        <argument kind="EXPRESSION">view_yview+24</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">LifeTransparent</argument>
+        <argument kind="EXPRESSION">view_xview+34</argument>
+        <argument kind="EXPRESSION">view_yview+24</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">LifeTransparent</argument>
+        <argument kind="EXPRESSION">view_xview+66</argument>
+        <argument kind="EXPRESSION">view_yview+24</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">global.maxlives</argument>
+        <argument kind="EXPRESSION">3</argument>
+        <argument kind="MENU">2</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">LifeTransparent</argument>
+        <argument kind="EXPRESSION">view_xview+98</argument>
+        <argument kind="EXPRESSION">view_yview+24</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">global.maxlives</argument>
+        <argument kind="EXPRESSION">4</argument>
+        <argument kind="MENU">2</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">LifeTransparent</argument>
+        <argument kind="EXPRESSION">view_xview+130</argument>
+        <argument kind="EXPRESSION">view_yview+24</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">global.maxlives</argument>
+        <argument kind="EXPRESSION">5</argument>
+        <argument kind="MENU">2</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">LifeTransparent</argument>
+        <argument kind="EXPRESSION">view_xview+162</argument>
+        <argument kind="EXPRESSION">view_yview+24</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">global.maxlives</argument>
+        <argument kind="EXPRESSION">6</argument>
+        <argument kind="MENU">2</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">LifeTransparent</argument>
+        <argument kind="EXPRESSION">view_xview+194</argument>
+        <argument kind="EXPRESSION">view_yview+24</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">global.maxlives</argument>
+        <argument kind="EXPRESSION">7</argument>
+        <argument kind="MENU">2</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">LifeTransparent</argument>
+        <argument kind="EXPRESSION">view_xview+226</argument>
+        <argument kind="EXPRESSION">view_yview+24</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">global.maxlives</argument>
+        <argument kind="EXPRESSION">8</argument>
+        <argument kind="MENU">2</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">LifeTransparent</argument>
+        <argument kind="EXPRESSION">view_xview+258</argument>
+        <argument kind="EXPRESSION">view_yview+24</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">global.maxlives</argument>
+        <argument kind="EXPRESSION">9</argument>
+        <argument kind="MENU">2</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">LifeTransparent</argument>
+        <argument kind="EXPRESSION">view_xview+290</argument>
+        <argument kind="EXPRESSION">view_yview+24</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="714" library="1">
+      <!--action name: Draw_Life_Images-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_life_images</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">view_xview+2</argument>
+        <argument kind="EXPRESSION">view_yview+24</argument>
+        <argument kind="SPRITE">Life</argument>
+      </arguments>
+    </action>
+    <action id="404" library="1">
+      <!--action name: If_Number-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_number</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">MainApple</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="MENU">2</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="403" library="1">
+      <!--action name: If_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_object</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>MainApple</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>PodCPU</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">success</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">Action</argument>
+        <argument kind="EXPRESSION">MainApple.x</argument>
+        <argument kind="EXPRESSION">MainApple.y-32</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="403" library="1">
+      <!--action name: If_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_object</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>MainApple</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">Action</argument>
+        <argument kind="EXPRESSION">MainApple.x</argument>
+        <argument kind="EXPRESSION">MainApple.y-32</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="403" library="1">
+      <!--action name: If_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_object</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>MainApple</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">Action</argument>
+        <argument kind="EXPRESSION">MainApple.x</argument>
+        <argument kind="EXPRESSION">MainApple.y-32</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="403" library="1">
+      <!--action name: If_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_object</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>MainApple</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">Action</argument>
+        <argument kind="EXPRESSION">MainApple.x</argument>
+        <argument kind="EXPRESSION">MainApple.y-32</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="403" library="1">
+      <!--action name: If_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_object</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>MainApple</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">Action</argument>
+        <argument kind="EXPRESSION">MainApple.x</argument>
+        <argument kind="EXPRESSION">MainApple.y-32</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="403" library="1">
+      <!--action name: If_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_object</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>MainApple</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">Action</argument>
+        <argument kind="EXPRESSION">MainApple.x</argument>
+        <argument kind="EXPRESSION">MainApple.y-32</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="403" library="1">
+      <!--action name: If_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_object</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>MainApple</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">Action</argument>
+        <argument kind="EXPRESSION">MainApple.x</argument>
+        <argument kind="EXPRESSION">MainApple.y-32</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="403" library="1">
+      <!--action name: If_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_object</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>MainApple</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">Action</argument>
+        <argument kind="EXPRESSION">MainApple.x</argument>
+        <argument kind="EXPRESSION">MainApple.y-32</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="403" library="1">
+      <!--action name: If_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_object</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>MainApple</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">Action</argument>
+        <argument kind="EXPRESSION">MainApple.x</argument>
+        <argument kind="EXPRESSION">MainApple.y-32</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="403" library="1">
+      <!--action name: If_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_object</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>MainApple</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">Action</argument>
+        <argument kind="EXPRESSION">MainApple.x</argument>
+        <argument kind="EXPRESSION">MainApple.y-32</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="403" library="1">
+      <!--action name: If_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_object</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>MainApple</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">Action</argument>
+        <argument kind="EXPRESSION">MainApple.x</argument>
+        <argument kind="EXPRESSION">MainApple.y-32</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="403" library="1">
+      <!--action name: If_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_object</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>MainApple</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">Action</argument>
+        <argument kind="EXPRESSION">MainApple.x</argument>
+        <argument kind="EXPRESSION">MainApple.y-32</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="403" library="1">
+      <!--action name: If_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_object</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>MainApple</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">Action</argument>
+        <argument kind="EXPRESSION">MainApple.x</argument>
+        <argument kind="EXPRESSION">MainApple.y-32</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>MainApple</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">spinjump</argument>
+        <argument kind="EXPRESSION">1</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">SpinnerGreen</argument>
+        <argument kind="EXPRESSION">MainApple.x</argument>
+        <argument kind="EXPRESSION">MainApple.y</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>MainApple</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">spinjump</argument>
+        <argument kind="EXPRESSION">2</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">SpinnerRed</argument>
+        <argument kind="EXPRESSION">MainApple.x</argument>
+        <argument kind="EXPRESSION">MainApple.y</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>MainApple</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">y+24</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">ArrowIndicator</argument>
+        <argument kind="EXPRESSION">MainApple.x</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="404" library="1">
+      <!--action name: If_Number-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_number</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="MENU">2</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">GreenFaceH</argument>
+        <argument kind="EXPRESSION">view_xview+2</argument>
+        <argument kind="EXPRESSION">view_yview+56</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="514" library="1">
+      <!--action name: Draw_Text-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_text</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="BOTH">x</argument>
+        <argument kind="EXPRESSION">view_xview+34</argument>
+        <argument kind="EXPRESSION">view_yview+64</argument>
+      </arguments>
+    </action>
+    <action id="613" library="1">
+      <!--action name: Draw_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_variable</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">global.fatotal</argument>
+        <argument kind="EXPRESSION">view_xview+42</argument>
+        <argument kind="EXPRESSION">view_yview+64</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">AntiSoapUnit</argument>
+        <argument kind="EXPRESSION">view_xview+2</argument>
+        <argument kind="EXPRESSION">view_yview+88</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="514" library="1">
+      <!--action name: Draw_Text-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_text</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="BOTH">x</argument>
+        <argument kind="EXPRESSION">view_xview+34</argument>
+        <argument kind="EXPRESSION">view_yview+96</argument>
+      </arguments>
+    </action>
+    <action id="613" library="1">
+      <!--action name: Draw_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_variable</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">global.fbtotal</argument>
+        <argument kind="EXPRESSION">view_xview+42</argument>
+        <argument kind="EXPRESSION">view_yview+96</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="404" library="1">
+      <!--action name: If_Number-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_number</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="MENU">2</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">GemClear</argument>
+        <argument kind="EXPRESSION">view_xview+2</argument>
+        <argument kind="EXPRESSION">view_yview+120</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="514" library="1">
+      <!--action name: Draw_Text-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_text</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="BOTH">x</argument>
+        <argument kind="EXPRESSION">view_xview+34</argument>
+        <argument kind="EXPRESSION">view_yview+128</argument>
+      </arguments>
+    </action>
+    <action id="613" library="1">
+      <!--action name: Draw_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_variable</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">global.gemtotal</argument>
+        <argument kind="EXPRESSION">view_xview+42</argument>
+        <argument kind="EXPRESSION">view_yview+128</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">GemRed</argument>
+        <argument kind="EXPRESSION">view_xview+2</argument>
+        <argument kind="EXPRESSION">view_yview+152</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="514" library="1">
+      <!--action name: Draw_Text-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_text</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="BOTH">x</argument>
+        <argument kind="EXPRESSION">view_xview+34</argument>
+        <argument kind="EXPRESSION">view_yview+160</argument>
+      </arguments>
+    </action>
+    <action id="613" library="1">
+      <!--action name: Draw_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_variable</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">global.rgemtotal</argument>
+        <argument kind="EXPRESSION">view_xview+42</argument>
+        <argument kind="EXPRESSION">view_yview+160</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">GemBlue</argument>
+        <argument kind="EXPRESSION">view_xview+2</argument>
+        <argument kind="EXPRESSION">view_yview+184</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="514" library="1">
+      <!--action name: Draw_Text-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_text</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="BOTH">x</argument>
+        <argument kind="EXPRESSION">view_xview+34</argument>
+        <argument kind="EXPRESSION">view_yview+192</argument>
+      </arguments>
+    </action>
+    <action id="613" library="1">
+      <!--action name: Draw_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_variable</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">global.bgemtotal</argument>
+        <argument kind="EXPRESSION">view_xview+42</argument>
+        <argument kind="EXPRESSION">view_yview+192</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">GemGold</argument>
+        <argument kind="EXPRESSION">view_xview+2</argument>
+        <argument kind="EXPRESSION">view_yview+216</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="514" library="1">
+      <!--action name: Draw_Text-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_text</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="BOTH">x</argument>
+        <argument kind="EXPRESSION">view_xview+34</argument>
+        <argument kind="EXPRESSION">view_yview+224</argument>
+      </arguments>
+    </action>
+    <action id="613" library="1">
+      <!--action name: Draw_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_variable</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">global.ggemtotal</argument>
+        <argument kind="EXPRESSION">view_xview+42</argument>
+        <argument kind="EXPRESSION">view_yview+224</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">draw_text(view_xview+260,view_yview+8,string(chapm*((0.1*(global.fatotal+global.fbtotal+global.chest01+global.chest02+global.chest03+global.chest04+global.chest05+global.chest06+global.chest07+global.chest08+global.chest09+global.chest10+global.chest11+global.chest12+global.chest13+global.chest14+global.chest15))+(0.15*(global.gemtotal+global.ggemtotal+global.rgemtotal+global.bgemtotal))+global.eq01+global.eq02+global.eq03+global.chapter-1)) + "% Complete")
+</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">clocker</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="MENU">2</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">clocker</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">HUDClock</argument>
+        <argument kind="EXPRESSION">view_xview+8</argument>
+        <argument kind="EXPRESSION">view_yview+72</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="613" library="1">
+      <!--action name: Draw_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_variable</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">clocker/30</argument>
+        <argument kind="EXPRESSION">view_xview+34</argument>
+        <argument kind="EXPRESSION">view_yview+72</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="404" library="1">
+      <!--action name: If_Number-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_number</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">MainApple</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">49</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">StartHere</argument>
+        <argument kind="EXPRESSION">32</argument>
+        <argument kind="EXPRESSION">896</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">51</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">StartHere</argument>
+        <argument kind="EXPRESSION">32</argument>
+        <argument kind="EXPRESSION">896</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">global.eqeq</argument>
+        <argument kind="EXPRESSION">1</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">with RedToast
+{
+draw_healthbar(x-16,y-24,x+16,y-32,HP*12.5,c_black,c_red,c_green,0,1,0)
+}
+with PurpleToast
+{
+draw_healthbar(x-16,y-24,x+16,y-32,HP*(6+2/3),c_black,c_red,c_green,0,1,0)
+}
+with GreenToast
+{
+draw_healthbar(x,y-8,x+32,y-16,HP*10,c_black,c_red,c_green,0,1,0)
+}
+with YellowToast
+{
+draw_healthbar(x,y-8,x+32,y-16,HP*(6+2/3),c_black,c_red,c_green,0,1,0)
+}
+with CyanToast
+{
+draw_healthbar(x,y-8,x+32,y-16,HP*4,c_black,c_red,c_green,0,1,0)
+}
+with BlueToast
+{
+draw_healthbar(x-16,y-24,x+16,y-32,HP*4,c_black,c_red,c_green,0,1,0)
+}
+with GreyToast
+{
+draw_healthbar(x,y-8,x+32,y-16,HP*(3+1/3),c_black,c_red,c_green,0,1,0)
+}
+with BlackToast
+{
+draw_healthbar(x-16,y-24,x+16,y-32,HP,c_black,c_red,c_green,0,1,0)
+}
+with TinyToaster
+{
+draw_healthbar(x,y-8,x+32,y-16,HP*20,c_black,c_red,c_green,0,1,0)
+}
+with HandyToaster
+{
+draw_healthbar(x-16,y-24,x+16,y-32,HP*(6+2/3),c_black,c_red,c_green,0,1,0)
+}
+with HotToaster
+{
+draw_healthbar(x,y-8,x+32,y-16,HP*4,c_black,c_red,c_green,0,1,0)
+}
+with AngryToaster
+{
+draw_healthbar(x-16,y-24,x+16,y-32,HP*2,c_black,c_red,c_green,0,1,0)
+}
+with MagicToaster
+{
+draw_healthbar(x,y-8,x+32,y-16,HP*5,c_black,c_red,c_green,0,1,0)
+}
+with TinyRoaster
+{
+draw_healthbar(x,y-8,x+32,y-16,HP*2.85714286,c_black,c_red,c_green,0,1,0)
+}
+with SmartToaster
+{
+draw_healthbar(x,y-8,x+32,y-16,HP*2,c_black,c_red,c_green,0,1,0)
+}
+with TrickyToaster
+{
+draw_healthbar(x-16,y-24,x+16,y-32,HP/1.5,c_black,c_red,c_green,0,1,0)
+}
+with ElectricToaster
+{
+draw_healthbar(x-16,y-24,x+16,y-32,HP*(6+2/3),c_black,c_red,c_green,0,1,0)
+}
+with ConvertibleToaster
+{
+draw_healthbar(x-16,y-24,x+16,y-32,HP*(1+1/3),c_black,c_red,c_green,0,1,0)
+}
+with RapidToaster
+{
+draw_healthbar(x,y-8,x+32,y-16,HP*2,c_black,c_red,c_green,0,1,0)
+}
+with SlowToaster
+{
+draw_healthbar(x-16,y-24,x+16,y-32,HP*2,c_black,c_red,c_green,0,1,0)
+}
+with BouncyToaster
+{
+draw_healthbar(x,y-8,x+32,y-16,HP*2,c_black,c_red,c_green,0,1,0)
+}
+with RicochetToaster
+{
+draw_healthbar(x-16,y-24,x+16,y-32,HP,c_black,c_red,c_green,0,1,0)
+}
+</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">RedKey</argument>
+        <argument kind="EXPRESSION">view_xview+582</argument>
+        <argument kind="EXPRESSION">view_yview+56</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="514" library="1">
+      <!--action name: Draw_Text-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_text</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="BOTH">x</argument>
+        <argument kind="EXPRESSION">view_xview+616</argument>
+        <argument kind="EXPRESSION">view_yview+64</argument>
+      </arguments>
+    </action>
+    <action id="613" library="1">
+      <!--action name: Draw_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">global.redkeys</argument>
+        <argument kind="EXPRESSION">view_xview+624</argument>
+        <argument kind="EXPRESSION">view_yview+64</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

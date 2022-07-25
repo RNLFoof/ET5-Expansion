@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="BTheUpstairs" type="RESOURCE"/>
+  <resource name="BTheDownstairs" type="RESOURCE"/>
+  <resource name="BTheKitchen" type="RESOURCE"/>
+  <resource name="BTheSteakOut" type="RESOURCE"/>
+  <resource name="BTheYard" type="RESOURCE"/>
+  <resource name="BTheRoad" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="TransparentWall" type="RESOURCE"/>
+  <resource name="Grating" type="RESOURCE"/>
+  <resource name="RustyGrating" type="RESOURCE"/>
+  <resource name="DisWall" type="RESOURCE"/>
+  <resource name="Plock" type="RESOURCE"/>
+  <resource name="KeyLlaw" type="RESOURCE"/>
+  <resource name="YellowKey" type="RESOURCE"/>
+  <resource name="DemoWall" type="RESOURCE"/>
+  <resource name="PipeTop" type="RESOURCE"/>
+  <resource name="PipeMiddle" type="RESOURCE"/>
+  <resource name="LeftRamp" type="RESOURCE"/>
+  <resource name="RightRamp" type="RESOURCE"/>
+  <resource name="InvisibleWall" type="RESOURCE"/>
+  <resource name="Ice" type="RESOURCE"/>
+  <resource name="LaserWall" type="RESOURCE"/>
+</resources>

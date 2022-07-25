@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="ElectricSquare" type="RESOURCE"/>
+  <resource name="MetalDefault" type="RESOURCE"/>
+  <resource name="MetalTrans" type="RESOURCE"/>
+  <resource name="ElectricWhite" type="RESOURCE"/>
+  <resource name="ElectricShooter" type="RESOURCE"/>
+</resources>

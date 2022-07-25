@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="COLLISION" with="Splapple">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if !active exit;
+
+var i;
+with (Splapple)
+{
+    instance_destroy();
+}
+with (UltramarineRoflcopter)
+{
+    active = true;
+    image_alpha = 1;
+}
+active = false;
+image_alpha = 0.5;
+app = instance_find(MainApple,0);
+app.x = x;
+app.y = y;
+app.vspeed = 0;
+scr_safesound(Spawn);
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

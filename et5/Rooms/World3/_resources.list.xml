@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="3_0" type="RESOURCE"/>
+  <resource name="3_0X" type="RESOURCE"/>
+  <resource name="3_1" type="RESOURCE"/>
+  <resource name="3_1X" type="RESOURCE"/>
+  <resource name="3_2" type="RESOURCE"/>
+  <resource name="3_2X" type="RESOURCE"/>
+  <resource name="3_3" type="RESOURCE"/>
+  <resource name="3_3X" type="RESOURCE"/>
+  <resource name="3_4" type="RESOURCE"/>
+  <resource name="3_4X" type="RESOURCE"/>
+  <resource name="Cutscene19" type="RESOURCE"/>
+  <resource name="3_5_1" type="RESOURCE"/>
+  <resource name="3_5_2" type="RESOURCE"/>
+  <resource name="3_5_3" type="RESOURCE"/>
+  <resource name="Cutscene20" type="RESOURCE"/>
+  <resource name="Cutscene21" type="RESOURCE"/>
+  <resource name="Cutscene22" type="RESOURCE"/>
+  <resource name="Cutscene23" type="RESOURCE"/>
+  <resource name="Cutscene24" type="RESOURCE"/>
+</resources>

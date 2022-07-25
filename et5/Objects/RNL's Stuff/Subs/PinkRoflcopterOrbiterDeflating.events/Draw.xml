@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">scale_multiplier = alarm[0]/lifetime;
+
+var x1, x2, y1, y2, len, dir;
+
+ds_list_add(trail_xs, x);
+ds_list_add(trail_ys, y);
+
+if ds_list_size(trail_xs) &gt; trail_length
+{
+    ds_list_delete(trail_xs,0);
+    ds_list_delete(trail_ys,0);
+};
+    
+for (i = 1; i &lt; ds_list_size(trail_xs); i += 1)
+{
+        var width;
+        width = (trail_width/trail_length*i+1)*(ogscale * scale_multiplier);
+        if width &gt;= 0.5
+        {
+            draw_set_color(trail_color);
+            draw_line_width(
+                ds_list_find_value(trail_xs, i),
+                ds_list_find_value(trail_ys, i),
+                ds_list_find_value(trail_xs, i-1),
+                ds_list_find_value(trail_ys, i-1),
+                width);
+            draw_set_color(c_white);
+        }
+};
+
+image_xscale = ogscale * scale_multiplier;
+image_yscale = image_xscale;
+
+direction += direction_increase;
+direction_increase *= direction_increase_multiplier;
+
+draw_self();
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

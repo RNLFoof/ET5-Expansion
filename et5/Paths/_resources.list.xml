@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="EvilSpatulaPath" type="RESOURCE"/>
+  <resource name="DoomyRoflPath01" type="RESOURCE"/>
+  <resource name="DoomyRoflPath02" type="RESOURCE"/>
+  <resource name="ShakerPath" type="RESOURCE"/>
+</resources>

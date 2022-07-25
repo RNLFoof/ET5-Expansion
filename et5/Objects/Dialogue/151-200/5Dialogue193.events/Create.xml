@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">str[0] = "What black apple?"
+str[1] = "Huh. I guess it left. Maybe I just imagined it..."
+str[2] = "I wouldn't be surprised. You're a real cuckoolander."
+str[3] = "Not anymore. An entity called the [Arch Protector] is apparently endangering this planet, so now I've decided to get with the program. So anyways, to the point. Tell me about what happened in the tunnel, please."
+str[4] = "No."
+str[5] = "Huh?"
+str[6] = "I've decided not to tell anyone about it."
+str[7] = "But we agreed that you would tell me!"
+str[8] = "People CAN change their minds, you know."
+str[9] = "Well, I spent half an hour waiting here for you."
+str[10] = "Sucks for you. I don't want to put up with anyone. I'm leaving and I'll be sure to steer clear of you, so this will be the last time you see me."
+str[11] = "Fine then! Who needs you, anyways? You just make everything worse and you're a heap of negativity!"
+str[12] = "Listen to yourself. Why did you have to abandon me for stupid [AKS?]"
+str[13] = "Fighting [ATS] was pointless. I only did it because I was under your command."
+str[14] = "Why, you backstabbing..."
+str[15] = "It feels good to be nice once in a while you know. That way people would actually enjoy being around y-"
+str[16] = "DON'T FEED ME THAT BULLCRAP!!! I'm too good to listen to such aesops! Now is the time where we depart! Good. Bye!"
+str[17] = "Good riddance...*"
+
+img[0] = GertrudeFace
+img[1] = AngelaFace
+img[2] = GertrudeFace
+img[3] = AngelaFace
+img[4] = GertrudeFace
+img[5] = AngelaFace
+img[6] = GertrudeFace
+img[7] = AngelaFace
+img[8] = GertrudeFace
+img[9] = AngelaFace
+img[10] = GertrudeFace
+img[11] = AngelaFace
+img[12] = GertrudeFace
+img[13] = AngelaFace
+img[14] = GertrudeFace
+img[15] = AngelaFace
+img[16] = GertrudeFace
+img[17] = AngelaFace
+
+name[0] = "Gertrude"
+name[1] = "Angela"
+name[2] = "Gertrude"
+name[3] = "Angela"
+name[4] = "Gertrude"
+name[5] = "Angela"
+name[6] = "Gertrude"
+name[7] = "Angela"
+name[8] = "Gertrude"
+name[9] = "Angela"
+name[10] = "Gertrude"
+name[11] = "Angela"
+name[12] = "Gertrude"
+name[13] = "Angela"
+name[14] = "Gertrude"
+name[15] = "Angela"
+name[16] = "Gertrude"
+name[17] = "Angela"
+
+event_inherited();
+</argument>
+      </arguments>
+    </action>
+    <action id="201" library="1">
+      <!--action name: Create_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">Uncontrollable</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

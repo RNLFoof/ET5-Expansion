@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if global.cheat_ALT_DJ_ANIMATION=true &amp;&amp; sprite_index=RedApple sprite_index=spr_AltDJ;
+//y-=5;
+//sprite_index=spr_CustomApple;
+//draw_set_color(make_color_rgb(0, 114, 214));
+
+if movementTimer != 0
+{
+    draw_sprite_ext(AppleWalk,image_index,x+16,y-abs(sin(movementTimer/2)*3)+30,image_xscale,image_yscale,image_angle+sin(movementTimer/2)*3,image_blend,image_alpha);
+}
+else
+draw_sprite_ext(sprite_index,image_index,x,y,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
+
+//draw_self();
+draw_set_color(c_white);
+var gearangle;
+var gearx;
+var geary;
+gearangle=image_angle;
+gearx = x;
+geary = y;
+if movementTimer != 0
+{
+    gearangle += sin(movementTimer/2)*3;
+    gearx += 16;
+    geary +=-abs(sin(movementTimer/2)*3)+30;
+    sprite_set_offset(DirtyBoy,16,30);
+}
+else
+{
+    sprite_set_offset(DirtyBoy, sprite_get_xoffset(sprite_index), sprite_get_yoffset(sprite_index));
+    if sprite_index = RedApple
+    {
+        gearangle = -image_index/10*360;
+        gearx += 16;
+        geary += 16;
+        sprite_set_offset(DirtyBoy,16,16);
+    };
+}
+if slimebuildup &gt; 0
+{
+    draw_sprite_ext(DirtyBoy,min(22, slimebuildup),gearx,geary,image_xscale,image_yscale,image_angle+gearangle,c_white,1);
+}
+
+/*draw_text(view_xview[0], view_yview[0], "
+
+
+FPS: "+string(fps)+"
+"+string(hspeed)+"
+"+string(joystick_xpos(1)));
+if hspeed &gt; 0
+{
+    show_message(hspeed*100000);
+}*/
+//draw_sprite_ext(spr_CustomShine,image_index,x,y,image_xscale,image_yscale,image_angle,c_white,1);
+//draw_sprite_ext(spr_CustomGear,0,x+16,y+16,image_xscale,image_yscale,image_angle+gearangle,c_white,1);
+//draw_sprite_ext(spr_CustomGear,1,x+16,y+16,image_xscale,image_yscale,image_angle+gearangle,c_white,1);
+//y+=5;
+
+if pinkrofljumps &gt; 0
+{
+    draw_sprite(PinkRoflcopterOrbs, 5-pinkrofljumps, x+16, y+36);
+}
+
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

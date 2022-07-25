@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="HDSmash" type="RESOURCE"/>
+  <resource name="HDoubleJump" type="RESOURCE"/>
+  <resource name="HButtons" type="RESOURCE"/>
+  <resource name="HTargets" type="RESOURCE"/>
+  <resource name="HSaves" type="RESOURCE"/>
+  <resource name="HCages" type="RESOURCE"/>
+  <resource name="HGropples" type="RESOURCE"/>
+  <resource name="HPits" type="RESOURCE"/>
+  <resource name="HEnemies" type="RESOURCE"/>
+  <resource name="HHealth" type="RESOURCE"/>
+  <resource name="HSpikes" type="RESOURCE"/>
+  <resource name="HRedCopters" type="RESOURCE"/>
+  <resource name="HBlueCopters" type="RESOURCE"/>
+  <resource name="HSwitches" type="RESOURCE"/>
+  <resource name="HExits" type="RESOURCE"/>
+  <resource name="HShop" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Face_Soap08" type="RESOURCE"/>
+  <resource name="Face_Angela03" type="RESOURCE"/>
+  <resource name="Face_Chroma03" type="RESOURCE"/>
+  <resource name="Face_Leaf08" type="RESOURCE"/>
+  <resource name="Face_Soap09" type="RESOURCE"/>
+  <resource name="Face_Angela04" type="RESOURCE"/>
+  <resource name="Face_App07" type="RESOURCE"/>
+  <resource name="Face_Mach10" type="RESOURCE"/>
+  <resource name="Face_Gertrude05" type="RESOURCE"/>
+  <resource name="Face_Riddle01" type="RESOURCE"/>
+</resources>

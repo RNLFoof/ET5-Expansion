@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="MainBG" type="RESOURCE"/>
+  <resource name="EnemyIndexBG" type="RESOURCE"/>
+  <resource name="ToasterRepairBG" type="RESOURCE"/>
+  <resource name="JungleBackground" type="RESOURCE"/>
+  <resource name="SpaceBG" type="RESOURCE"/>
+  <resource name="CoreBG" type="RESOURCE"/>
+  <resource name="NewCoreBG" type="RESOURCE"/>
+  <resource name="NewCore2BG" type="RESOURCE"/>
+  <resource name="EarthBG" type="RESOURCE"/>
+  <resource name="WurpLandBG" type="RESOURCE"/>
+  <resource name="FleetBG" type="RESOURCE"/>
+  <resource name="ReddishBG" type="RESOURCE"/>
+  <resource name="SkyBG" type="RESOURCE"/>
+  <resource name="NightSkyBG" type="RESOURCE"/>
+  <resource name="RedSkyBG" type="RESOURCE"/>
+  <resource name="Circus1BG" type="RESOURCE"/>
+  <resource name="Circus2BG" type="RESOURCE"/>
+  <resource name="MiddayBG" type="RESOURCE"/>
+  <resource name="ReddisherBG" type="RESOURCE"/>
+  <resource name="bck_cheats" type="RESOURCE"/>
+</resources>

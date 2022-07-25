@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if scale_multiplier &lt; 1
+{
+    scale_multiplier += 0.05
+}
+
+var x1, x2, y1, y2, len, dir;
+
+if alarm[0] = -1
+{
+orbit_direction += orbit_speed;
+orbit_direction = orbit_direction mod 360;
+x1 = lengthdir_x(orbit_distance, orbit_direction);
+y1 = lengthdir_y(4, orbit_direction);
+len = point_distance(0, 0, x1, y1);
+dir = point_direction(0, 0, x1, y1) + orbit_offset;
+x2 = lengthdir_x(len, dir);
+y2 = lengthdir_y(len, dir);
+ds_list_add(trail_xs, x2);
+ds_list_add(trail_ys, y2);
+}
+
+if ds_list_size(trail_xs) &gt; trail_length or alarm[0] != -1
+{
+    ds_list_delete(trail_xs,0);
+    ds_list_delete(trail_ys,0);
+}
+    
+for (i = 1; i &lt; ds_list_size(trail_xs); i += 1)
+{
+        if i &lt; newtrailfrom
+        {
+            draw_set_color(trail_color);
+        }
+        else
+        {
+            draw_set_color(make_color_rgb(255,127,184));
+        };
+        draw_line_width(
+            MainApple.x + ds_list_find_value(trail_xs, i) + 16, 
+            MainApple.y + ds_list_find_value(trail_ys, i) + 16 + yoffset, 
+            MainApple.x + ds_list_find_value(trail_xs, i-1) + 16, 
+            MainApple.y + ds_list_find_value(trail_ys, i-1) + 16 + yoffset,
+            trail_width/trail_length*i*scale_multiplier+1);
+        draw_set_color(c_white);
+}
+
+if alarm[0] = -1
+{
+    x = MainApple.x + x2 + 16;
+    y = MainApple.y + y2 + 16 + yoffset;
+}
+
+if orbit_direction &gt;= 180 or readytodie
+    depth = 11
+else
+    depth = 8
+    
+
+image_xscale = (0.5+lengthdir_y(-0.15, orbit_direction)+scale_offset) * scale_multiplier;
+image_yscale = image_xscale;
+
+// part_particles_create(ParticleBitch.pinkparticlesystem,x,y,ParticleBitch.pinkparticletype, 1);
+
+if alarm[0] = -1
+{
+    draw_self();
+};
+newtrailfrom -= 1;
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="TinyToaster" type="RESOURCE"/>
+  <resource name="HandyToaster" type="RESOURCE"/>
+  <resource name="HotToaster" type="RESOURCE"/>
+  <resource name="AngryToaster" type="RESOURCE"/>
+  <resource name="MagicToaster" type="RESOURCE"/>
+  <resource name="TinyRoaster" type="RESOURCE"/>
+  <resource name="SmartToaster" type="RESOURCE"/>
+  <resource name="TrickyToaster" type="RESOURCE"/>
+  <resource name="ElectricToaster" type="RESOURCE"/>
+  <resource name="ConvertibleToaster" type="RESOURCE"/>
+  <resource name="RapidToaster" type="RESOURCE"/>
+  <resource name="SlowToaster" type="RESOURCE"/>
+  <resource name="BouncyToaster" type="RESOURCE"/>
+  <resource name="RicochetToaster" type="RESOURCE"/>
+</resources>

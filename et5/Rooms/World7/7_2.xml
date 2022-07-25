@@ -1,0 +1,4296 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<room>
+  <caption/>
+  <size height="960" width="12800"/>
+  <grid>
+    <isometric>false</isometric>
+    <snap x="32" y="32"/>
+  </grid>
+  <speed>30</speed>
+  <persistent>false</persistent>
+  <creationCode/>
+  <backgroundColor>000000</backgroundColor>
+  <drawBackgroundColor>true</drawBackgroundColor>
+  <clearViewBackground>true</clearViewBackground>
+  <backgrounds>
+    <backgroundDef>
+      <visibleOnRoomStart>true</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage>MainBG</backgroundImage>
+      <offset x="0" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>true</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+    <backgroundDef>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage>NewCoreBG</backgroundImage>
+      <offset x="0" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>false</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+    <backgroundDef>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage>NewCoreBG</backgroundImage>
+      <offset x="64" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>false</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+    <backgroundDef>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage>NewCoreBG</backgroundImage>
+      <offset x="128" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>false</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+    <backgroundDef>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage/>
+      <offset x="0" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>true</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+    <backgroundDef>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage/>
+      <offset x="0" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>true</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+    <backgroundDef>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage/>
+      <offset x="0" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>true</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+    <backgroundDef>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage/>
+      <offset x="0" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>true</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+  </backgrounds>
+  <enableViews>true</enableViews>
+  <views>
+    <view>
+      <visibleOnRoomStart>true</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="320" hSpeed="-1" vBorder="640" vSpeed="-1">MainApple</objectFollowing>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+  </views>
+  <instances>
+    <instance>
+      <object>McRSign</object>
+      <position x="288" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gem33</object>
+      <position x="3840" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BGem33</object>
+      <position x="3936" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>GUpSpike</object>
+      <position x="1152" y="896"/>
+      <creationCode>vspeed = 8;
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>GUpSpike</object>
+      <position x="1184" y="896"/>
+      <creationCode>vspeed = 8;
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>GUpSpike</object>
+      <position x="1504" y="896"/>
+      <creationCode>vspeed = 8;
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>GUpSpike</object>
+      <position x="1536" y="896"/>
+      <creationCode>vspeed = 8;
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Spike</object>
+      <position x="896" y="256"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Spike</object>
+      <position x="1088" y="256"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Spike</object>
+      <position x="1280" y="256"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Spike</object>
+      <position x="1472" y="256"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Spike</object>
+      <position x="1664" y="256"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Spike</object>
+      <position x="1856" y="256"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Spike</object>
+      <position x="2048" y="256"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>AK44Launcher</object>
+      <position x="2208" y="256"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>AK44Launcher</object>
+      <position x="3296" y="352"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>5Soapbox207</object>
+      <position x="192" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>SmashPillarRed</object>
+      <position x="2464" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>SmashPillarRed</object>
+      <position x="2688" y="320"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Buzzsaw</object>
+      <position x="2976" y="192"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Plock</object>
+      <position x="2528" y="256"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Plock</object>
+      <position x="2528" y="224"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Plock</object>
+      <position x="2528" y="192"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Plock</object>
+      <position x="2528" y="160"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Plock</object>
+      <position x="2528" y="128"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Plock</object>
+      <position x="2528" y="96"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Plock</object>
+      <position x="2528" y="64"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Plock</object>
+      <position x="2528" y="32"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Plock</object>
+      <position x="2528" y="0"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Plock</object>
+      <position x="2560" y="0"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Plock</object>
+      <position x="2560" y="32"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Plock</object>
+      <position x="2560" y="64"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Plock</object>
+      <position x="2560" y="96"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Plock</object>
+      <position x="2560" y="128"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Plock</object>
+      <position x="2560" y="160"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Plock</object>
+      <position x="2560" y="192"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Plock</object>
+      <position x="2560" y="224"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Plock</object>
+      <position x="2560" y="256"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Plock</object>
+      <position x="2720" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Plock</object>
+      <position x="2720" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Plock</object>
+      <position x="2720" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Slant4</object>
+      <position x="3488" y="672"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Slant3</object>
+      <position x="3360" y="672"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Slant2</object>
+      <position x="3360" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="0" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="32" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="64" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="96" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="128" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="160" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="192" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="224" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="256" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="288" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="320" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="352" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="384" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="416" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="448" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="480" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="512" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="544" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="576" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="608" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="640" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="672" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="704" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="736" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="768" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="736" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="736" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="736" y="736"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="800" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="832" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="864" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="896" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="928" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="960" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="992" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="864" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="864" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="896" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="960" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="992" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1024" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="992" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1024" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1056" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1088" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1088" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1120" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1120" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1120" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1152" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1184" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1216" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1216" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1248" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1312" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1344" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1376" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1344" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1216" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1248" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1280" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1312" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1344" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1376" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1408" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1440" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1472" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1440" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1472" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1472" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1568" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1568" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1600" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1504" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1536" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1568" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1600" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1664" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1696" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1728" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1696" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1632" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1664" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1696" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1728" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1760" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1792" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1824" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1792" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1824" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1824" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1856" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1888" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1920" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1952" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2048" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2016" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1984" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1984" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2016" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2016" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2016" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2016" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2048" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2080" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2112" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2144" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2176" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2208" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2240" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2272" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2240" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2240" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2240" y="736"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2240" y="704"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2240" y="672"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2240" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2240" y="608"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="736" y="704"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="736" y="672"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="736" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="736" y="608"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="736" y="576"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="736" y="544"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="736" y="512"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="736" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="736" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="736" y="416"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="736" y="384"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="736" y="352"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="736" y="320"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="736" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="768" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="800" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="832" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="864" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="896" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="928" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="960" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="992" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1024" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1056" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1088" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1120" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1152" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1184" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1216" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1248" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1280" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1312" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1344" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1376" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1408" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1440" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1472" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1504" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1536" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1568" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1600" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1632" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1664" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1696" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1728" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1760" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1792" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1824" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1856" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1888" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1920" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1952" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="1984" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2016" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2048" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2080" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2112" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2144" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2176" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2208" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2240" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2240" y="320"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2240" y="352"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2240" y="384"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2240" y="416"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2240" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2240" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2240" y="544"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2240" y="512"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2240" y="576"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_WhiteToast</object>
+      <position x="896" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_WhiteToast</object>
+      <position x="1088" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_WhiteToast</object>
+      <position x="1248" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_WhiteToast</object>
+      <position x="1440" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_WhiteToast</object>
+      <position x="1600" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_WhiteToast</object>
+      <position x="1792" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>TrickyToaster</object>
+      <position x="2144" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>HandyToaster</object>
+      <position x="992" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>HandyToaster</object>
+      <position x="1024" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>HandyToaster</object>
+      <position x="1024" y="704"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>HandyToaster</object>
+      <position x="992" y="704"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>HandyToaster</object>
+      <position x="1344" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>HandyToaster</object>
+      <position x="1376" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>HandyToaster</object>
+      <position x="1376" y="704"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>HandyToaster</object>
+      <position x="1344" y="704"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>HandyToaster</object>
+      <position x="1696" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>HandyToaster</object>
+      <position x="1696" y="704"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>HandyToaster</object>
+      <position x="1728" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>HandyToaster</object>
+      <position x="1728" y="704"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="896" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="864" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="832" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="800" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="768" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2272" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2304" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2336" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2336" y="256"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2336" y="224"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2336" y="192"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2304" y="192"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2400" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2400" y="256"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2400" y="224"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2400" y="192"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2432" y="192"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2432" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2464" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2496" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2528" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2560" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2368" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2336" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2400" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2368" y="512"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2304" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2336" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2368" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2400" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2432" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2432" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2464" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2496" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2464" y="672"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2336" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2368" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2400" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2368" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2464" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2496" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2528" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2560" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2592" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2528" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2560" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2592" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2560" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2528" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2560" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2592" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2560" y="512"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2592" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2624" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2656" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2688" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2688" y="416"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2688" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2688" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2688" y="512"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2688" y="544"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2688" y="576"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2688" y="608"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2688" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2688" y="672"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2688" y="704"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2688" y="736"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2688" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2688" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2624" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2656" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2688" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2720" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2752" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2720" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2752" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2816" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2784" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2784" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2816" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2848" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2880" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2912" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2944" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2976" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3008" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3040" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3072" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3104" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3136" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3168" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3200" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2848" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2880" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2912" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2944" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2976" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3008" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3040" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3072" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3104" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3136" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3168" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3200" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3232" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3264" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3296" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3328" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3328" y="320"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3328" y="352"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3328" y="384"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3328" y="416"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3328" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3328" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3328" y="512"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3328" y="544"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3328" y="576"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3328" y="608"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3328" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3328" y="672"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3328" y="704"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3328" y="736"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3328" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3328" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3232" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3264" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3296" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3328" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3360" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3392" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3424" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2880" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2912" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3136" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3104" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2848" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3168" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2976" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3008" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3040" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2848" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2880" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="2912" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3104" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3136" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3168" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BigRefrigerator</object>
+      <position x="2976" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3456" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3488" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3520" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3520" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3520" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3520" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3520" y="736"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3520" y="704"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3520" y="672"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3520" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3488" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3456" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3424" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3392" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3360" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3488" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3456" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>ElectricToaster</object>
+      <position x="3488" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3552" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3584" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3616" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3648" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3680" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3712" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3744" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3776" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3808" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3840" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3872" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3904" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3936" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="3968" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4000" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4032" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4064" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4096" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4128" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4160" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>ArenaWall</object>
+      <position x="3808" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>ArenaWall</object>
+      <position x="3808" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>ArenaWall</object>
+      <position x="3840" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>ArenaWall</object>
+      <position x="3872" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>ArenaWall</object>
+      <position x="3904" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>ArenaWall</object>
+      <position x="3936" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>ArenaWall</object>
+      <position x="3968" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>ArenaWall</object>
+      <position x="3968" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4192" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4224" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4256" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4288" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4320" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4352" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4384" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4416" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4448" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4480" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4512" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4544" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4576" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4608" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4640" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4672" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4704" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4736" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>BasicWall</object>
+      <position x="4768" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>RoasterB02</object>
+      <position x="4320" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>FlameUpIdle</object>
+      <position x="2368" y="384"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>FlameUpDown</object>
+      <position x="2336" y="384"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>FlameUpDown</object>
+      <position x="2400" y="384"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>FlameUpDown</object>
+      <position x="2336" y="704"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>FlameUpDown</object>
+      <position x="2432" y="544"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>FlameUpDown</object>
+      <position x="2496" y="544"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>FlameUpDown</object>
+      <position x="2400" y="704"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>FlameUpDown</object>
+      <position x="2528" y="704"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>FlameUpDown</object>
+      <position x="2592" y="704"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>FlameUpDown</object>
+      <position x="2528" y="384"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>FlameUpDown</object>
+      <position x="2592" y="384"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>FlameUpIdle</object>
+      <position x="2560" y="384"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>FlameUpIdle</object>
+      <position x="2464" y="544"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>FlameUpIdle</object>
+      <position x="2368" y="704"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>FlameUpIdle</object>
+      <position x="2560" y="704"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Reactor</object>
+      <position x="2976" y="64"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>RedRoflcopter</object>
+      <position x="2016" y="608"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>RedRoflcopter</object>
+      <position x="1824" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>RedRoflcopter</object>
+      <position x="1568" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>RedRoflcopter</object>
+      <position x="1472" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>RedRoflcopter</object>
+      <position x="1216" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>RedRoflcopter</object>
+      <position x="1120" y="480"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>RedRoflcopter</object>
+      <position x="3552" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>RedRoflcopter</object>
+      <position x="3360" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="960" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="992" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="1024" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="992" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="1312" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="1344" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="1376" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="1344" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="1664" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="1728" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="1696" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="1696" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="768" y="416"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="768" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="800" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="800" y="416"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="832" y="416"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="896" y="416"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="864" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="896" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="864" y="416"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="864" y="384"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="864" y="352"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="864" y="320"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="896" y="320"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="896" y="352"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="896" y="384"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="832" y="352"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="832" y="320"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="800" y="320"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="800" y="352"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="800" y="384"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="768" y="384"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="768" y="352"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="768" y="320"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2432" y="224"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2464" y="224"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2464" y="256"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2496" y="256"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2496" y="224"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2496" y="192"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2464" y="192"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2304" y="256"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2304" y="224"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2272" y="256"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2240" y="256"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2272" y="224"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2240" y="224"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2240" y="192"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2272" y="192"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2336" y="352"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2400" y="352"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2528" y="352"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2592" y="352"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2432" y="512"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2496" y="512"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2336" y="672"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2400" y="672"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2528" y="672"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2592" y="672"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2848" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2880" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2912" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2976" y="608"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="3040" y="608"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="3104" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="3136" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="3168" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="3168" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="3104" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2912" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2848" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gripple</object>
+      <position x="3008" y="608"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2848" y="416"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2880" y="416"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2912" y="416"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2848" y="736"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2880" y="736"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2912" y="736"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2976" y="576"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="3008" y="576"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="3040" y="576"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="3104" y="416"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="3136" y="416"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="3168" y="416"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="3104" y="736"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="3136" y="736"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="3168" y="736"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gripple</object>
+      <position x="832" y="384"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2592" y="256"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2592" y="224"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2592" y="192"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2624" y="192"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2624" y="224"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2624" y="256"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2656" y="224"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="2656" y="192"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="3456" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="3456" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="3488" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="3488" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="4608" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="4576" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="4736" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="4768" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="4736" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="4704" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="4672" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="4640" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="4608" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="4640" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="4672" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gropple</object>
+      <position x="4704" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Gripple</object>
+      <position x="4672" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>GACaged216</object>
+      <position x="2048" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>GACaged217</object>
+      <position x="832" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>GACaged218</object>
+      <position x="2432" y="256"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>GACaged219</object>
+      <position x="1984" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>GACaged220</object>
+      <position x="2880" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>GACaged221</object>
+      <position x="3136" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>GACaged222</object>
+      <position x="2656" y="256"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>GACaged223</object>
+      <position x="4640" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>GACaged224</object>
+      <position x="4672" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>GACaged225</object>
+      <position x="4704" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Exit</object>
+      <position x="3872" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Reverse</object>
+      <position x="2112" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Reverse</object>
+      <position x="2112" y="608"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>RButton1</object>
+      <position x="2016" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Jump</object>
+      <position x="1152" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Jump</object>
+      <position x="1184" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Jump</object>
+      <position x="1152" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Jump</object>
+      <position x="1184" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Jump</object>
+      <position x="1504" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Jump</object>
+      <position x="1536" y="928"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Jump</object>
+      <position x="1504" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Jump</object>
+      <position x="1536" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Reverse</object>
+      <position x="2912" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Reverse</object>
+      <position x="3104" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Reverse</object>
+      <position x="2688" y="224"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Reverse</object>
+      <position x="3360" y="224"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Reverse</object>
+      <position x="2688" y="96"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Reverse</object>
+      <position x="3360" y="96"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Jump</object>
+      <position x="4064" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Jump</object>
+      <position x="4544" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Grating</object>
+      <position x="2336" y="416"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Grating</object>
+      <position x="2368" y="416"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Grating</object>
+      <position x="2400" y="416"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Grating</object>
+      <position x="2336" y="736"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Grating</object>
+      <position x="2368" y="736"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Grating</object>
+      <position x="2400" y="736"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Grating</object>
+      <position x="2432" y="576"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Grating</object>
+      <position x="2464" y="576"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Grating</object>
+      <position x="2496" y="576"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Grating</object>
+      <position x="2528" y="736"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Grating</object>
+      <position x="2560" y="736"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Grating</object>
+      <position x="2592" y="736"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Grating</object>
+      <position x="2528" y="416"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Grating</object>
+      <position x="2592" y="416"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>Grating</object>
+      <position x="2560" y="416"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>PowerupResetter</object>
+      <position x="32" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>pErwinsStronghold</object>
+      <position x="32" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>KeyLlaw</object>
+      <position x="2240" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>KeyLlaw</object>
+      <position x="2240" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>KeyLlaw</object>
+      <position x="2240" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnRedRoflcopter1</object>
+      <position x="704" y="736"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnRedRoflcopter1</object>
+      <position x="704" y="576"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnRedRoflcopter1</object>
+      <position x="704" y="416"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>KeyLlaw</object>
+      <position x="1984" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>YellowKey</object>
+      <position x="2784" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>5Dia208Trigger</object>
+      <position x="4128" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>5Dia208Trigger</object>
+      <position x="4128" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>5Dia208Trigger</object>
+      <position x="4128" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>5Dia208Trigger</object>
+      <position x="4128" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>5Dia208Trigger</object>
+      <position x="4128" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>5Dia208Trigger</object>
+      <position x="4128" y="736"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>5Dia208Trigger</object>
+      <position x="4128" y="704"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>5Dia208Trigger</object>
+      <position x="4128" y="672"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>5Dia208Trigger</object>
+      <position x="4128" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>5Dia208Trigger</object>
+      <position x="4128" y="608"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>5Dia208Trigger</object>
+      <position x="4128" y="576"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnArenaWall</object>
+      <position x="4064" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnArenaWall</object>
+      <position x="4064" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnArenaWall</object>
+      <position x="4064" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnArenaWall</object>
+      <position x="4064" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnArenaWall</object>
+      <position x="4064" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnArenaWall</object>
+      <position x="4064" y="736"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnArenaWall</object>
+      <position x="4064" y="704"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnArenaWall</object>
+      <position x="4064" y="672"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnArenaWall</object>
+      <position x="4064" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnArenaWall</object>
+      <position x="4064" y="608"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnArenaWall</object>
+      <position x="4064" y="576"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnArenaWall</object>
+      <position x="4544" y="896"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnArenaWall</object>
+      <position x="4544" y="864"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnArenaWall</object>
+      <position x="4544" y="832"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnArenaWall</object>
+      <position x="4544" y="800"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnArenaWall</object>
+      <position x="4544" y="768"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnArenaWall</object>
+      <position x="4544" y="736"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnArenaWall</object>
+      <position x="4544" y="704"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnArenaWall</object>
+      <position x="4544" y="672"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnArenaWall</object>
+      <position x="4544" y="640"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnArenaWall</object>
+      <position x="4544" y="608"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>UnArenaWall</object>
+      <position x="4544" y="576"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+  </instances>
+  <tiles/>
+  <editorSettings remember="false"/>
+</room>

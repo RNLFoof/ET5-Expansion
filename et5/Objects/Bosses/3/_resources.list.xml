@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="LazySquareBoss" type="RESOURCE"/>
+  <resource name="Dizziness" type="RESOURCE"/>
+  <resource name="BoxinatorBoss" type="RESOURCE"/>
+  <resource name="FallingPlock" type="RESOURCE"/>
+  <resource name="BBStart" type="RESOURCE"/>
+  <resource name="EvilHelicopterB" type="RESOURCE"/>
+  <resource name="ClaydudeUFO" type="RESOURCE"/>
+  <resource name="SewerPunkB" type="RESOURCE"/>
+  <resource name="SmashPillarBlack" type="RESOURCE"/>
+  <resource name="BlackButton" type="RESOURCE"/>
+  <resource name="MrVolcanoB" type="RESOURCE"/>
+  <resource name="VolvicRevive" type="RESOURCE"/>
+  <resource name="KiyoshiB" type="RESOURCE"/>
+  <resource name="AppleBlaster" type="RESOURCE"/>
+  <resource name="FrankB" type="RESOURCE"/>
+  <resource name="PieceTube" type="RESOURCE"/>
+  <resource name="RoasterB" type="RESOURCE"/>
+  <resource name="BossTrigger2" type="RESOURCE"/>
+  <resource name="BossTrigger3" type="RESOURCE"/>
+</resources>

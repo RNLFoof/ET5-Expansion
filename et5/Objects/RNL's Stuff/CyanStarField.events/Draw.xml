@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">
+    if flaming=0 &amp;&amp; redcountdown&gt;0
+    {
+        draw_sprite_ext(sprite_index,0,x,y,image_xscale,image_yscale,image_angle,merge_color(make_color_rgb(0, 227, 255), make_color_rgb(235, 252, 255), (alarm[2]/redcountdown) ), 1-(alarm[2]/redcountdown));
+    };
+    else draw_sprite_ext(sprite_index,image_index,x,y,image_xscale,image_yscale, image_angle, make_color_rgb(0, 227, 255), 1);
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

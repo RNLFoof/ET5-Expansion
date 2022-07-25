@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">var i;
+
+if !active
+{
+    exit;
+}
+for (i = 0; i &lt; instance_number(Splapple); i += 1)
+{
+   sp = instance_find(Splapple,i);
+   dir = point_direction(x,y,sp.x,sp.y);
+   dis = point_distance(x,y,sp.x,sp.y);
+   // Why do xprevious and yprevious just return x and y? fuk u gml
+   lastdis = point_distance(x,y,sp.x-sp.hspeed,sp.y-sp.vspeed); // and (lastdis&gt;dis or lastdis&lt;=dis) 
+   
+   offx = lengthdir_x(16, dir+90)
+   offy = lengthdir_y(16, dir+90)
+   
+   if dis&lt;cap 
+        and (lastdis&lt;dis) 
+        and (not collision_line(sp.x+16+offx, sp.y+16+offy, x+16+offx, y+16+offy, BasicWall, false, true))
+        and (not collision_line(sp.x+16-offx, sp.y+16-offy, x+16-offx, y+16-offy, BasicWall, false, true))
+    {
+        dir = point_direction(sp.x,sp.y,x,y);
+        sp.x += lengthdir_x(min(dis, (cap-dis)*multiplier), dir);
+        sp.y += lengthdir_y(min(dis, (cap-dis)*multiplier), dir);
+    }
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

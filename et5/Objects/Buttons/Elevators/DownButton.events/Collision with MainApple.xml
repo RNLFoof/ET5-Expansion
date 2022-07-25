@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="COLLISION" with="MainApple">
+  <actions>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.other</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">dsmash</argument>
+        <argument kind="EXPRESSION">1</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">hit</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="541" library="1">
+      <!--action name: Set_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_sprite_set</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">GreyButton</argument>
+        <argument kind="EXPRESSION">1</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">scr_safesound(ButtonPress);
+</argument>
+      </arguments>
+    </action>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">hit</argument>
+        <argument kind="EXPRESSION">1</argument>
+      </arguments>
+    </action>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>ElevatorPlatform</appliesTo>
+      <arguments>
+        <argument kind="STRING">direction</argument>
+        <argument kind="EXPRESSION">270</argument>
+      </arguments>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>ElevatorPlatform</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">20</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="ALARM" id="0">
+  <actions>
+    <action id="541" library="1">
+      <!--action name: Set_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_sprite_set</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">ETRInvincible</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">1</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">nopoly = 0;
+sound_play(Spawn);
+
+if health &gt; 75
+{
+aa = instance_create(x,y,ET5BPoly01);
+aa.orbstep = 0;
+aa.orbspeed = 1;
+effect_create_above(ef_ring,aa.x,aa.y,2,c_black);
+bb = instance_create(x,y,ET5BPoly01);
+bb.orbstep = 120;
+bb.orbspeed = 1;
+effect_create_above(ef_ring,bb.x,bb.y,2,c_black);
+cc = instance_create(x,y,ET5BPoly01);
+cc.orbstep = 240;
+cc.orbspeed = 1;
+effect_create_above(ef_ring,cc.x,cc.y,2,c_black);
+}
+
+if health &gt; 50 &amp;&amp; health &lt; 76
+{
+aa = instance_create(x,y,ET5BPoly01);
+aa.orbstep = 0;
+aa.orbspeed = 3;
+effect_create_above(ef_ring,aa.x,aa.y,2,c_black);
+bb = instance_create(x,y,ET5BPoly01);
+bb.orbstep = 90;
+bb.orbspeed = 3;
+effect_create_above(ef_ring,bb.x,bb.y,2,c_black);
+cc = instance_create(x,y,ET5BPoly01);
+cc.orbstep = 180;
+cc.orbspeed = 3;
+effect_create_above(ef_ring,cc.x,cc.y,2,c_black);
+dd = instance_create(x,y,ET5BPoly01);
+dd.orbstep = 270;
+dd.orbspeed = 3;
+effect_create_above(ef_ring,dd.x,dd.y,2,c_black);
+}
+
+if health &gt; 25 &amp;&amp; health &lt; 51
+{
+aa = instance_create(x,y,ET5BPoly01);
+aa.orbstep = 0;
+aa.orbspeed = 6;
+effect_create_above(ef_ring,aa.x,aa.y,2,c_black);
+bb = instance_create(x,y,ET5BPoly01);
+bb.orbstep = 60;
+bb.orbspeed = 6;
+effect_create_above(ef_ring,bb.x,bb.y,2,c_black);
+cc = instance_create(x,y,ET5BPoly01);
+cc.orbstep = 120;
+cc.orbspeed = 6;
+effect_create_above(ef_ring,cc.x,cc.y,2,c_black);
+dd = instance_create(x,y,ET5BPoly01);
+dd.orbstep = 180;
+dd.orbspeed = 6;
+effect_create_above(ef_ring,dd.x,dd.y,2,c_black);
+ee = instance_create(x,y,ET5BPoly01);
+ee.orbstep = 240;
+ee.orbspeed = 6;
+effect_create_above(ef_ring,ee.x,ee.y,2,c_black);
+ff = instance_create(x,y,ET5BPoly01);
+ff.orbstep = 300;
+ff.orbspeed = 6;
+effect_create_above(ef_ring,ff.x,ff.y,2,c_black);
+}
+
+if health &lt; 26
+{
+aa = instance_create(x,y,ET5BPoly01);
+aa.orbstep = 0;
+aa.orbspeed = 10;
+effect_create_above(ef_ring,aa.x,aa.y,2,c_black);
+bb = instance_create(x,y,ET5BPoly01);
+bb.orbstep = 45;
+bb.orbspeed = 10;
+effect_create_above(ef_ring,bb.x,bb.y,2,c_black);
+cc = instance_create(x,y,ET5BPoly01);
+cc.orbstep = 90;
+cc.orbspeed = 10;
+effect_create_above(ef_ring,cc.x,cc.y,2,c_black);
+dd = instance_create(x,y,ET5BPoly01);
+dd.orbstep = 135;
+dd.orbspeed = 10;
+effect_create_above(ef_ring,dd.x,dd.y,2,c_black);
+ee = instance_create(x,y,ET5BPoly01);
+ee.orbstep = 180;
+ee.orbspeed = 10;
+effect_create_above(ef_ring,ee.x,ee.y,2,c_black);
+ff = instance_create(x,y,ET5BPoly01);
+ff.orbstep = 225;
+ff.orbspeed = 10;
+effect_create_above(ef_ring,ff.x,ff.y,2,c_black);
+gg = instance_create(x,y,ET5BPoly01);
+gg.orbstep = 270;
+gg.orbspeed = 10;
+effect_create_above(ef_ring,gg.x,gg.y,2,c_black);
+hh = instance_create(x,y,ET5BPoly01);
+hh.orbstep = 315;
+hh.orbspeed = 10;
+effect_create_above(ef_ring,hh.x,hh.y,2,c_black);
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

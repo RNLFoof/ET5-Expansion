@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="fnt_text" type="RESOURCE"/>
+  <resource name="fnt_menu" type="RESOURCE"/>
+  <resource name="fnt_cheats" type="RESOURCE"/>
+  <resource name="fnt_cheatsdesc" type="RESOURCE"/>
+</resources>

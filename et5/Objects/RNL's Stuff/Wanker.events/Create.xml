@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">HP</argument>
+        <argument kind="EXPRESSION">50</argument>
+      </arguments>
+    </action>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">image_speed</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">drops</argument>
+        <argument kind="EXPRESSION">5</argument>
+      </arguments>
+    </action>
+    <action id="403" library="1">
+      <!--action name: If_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_object</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">GroppleDestroyer</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">drops</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">maxhp = HP
+
+reload = 0;
+shooting = 0;
+var i;
+for (i=0; i&lt;5; i+=1)
+{
+    shotdir[i] = 0;
+    shotdis[i] = 0;
+}
+spinspeed = 20;
+reloadtime = 120;
+hue = 0;
+goalx = x;
+goaly = y;
+goalspeed = 0;
+startx = x;
+starty = y;
+numofshots = 5;
+
+wankerjetparticlesystem = part_system_create();
+wankerjetparticletype = part_type_create();
+part_type_shape(wankerjetparticletype,pt_shape_smoke);
+part_type_size(wankerjetparticletype,0.05,0.15,-0.01,0);
+part_type_life(wankerjetparticletype, 15, 45);
+part_type_speed(wankerjetparticletype, 0.1, 4, 0.1, 0);
+part_type_orientation(wankerjetparticletype,0,359,0,3,false);
+part_system_depth(wankerjetparticlesystem,10000);
+part_type_blend(wankerjetparticletype,true);
+part_type_color_hsv(wankerjetparticletype,15,30,230,255,128,128);
+
+arm_length_base = 35;
+arm_width = 2;
+arm_section_size = 8;
+arm_speed = 4;
+arm_speed_increase = 0;
+arm_speed_random = 2;
+arm_direction_random = 30;
+arm_color = c_white;
+
+arm_xs_left = ds_list_create();
+arm_ys_left = ds_list_create();
+arm_speeds_left = ds_list_create();
+arm_directions_left = ds_list_create();
+
+arm_xs_right = ds_list_create();
+arm_ys_right = ds_list_create();
+arm_speeds_right = ds_list_create();
+arm_directions_right = ds_list_create();
+
+arm_path_left = path_add();
+path_set_kind(arm_path_left, 1);
+path_set_closed(arm_path_left, false);
+
+arm_path_right = path_add();
+path_set_kind(arm_path_right, 1);
+path_set_closed(arm_path_right, false);
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

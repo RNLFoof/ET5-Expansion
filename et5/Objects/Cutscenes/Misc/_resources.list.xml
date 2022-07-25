@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="10YearsAgo" type="RESOURCE"/>
+  <resource name="9YearsAgo" type="RESOURCE"/>
+  <resource name="8YearsAgo" type="RESOURCE"/>
+  <resource name="7YearsAgo" type="RESOURCE"/>
+  <resource name="6YearsAgo" type="RESOURCE"/>
+  <resource name="5YearsAgo" type="RESOURCE"/>
+  <resource name="PresentDay" type="RESOURCE"/>
+  <resource name="TexStationary" type="RESOURCE"/>
+</resources>

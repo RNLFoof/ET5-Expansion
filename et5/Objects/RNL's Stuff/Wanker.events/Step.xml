@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if instance_exists(MainApple)
+{
+    if point_distance(MainApple.x, MainApple.y, x, y) &lt; 640
+    {
+        // Shooting
+        colissionline = collision_line(x,y,MainApple.x,MainApple.y-32,BasicWall,1,0)
+    
+        if reload &gt; 0 reload -=1
+        if reload &lt;= reloadtime - (360/spinspeed) {shooting = false};
+        if shooting
+        {
+            image_angle+=spinspeed
+            var i;
+            dis2max = 2;
+            for (i=0; i&lt;numofshots; i+=1)
+            {
+                d = (shotdir[i]-image_angle+180) mod 360;
+                if (-spinspeed/2 &lt; d &amp;&amp; d &lt;= spinspeed/2)
+                or (-spinspeed/2 &lt; d+360 &amp;&amp; d+360 &lt;= spinspeed/2)
+                or (-spinspeed/2 &lt; d-360 &amp;&amp; d-360 &lt;= spinspeed/2)
+                {
+                    nn=instance_create(xx,yy,Post);
+                    nn.traj = path_add();
+                    path_set_kind(nn.traj,1);
+                    path_set_precision(nn.traj,8);
+                    path_set_closed(nn.traj,false);
+                    dir = shotdir[i];
+                    dis = shotdis[i];
+                    
+                    path_add_point(nn.traj,x,y,100);
+                    path_add_point(nn.traj,x,y,100);
+                    path_add_point(nn.traj,x,y,100);
+                    
+                    path_add_point(nn.traj,x+lengthdir_x(dis,dir),y+lengthdir_y(dis,dir),100);
+                    
+                    dir2 = random(360);
+                    dis2 = random_range(12*(dis2max),32*(dis2max));
+                    
+                    path_add_point(nn.traj,MainApple.x+lengthdir_x(dis2,dir2)+16,MainApple.y+lengthdir_y(dis2,dir2)+16,100);
+                    
+                    with (nn)
+                    {
+                        path_start(traj, 8, 0, true);
+                    }
+                    
+                    nn.color = make_color_hsv(hue mod 255, 128, 255);
+                    hue += 35;
+                    dis2max += 1;
+                }
+            }
+        }
+        else
+        {
+            image_angle=point_direction(x,y,MainApple.x+16,MainApple.y+16);
+            
+            if image_yscale=0
+                image_yscale=1;
+            
+            if image_speed=0
+            &amp;&amp; reload = 0
+            &amp;&amp; abs(x-MainApple.x)&lt;450
+            &amp;&amp; !colissionline
+            {
+                xx=x+lengthdir_x(0,image_angle);
+                yy=y+lengthdir_y(0,image_angle);
+            
+                var i;
+                numofshots = irandom_range(3, 6);
+                for (i=0; i&lt;numofshots; i+=1)
+                {
+                    shotdir[i] = random(360);
+                    shotdis[i] = random_range(32*4,32*16);
+                }
+            
+                //image_speed=.5;
+                reload = reloadtime;
+                shooting=true;
+            }
+        }
+        
+        // Movement
+        if !colissionline
+        {
+            gravity = 0.1;
+            friction = 0;
+            gravity_direction = point_direction(x, y, goalx, goaly);
+            if speed &gt; goalspeed
+            {
+                speed = goalspeed;
+            }
+            if point_distance(x, y, goalx, goaly) &lt; 16
+            {
+                goalspeed = random_range(1, 3);
+                alarm[0] = irandom_range(30, 60);
+                for(i=0; i &lt; 5; i+=1)
+                {
+                    switch(irandom_range(0,2))
+                    {
+                        case 0:
+                            goalx = x;
+                            goaly = y;
+                            break;
+                        case 1:
+                            goalx = MainApple.x;
+                            goaly = MainApple.y;
+                            break;
+                        default:
+                            goalx = startx;
+                            goaly = starty;
+                            break;
+                    }
+                    goalx += lengthdir_x(random_range(32*2, 32*6), random_range(0, 360));
+                    goaly += lengthdir_y(random_range(32*2, 32*6), random_range(0, 360));
+                    if !collision_line(x,y,goalx,goaly,BasicWall,1,0)
+                    {
+                        break;
+                    }
+                }
+                gravity_direction = point_direction(x, y, goalx, goaly);
+                part_type_direction(wankerjetparticletype,gravity_direction-5+180,gravity_direction+5+180,0,0);
+                part_type_speed(wankerjetparticletype, 0.1*goalspeed/2, 4*goalspeed/2, 0.1, 0);
+                part_particles_create(wankerjetparticlesystem,x,y,wankerjetparticletype,50);
+            }
+                
+            // Without this you can end up orbiting
+            // goalspeed += 0.005;
+        }
+        else
+        {
+            friction = 0.1;
+            gravity = 0;
+        }
+    }
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

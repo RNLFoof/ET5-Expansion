@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DESTROY" id="0">
+  <actions>
+    <action id="203" library="1">
+      <!--action name: Kill_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_kill_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>Uncontrollable</appliesTo>
+      <arguments/>
+    </action>
+    <action id="201" library="1">
+      <!--action name: Create_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">DialoguePoof</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pDreamForest</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="104" library="1">
+      <!--action name: Set_Vspeed-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_vspeed</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>Soap05</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">-8</argument>
+      </arguments>
+    </action>
+    <action id="107" library="1">
+      <!--action name: Set_Gravity-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_gravity</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>Soap05</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">270</argument>
+        <argument kind="EXPRESSION">0.6</argument>
+      </arguments>
+    </action>
+    <action id="211" library="1">
+      <!--action name: Begin_Sound-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_sound</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SOUND">SingleJump</argument>
+        <argument kind="BOOLEAN">0</argument>
+      </arguments>
+    </action>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>Face_Soap05</appliesTo>
+      <arguments>
+        <argument kind="STRING">eyes</argument>
+        <argument kind="EXPRESSION">6</argument>
+      </arguments>
+    </action>
+    <action id="541" library="1">
+      <!--action name: Set_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_sprite_set</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>IronToast</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">IronToast</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0.1</argument>
+      </arguments>
+    </action>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>IronToast</appliesTo>
+      <arguments>
+        <argument kind="STRING">ready</argument>
+        <argument kind="EXPRESSION">1</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

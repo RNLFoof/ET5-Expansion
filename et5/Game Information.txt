@@ -1,0 +1,213 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\b\fs24 =V0.01 (Demo 1 Release)=\b0\par
+Evil Toaster 5 development begins\par
+Chapter 1 and its elements added\par
+Apples now have faces\par
+Gems no longer give you new Health Units; Health Upgrades give you Health Units again\par
+Clear gems are now used to unlock bonus levels\par
+Gold gems added\par
+Improved death system added\par
+App now says something when he dies\par
+Gropples no longer respawn until the player completes the level or restarts the game\par
+Gripples added\par
+White Toast now drops a Gripple when it dies\par
+Inventory added\par
+Gripple Shop added\par
+An arrow now points to App indicating where he is when he is above the screen\par
+New Evil Toaster 5 icon\par
+\par
+\b =V0.02 (Demo 2 Release)=\b0\par
+Chapter 2 and its elements added\par
+Fixed a few dialogue blips\par
+Fixed a bug that caused App to get stuck on Teslas\par
+App now instantly dies when he touches Tex\par
+The suicide button has been changed to K\par
+The game can now be paused with P\par
+Adjusted the game so it can now support 15 chapters\par
+The HUD will no longer be drawn during most cutscenes\par
+Plungerators will now only attack when App is below them\par
+The player can now exit climatic levels by pressing CTRL\par
+Enemy Index removed\par
+\par
+\b =V0.03 (Demo 3 Release)=\b0\par
+Chapter 3 and its elements added\par
+Fixed a bug that enabled cages shot by the Caginator to be knocked back by Splapples\par
+Gropples no longer turn gold if the Gropple Value is higher than 10\par
+Fixed a level design problem in Soap's Important Adventure, Part 2 that made it possible to get stuck\par
+Switches will now properly start in their "on" state if there is at least one yellow block when the level starts\par
+All switches in a level now get flipped simultaneously\par
+Equipment added\par
+Bombs now have a mask that will allow them to move along conveyor systems more smoothly\par
+Changed App's death animation to something less(?) random than a red explosion thingy\par
+\par
+\b =V0.04 (Demo 4 Release)=\b0\par
+Chapter 4 and its elements added\par
+Fixed a bug that made it possible to die after beating Angela and Numera\par
+Fixed the electric circle sprite getting cut off\par
+Removed the Tricky Toaster in Soap's Important Adventure, Part 3\par
+There are now 300 death messages\par
+New loading bar\par
+Enemies now explode when killed instead of mysteriously vanishing out of existence\par
+Dark Dimension added\par
+Tweaked the dialogue of the sign in the level select that talks about Gold Gems\par
+Red Gems added\par
+Blue Gems added\par
+Tweaked some levels so that their Blue Gem would be possible to get\par
+Eased down the second truck level a tiny bit\par
+Fixed a bug that caused App to automatically D-Smash right after entering a level\par
+Fixed a bug that caused App to sometimes "bounce" while riding elevators downwards\par
+Tweaked the "Are you sure you want to leave this climatic level?" dialogue to make sense in the Dark Dimension\par
+It is now possible to ride on top of trucks\par
+Nerfed the insane amount of Gripples in Fancy Roflcopters\par
+\par
+\b =V0.05 (Demo 4B Release)=\b0\par
+Fixed a dialogue blip in Chapter 4's climatic level\par
+Fixed a cutscene glitch in Chapter 4's climatic level\par
+Fixed Bouncers getting stuck on ceilings\par
+Fixed a bug that caused the player to get sent to the Dark Dimension when exiting a climatic level via CTRL\par
+Fixed the Smart Toaster glitch in Soap's Important Adventure, Part 4\par
+Fixed a death message glitch which caused the game to crash\par
+\par
+\b =V0.06 (Demo 4C Release)=\b0\par
+Eased down Please Remain Calm\par
+Eased down Super Bomb Factory\par
+Fixed a death message glitch which caused the game to crash FOR REAL THIS TIME\par
+\par
+\b =V0.07 (Demo 5 Release)=\b0\par
+Chapter 5 and its elements added\par
+Fixed a bug that caused App to lose his face after Spin Jumping\par
+Fixed a bug that caused Plungerators to get stuck\par
+Plungerators now continue in their original directions after attacking\par
+Nerfed the number of Gropples at the end of the Chapter 3 truck level\par
+Green hearts now restore 2 hearts instead of 3\par
+Nerfed the number of Gropples in Acid Trip\par
+Fixed a bug that caused App to be able to D-Smash through Crazy Lu's ball\par
+Fixed a cutscene glitch in Chapter 4's climatic level related to the layers of apple faces\par
+It is now possible to exit any level at any time via CTRL except during your first playthrough of Back Into Shape\par
+Fixed a cutscene glitch in Chapter 3's climatic level where the player could spot Crazy Lu disappearing\par
+Increased the maximum speed which App can fall at\par
+The green apples in green apple counters now have faces\par
+Fixed the glitchy collision detection caused by Yellow Roflcopters\par
+Fixed a bug that caused App to get stuck between walls and teslas\par
+Fixed an error that occurred when buying the 15th Red Key\par
+Added percentage\par
+Fixed a bug that caused the Caginator and Tricky Toaster sprites to randomly flip\par
+Tweaked a few sprites to reduce Evil Toaster 5's filesize by about 20 MB\par
+Fixed a wrong background in the last cutscene of Chapter 4's climatic level\par
+Trucks and boulders can now instakill App no matter what\par
+Fixed a bug that caused ticking sounds to continue looping for the rest of the play session\par
+\par
+\b =V0.08 (Demo 5B Release)=\b0\par
+Fixed the Smart Toasters in Chapter 5's climatic level\par
+Fixed another bug that caused ticking sounds to continue looping for the rest of the play session\par
+Eased down Soap's Important Adventure, Part 5\par
+Eased down Chapter 5's truck level\par
+Eased down the Roflcopter section of Chapter 5's climatic level\par
+Added a visual timer for clocks in the HUD\par
+Fixed a bug that caused Plungerators to get stuck FOR REAL THIS TIME\par
+\par
+\b =V0.09 (Demo 5C Release)=\par
+\b0 Finally got the Dark Dimension to catch up with the current chapter\b\par
+\b0 Fixed a bug that caused bombs to be able to ride on the truck's hood\par
+Fixed a bug that caused Bouncers to go through Launchers\par
+Fixed a bug that caused App to be able to go up through Tesla Beams through their bottoms\par
+Fixed a bug where exiting the inventory customization screen would bring App back to the wrong dimension\par
+Fixed a bug that caused the visual timer to overlap the multiplier text\par
+Fixed a bug that made it possible to buy upgrades without wasting Gropples or Gripples\par
+The beginning of Chapter 5's truck level has been eased down significantly, allowing more room for error\par
+\par
+\b =V0.10 (Demo 6 Release)=\b0\par
+Chapter 6 and its elements added\par
+Fixed a bug that caused App's vertical velocity to decrease when D-Smashing\par
+Fixed the buggy collision detection with scales\par
+Fixed a bug that caused the chapters to not unlock fast enough\par
+Fixed a bug that caused Tesla Beams to collide\par
+Teslas now generate Tesla Beams one pixel higher in order to fix a collision bug caused by the removed ramp engine\par
+The collision engine has been greatly improved\par
+Fixed the corner collision glitch\par
+Music is now loaded into the game externally\par
+Added MNIK logo\par
+Added title screen\par
+It is now possible to pause during cutscenes\par
+Escape now brings you back to the title screen and instantly exits the game if you're on the title screen\par
+Fixed a bug that caused the computer screen to black out for a moment when the game starts up\par
+Music now pauses when the game gets paused\par
+Fixed a bug that caused inventory powerups to not respawn correctly after dying in climatic levels\par
+It is now possible to turn sound and music on and off\par
+Fixed a bug that caused scales to randomly stop moving\par
+Fixed a bug that caused Munchers to jump right before touching App\par
+Fixed a bug that caused Teslas to occasionally not work when D-Smashed\par
+App must now get through levels without dying at all in order to win gems, regardless if there are enemies or not\par
+Reloading the game from a Save Point via the main menu counts as dying, although it won't add to the death counter\par
+Fixed a bug that caused grating to occasionally not be destroyed when S-Smashed\par
+Fixed a bug that caused App to float a bit when D-Smashing\par
+Final Exam now uses Wefight's Metamorph engine in order to reduce lag\par
+Fixed a bug that caused black springs to occasionally not work when D-Smashed\par
+Tweaked lasers to be less laggy\par
+Fixed a bug that caused the death counter to roll back when exiting a level via CTRL\par
+Spinner Dispensers now make a sound when App picks up a Spinner\par
+Fixed a bug that caused App's Spin Jumping animation to continue with a face if he exited a level while Spin Jumping\par
+Fixed a bug that caused App's vertical speed to transfer between levels\par
+Tweaked the depth of some objects\par
+Fixed a bug that caused invincibility powerups to become uncollectable while App gets hurt\par
+\par
+\b =V0.11 (Demo 6B Release)=\b0\par
+Fixed a level design problem in Doomy Detour that made it possible to get stuck in the ceiling\par
+It is no longer possible to D-Smash through the green glowing bouncy thingies\par
+Made dialogue boxes a bit bigger to allow for more text in one interchange\par
+Fixed a bug where hovering would not be restored by touching Roflcopters, springs, etc\par
+Fixed a bug that caused music to not play during the Caginator fight\par
+Fixed a bug that caused invincibility powerups to become uncollectable while App gets hurt FOR REAL THIS TIME\par
+Fixed a bug that allowed Sprites to be able to go through Launchers\par
+The explosion size for AK-44s has been reduced\par
+Fixed a bug that caused the homing balloon bombs in the Crazy Lu fights to be able to go through Arena Walls\par
+Fixed a few level design bugs with Crazy Circus that were caused by the revised engines\par
+Fixed a bug that caused the ticking sounds of clocks and Gropple Multipliers to interfere with each other\par
+Soap now explains all of the different gem types as soon as you talk to him near the first gem in the game\par
+Removed the sign in the Dark Dimension level select because it is no longer relevant\par
+Added a Soapbox in Toast Thrashing that explains how to exit levels via CTRL\par
+Fixed a bug that caused AK-44 explosions to be created at incorrect positions\par
+Fixed the buggy collision detection from riding on top of trucks\par
+Fixed a bug that caused powerups to not respawn in the inventory in bonus levels\par
+\par
+\b =V0.12 (Demo 6C Release)=\b0\par
+Fixed a level design problem with By DIE\par
+The explosion size for dynamite has been reduced\par
+Fixed a bug that caused the dialogue arrow to be positioned incorrectly\par
+Fixed a bug that caused Dark Dimension bonus levels to send App back to the Light Dimension\par
+\par
+\b =V0.13 (Demo 6D Release)=\b0\par
+Fixed an external error with the saudio dll\par
+Fixed a level design problem which made it possible to skip Chapter 5's Evil Toaster battle\par
+Fixed a level design problem in Return to the Purple Zone where App could get stuck in the ceiling\par
+\par
+\b =V0.14 (Demo 6E Release)=\b0\par
+Most of Chapter 7 and its elements added\par
+Fixed a bug that made it possible to ride on the very tip of the truck's hood\par
+Fixed a level design problem in By DIE which made it possible to get stuck in a ceiling\par
+\par
+\b =ET5 Expansion V0.01 (Demo 1 Release)=\b0\par
+Added MOUSE ON MENU cheat\par
+Added WINDOWS 8 SOUND FIX cheat\par
+Added DOUBLE JUMP INDICATOR cheat\par
+Added NO GROPPLE PENALTY cheat\par
+Added NO BOMB DESYNC cheat\par
+Added LONGER FIRE WARNING cheat\par
+Added DISABLE DISTANT OBJECTS cheat\par
+Added APP TROTS cheat\par
+Added U-SMASH cheat\par
+Added RAPIDFIRE D-SMASHES cheat\par
+Added QUICKSAVE cheat\par
+Added SUPER SPEED cheat\par
+Added EXTRA UPGRADES cheat\par
+Added KILL ANYTHING cheat\par
+Made music load when needed instead of all at once\par
+\par
+\b =ET5 Expansion V0.02 (Demo 1B Release)=\par
+\b0 Added "The Camera" as an optional KILL ANYTHING target\par
+\par
+\b =ET5 Expansion V0.03 (Demo 1C Release)=\par
+\b0 Same as last time except this time I think it actually works\par
+}
+ 

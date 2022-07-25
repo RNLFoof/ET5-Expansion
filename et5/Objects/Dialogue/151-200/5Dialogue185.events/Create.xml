@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">str[0] = "WAKE UP, PUNK!!!"
+str[1] = "AHHH! Guh! What happened?! How long have I been out?!"
+str[2] = "Oh, don't be silly. Nothing awful happened to you overnight. You were in your bed when the rest of us woke up. Sometimes I find sleeping scary too. I think it's weird that we need to sleep, and yet we don't need to eat or drink."
+str[3] = "Where is everybody?"
+str[4] = "They're out doing their things. We decided to let you sleep in a few hours because we figured you deserved a break after all of your hard work."
+str[5] = "Ah, thanks."
+str[6] = "No problem. Anyways, it's convenient that you woke up at this time. The next [AKS] meeting is soon."
+str[7] = "Uh, you're the one who screamed at me and woke me up."
+str[8] = "Oh well, close enough. Come on, let's go to the [AKS] building.*"
+
+img[0] = SoapFace
+img[1] = AppFace
+img[2] = SoapFace
+img[3] = AppFace
+img[4] = SoapFace
+img[5] = AppFace
+img[6] = SoapFace
+img[7] = AppFace
+img[8] = SoapFace
+
+name[0] = "Soap"
+name[1] = "App"
+name[2] = "Soap"
+name[3] = "App"
+name[4] = "Soap"
+name[5] = "App"
+name[6] = "Soap"
+name[7] = "App"
+name[8] = "Soap"
+
+event_inherited();
+</argument>
+      </arguments>
+    </action>
+    <action id="201" library="1">
+      <!--action name: Create_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">Uncontrollable</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

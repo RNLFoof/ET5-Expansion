@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="spr_CheatsBox" type="RESOURCE"/>
+  <resource name="spr_CheatsCircle" type="RESOURCE"/>
+  <resource name="spr_CheatsOptions" type="RESOURCE"/>
+  <resource name="spr_FuckItItsEasier" type="RESOURCE"/>
+  <resource name="spr_CheatsSection" type="RESOURCE"/>
+  <resource name="spr_Cheats_hs" type="RESOURCE"/>
+  <resource name="spr_Cheats_v" type="RESOURCE"/>
+  <resource name="spr_Cheats_Picker" type="RESOURCE"/>
+  <resource name="spr_Cheats_PickerArrow" type="RESOURCE"/>
+  <resource name="spr_Cheats_ColorCircle" type="RESOURCE"/>
+  <resource name="spr_Cheats_ColorBar" type="RESOURCE"/>
+  <resource name="Customization" type="GROUP"/>
+</resources>

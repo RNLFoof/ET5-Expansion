@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="ALARM" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">// Delayed so that all the BasicWalls are converted
+
+if image_yscale = 1
+{
+    o = instance_place(x+3,y,Metamorph2);
+    if o != noone
+    {
+        if o.image_yscale = 1
+        {
+            o.image_xscale += image_xscale;
+            o.x = x;
+            instance_destroy();
+        }
+    }
+}
+
+if image_xscale = 1
+{
+    o = instance_place(x,y+3,Metamorph2);
+    if o != noone
+    {
+        if o.image_xscale = 1
+        {
+            o.image_yscale += image_yscale;
+            o.y = y;
+            instance_destroy();
+        }
+    }
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

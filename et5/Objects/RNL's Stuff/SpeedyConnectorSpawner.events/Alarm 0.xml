@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="ALARM" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if instance_number(MainApple) &gt; 0
+{
+    active = point_distance(x,y,MainApple.x,MainApple.y) &lt; 640;
+};
+
+if active
+{
+    if irandom_range(1, 5) == 1
+    {
+        o = instance_create(x+irandom_range(-16, 16), y+irandom_range(-16, 16), obj_Connector);
+        o.type = spawntype;
+        o.boltcount = 3;
+    };
+};
+
+spawntype = (spawntype + 1) mod 2;
+alarm[0] = 45;
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

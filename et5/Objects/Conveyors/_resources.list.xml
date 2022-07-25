@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="ConveyorRight" type="RESOURCE"/>
+  <resource name="ConveyorLeft" type="RESOURCE"/>
+  <resource name="ConveyorRight2" type="RESOURCE"/>
+  <resource name="ConveyorLeft2" type="RESOURCE"/>
+  <resource name="ConveyorRight3" type="RESOURCE"/>
+  <resource name="ConveyorLeft3" type="RESOURCE"/>
+</resources>

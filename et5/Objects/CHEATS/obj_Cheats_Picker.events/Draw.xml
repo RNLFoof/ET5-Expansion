@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">draw_self();
+draw_rectangle_color(x-26-2,192-26-2,x+26+1,248+26+1,c_black,c_black,c_black,c_black,true);
+var n,spr;
+spr=spr_CustomCategories;
+n=0;
+repeat(5)
+{
+    draw_sprite(sprite_index,image_index,x-112+(56*n),y);
+    draw_sprite(spr,cycle-2+n+8,x-112+(56*n),y);
+    n+=1;
+};
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

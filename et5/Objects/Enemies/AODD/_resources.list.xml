@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="EvilRobot" type="RESOURCE"/>
+  <resource name="DDBlocking" type="RESOURCE"/>
+  <resource name="RobotExplosion" type="RESOURCE"/>
+  <resource name="ElectricShield" type="RESOURCE"/>
+</resources>

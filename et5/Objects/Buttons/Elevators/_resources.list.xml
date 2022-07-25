@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="ElevatorPlatform" type="RESOURCE"/>
+  <resource name="ElevatorMarkers" type="RESOURCE"/>
+  <resource name="DownButton" type="RESOURCE"/>
+  <resource name="UpButton" type="RESOURCE"/>
+  <resource name="ElevatorGrating" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="OTHER" id="4">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if view_object[0] = 0
+{
+    //show_message("hehe.. app time")
+    focusedApp = 1
+    xpos = MainApple.x+16
+    ypos = MainApple.y+16
+    xgoal = MainApple.x+16
+    ygoal = MainApple.y+16
+    view_wview[0] = 640
+    view_hview[0] = 480;
+    view_wport[0] = 640;
+    view_hport[0] = 480;
+    view_hborder[0] = 320;
+    view_vborder[0] = 640;
+    view_object[0] = object_index
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

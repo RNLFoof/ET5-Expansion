@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">//exit;
+alarm[0] = 1;
+if !variable_local_exists("projectiletypes")
+    projectiletypes = 1;
+timer = 0;
+alarm[1] = 2;
+if !variable_local_exists("settings")
+    settings = ""
+    
+trailcolors = ds_map_create();   
+ds_map_add(trailcolors, BrassBullet, make_color_hsv(217.2/360*255, 226/240*255, 98/100*255));
+ds_map_add(trailcolors, BrassRoflcopter, make_color_hsv(149.8/360*255, 226/240*255, 98/100*255));
+ds_map_add(trailcolors, BrassBlock, make_color_hsv( 34.2/360*255, 226/240*255, 98/100*255));
+ds_map_add(trailcolors, BrassEnergyBall, make_color_hsv(217.2/360*255, 226/240*255, 98/100*255));
+ds_map_add(trailcolors, BrassToast, make_color_hsv(0, 226/240*255, 98/100*255));
+s = "";
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

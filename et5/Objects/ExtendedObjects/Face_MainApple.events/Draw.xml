@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="404" library="1">
+      <!--action name: If_Number-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_number</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">MainApple</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="203" library="1">
+      <!--action name: Kill_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_kill_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="425" library="1">
+      <!--action name: Exit-->
+      <kind>EXIT</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">exception</argument>
+        <argument kind="EXPRESSION">1</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>MainApple</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">tjumping</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>MainApple</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">charging</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>true</not>
+      <appliesTo>MainApple</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">sprite_index</argument>
+        <argument kind="EXPRESSION">PinkRoflcopterSpinJump</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="541" library="1">
+      <!--action name: Set_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_sprite_set</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">DJumpFace</argument>
+        <argument kind="EXPRESSION">MainApple.image_index</argument>
+        <argument kind="EXPRESSION">0.7</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">DJumpFace</argument>
+        <argument kind="EXPRESSION">MainApple.x</argument>
+        <argument kind="EXPRESSION">MainApple.y</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="425" library="1">
+      <!--action name: Exit-->
+      <kind>EXIT</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="541" library="1">
+      <!--action name: Set_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_sprite_set</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">DJumpFace</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0.7</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">oscillation = sin(MainApple.movementTimer/2)*3
+movementAngle = oscillation
+x = MainApple.x+16
+y = MainApple.y-abs(oscillation)+30;
+
+if global.cheat_DOUBLE_JUMP_INDICATOR=true
+    if MainApple.djump=1
+    draw_sprite_ext(MouthWalk,6,x,y,image_xscale,image_yscale,image_angle+movementAngle,image_blend,image_alpha);
+    else draw_sprite_ext(MouthWalk,mouth,x,y,image_xscale,image_yscale,image_angle+movementAngle,image_blend,image_alpha);
+else draw_sprite_ext(MouthWalk,mouth,x,y,image_xscale,image_yscale,image_angle+movementAngle,image_blend,image_alpha);
+
+draw_sprite_ext(WideEyesWalk,wideeyes,x,y,image_xscale,image_yscale,image_angle+movementAngle,image_blend,image_alpha);
+draw_sprite_ext(EyesWalk,eyes,x,y,image_xscale,image_yscale,image_angle+movementAngle,image_blend,image_alpha);
+draw_sprite_ext(EyebrowsWalk,eyebrows,x,y,image_xscale,image_yscale,image_angle+movementAngle,image_blend,image_alpha);
+draw_sprite_ext(OtherWearWalk,otherwear,x,y,image_xscale,image_yscale,image_angle+movementAngle,image_blend,image_alpha);
+draw_sprite_ext(EyelashesWalk,eyelashes,x,y,image_xscale,image_yscale,image_angle+movementAngle,image_blend,image_alpha);
+
+
+
+//,image_xscale,image_yscale,image_angle+sin(MainApple.movementTimer/2)*3,image_blend,image_alpha);
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

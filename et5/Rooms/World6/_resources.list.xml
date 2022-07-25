@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="6_0" type="RESOURCE"/>
+  <resource name="6_0X" type="RESOURCE"/>
+  <resource name="6_1" type="RESOURCE"/>
+  <resource name="6_1X" type="RESOURCE"/>
+  <resource name="6_2" type="RESOURCE"/>
+  <resource name="6_2X" type="RESOURCE"/>
+  <resource name="6_3" type="RESOURCE"/>
+  <resource name="6_3X" type="RESOURCE"/>
+  <resource name="6_4" type="RESOURCE"/>
+  <resource name="6_4X" type="RESOURCE"/>
+  <resource name="Cutscene45" type="RESOURCE"/>
+  <resource name="6_5_1" type="RESOURCE"/>
+  <resource name="6_5_2" type="RESOURCE"/>
+  <resource name="6_5_3" type="RESOURCE"/>
+  <resource name="6_5_4" type="RESOURCE"/>
+  <resource name="6_5_5" type="RESOURCE"/>
+  <resource name="6_5_6" type="RESOURCE"/>
+  <resource name="6_5_7" type="RESOURCE"/>
+  <resource name="Cutscene46" type="RESOURCE"/>
+  <resource name="Cutscene47" type="RESOURCE"/>
+  <resource name="Cutscene48" type="RESOURCE"/>
+  <resource name="Cutscene49" type="RESOURCE"/>
+  <resource name="Cutscene50" type="RESOURCE"/>
+  <resource name="Cutscene51" type="RESOURCE"/>
+</resources>

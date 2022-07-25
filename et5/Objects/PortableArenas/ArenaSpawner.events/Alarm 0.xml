@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="ALARM" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if room = 29 instance_create(self.x,self.y,TinyToaster)
+if room = 4 instance_create(self.x,self.y,TinyToaster)
+if room = 5 instance_create(self.x,self.y,HotToaster)
+if room = 30 instance_create(self.x,self.y,TinyToaster)
+if room = 38 instance_create(self.x,self.y,HotToaster)
+
+if room = 6 instance_create(self.x,self.y,TinyToaster)
+if room = 7 instance_create(self.x,self.y,CyanToast)
+if room = 8 instance_create(self.x,self.y,BouncyToaster)
+if room = 9 instance_create(self.x,self.y,HotToaster)
+if room = 31 instance_create(self.x,self.y,BouncyToaster)
+
+if room = 10 instance_create(self.x,self.y,TinyRoaster)
+if room = 11 instance_create(self.x,self.y,BouncyToaster)
+if room = 12 instance_create(self.x,self.y,ConvertibleToaster)
+if room = 13 instance_create(self.x,self.y,TrickyToaster)
+if room = 25 instance_create(self.x,self.y,RapidToaster)
+
+if room = 32 instance_create(self.x,self.y,ElectricToaster)
+if room = 14 instance_create(self.x,self.y,HandyToaster)
+if room = 15 instance_create(self.x,self.y,HotToaster)
+if room = 16 instance_create(self.x,self.y,ConvertibleToaster)
+if room = 17 instance_create(self.x,self.y,SmartToaster)
+
+if room = 33 instance_create(self.x,self.y,AngryToaster)
+if room = 18 instance_create(self.x,self.y,RapidToaster)
+if room = 19 instance_create(self.x,self.y,TrickyToaster)
+if room = 20 instance_create(self.x,self.y,ConvertibleToaster)
+if room = 21 instance_create(self.x,self.y,BouncyToaster)
+
+if room = 34 instance_create(self.x,self.y,PurpleToast)
+if room = 22 instance_create(self.x,self.y,RedToast)
+if room = 23 instance_create(self.x,self.y,RedToast)
+if room = 24 instance_create(self.x,self.y,PurpleToast)
+if room = 26 instance_create(self.x,self.y,BlueToast)
+
+if room = 27 instance_create(self.x,self.y,ConvertibleToaster)
+if room = 35 instance_create(self.x,self.y,SmartToaster)
+if room = 45 instance_create(self.x,self.y,ElectricToaster)
+if room = 47 instance_create(self.x,self.y,SmartToaster)
+if room = 46 instance_create(self.x,self.y,RicochetToaster)
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

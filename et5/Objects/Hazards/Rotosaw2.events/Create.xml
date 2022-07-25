@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">roto</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">rotospeed</argument>
+        <argument kind="EXPRESSION">2</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">aa=instance_create(x+80,y+80,Rotosaw);
+aa.roto=0;
+aa.rotospeed=rotospeed;
+bb=instance_create(x+80,y+80,RotosawBG);
+bb.roto=0;
+bb.rotospeed=rotospeed;
+cc=instance_create(x+80,y+80,Rotosaw);
+cc.roto=180;
+cc.rotospeed=rotospeed;
+dd=instance_create(x+80,y+80,RotosawBG);
+dd.roto=180;
+dd.rotospeed=rotospeed;
+ee=instance_create(x+80,y+80,Rotosaw);
+ee.roto=90;
+ee.rotospeed=rotospeed;
+ff=instance_create(x+80,y+80,RotosawBG);
+ff.roto=90;
+ff.rotospeed=rotospeed;
+gg=instance_create(x+80,y+80,Rotosaw);
+gg.roto=270;
+gg.rotospeed=rotospeed;
+hh=instance_create(x+80,y+80,RotosawBG);
+hh.roto=270;
+hh.rotospeed=rotospeed;
+</argument>
+      </arguments>
+    </action>
+    <action id="203" library="1">
+      <!--action name: Kill_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_kill_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+  </actions>
+</event>

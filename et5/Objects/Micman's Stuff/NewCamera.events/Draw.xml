@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="404" library="1">
+      <!--action name: If_Number-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_number</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">MainApple</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="425" library="1">
+      <!--action name: Exit-->
+      <kind>EXIT</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="524" library="1">
+      <!--action name: Set_Color-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_color</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="COLOR">16777215</argument>
+      </arguments>
+    </action>
+    <action id="512" library="1">
+      <!--action name: Draw_Ellipse-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_ellipse</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">x-8</argument>
+        <argument kind="EXPRESSION">y-8</argument>
+        <argument kind="EXPRESSION">x+8</argument>
+        <argument kind="EXPRESSION">y+8</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="524" library="1">
+      <!--action name: Set_Color-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_color</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="COLOR">255</argument>
+      </arguments>
+    </action>
+    <action id="512" library="1">
+      <!--action name: Draw_Ellipse-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_ellipse</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">(xgoal+changedxpos)-8</argument>
+        <argument kind="EXPRESSION">(ygoal+changedypos)-8</argument>
+        <argument kind="EXPRESSION">(xgoal+changedxpos)+8</argument>
+        <argument kind="EXPRESSION">(ygoal+changedypos)+8</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="524" library="1">
+      <!--action name: Set_Color-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_color</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="COLOR">16777215</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

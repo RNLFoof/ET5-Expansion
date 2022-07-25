@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">bullethelltrailparticlesystem = part_system_create();
+bullethelltrailparticletype = part_type_create();
+part_type_sprite(bullethelltrailparticletype,BulletHellTrail,false,true,false);
+part_type_size(bullethelltrailparticletype,1,1,-1/20,0);
+part_type_life(bullethelltrailparticletype, 15, 15);
+//part_type_speed(bullethelltrailparticletype, 0, 0.5, 0, 0);
+//part_type_direction(bullethelltrailparticletype, 0, 360, 0, 0);
+part_system_depth(bullethelltrailparticlesystem,9);
+
+dustparticlesystem = part_system_create();
+dustparticletype = part_type_create();
+part_type_sprite(dustparticletype,DustParticle,false,false,true);
+part_type_size(dustparticletype,0.5,0.5,0,0);
+part_type_alpha2(dustparticletype, 1, 0);
+part_type_life(dustparticletype, 30, 60);
+part_type_speed(dustparticletype, 0, 2, -0.05, 0);
+part_type_direction(dustparticletype, 0, 360, 0, 0);
+part_type_gravity(dustparticletype, 0.15, 270);
+part_system_depth(dustparticlesystem, 9999);
+
+dustparticlecreatetype = part_type_create();
+part_type_sprite(dustparticlecreatetype,DustParticle,false,false,true);
+part_type_size(dustparticlecreatetype,1,0.5,0,0);
+part_type_alpha2(dustparticlecreatetype, 1, 0);
+part_type_life(dustparticlecreatetype, 30, 60);
+part_type_speed(dustparticlecreatetype, 15, 20, 0, 0);
+part_type_direction(dustparticlecreatetype, 0, 360, 0, 0);
+part_type_gravity(dustparticlecreatetype, 0.1, 270);
+
+pinkparticlesystem = part_system_create();
+pinkparticletype = part_type_create();
+part_type_sprite(pinkparticletype,spr_PinkRoflcopterOrbiter,true,false,true);
+// part_type_direction(pinkparticletype,0,359,1,0);
+// part_type_speed(pinkparticletype,2,5,-0.1,0);
+part_type_alpha2(pinkparticletype,0.5,0);
+part_type_blend(pinkparticletype,true);
+part_type_scale(pinkparticletype,0.3, 0.3);
+part_type_life(pinkparticletype, 10, 10);
+// part_type_gravity(pinkparticletype,0.3,90);
+part_system_depth(pinkparticlesystem,11);
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

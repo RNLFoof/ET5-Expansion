@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="ToasterChipB" type="RESOURCE"/>
+  <resource name="LeafCopter" type="RESOURCE"/>
+  <resource name="Caginator" type="RESOURCE"/>
+  <resource name="ToastTank" type="RESOURCE"/>
+  <resource name="ToasterChipB2" type="RESOURCE"/>
+  <resource name="ShamanCopter" type="RESOURCE"/>
+  <resource name="TexB" type="RESOURCE"/>
+  <resource name="BossTrigger4" type="RESOURCE"/>
+</resources>

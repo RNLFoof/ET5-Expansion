@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="ALARM" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">for(i = 0; i &lt; projectiletypes; i += 1)
+{
+    angmin[i] = 0; // Smallest angle a projectile can be launched it
+    angmax[i] = 359; // Largest angle a projectile can be launched at
+    angincrease[i] = 0; // Increase in base angle after each volley
+    angspace[i] = 20; // Angle distance between each projectile
+    anginitial[i] = 0; // Starting base angle
+    
+    offxmin[i] = 0; // Smallest x a projectile can be launched it
+    offxmax[i] = 0; // Largest x a projectile can be launched at
+    offxincrease[i] = 0; // Increase in base x after each volley
+    offxspace[i] = 32; // X distance between each projectile
+    offxinitial[i] = 0; // Starting base x
+    
+    projtype[i] = BrassBullet; // Object being fired
+    projspeed[i] = 5; // Speed the projectile moves at
+    projrotate[i] = 0; // Rotation of an already-fired projectile each frame
+    projdistance[i] = 32; // The circle distance at which the projectiles appear
+    projdistancey[i] = 32; // The y distance at which the projectiles appear
+    
+    delay[i] = 20; // Time between volleys
+    lifetime[i] = 30*20; // Time before projectile automatically breaks
+}
+
+execute_string(settings);
+
+for(i = 0; i &lt; projectiletypes; i += 1)
+{
+    currentangle[i] = anginitial[i];
+    currentoffx[i] = offxinitial[i];
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

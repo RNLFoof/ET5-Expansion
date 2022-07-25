@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">jiggle = max(0, jiggle-jiggledec);
+if instance_exists(MainApple)
+{
+    solid = (!MainApple.air and round(MainApple.y)==y-30) or (MainApple.pinkrofljumps &gt; 0 and round(MainApple.y) &lt;= y-30 and MainApple.dsmash = 0);
+    if solid and instance_place(x, y-1, MainApple)
+    {
+        if MainApple.x != MainApple.xprevious and jiggle &lt; 2
+        {
+            jiggle = min(jiggle+jiggleinc, 2)
+        }
+        else if jiggle &lt; 0.5
+        {
+            jiggle = min(jiggle+jiggleinc, 0.5)
+        }
+    }
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

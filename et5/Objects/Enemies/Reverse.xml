@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<object id="8">
+  <sprite>Target</sprite>
+  <solid>false</solid>
+  <visible>false</visible>
+  <depth>30</depth>
+  <persistent>false</persistent>
+  <parent>obj_place_holder_parent</parent>
+  <mask>WallMask</mask>
+</object>

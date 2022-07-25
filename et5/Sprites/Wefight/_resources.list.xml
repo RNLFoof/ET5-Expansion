@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="NobodyHS" type="RESOURCE"/>
+  <resource name="MNIKHS" type="RESOURCE"/>
+  <resource name="NobodyWalk" type="RESOURCE"/>
+  <resource name="MNIKWalk" type="RESOURCE"/>
+  <resource name="Underground" type="RESOURCE"/>
+  <resource name="FKOF" type="RESOURCE"/>
+  <resource name="MrVolcano" type="RESOURCE"/>
+  <resource name="MrVolcanoHS" type="RESOURCE"/>
+  <resource name="VolvicRevive" type="RESOURCE"/>
+  <resource name="TurretHead" type="RESOURCE"/>
+  <resource name="TurretBase" type="RESOURCE"/>
+  <resource name="TurretHeadMask" type="RESOURCE"/>
+</resources>

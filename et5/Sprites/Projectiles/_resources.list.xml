@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="TinyToast" type="RESOURCE"/>
+  <resource name="NormalToast" type="RESOURCE"/>
+  <resource name="Post" type="RESOURCE"/>
+  <resource name="SmallWater" type="RESOURCE"/>
+  <resource name="LargeWater" type="RESOURCE"/>
+  <resource name="TinyRedToast" type="RESOURCE"/>
+  <resource name="Fire" type="RESOURCE"/>
+  <resource name="Tornado" type="RESOURCE"/>
+  <resource name="RedPiece" type="RESOURCE"/>
+  <resource name="BluePiece" type="RESOURCE"/>
+  <resource name="FlaskEmpty" type="RESOURCE"/>
+  <resource name="FlaskRed" type="RESOURCE"/>
+  <resource name="FlaskBlue" type="RESOURCE"/>
+  <resource name="FlaskPurple" type="RESOURCE"/>
+  <resource name="AK42" type="RESOURCE"/>
+  <resource name="SpriteBullet" type="RESOURCE"/>
+  <resource name="RifleBullet" type="RESOURCE"/>
+  <resource name="AK42Smaller" type="RESOURCE"/>
+  <resource name="GShard" type="RESOURCE"/>
+  <resource name="Landmine" type="RESOURCE"/>
+  <resource name="HomingSaw" type="RESOURCE"/>
+  <resource name="AK44" type="RESOURCE"/>
+  <resource name="SheekBullet" type="RESOURCE"/>
+  <resource name="Burger" type="RESOURCE"/>
+</resources>

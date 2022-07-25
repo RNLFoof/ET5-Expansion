@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="saud_Init" type="RESOURCE"/>
+  <resource name="saud_Load" type="RESOURCE"/>
+  <resource name="saud_Play" type="RESOURCE"/>
+  <resource name="saud_Loop" type="RESOURCE"/>
+  <resource name="saud_Stop" type="RESOURCE"/>
+  <resource name="saud_StopAll" type="RESOURCE"/>
+  <resource name="saud_Pause" type="RESOURCE"/>
+  <resource name="saud_Resume" type="RESOURCE"/>
+  <resource name="saud_Position" type="RESOURCE"/>
+  <resource name="saud_Length" type="RESOURCE"/>
+  <resource name="saud_Seek" type="RESOURCE"/>
+  <resource name="saud_Status" type="RESOURCE"/>
+  <resource name="saud_Channels" type="RESOURCE"/>
+  <resource name="saud_BytesPerSec" type="RESOURCE"/>
+  <resource name="saud_CanPlay" type="RESOURCE"/>
+  <resource name="saud_LoadRecord" type="RESOURCE"/>
+  <resource name="saud_Record" type="RESOURCE"/>
+  <resource name="saud_SaveRecord" type="RESOURCE"/>
+  <resource name="saud_Close" type="RESOURCE"/>
+  <resource name="saud_CloseAll" type="RESOURCE"/>
+  <resource name="IncreaseVolume" type="RESOURCE"/>
+</resources>

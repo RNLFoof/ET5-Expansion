@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="BeginningButton" type="RESOURCE"/>
+  <resource name="DontHitTarget" type="RESOURCE"/>
+  <resource name="BiggestJump" type="RESOURCE"/>
+  <resource name="AppleSwimSealant" type="RESOURCE"/>
+  <resource name="SpinnerBlue" type="RESOURCE"/>
+  <resource name="SSmashItem" type="RESOURCE"/>
+  <resource name="SpinnerWhite" type="RESOURCE"/>
+  <resource name="ChargeA" type="RESOURCE"/>
+  <resource name="ToastBlastingA" type="RESOURCE"/>
+  <resource name="RunA" type="RESOURCE"/>
+</resources>

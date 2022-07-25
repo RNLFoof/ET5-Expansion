@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">x = Tex04.x+32
+y = Tex04.y
+
+if instance_exists(SmashCoreB) &amp;&amp; Tex04.hurt = 0 &amp;&amp; instance_exists(ArenaWall) &amp;&amp; not instance_exists(Uncontrollable)
+{
+    //face the player
+    image_yscale=sign(SmashCoreB.x-x);
+
+    image_angle=point_direction(x,y,SmashCoreB.x+32,SmashCoreB.y+32);
+    
+    if image_yscale=0
+        image_yscale=1;
+
+    //shoots only when you jump
+    if image_speed=0
+    &amp;&amp; abs(x-SmashCoreB.x)&lt;600
+    &amp;&amp; !collision_line(x,y,SmashCoreB.x,SmashCoreB.y-32,BasicWall,1,0)
+    {
+        xx=x+lengthdir_x(0,image_angle);
+        yy=y+lengthdir_y(0,image_angle);
+    
+        nn=instance_create(xx,yy,RifleBullet);
+        nn.speed=12;
+        nn.direction=image_angle;
+        nn.image_angle=image_angle;
+    
+        image_speed=.5;
+    }
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

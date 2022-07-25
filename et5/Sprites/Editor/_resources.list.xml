@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="StartHere" type="RESOURCE"/>
+  <resource name="EditorCursor" type="RESOURCE"/>
+  <resource name="StopSign" type="RESOURCE"/>
+  <resource name="UnWater" type="RESOURCE"/>
+  <resource name="EditorSave" type="RESOURCE"/>
+  <resource name="EditorLoad" type="RESOURCE"/>
+  <resource name="EditorPlay" type="RESOURCE"/>
+</resources>

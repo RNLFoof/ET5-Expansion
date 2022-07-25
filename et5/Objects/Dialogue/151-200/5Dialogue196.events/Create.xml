@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">str[0] = "Hello, and welcome to the tunnel to the [Core.] I am [Jim,] the writer of these signs and the owner of my humble abode which is found deeper in this tunnel."
+str[1] = "If you want to meet me or have some business to do here, please continue proceeding through this tunnel and try not to die. If by chance you are here by accident, please go back by jumping on the green spring behind you."
+str[2] = "Please note that these green springs were originally used to bounce up to the [Sky Domain.] I brought a stash of them with me to here in case anyone wanted to leave. [Mach] sure did, so that was convenient."
+str[3] = "However, since these springs were removed from their original locations, they may lose their bounciness. If that happens and you want to get out of here, you should either contact me or kill yourself. Thanks in advance.*"
+
+img[0] = Sign
+img[1] = Sign
+img[2] = Sign
+img[3] = Sign
+
+name[0] = "Sign"
+name[1] = "Sign"
+name[2] = "Sign"
+name[3] = "Sign"
+
+event_inherited();
+</argument>
+      </arguments>
+    </action>
+    <action id="201" library="1">
+      <!--action name: Create_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">Uncontrollable</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

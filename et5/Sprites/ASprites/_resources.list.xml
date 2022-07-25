@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Trashed" type="GROUP"/>
+  <resource name="DSpriteCircle" type="RESOURCE"/>
+  <resource name="DSpriteBase" type="RESOURCE"/>
+  <resource name="DSpriteG" type="RESOURCE"/>
+  <resource name="DSpriteF" type="RESOURCE"/>
+  <resource name="DSpriteFG" type="RESOURCE"/>
+  <resource name="LSpriteC" type="RESOURCE"/>
+  <resource name="LSpriteG" type="RESOURCE"/>
+  <resource name="LSpriteFG" type="RESOURCE"/>
+  <resource name="LSpriteSG" type="RESOURCE"/>
+  <resource name="LSpriteM" type="RESOURCE"/>
+  <resource name="DZaniferBase" type="RESOURCE"/>
+  <resource name="DZaniferS" type="RESOURCE"/>
+  <resource name="LZanifer" type="RESOURCE"/>
+</resources>

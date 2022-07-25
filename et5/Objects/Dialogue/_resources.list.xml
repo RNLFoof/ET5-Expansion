@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Old" type="GROUP"/>
+  <resource name="1-50" type="GROUP"/>
+  <resource name="51-100" type="GROUP"/>
+  <resource name="101-150" type="GROUP"/>
+  <resource name="151-200" type="GROUP"/>
+  <resource name="5Dialogue201" type="RESOURCE"/>
+  <resource name="5Dialogue202" type="RESOURCE"/>
+  <resource name="5Dialogue203" type="RESOURCE"/>
+  <resource name="5Dialogue204" type="RESOURCE"/>
+  <resource name="5Dialogue205" type="RESOURCE"/>
+  <resource name="5Dialogue206" type="RESOURCE"/>
+  <resource name="5Dialogue207" type="RESOURCE"/>
+  <resource name="5Dialogue208" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">str[0] = "Hello."
+str[1] = "Ah! You're alive?!"
+str[2] = "No, I'm not. This body is merely being possessed by me, a [Sprite,] in order to communicate with you, since [Sprites] cannot talk with you otherwise."
+str[3] = "Uh, whose body are you using?"
+str[4] = "This body belonged to someone who has... moved on. We don't speak of him anymore."
+str[5] = "Okay then. What is it you wanted to talk to me about, random [Sprite?]"
+str[6] = "Us [Sprites] want to get rid of all you apples."
+str[7] = "Yeah. I kind of noticed. Why's that?"
+str[8] = "Your eyes... they impair our abilities. That's why we have tried to get rid of everything's eyes in the past."
+str[9] = "Well gee, sorry for using the ability to see. I've got to save the world from an [Evil Toaster]!"
+str[10] = "Yes, we are very well aware of that. Meanwhile, us [Sprites] are trying to save the universe from the [Purger.] I think that's a lot more important than your silly toaster fights."
+str[11] = "What? [Purger?] What is that?"
+str[12] = "None of your business. We don't need you apples to get in the way more than you already have."
+str[13] = "Get in the way?! I've been trying to protect my friends from toasters! That's not butting into your business at all!"
+str[14] = "Oh, it is. Just your being here impairs our abilities. We're going to lose the battle against the [Purger] because of you."
+str[15] = "Alright, alright, I get it. I don't know what this [Purger] thing is all about, but what can I do to help you 'save the universe?'"
+str[16] = "It's simple, really. Just kill yourselves."
+str[17] = "What?! We can't do that! Not after all of this time!"
+str[18] = "You have to."
+str[19] = "I'm not helping you!"
+str[20] = "Do you know the reason why [Frank] put you through all this trouble by making you fight against the [Evil Toaster?]"
+str[21] = "Aside from 'making us stronger,' no."
+str[22] = "[Frank] was merely trying to prepare you to fight [Zanifer] in the case of [Zanifer] escaping. Of course, [Zanifer] has escaped from [the Beast] and you haven't been able to stop him."
+str[23] = "What?! How do you know all of this?!"
+str[24] = "We are [Sprites.] We know a lot about what is going on."
+str[25] = "Well, [Zanifer] wasn't even in [the Beast!] It was empty!"
+str[26] = "No it wasn't. He was in [the Beast] for nine years. After destroying [Aneroid, the Beast] reacted to his [Sprite Energy] and opened. As soon as [the Beast] began opening, [Zanifer] escaped. That one little crack was all [Zanifer] needed to escape."
+str[27] = "How?!"
+str[28] = "In terms you're able to understand, [Zanifer] was able to teleport out through the crack. That's how he escaped."
+str[29] = "So what's your point with all of this?"
+str[30] = "[Zanifer] has already escaped. All of you apples have failed to do what [Frank] created you to do. You no longer have any reason to exist."
+str[31] = "No way..."
+str[32] = "Now your existence is merely causing problems for us. Please die now."
+str[33] = "We won't die!"
+str[34] = "THEN WE WILL MAKE YOU DIE!*"
+
+img[0] = SoapFace
+img[1] = AppFace
+img[2] = SoapFace
+img[3] = AppFace
+img[4] = SoapFace
+img[5] = AppFace
+img[6] = SoapFace
+img[7] = AppFace
+img[8] = SoapFace
+img[9] = AppFace
+img[10] = SoapFace
+img[11] = AppFace
+img[12] = SoapFace
+img[13] = AppFace
+img[14] = SoapFace
+img[15] = AppFace
+img[16] = SoapFace
+img[17] = AppFace
+img[18] = SoapFace
+img[19] = AppFace
+img[20] = SoapFace
+img[21] = AppFace
+img[22] = SoapFace
+img[23] = AppFace
+img[24] = SoapFace
+img[25] = AppFace
+img[26] = SoapFace
+img[27] = AppFace
+img[28] = SoapFace
+img[29] = AppFace
+img[30] = SoapFace
+img[31] = AppFace
+img[32] = SoapFace
+img[33] = AppFace
+img[34] = SoapFace
+
+name[0] = "???"
+name[1] = "App"
+name[2] = "???"
+name[3] = "App"
+name[4] = "???"
+name[5] = "App"
+name[6] = "???"
+name[7] = "App"
+name[8] = "???"
+name[9] = "App"
+name[10] = "???"
+name[11] = "App"
+name[12] = "???"
+name[13] = "App"
+name[14] = "???"
+name[15] = "App"
+name[16] = "???"
+name[17] = "App"
+name[18] = "???"
+name[19] = "App"
+name[20] = "???"
+name[21] = "App"
+name[22] = "???"
+name[23] = "App"
+name[24] = "???"
+name[25] = "App"
+name[26] = "???"
+name[27] = "App"
+name[28] = "???"
+name[29] = "App"
+name[30] = "???"
+name[31] = "App"
+name[32] = "???"
+name[33] = "App"
+name[34] = "???"
+
+event_inherited();
+</argument>
+      </arguments>
+    </action>
+    <action id="201" library="1">
+      <!--action name: Create_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">Uncontrollable</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

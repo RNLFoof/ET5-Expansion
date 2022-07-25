@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="GroppleButton" type="RESOURCE"/>
+  <resource name="GButton1" type="RESOURCE"/>
+  <resource name="GButton2" type="RESOURCE"/>
+  <resource name="GButton3" type="RESOURCE"/>
+  <resource name="GSButton1" type="RESOURCE"/>
+  <resource name="RButton1" type="RESOURCE"/>
+  <resource name="RButton2" type="RESOURCE"/>
+  <resource name="CButton1" type="RESOURCE"/>
+  <resource name="UnCButton1" type="RESOURCE"/>
+  <resource name="CButton2" type="RESOURCE"/>
+  <resource name="UnCButton2" type="RESOURCE"/>
+  <resource name="PButton" type="RESOURCE"/>
+  <resource name="GWall" type="RESOURCE"/>
+  <resource name="UnGWall1" type="RESOURCE"/>
+  <resource name="UnGWall2" type="RESOURCE"/>
+  <resource name="UnGWall3" type="RESOURCE"/>
+  <resource name="UnRedRoflcopter1" type="RESOURCE"/>
+  <resource name="UnRedRoflcopter2" type="RESOURCE"/>
+  <resource name="GroppleUpButton" type="RESOURCE"/>
+</resources>

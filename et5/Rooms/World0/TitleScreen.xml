@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<room>
+  <caption/>
+  <size height="1440" width="12800"/>
+  <grid>
+    <isometric>false</isometric>
+    <snap x="16" y="16"/>
+  </grid>
+  <speed>30</speed>
+  <persistent>false</persistent>
+  <creationCode/>
+  <backgroundColor>C0C0C0</backgroundColor>
+  <drawBackgroundColor>true</drawBackgroundColor>
+  <clearViewBackground>true</clearViewBackground>
+  <backgrounds>
+    <backgroundDef>
+      <visibleOnRoomStart>true</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage>MainBG</backgroundImage>
+      <offset x="0" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>true</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+    <backgroundDef>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage/>
+      <offset x="0" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>true</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+    <backgroundDef>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage/>
+      <offset x="0" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>true</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+    <backgroundDef>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage/>
+      <offset x="0" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>true</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+    <backgroundDef>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage/>
+      <offset x="0" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>true</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+    <backgroundDef>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage/>
+      <offset x="0" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>true</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+    <backgroundDef>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage/>
+      <offset x="0" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>true</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+    <backgroundDef>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <isForeground>false</isForeground>
+      <backgroundImage/>
+      <offset x="0" y="0"/>
+      <speed x="0" y="0"/>
+      <tileHorizontally>true</tileHorizontally>
+      <tileVertically>true</tileVertically>
+      <stretch>false</stretch>
+    </backgroundDef>
+  </backgrounds>
+  <enableViews>true</enableViews>
+  <views>
+    <view>
+      <visibleOnRoomStart>true</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1">pCatTitle</objectFollowing>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+    <view>
+      <visibleOnRoomStart>false</visibleOnRoomStart>
+      <viewInRoom height="480" width="640" x="0" y="0"/>
+      <portOnScreen height="480" width="640" x="0" y="0"/>
+      <objectFollowing hBorder="32" hSpeed="-1" vBorder="32" vSpeed="-1"/>
+    </view>
+  </views>
+  <instances>
+    <instance>
+      <object>TitleName</object>
+      <position x="64" y="32"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>TitleButton</object>
+      <position x="256" y="256"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>TitleButton</object>
+      <position x="256" y="320"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>TitleFlags</object>
+      <position x="288" y="288"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>TitleFlags</object>
+      <position x="288" y="352"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>TitleButton</object>
+      <position x="256" y="384"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>TitleButton</object>
+      <position x="256" y="192"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>TitleSelector</object>
+      <position x="240" y="192"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>CWall01</object>
+      <position x="608" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>CWall01</object>
+      <position x="576" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>CWall01</object>
+      <position x="544" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>CWall01</object>
+      <position x="512" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>CWall01</object>
+      <position x="480" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>CWall01</object>
+      <position x="448" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>CWall01</object>
+      <position x="416" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>CWall01</object>
+      <position x="384" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>CWall01</object>
+      <position x="352" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>CWall01</object>
+      <position x="320" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>CWall01</object>
+      <position x="288" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>CWall01</object>
+      <position x="256" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>CWall01</object>
+      <position x="224" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>CWall01</object>
+      <position x="192" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>CWall01</object>
+      <position x="160" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>CWall01</object>
+      <position x="128" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>CWall01</object>
+      <position x="96" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>CWall01</object>
+      <position x="64" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>CWall01</object>
+      <position x="32" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>CWall01</object>
+      <position x="0" y="448"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>pCatTitle</object>
+      <position x="0" y="0"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="32" y="208"/>
+      <creationCode>s="MOUSE ON MENU"
+desc="Allows the main menu to be used with the mouse. Doesn't disable keyboard. Also makes enter an alternative to space. The cheats menu can only be used with the mouse regardless of whether this is on or off."
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="32" y="1168"/>
+      <creationCode>s="NO GROPPLE PENALTY"
+desc="You won't lose any gropples upon death."
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="1312" y="1232"/>
+      <creationCode>s="EXTRA UPGRADES"
+desc="Allows you to upgrade your jump height and movement speed. Double jump is unaffected. Returns to default when holding down on the ground, and can be toggled with C."
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="3216" y="304"/>
+      <creationCode>s="REPLACE APPLES"
+desc="Replaces the apples with either hippos or multicolored Trump heads."
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="1312" y="1168"/>
+      <creationCode>s="U-SMASH"
+desc="..."
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="352" y="208"/>
+      <creationCode>s="WINDOWS 8 SOUND FIX"
+desc="Stops sounds from playing more than once at a time, stopping crashes on Windows 8 from too many of the same sound playing."
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="1312" y="1200"/>
+      <creationCode>s="QUICKSAVE"
+desc="Allows you to save with F5 and load with F6. Uses the default Game Maker engine."
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="3216" y="448"/>
+      <creationCode>s="REPLACE APP WITH ELEMNA"
+desc="Purely cosmetic. Also, I'm not changing every time App is referred to as a he, so Elemna's trans now."
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="32" y="240"/>
+      <creationCode>s="DOUBLE JUMP INDICATOR"
+desc="App stops smiling when he doesn't have a double jump."
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="1632" y="1168"/>
+      <creationCode>s="RAPIDFIRE D-SMASHES";
+desc="YEAH";
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsBack</object>
+      <position x="320" y="144"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsSelection</object>
+      <position x="512" y="160"/>
+      <creationCode>plus=2;
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsSelection</object>
+      <position x="128" y="160"/>
+      <creationCode>plus=0;
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="1632" y="1200"/>
+      <creationCode>s="SUPER SPEED";
+desc="Move four times as fast.";
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="352" y="240"/>
+      <creationCode>s="BETTER GROPPLE SOUND"
+desc="There's a pause before before the default sound plays. Highly recommended if you have the Windows 8 fix on."
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="3216" y="160"/>
+      <creationCode>s="ALT DJ ANIMATION";
+desc="Replaces App spinning at a steady speed with him starting off fast then slowing.";
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="352" y="1168"/>
+      <creationCode>s="NO BOMB DESYNC";
+desc="Bombs will still cause damage, but won't explode on contact. This keeps the obstacles they're a part of from falling out of sync after you take a hit.";
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_FuckItItsEasier</object>
+      <position x="320" y="144"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="3216" y="224"/>
+      <creationCode>s="LOAD MUSIC AS NEEDED";
+desc="Loads music when its needed, instead of when the game starts, saving on startup time.";
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="32" y="1200"/>
+      <creationCode>s="LONGER FIRE WARNING";
+desc="Fire will fade to red before going off, indicating how dangerous each one is.";
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="1632" y="1232"/>
+      <creationCode>s="KILL ANYTHING ";
+desc="Lets you one-shot any object in the game. May crash the game. Stuff like App can't be killed by default for obvious reasons but you can enable killing those objects individually.";
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="3216" y="376"/>
+      <creationCode>s="CUSTOMIZE APP";
+desc="Modify App's appearance."
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>NewCamera</object>
+      <position x="32" y="0"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="1312" y="208"/>
+      <creationCode>s="APP TROTS";
+desc="What a cutie.";</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="352" y="1200"/>
+      <creationCode>s="DISABLE DISTANT OBJECTS";
+desc="Disables objects that are far enough away from App, assuming they aren't needed. Could cause problems, obviously. Good for speed, though.";
+</creationCode>
+      <locked>false</locked>
+    </instance>
+  </instances>
+  <tiles/>
+  <editorSettings remember="false"/>
+</room>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if global.cheat_LONGER_FIRE_WARNING=false draw_self() else
+{
+    if flaming=0 &amp;&amp; redcountdown&gt;0
+    {
+        //draw_sprite_ext(spr_FlameUpDown,0,x,y,image_xscale,image_yscale,0,c_white,alarm[2]/redcountdown+0.1);
+        draw_sprite_ext(spr_FlameUpDownFade,(alarm[2]/redcountdown)*50,x,y,image_xscale,image_yscale,0,c_white,1);
+    };
+    else draw_self();
+};
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

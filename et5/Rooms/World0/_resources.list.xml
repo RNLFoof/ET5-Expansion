@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="MNIKLogo" type="RESOURCE"/>
+  <resource name="TitleScreen" type="RESOURCE"/>
+  <resource name="init" type="RESOURCE"/>
+  <resource name="Editor(49)" type="RESOURCE"/>
+  <resource name="AnotherInit(51)" type="RESOURCE"/>
+  <resource name="Player(50)" type="RESOURCE"/>
+  <resource name="LoadedEditor(52)" type="RESOURCE"/>
+  <resource name="Cutscene01" type="RESOURCE"/>
+  <resource name="Cutscene02" type="RESOURCE"/>
+  <resource name="Cutscene03" type="RESOURCE"/>
+  <resource name="Cutscene04" type="RESOURCE"/>
+  <resource name="GameSelect" type="RESOURCE"/>
+  <resource name="TheEnd" type="RESOURCE"/>
+  <resource name="EnemyIndex" type="RESOURCE"/>
+  <resource name="LevelSelect" type="RESOURCE"/>
+  <resource name="LevelSelectX" type="RESOURCE"/>
+  <resource name="LevelSelectRNL" type="RESOURCE"/>
+  <resource name="LevelSelectMicman" type="RESOURCE"/>
+  <resource name="InventoryCustomize" type="RESOURCE"/>
+  <resource name="CharacterP" type="RESOURCE"/>
+</resources>

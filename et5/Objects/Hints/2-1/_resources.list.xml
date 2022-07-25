@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="HSlants" type="RESOURCE"/>
+  <resource name="HUpCopters" type="RESOURCE"/>
+  <resource name="HStrongTargets" type="RESOURCE"/>
+  <resource name="HFullScreen" type="RESOURCE"/>
+  <resource name="HRoflThrough" type="RESOURCE"/>
+  <resource name="HUpdates" type="RESOURCE"/>
+</resources>

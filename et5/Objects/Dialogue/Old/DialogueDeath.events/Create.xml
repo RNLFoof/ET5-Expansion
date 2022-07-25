@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">//Enclosing a part of a message in square brackets [] will cause the 
+//enclosed string to be highlighted.
+
+//Placing an asterisk * at the end of a message tells the code that
+//the current message is the last message.
+
+//Putting an exponent sign ^ at the end of a message followed by a number will cause the 
+//next position to be at the number. If it is followed by a number, a comma, and then another number,
+//then the code will open up a box for the player to choose which path to take.
+//The first number is for the yes position, and the second is for the no position.
+
+//If you surround a number by a less than sign &lt; and a greater then sign &gt;, the code will do a manual
+//pause for the  specified number of steps.
+
+message_display = global.deaths
+
+//These are the actual messages.
+str[0] = "HAX!*"
+str[1] = "Ow. I think I just died.*"
+str[2] = "That hurt.*"
+str[3] = "WAAAAAAAH!*"
+str[4] = "I need to be more careful.*"
+str[5] = "This is painful.*"
+str[6] = "I AM SPEAKING TO YOU THROUGH THE BOUNDARIES OF THIS COMPUTER SCREEN! I DEMAND THAT YOU IMPROVE YOUR PLAYING STYLE!*"
+str[7] = "Where's my lawyer?*"
+str[8] = "Hey, I had plans for the evening, you know.*"
+str[9] = "Why me?*"
+str[10] = "More [Gropples,] down the drain.*"
+str[11] = "I don't get paid enough for this.*"
+str[12] = "...*"
+str[13] = "Oof.*"
+str[14] = "You know about mad scientists? Soon, I'm gonna be what you'd call a mad apple.*"
+str[15] = "I am 12 and what is this... wait, I'm 5, actually.*"
+str[16] = "My nerves are on fire! Well, if apples actually had nerves, that is. But I can sure feel it...*"
+str[17] = "I'm being faced with a dilemma. Did I accidentally die here, or is the player trolling me?*"
+str[18] = "Did you know you've made me die eighteen times so far? I've been counting because I don't trust godly beings behind fourth walls.*"
+str[19] = "Who exactly is controlling me, anyways?! I SHOULD BE THE PLAYER HERE!*"
+str[20] = "To be or not to be... that is the question. Apparently, I am not being as of this very moment.*"
+str[21] = "What did I do to deserve such a fate? Is it something I said?*"
+str[22] = "I have better things to do than get impaled, smashed, drowned, burnt, or beaten up.*"
+str[23] = "Can I go to lunch yet?*"
+str[24] = "IT BURNS!*"
+str[25] = "Died... again.*"
+str[26] = "I'm getting bored of dying.*"
+str[27] = "Dying isn't fun anymore... Actually, I take that back. Dying was never fun. It's quite painful, see?*"
+str[28] = "Good thing there are checkpoints.*"
+str[29] = "Honestly, how many times has the player died in the real world?! I'm guessing a lot. The Gods of the Afterlife must be feeling pretty generous for that punk.*"
+str[30] = "Thirty deaths and counting...*"
+str[31] = "Come on!*"
+str[32] = "Pull yourself together, punk! You can do better than that!*"
+str[33] = "Are you trying to kill me? If so, then you succeeded.*"
+str[34] = "I've died so many times now I'm starting to become convinced that you're a homocidal maniac, player.*"
+str[35] = "Do you take pride in squashing apples?!*"
+str[36] = "Have mercy.*"
+str[37] = "Go torture some other video game character!*"
+str[38] = "Yawn...*"
+str[39] = "Death. How typical.*"
+str[40] = "I'm dying so much now I visit the Grim Repear's house every day. We're real bros now.*"
+str[41] = "Let's try this again... WITHOUT the dying part.*"
+str[42] = "I'm still counting my deaths, you know. The tally is getting quite large.*"
+str[43] = "Punk!*"
+str[44] = "Shameful.*"
+str[45] = "What the...?*"
+str[46] = "I'm running out of snarky remarks here. That's just how much I've been dying.*"
+str[47] = "Death hurts so much... I need to think of something to distract me from the pain... Cheeseburgers?*"
+str[48] = "You wouldn't let me die if you knew what dying feels like!*"
+str[49] = "You're probably already dead, aren't you? Perhaps you're some vengeful spirit, laughing at me as I struggle?*"
+str[50] = "Zero lives.*"
+str[51] = "Game over.*"
+str[52] = "I'm tired of this...*"
+str[53] = "You never get tired of my dying, do you?*"
+str[54] = "I'm going to stop trying to entertain you so you stop trying to kill me! STARTING NOW!*"
+str[55] = "...*"
+str[56] = "...*"
+str[57] = "...*"
+str[58] = "...*"
+str[59] = "...*"
+str[60] = "What? I'm still dying? AGH!*"
+str[61] = "You're impossible.*"
+str[62] = "I've died more than sixty times now. I may have had some rough times, or maybe the player is just trolling...*"
+str[63] = "No, player. YOU are the dead guy.*"
+str[64] = "Why can't you just hurt your punching bag?*"
+str[65] = "Wasting time dying here. But when I die, I never have any time left anyways.*"
+str[66] = "Don't try to be encouraged to kill me, evil player! I know you're the real villain in this game!*"
+str[67] = "Soon, you'll find out that you're in a video game too. And you'll die over and over again. And then you'll break the fourth wall like I am right now.*"
+str[68] = "Breaking the fourth wall here is completely necessary because I need to slap some sense into you! STOP LETTING ME DIE! GRAAAH!*"
+str[69] = "PLAY LIKE YOU MEAN BUSINESS!*"
+str[70] = "Siiiiigh...*"
+str[71] = "If I had a dollar for every time I died, I'd be a wealthy man... er, apple...*"
+str[72] = "PLAY LIKE YOU WANT TO WIN!*"
+str[73] = "STOP TRYING TO TROLL, 'CAUSE YOU'RE NOT GOOD AT TROLLING! BECAUSE I SAID SO!*"
+str[74] = "Is it too much to ask to not die?*"
+str[75] = "Seventy-five deaths. Or 75 deaths, depending on how illegible you are. Or maybe if you're just lazy.*"
+str[76] = "You stink!*"
+str[77] = "This is getting irritating!*"
+str[78] = "This got old a very long time ago!*"
+str[79] = "Turn the monitor off. This is humiliating.*"
+str[80] = "Go outside and ride a bike. Just let me live in peace with NO dying, please.*"
+str[81] = "You're still here, evil player? I'LL DEFEAT YOU SOME DAY!*"
+str[82] = "You... oh, forget it. I give up.*"
+str[83] = "AAAAAAAAGH!*"
+str[84] = "I'm an apple with a cute little cartoony face. Why can't we just go to the safe and fun land of rainbows and ponies?!*"
+str[85] = "No comment.*"
+str[86] = "The toasters will come for you when you sleep!*"
+str[87] = "Aw, come on!*"
+str[88] = "You are so going to jail!*"
+str[89] = "You must be an apple-killing psychopath, player!*"
+str[90] = "WAAAAAAAAAGH!*"
+str[91] = "Why, how positively SHOCKING!*"
+str[92] = "I think you are very stinky.*"
+str[93] = "Every time I die, I lose one brain cell because of how evil you are, player.*"
+str[94] = "Oh, boy! I'm feeling so ecstatic over my death!*"
+str[95] = "I need a hug.*"
+str[96] = "Oh my.*"
+str[97] = "Sniff...*"
+str[98] = "My entire body is aching.*"
+str[99] = "I think I'm going to cry.*"
+str[100] = "100 deaths. Good sir, you've set a record.*"
+str[101] = "I'd hate to see the hospital bill.*"
+str[102] = "If I had a nose, it would be bleeding.*"
+str[103] = "Okay, joke's over. Your turn!*"
+str[104] = "If I had a dollar for every skill point you have, I'd be broke.*"
+str[105] = "Hey, you're not going to get a gold star for killing me.*"
+str[106] = "I... you... never mind...*"
+str[107] = "I've died so often that they don't even bother setting up funerals anymore.*"
+str[108] = "Good thing there's no blood in this game.*"
+str[109] = "Talk about mass genocide.*"
+str[110] = "I need a lawyer.*"
+str[111] = "Can I sue you?*"
+str[112] = "SFGUIAJADOJKSADIGHDISFKSOAJDISDT!!!*"
+str[113] = "This is getting old.*"
+str[114] = "This reminds me of the time I was tortured and killed. Oh wait, that was two minutes ago.*"
+str[115] = "You don't have an idea of how painful this is, do you?*"
+str[116] = "Please don't kill me again.*"
+str[117] = "I said NOT to kill me.*"
+str[118] = "I really don't think the message is getting through to you.*"
+str[119] = "This is getting annoying.*"
+str[120] = "You make the [Evil Toaster] look good.*"
+str[121] = "If this keeps up, politics WILL be necessary.*"
+str[122] = "Your grandma can play better than you.*"
+str[123] = "If this game had lives, I would have run out of continues by now.*"
+str[124] = "What are you even trying to do?!*"
+str[125] = "But I was so young... and handsome...*"
+str[126] = "I really hope you aren't killing me just to hear what I have to say.*"
+str[127] = "Stop now.*"
+str[128] = "The fourth wall can't protect you forever.*"
+str[129] = "I'd hate to see you play [I Wanna Be The Guy.]*"
+str[130] = "Is that all you've got?*"
+str[131] = "Someone have mercy on me.*"
+str[132] = "No.*"
+str[133] = "If I had wings...*"
+str[134] = "You won't do well in my autobiography!*"
+str[135] = "SAVE ME!!!*"
+str[136] = "This isn't funny!*"
+str[137] = "I'm not just a ragdoll.*"
+str[138] = "I'm thirsty from dying.*"
+str[139] = "Go kill someone else!*"
+str[140] = "Just wait until I break the fourth wall...*"
+str[141] = "So, how was your day?*"
+str[142] = "Hah! You fell for it! Dying was actually part of my plan all along!*"
+str[143] = "Curse you and your keyboard!*"
+str[144] = "I would be happy if these deaths were for charity...*"
+str[145] = "VIDEO GAME!!!*"
+str[146] = "Go outside and ride a bike or something.*"
+str[147] = "Hey player, did you know that every apple you find in real life is actually a dead me?*"
+str[148] = "Can I have a wing? Just one?*"
+str[149] = "I'm dead. Did you know that?*"
+str[150] = "Is this your little brother playing?*"
+str[151] = "By now, I've realized you've been playing all along.*"
+str[152] = "Your suckiness is recognized worldwide.*"
+str[153] = "I shall go take a nap. When I'm done, I will notice that I'm dead.*"
+str[154] = "Are you even paying attention to me?*"
+str[155] = "PETA: People Eat Tasty Apples...*"
+str[156] = "Get a FREE iPhone by killing me 0 more times for the rest of the game!*"
+str[157] = "Welp, you blew it. No iPhone for you.*"
+str[158] = "You probably kill everyone you see in real life, player.*"
+str[159] = "What? Were you expecting to eat apple sauce after breakfast?*"
+str[160] = "If you said no to apple sauce, what about apple cider?*"
+str[161] = "Man...*"
+str[162] = "Wow! This has never happened to me before!*"
+str[163] = "How original.*"
+str[164] = "If only I could become a ghost to haunt you...*"
+str[165] = "Uhh...*"
+str[166] = "If I made you pay for the hospital bills, would you stop getting me killed?*"
+str[167] = "I'M YELLING AT YOU!*"
+str[168] = "That's all, folks!*"
+str[169] = "And that was the first time I died...*"
+str[170] = "Ha.*"
+str[171] = "I don't show it, but I'm actually invincible.*"
+str[172] = "Please stay far away from everyone else for the sake of their safety.*"
+str[173] = "The end.*"
+str[174] = "This is my life in a nutshell.*"
+str[175] = "Perhaps dying is actually my hobby.*"
+str[176] = "Do you specialize in necromancy?*"
+str[177] = "Okay then.*"
+str[178] = "IT KEEPS HAPPENING!*"
+str[179] = "Darn.*"
+str[180] = "That didn't go down too well.*"
+str[181] = "That could have gone better.*"
+str[182] = "Are you happy with yourself yet?*"
+str[183] = "Did I miss something?*"
+str[184] = "Oh, I died? Well, that's nothing new.*"
+str[185] = "Colon open parenthesis.*"
+str[186] = "Hooray.*"
+str[187] = "Hi.*"
+str[188] = "What a twist!*"
+str[189] = "Whoops.*"
+str[190] = "What is this sorcery?*"
+str[191] = "I want to punch something! The only problem is that I lack hands.*"
+str[192] = "Is it lunch break yet?*"
+str[193] = "Man, you are indeed a guy.*"
+str[194] = "Well, that happened.*"
+str[195] = "Did the [Grinch] get this kind of abuse? I don't think so!*"
+str[196] = "Stop patronizing me.*"
+str[197] = "Hello world!*"
+str[198] = "Hey there, how's it going?*"
+str[199] = "Bother.*"
+str[200] = "Wow! 200 deaths! New milestone! PLEASE don't celebrate it, though.*"
+str[201] = "Anything else on TV?*"
+str[202] = "Huh.*"
+str[203] = "I have a distinct feeling that something like this has happened before.*"
+str[204] = "Didn't this just happen a minute ago? I feel familiar.*"
+str[205] = "Story of my life.*"
+str[206] = "I want to punch something!*"
+str[207] = "GRAAAAAAAAHH!*"
+str[208] = "Stop being yourself!*"
+str[209] = "Stupid player!*"
+str[210] = "Shouldn't you be asleep right now?*"
+str[211] = "This is a scary game!*"
+str[212] = "What do you want?!*"
+str[213] = "Here, have a medal.*"
+str[214] = "My corpses will block out the sun!*"
+str[215] = "Science.*"
+str[216] = "That was just a demo to show you what would happen if I miserably failed on that part.*"
+str[217] = "WAAAAAAAAAAAAAAAAAAH!*"
+str[218] = "Man, some people...*"
+str[219] = "Talk about malevolent architecture.*"
+str[220] = "I wouldn't do well with the caravans.*"
+str[221] = "There's no room left in the cemetery!*"
+str[222] = "I donated all of my bodies to charity and now I'm rich!*"
+str[223] = "Hello? Yes, this is [App.]*"
+str[224] = "Uhh, a little help?*"
+str[225] = "How about we just forget about all this and go home?*"
+str[226] = "Alright, I'll go my way, you go your way.*"
+str[227] = "Goodbye, cruel world...*"
+str[228] = "[Guinness World Records] will be all over me!*"
+str[229] = "I haven't died once! What are you talking about?*"
+str[230] = "What did I ever do to deserve this?*"
+str[231] = "I never wanted to be [The Guy.]*"
+str[232] = "Mmf.*"
+str[233] = "Anywho...*"
+str[234] = "Uh.*"
+str[235] = "Grr.*"
+str[236] = "MEDIC!*"
+str[237] = "Now where did I put that ketchup?*"
+str[238] = "I'M DOWN!*"
+str[239] = "Day of Judgment? HAH!*"
+str[240] = "NOTHING!*"
+str[241] = "Dead.*"
+str[242] = "How disappointing.*"
+str[243] = "Come on, player! You can do better!*"
+str[244] = "Please.*"
+str[245] = "How about no?*"
+str[246] = "Have you been brushing your teeth?*"
+str[247] = "You are so full of hate.*"
+str[248] = "And then there were none.*"
+str[249] = "FUS RO DAH!*"
+str[250] = "This is just like [Team Fortress 2!]*"
+str[251] = "Whoa!*"
+str[252] = "Gwuh!*"
+str[253] = "Don't believe in the me who believes in you!*"
+str[254] = "Believe in the you who believes in yourself!*"
+str[255] = "I'll get you... some day...*"
+str[256] = "THIS IS THE APPLE THAT WILL PIERCE THE HEAVENS!*"
+str[257] = "Quite literally.*"
+str[258] = "GET YOUR CRAP TOGETHER!*"
+str[259] = "I can't even beat a bunch of kitchen appliances...*"
+str[260] = "[Adrien Brody] had it easy.*"
+str[261] = "Pfft.*"
+str[262] = "Silly player!*"
+str[263] = "Season's greetings?...*"
+str[264] = "Are you still even reading these?*"
+str[265] = "Nothing good will happen if you keep killing me.*"
+str[266] = "I mean, WOW! YOU ARE STILL READING THESE!*"
+str[267] = "Dot dot dot.*"
+str[268] = "Another death?! Wow, you think of everything!*"
+str[269] = "Close parenthesis colon.*"
+str[270] = "Unclosed parenthesis bug me.*"
+str[271] = "The subject of death does not particularly thrill me.*"
+str[272] = "In fact, death is boring at this point.*"
+str[273] = "This isn't fun!*"
+str[274] = "Suddenly something happened!*"
+str[275] = "I just died. No one cares at this point.*"
+str[276] = "NEWS FLASH! [APP] JUST DIED!*"
+str[277] = "...FOR THE 277TH TIME!*"
+str[278] = "I SURE WONDER WHAT'S GONNA HAPPEN NEXT!*"
+str[279] = "The Grim Reaper? Hah!*"
+str[280] = "NOTHING!*"
+str[281] = "Grumble grumble...*"
+str[282] = "'OH, I'M SO GOOD AT THIS GAME! NYEH, NYEH, NYEH!'*"
+str[283] = "Boo.*"
+str[284] = "BOOOOOOOOOOOOOOOOO!*"
+str[285] = "This vacation hotspot is not the place for me!*"
+str[286] = "Nap time.*"
+str[287] = "Gee, this sure isn't getting redundant at all!*"
+str[288] = "I'm wondering how I'm still dying at this point.*"
+str[289] = "You aren't getting any satisfaction out of me!*"
+str[290] = "Can you use your skills to deduce what's going to happen next?*"
+str[291] = "THAT'S RIGHT! I'M GOING TO DIE AGAIN AND AGAIN!*"
+str[292] = "IT WILL NEVER STOP HAPPENING!*"
+str[293] = "I TOLD YOU ABOUT THE DEATHS BRO!*"
+str[294] = "I am immune to catnip. I dunno about you, player.*"
+str[295] = "Uhh?*"
+str[296] = "Oh, okay.*"
+str[297] = "Plus one point!... NOT!*"
+str[298] = "One day, this death count is going to overflow...*"
+str[299] = "Grass grows, birds fly, sun shines, and I die.*"
+str[300] = "300 deaths. Woohoo.*"
+str[301] = "Now, how about we forget about all of this and start over with a clean slate? That sounds like a good idea to me.*"
+//These are the headshots that correspond to each message.
+img[message_display] = AppFace
+//These are the names of the person talking in each message.
+name[message_display] = "App"
+//As you can see, it is quite easy to add extra details for
+//each message simply by adding an extra array. 
+//It's that simple!
+
+//This determines the number of pixels each line can be.
+line_length = 420
+//This controls the speed of the the text.
+text_speed = 1
+//This is the  x position in which the string starts at.
+string_x = 16
+//This is the y position in which the string starts at.
+string_y = 48
+//This determines the vertical spacing between lines.
+//When set to zero, the spacing will only be the string's height.
+vertical_spacing = 0
+//This is the x position of the question box.
+question_box_x = 32
+//This is the y position of the question box.
+question_box_y = 128
+//This is the x position of the text drawn in relevance to question_box_x.
+question_x = 18
+//This is the y position of the text drawn in relevance to question_box_y.
+question_y = 7
+//This is the x position of the names.
+name_x = 50
+//This is the y position of the names.
+name_y = 22
+//This is the x position of the headshot.
+headshot_x = 12
+//This is the y position of the headshot.
+headshot_y = 12
+//This is the vertical spacing in between "Yes" and "No".
+question_vert_spacing = 2
+//This is the x postion in relevance to question_box_x.
+highlight_x = 2
+//If this charcter is detected, initiate a highlight.
+highlight_open_character = "["
+//This character determines the end of a highlight. Anything enclosed
+//will be highlighted.
+highlight_close_character = "]"
+//If this charcter is detected, end messages.
+end_character = "*"
+//If this charcter is detected, ask question or jump to next position.
+jump_character = "^"
+//If this character is detected, initiate a manual pause.
+pause_open_character = "&lt;"
+//This character determines the number. The enclosed number
+//is the length of the manual pause.
+pause_close_character = "&gt;"
+
+
+//The following variables do not need to be changed and are only used
+//by the code.
+
+
+
+//This determins if the messages end.
+message_end = 0
+//This determines when the typing is finished.
+type_end = 0
+//This determines if the meesage is a question message.
+message_question = 0
+//This is the target position if yes is selected.
+yes_position = 0
+//This is the target position if no is selected.
+no_position = 0
+//This is the option selected by the user.
+question_selection = 1
+//This detemins if the message is a jump message.
+message_jump = 0
+//This is the position of the next message.
+jump_position = 0
+//This is the string that is going to be displayed. It contains the
+//modified version of the actual string.
+display_string = ""
+//This states the current position we are at in str[x] for adding
+//characters into display_string.
+position = 0
+//This states the current position we are in display_string. This is
+//used to prevent line breaks in the middle of a word.
+display_position= 0
+//This counter tells us when it's time to make a line break.
+width_counter = 0
+//This finds the last space.
+last_space = 0
+//This is used to count the number of phrases that will be highlighted.
+highlight_number = 0
+//This stores the starting position of the highlighted text.
+highlight_position[0] = 0
+//This stores the length of the highlighted text.
+highlight_length[0] = 0
+//This is used to count the number of manual pauses that are in the message.
+pause_number = 0
+//This stores the position of the manual pause.
+pause_position[0] = 0
+//This stores the number of steps the manual pause lasts.
+pause_length[0] = 0
+//This variable stores the edited message.
+current_string = ""
+
+
+//Gives the user a second to realize the window has opened before the text
+//starts typing out.
+alarm[0] = 10
+</argument>
+      </arguments>
+    </action>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">nexted</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="201" library="1">
+      <!--action name: Create_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">Uncontrollable</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

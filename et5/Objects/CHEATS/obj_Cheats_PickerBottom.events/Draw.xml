@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">draw_self();
+var n,nn,index;
+execute_string("spr=spr_CustomCategories_"+string(obj_Cheats_Picker.cycle));
+
+color[editingcolor1,editingcolor2]=make_color_hsv(obj_Cheats_hs.px,255-obj_Cheats_hs.py,255-obj_Cheats_v.pz);
+
+n=0;
+repeat(5)
+{
+    draw_sprite(sprite_index,image_index,x-112+(56*n),y);
+    nn=0;
+    repeat(6)
+    {
+        //index=(n+cycle[obj_Cheats_Picker.cycle]-2)*6+sprite_get_number(spr)+nn;
+        index=(n+cycle[obj_Cheats_Picker.cycle]-2)*6+nn;
+        while index&lt;0 index+=sprite_get_number(spr);
+        while index&gt;=sprite_get_number(spr) index-=sprite_get_number(spr);
+        draw_sprite_ext(spr,index,x-112+(56*n),y,1,1,0,color[obj_Cheats_Picker.cycle,index],1);
+        nn+=1;
+    };
+    n+=1;
+};
+
+draw_rectangle_color(x+32,304-24,x+96+32+8,304-24+96+8,0,0,0,0,true);
+n=0;
+repeat(sprite_get_number(spr_CustomCategories))
+{
+    execute_string("spr=spr_CustomCategories_"+string(n));
+    nn=0;
+    repeat(6)
+    {
+        index=(cycle[n])*6+nn;
+        while index&lt;0 index+=sprite_get_number(spr);
+        while index&gt;=sprite_get_number(spr) index-=sprite_get_number(spr);
+        draw_sprite_ext(spr,index,x+32+52,304-24+52,1,1,0,color[n,index],1);
+        nn+=1;
+    };
+    n+=1;
+};
+execute_string("spr=spr_CustomCategories_"+string(obj_Cheats_Picker.cycle));
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

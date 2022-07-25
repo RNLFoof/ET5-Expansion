@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="EIBlank" type="RESOURCE"/>
+  <resource name="EIUnknown" type="RESOURCE"/>
+  <resource name="EIReturn" type="RESOURCE"/>
+  <resource name="EIToast" type="RESOURCE"/>
+  <resource name="EIToasters" type="RESOURCE"/>
+  <resource name="EIBosses" type="RESOURCE"/>
+  <resource name="EIEvilSpatula" type="RESOURCE"/>
+  <resource name="EIHandyToaster" type="RESOURCE"/>
+  <resource name="EIAngryToaster" type="RESOURCE"/>
+  <resource name="EIEvilSpoon" type="RESOURCE"/>
+  <resource name="EIRedToast" type="RESOURCE"/>
+  <resource name="EIPurpleToast" type="RESOURCE"/>
+  <resource name="EIEvilFork" type="RESOURCE"/>
+  <resource name="EIBlueToast" type="RESOURCE"/>
+  <resource name="EIEvilSpork" type="RESOURCE"/>
+  <resource name="EIBlackToast" type="RESOURCE"/>
+  <resource name="EITrickyToaster" type="RESOURCE"/>
+  <resource name="EIEvilGrater" type="RESOURCE"/>
+  <resource name="EIElectricToaster" type="RESOURCE"/>
+  <resource name="EISlowToaster" type="RESOURCE"/>
+  <resource name="EIRicochetToaster" type="RESOURCE"/>
+</resources>

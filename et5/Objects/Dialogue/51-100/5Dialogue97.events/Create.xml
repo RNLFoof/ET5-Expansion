@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">//Enclosing a part of a message in square brackets [] will cause the 
+//enclosed string to be highlighted.
+
+//Placing an asterisk * at the end of a message tells the code that
+//the current message is the last message.
+
+//Putting an exponent sign ^ at the end of a message followed by a number will cause the 
+//next position to be at the number. If it is followed by a number, a comma, and then another number,
+//then the code will open up a box for the player to choose which path to take.
+//The first number is for the yes position, and the second is for the no position.
+
+//If you surround a number by a less than sign &lt; and a greater then sign &gt;, the code will do a manual
+//pause for the  specified number of steps.
+
+//These are the actual messages.
+str[0] = "What?! [Tex] and [Crazy Lu?!] What are you doing here?!"
+str[1] = "[ARS] has come to reclaim the [Bot Blueprints.] We knew you would try to beat us to it. [ARS,] i.e. the [Anti-Refrigerator Society,] was founded by [Gertrude] to unite all of the apples in taking down the refrigerators."
+str[2] = "You and your friends are no different from the refrigerators, for you are traitors and deserve to be executed. We always succeed in solving problems, and you are no different a problem than the refrigerators."
+str[3] = "AAAAAAAAAAAAAAAAAAAAAAAAAHHHH!!!"
+str[4] = "[Evil Toaster?!]"
+str[5] = "What?! So this is the freak you've been fighting all along?! The [Evil Refrigerator] was much tougher than this, and [ARS] still managed to destroy her, although [Numera] took her place as the new [Evil Refrigerator.]"
+str[6] = "AHH! This brown apple here is the same guy who made me run away and steal the [Worminator] in order to travel to the future!"
+str[7] = "So this blue thing here, the [Worminator,] allows time travel? That gives me an idea! I shall travel back in time and kill [App,] causing him to stop existing in present time!"
+str[8] = "Hey! Killing [the Apple] is MY job!"
+str[9] = "You seem like too much of a coward to kill someone like [App.] And that's saying something, because I bet I could defeat a younger [App] without using a gun. Come on, [Crazy Lu,] let's go!"
+str[10] = "... &lt;30&gt;So, [apple,] &lt;10&gt;I mean, [App...] &lt;20&gt;You have a face now?!"
+str[11] = "The other apples and I have evolved."
+str[12] = "Where are the other apples right now?"
+str[13] = "[Leaf] is currently hanging out with his girlfriend, [Soap] is nearby, [Mach] is also nearby, [Shaman] is busy doing something important and secret, and [Elemna] went on some galactic adventure thing."
+str[14] = "Who is [Mach?]"
+str[15] = "Mach is a new apple that arrived just a week ago. He's intelligent with electronics. I'm not sure where all of the new apples come from. All I know is that they just randomly appear on [Planet Stone] with no recollection on how they got here."
+str[16] = "Why are you willingly giving me all of this information?"
+str[17] = "You are no longer part of my problems."
+str[18] = "What?!"
+str[19] = "[Roaster] has replaced you as the new [Evil Toaster.]"
+str[20] = "Eh?! No! NOO! I'M REPLACED! I'M USELESS! NOOOOOOOOOOOOOOOOOOO!!!"
+str[21] = "It's strange to think that the [Evil Toaster] was once my dangerous arch-rival, but now he's been reduced to an extreme wimp..."
+str[22] = "Darn, I wasn't even able to defeat a young [App.] I bet I would've won if I brought a gun, though..."
+str[23] = "Did you really bring a thingy called a [Power Box] with you?"
+str[24] = "I lied about taking a [Power Box.] According to the [Bot Blueprints,] a [Power Box] is a power component that's attached to every [Bot.] I don't know what would actually happen if I tried attaching a [Power Box] to myself."
+str[25] = "So a [Bot] would die if its [Power Box] got destroyed, right?"
+str[26] = "Yes. However, [Power Boxes] sound very difficult to destroy, and each [Bot] is nowhere near stupid enough to let an enemy get near their [Power Box.] Why do you ask?"
+str[27] = "Well, you never know if you might need to fight a [Bot] in the near future..."
+str[28] = "Pfft! Fighting a [Bot?!] What an absurd concept! No apple has ever seen a [Bot] in person! Anyways, where did the [Evil Toaster] go?"
+str[29] = "The [Evil Toaster] ran away because he was horrified that [Roaster] replaced him as the new [Evil Toaster...] Oh yeah, [Roaster] is that black flying toaster, in case you didn't know."
+str[30] = "Huh. [Numera] replaced the [Evil Refrigerator] as well. I suppose both of our groups have similar roots."
+str[31] = "WHY ARE YOU HAVING SUCH A PEACEFUL CONVERSATION?!"
+str[32] = "I've begun to envy [App.]"
+str[33] = "Eheh... Thanks. But why are you still fighting my friends and I?"
+str[34] = "It doesn't matter who I fight. I just want to defeat opponents and become stronger."
+str[35] = "That's bold, but it's not very nice towards your opponents, or, in this case, me and the other apples from the other side of the [Great Stone Wall.]"
+str[36] = "Well, fighting isn't nice in general."
+str[37] = "I agree. Couldn't you and the rest of [ARS] just stop fighting and become allies with my friends and I?"
+str[38] = "I would if I could, but [Gertrude] is the leader of [ARS.] Being the furious girl she is, she doesn't want to stop fighting until she gets sweet revenge after you and your friends broke through the [Great Stone Wall.]"
+str[39] = "Can't you rebel against her or something?"
+str[40] = "Listen, [App.] I suppose I can let you pass here without any further trouble. It's the most I can do. I dunno about [Crazy Lu,] though... Good luck."
+str[41] = "Thanks, [Tex.]*"
+//These are the headshots that correspond to each message.
+img[0] = AppFace
+img[1] = TexFace
+img[2] = TexFace
+img[3] = ToasterChipA
+img[4] = AppFace
+img[5] = TexFace
+img[6] = ToasterChipA
+img[7] = TexFace
+img[8] = ToasterChipA
+img[9] = TexFace
+img[10] = ToasterChipA
+img[11] = AppFace
+img[12] = ToasterChipA
+img[13] = AppFace
+img[14] = ToasterChipA
+img[15] = AppFace
+img[16] = ToasterChipA
+img[17] = AppFace
+img[18] = ToasterChipA
+img[19] = AppFace
+img[20] = ToasterChipA
+img[21] = AppFace
+img[22] = TexFace
+img[23] = AppFace
+img[24] = TexFace
+img[25] = AppFace
+img[26] = TexFace
+img[27] = AppFace
+img[28] = TexFace
+img[29] = AppFace
+img[30] = TexFace
+img[31] = CLFace
+img[32] = TexFace
+img[33] = AppFace
+img[34] = TexFace
+img[35] = AppFace
+img[36] = TexFace
+img[37] = AppFace
+img[38] = TexFace
+img[39] = AppFace
+img[40] = TexFace
+img[41] = AppFace
+//These are the names of the person talking in each message.
+name[0] = "App"
+name[1] = "Tex"
+name[2] = "Tex"
+name[3] = "Evil Toaster"
+name[4] = "App"
+name[5] = "Tex"
+name[6] = "Evil Toaster"
+name[7] = "Tex"
+name[8] = "Evil Toaster"
+name[9] = "Tex"
+name[10] = "Evil Toaster"
+name[11] = "App"
+name[12] = "Evil Toaster"
+name[13] = "App"
+name[14] = "Evil Toaster"
+name[15] = "App"
+name[16] = "Evil Toaster"
+name[17] = "App"
+name[18] = "Evil Toaster"
+name[19] = "App"
+name[20] = "Evil Toaster"
+name[21] = "App"
+name[22] = "Tex"
+name[23] = "App"
+name[24] = "Tex"
+name[25] = "App"
+name[26] = "Tex"
+name[27] = "App"
+name[28] = "Tex"
+name[29] = "App"
+name[30] = "Tex"
+name[31] = "Crazy Lu"
+name[32] = "Tex"
+name[33] = "App"
+name[34] = "Tex"
+name[35] = "App"
+name[36] = "Tex"
+name[37] = "App"
+name[38] = "Tex"
+name[39] = "App"
+name[40] = "Tex"
+name[41] = "App"
+//As you can see, it is quite easy to add extra details for
+//each message simply by adding an extra array. 
+//It's that simple!
+
+//This determines the number of pixels each line can be.
+line_length = 420
+//This controls the speed of the the text.
+text_speed = 1
+//This is the  x position in which the string starts at.
+string_x = 16
+//This is the y position in which the string starts at.
+string_y = 48
+//This determines the vertical spacing between lines.
+//When set to zero, the spacing will only be the string's height.
+vertical_spacing = 0
+//This is the x position of the question box.
+question_box_x = 32
+//This is the y position of the question box.
+question_box_y = 128
+//This is the x position of the text drawn in relevance to question_box_x.
+question_x = 18
+//This is the y position of the text drawn in relevance to question_box_y.
+question_y = 7
+//This is the x position of the names.
+name_x = 50
+//This is the y position of the names.
+name_y = 22
+//This is the x position of the headshot.
+headshot_x = 12
+//This is the y position of the headshot.
+headshot_y = 12
+//This is the vertical spacing in between "Yes" and "No".
+question_vert_spacing = 2
+//This is the x postion in relevance to question_box_x.
+highlight_x = 2
+//If this charcter is detected, initiate a highlight.
+highlight_open_character = "["
+//This character determines the end of a highlight. Anything enclosed
+//will be highlighted.
+highlight_close_character = "]"
+//If this charcter is detected, end messages.
+end_character = "*"
+//If this charcter is detected, ask question or jump to next position.
+jump_character = "^"
+//If this character is detected, initiate a manual pause.
+pause_open_character = "&lt;"
+//This character determines the number. The enclosed number
+//is the length of the manual pause.
+pause_close_character = "&gt;"
+
+
+//The following variables do not need to be changed and are only used
+//by the code.
+
+
+
+//This determins if the messages end.
+message_end = 0
+//This determines when the typing is finished.
+type_end = 0
+//This determines if the meesage is a question message.
+message_question = 0
+//This is the target position if yes is selected.
+yes_position = 0
+//This is the target position if no is selected.
+no_position = 0
+//This is the option selected by the user.
+question_selection = 1
+//This detemins if the message is a jump message.
+message_jump = 0
+//This is the position of the next message.
+jump_position = 0
+//This is the string that is going to be displayed. It contains the
+//modified version of the actual string.
+display_string = ""
+//This states the current position we are at in str[x] for adding
+//characters into display_string.
+position = 0
+//This states the current position we are in display_string. This is
+//used to prevent line breaks in the middle of a word.
+display_position= 0
+//This counter tells us when it's time to make a line break.
+width_counter = 0
+//This finds the last space.
+last_space = 0
+//The array index of the message that is currently being displayed.
+message_display = 0
+//This is used to count the number of phrases that will be highlighted.
+highlight_number = 0
+//This stores the starting position of the highlighted text.
+highlight_position[0] = 0
+//This stores the length of the highlighted text.
+highlight_length[0] = 0
+//This is used to count the number of manual pauses that are in the message.
+pause_number = 0
+//This stores the position of the manual pause.
+pause_position[0] = 0
+//This stores the number of steps the manual pause lasts.
+pause_length[0] = 0
+//This variable stores the edited message.
+current_string = ""
+
+
+//Gives the user a second to realize the window has opened before the text
+//starts typing out.
+alarm[0] = 10
+</argument>
+      </arguments>
+    </action>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">nexted</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="201" library="1">
+      <!--action name: Create_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">Uncontrollable</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">stage</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

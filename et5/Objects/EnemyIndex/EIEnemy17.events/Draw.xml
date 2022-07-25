@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">EIBlank</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">EIEvilSpork</argument>
+        <argument kind="EXPRESSION">32</argument>
+        <argument kind="EXPRESSION">24</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="514" library="1">
+      <!--action name: Draw_Text-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_text</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="BOTH">Evil Spork</argument>
+        <argument kind="EXPRESSION">12</argument>
+        <argument kind="EXPRESSION">8</argument>
+      </arguments>
+    </action>
+    <action id="514" library="1">
+      <!--action name: Draw_Text-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_text</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="BOTH">HP: 300</argument>
+        <argument kind="EXPRESSION">12</argument>
+        <argument kind="EXPRESSION">88</argument>
+      </arguments>
+    </action>
+    <action id="514" library="1">
+      <!--action name: Draw_Text-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_text</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="BOTH">Killed:</argument>
+        <argument kind="EXPRESSION">12</argument>
+        <argument kind="EXPRESSION">104</argument>
+      </arguments>
+    </action>
+    <action id="613" library="1">
+      <!--action name: Draw_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_variable</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">global.enemy17</argument>
+        <argument kind="EXPRESSION">58</argument>
+        <argument kind="EXPRESSION">104</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

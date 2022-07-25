@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="COLLISION" with="GreatWall">
+  <actions>
+    <action id="109" library="1">
+      <!--action name: Move_To-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_move_to</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">xprevious</argument>
+        <argument kind="EXPRESSION">yprevious</argument>
+      </arguments>
+    </action>
+    <action id="101" library="1">
+      <!--action name: Move-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_move</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">000001000</argument>
+        <argument kind="EXPRESSION">2</argument>
+      </arguments>
+    </action>
+    <action id="101" library="1">
+      <!--action name: Move-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_move</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>App01</appliesTo>
+      <arguments>
+        <argument kind="STRING">000001000</argument>
+        <argument kind="EXPRESSION">2</argument>
+      </arguments>
+    </action>
+    <action id="101" library="1">
+      <!--action name: Move-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_move</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>Leaf02</appliesTo>
+      <arguments>
+        <argument kind="STRING">000001000</argument>
+        <argument kind="EXPRESSION">2</argument>
+      </arguments>
+    </action>
+    <action id="101" library="1">
+      <!--action name: Move-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_move</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>Soap02</appliesTo>
+      <arguments>
+        <argument kind="STRING">000001000</argument>
+        <argument kind="EXPRESSION">2</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">scr_safesound(PlayerHurt);
+</argument>
+      </arguments>
+    </action>
+    <action id="541" library="1">
+      <!--action name: Set_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_sprite_set</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>Armageddon01</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">ArmageddonOff</argument>
+        <argument kind="EXPRESSION">-1</argument>
+        <argument kind="EXPRESSION">1</argument>
+      </arguments>
+    </action>
+    <action id="101" library="1">
+      <!--action name: Move-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_move</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.other</appliesTo>
+      <arguments>
+        <argument kind="STRING">000001000</argument>
+        <argument kind="EXPRESSION">2</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

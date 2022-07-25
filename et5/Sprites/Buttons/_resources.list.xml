@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="GreenButton" type="RESOURCE"/>
+  <resource name="BlueButton" type="RESOURCE"/>
+  <resource name="YellowButton" type="RESOURCE"/>
+  <resource name="RedButton" type="RESOURCE"/>
+  <resource name="CyanButton" type="RESOURCE"/>
+  <resource name="PurpleButton" type="RESOURCE"/>
+  <resource name="WhiteButton" type="RESOURCE"/>
+  <resource name="BlackButton" type="RESOURCE"/>
+  <resource name="GreyButton" type="RESOURCE"/>
+  <resource name="GreenSButton" type="RESOURCE"/>
+  <resource name="Target" type="RESOURCE"/>
+  <resource name="BlueTarget" type="RESOURCE"/>
+  <resource name="Warp" type="RESOURCE"/>
+  <resource name="LockedWarp" type="RESOURCE"/>
+  <resource name="Switch" type="RESOURCE"/>
+  <resource name="SwitchMask" type="RESOURCE"/>
+  <resource name="ElevatorPlatform" type="RESOURCE"/>
+  <resource name="ElevatorMarkers" type="RESOURCE"/>
+  <resource name="spr_Grating" type="RESOURCE"/>
+  <resource name="Bouncer" type="RESOURCE"/>
+  <resource name="Receiver" type="RESOURCE"/>
+  <resource name="FlashOrb" type="RESOURCE"/>
+</resources>

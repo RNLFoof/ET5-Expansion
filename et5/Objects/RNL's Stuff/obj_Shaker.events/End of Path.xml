@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="OTHER" id="8">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if pixelshuffleindex &lt; ds_list_size(pixelshuffle) - pixelsatonce
+// Spritz
+{
+x = anchorx;
+y = anchory;
+
+path_start(ShakerPath, pathstartspeed, 0, false);
+alarm[0]=5;
+lineredrawneeded = true;
+pixelredrawneeded = true;
+lineredrawframecount = 3;
+lineredrawcurrentframe = 0;
+}
+// Done spritzing
+else
+{
+    alarm[1] = 1;
+    path_end();
+    surface_free(saltedsurface);
+    saltedsurface = surface_create(w, h);
+    o = instance_create(anchorx+pathendx-w/2+xoff, anchory+pathendy-h/2+yoff, PendingShakenObject);
+    o.sprite_index = spawnsprite;
+    o.spawnobject = spawnobject;
+    o.dustcolor = dustcolor;
+    o.xoff = xoff;
+    o.yoff = yoff;
+    o.w = w;
+    o.h = h;
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

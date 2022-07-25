@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="MOUSE" id="53">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if instance_nearest(mouse_x,mouse_y,obj_CheatsCircle)=id &amp;&amp; visible=true &amp;&amp; alarm[0]=-1
+{
+    if mouse_y&gt;y+16 &amp;&amp; instance_number(obj_Cheats_hs)&gt;0 exit;
+    with(obj_Cheats_hs) instance_destroy();
+    with(obj_Cheats_v) instance_destroy();
+    with(obj_Cheats_Picker) instance_destroy();
+    with(obj_Cheats_PickerBottom) instance_destroy();
+    with(obj_Cheats_PickerArrow) instance_destroy();
+    with(obj_CheatsBack) visible=true;
+    visible=false;
+    with(obj_CheatsCircle) if object_index!=obj_FuckItItsEasier instance_destroy();
+    scr_safesound(SaveHappified);
+};
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

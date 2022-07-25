@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="KiyoshiHS" type="RESOURCE"/>
+  <resource name="SKBGround" type="RESOURCE"/>
+  <resource name="Brick" type="RESOURCE"/>
+  <resource name="QBlock" type="RESOURCE"/>
+  <resource name="PipeTop" type="RESOURCE"/>
+  <resource name="PipeMiddle" type="RESOURCE"/>
+  <resource name="WreckingBall" type="RESOURCE"/>
+  <resource name="WreckingBallMask" type="RESOURCE"/>
+</resources>

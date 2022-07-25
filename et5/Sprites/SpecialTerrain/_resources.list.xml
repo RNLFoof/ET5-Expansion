@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Grating" type="RESOURCE"/>
+  <resource name="LeftRamp" type="RESOURCE"/>
+  <resource name="RightRamp" type="RESOURCE"/>
+  <resource name="LeftRampRed" type="RESOURCE"/>
+  <resource name="RightRampRed" type="RESOURCE"/>
+  <resource name="LeftRampNowhere" type="RESOURCE"/>
+  <resource name="RightRampNowhere" type="RESOURCE"/>
+  <resource name="LeftRampBX" type="RESOURCE"/>
+  <resource name="RightRampBX" type="RESOURCE"/>
+  <resource name="LeftRampDV" type="RESOURCE"/>
+  <resource name="RightRampDV" type="RESOURCE"/>
+  <resource name="LeftRampUG" type="RESOURCE"/>
+  <resource name="RightRampUG" type="RESOURCE"/>
+  <resource name="LeftRampMetal" type="RESOURCE"/>
+  <resource name="RightRampMetal" type="RESOURCE"/>
+  <resource name="LeftRampAODD" type="RESOURCE"/>
+  <resource name="RightRampAODD" type="RESOURCE"/>
+</resources>

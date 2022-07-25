@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">draw_self();
+
+//draw_text(x+4,y+4,"vspd: "+string(-4*sin(degtorad(image_angle)))+"#hspd: "+string(2*cos(degtorad(image_angle))));
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if drawlightning
+{
+    for (i = 0; i &lt; boltcount; i += 1)
+    {
+        if false // YOU'RE TOO SLOW
+        {
+            // BYEsegments = ds_list_create();
+            ds_list_clear(segments);
+            ds_list_clear(segdir);
+            ds_list_clear(segdis);
+            segdis = ds_list_create();
+            // Random points along path
+            ds_list_add(segments, 0);
+            ds_list_add(segments, 1);
+            for (ii = 0; ii &lt; 5; ii += 1)
+            {
+                ds_list_add(segments, random(1));
+            }
+            ds_list_sort(segments, true);
+            
+            // Random offsets on each point
+            for (ii = 0; ii &lt; ds_list_size(segments); ii += 1)
+            {
+                ds_list_add(segdir, random(360));
+                ds_list_add(segdis, random_range(1, 5));
+            }
+            
+            // Draw lightning
+            dir = point_direction(x, y, lightningx[i], lightningy[i]);
+            dis = point_distance(x, y, lightningx[i], lightningy[i]);
+            for (ii = 0; ii &lt; ds_list_size(segments)-1; ii += 1)
+            {
+                draw_line_width(
+                    x+lengthdir_x(dis*ds_list_find_value(segments, ii), dir)+lengthdir_x(ds_list_find_value(segdis, ii), ds_list_find_value(segdir, ii)),
+                    y+lengthdir_y(dis*ds_list_find_value(segments, ii), dir)+lengthdir_y(ds_list_find_value(segdis, ii), ds_list_find_value(segdir, ii)),
+                    x+lengthdir_x(dis*ds_list_find_value(segments, ii+1), dir)+lengthdir_x(ds_list_find_value(segdis, ii+1), ds_list_find_value(segdir, ii+1)),
+                    y+lengthdir_y(dis*ds_list_find_value(segments, ii+1), dir)+lengthdir_y(ds_list_find_value(segdis, ii+1), ds_list_find_value(segdir, ii+1)),
+                    2)
+            }
+            //draw_line_width(x, y, lightningx[i], lightningy[i], 2);
+        }
+        
+        // Check for damage
+        if instance_number(MainApple) &gt; 0
+        {
+            if MainApple.hurt = 0
+            {
+                if collision_line(x, y, lightningx[i], lightningy[i], MainApple, false, true)
+                {
+                    MainApple.hurt = 1;
+                    lives -= 1;
+                    MainApple.alarm[1] = 30;
+                    scr_safesound(PlayerHurt);
+                }
+            }
+        }
+    }
+}
+draw_sprite_ext(sprite_index, type, x+random_range(-shakies, shakies), y+random_range(-shakies, shakies), 1, 1, 0, c_white, image_alpha);
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

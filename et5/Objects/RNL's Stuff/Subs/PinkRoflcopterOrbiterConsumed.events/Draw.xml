@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">var x1, x2, y1, y2, len, dir;
+
+ds_list_delete(trail_xs,0);
+ds_list_delete(trail_ys,0);
+
+if ds_list_size(trail_xs) = 0
+{
+    instance_destroy();
+    exit;
+}
+    
+for (i = 1; i &lt; ds_list_size(trail_xs); i += 1)
+{
+        width = (trail_width/trail_length*i+1)*(ogscale * scale_multiplier);
+        if width &gt;= 0.5
+        {
+            draw_set_color(trail_color);
+            draw_line_width(
+                ds_list_find_value(trail_xs, i),
+                ds_list_find_value(trail_ys, i),
+                ds_list_find_value(trail_xs, i-1),
+                ds_list_find_value(trail_ys, i-1),
+                width);
+        }
+};
+
+var shootingatx, shootingaty, dirtopoint, dirtoapp, greylaserdir, pinklaserdis;
+shootingatx = MainApple.x+16+pointonappx;
+shootingaty = MainApple.y+16+pointonappy;
+dirtopoint = point_direction(x, y, shootingatx, shootingaty);
+dirtoapp = point_direction(x, y, MainApple.x+16, MainApple.x+16);
+//greylaserdir = dirtopoint-(dirtopoint-dirtoapp)*2;
+greylaserdir = point_direction(0,0,lengthdir_x(1, dirtopoint), abs(lengthdir_y(1, dirtopoint) ));
+
+pinklaserdis = point_distance(
+        ds_list_find_value(trail_xs, ds_list_size(trail_xs)-1),
+        ds_list_find_value(trail_ys, ds_list_size(trail_xs)-1),
+        shootingatx,
+        shootingaty,
+    );
+    
+get_laser_stop(shootingatx,shootingaty,greylaserdir,false,BasicWall,32);
+greylaserdis = point_distance(shootingatx,shootingaty,RetX,RetY);
+// draw_text(x, y, greylaserdis);
+draw_sprite_ext(
+    PinkRoflcopterGreyLaser,
+    width/1.5,
+    shootingatx,
+    shootingaty,
+    greylaserdis/32,
+    1,
+    greylaserdir,
+    c_white,
+    1
+);
+// Two of these, because rotation on that function is from, the top left
+/*draw_sprite_general(
+    PinkRoflcopterGreyLaser,
+    width/1.5,
+    0,
+    0,
+    min(greylaserdis, 32*3),
+    9,
+    shootingatx,
+    shootingaty,
+    1,
+    -1,
+    greylaserdir,
+    c_white,
+    c_white,
+    c_white,
+    c_white,
+    1
+);
+draw_sprite_general(
+    PinkRoflcopterGreyLaser,
+    width/1.5,
+    0,
+    0,
+    min(greylaserdis, 32*3),
+    9,
+    shootingatx,
+    shootingaty,
+    1,
+    1,
+    greylaserdir,
+    c_white,
+    c_white,
+    c_white,
+    c_white,
+    1
+);*/
+    
+var ringmultiplier, ringscale;
+ringmultiplier = ds_list_size(trail_xs) / trail_length;
+ringscale = (1-ringmultiplier)*(ogscale * scale_multiplier)*2;
+draw_sprite_ext(PinkRoflcopterRing, 0, x+lengthdir_x(pinklaserdis/3, dirtopoint), y+lengthdir_y(pinklaserdis/3, dirtopoint), 1-ringmultiplier, 1-ringmultiplier, dirtopoint-90, c_white, ringmultiplier-0.1);
+//draw_text(x, y, width);
+
+/* draw_set_color(make_color_rgb(255,127,184));
+draw_line_width(
+                ds_list_find_value(trail_xs, ds_list_size(trail_xs)-1),
+                ds_list_find_value(trail_ys, ds_list_size(trail_xs)-1),
+                shootingatx,
+                shootingaty,
+                width*2); */
+draw_sprite_ext(
+    PinkRoflcopterLaser,
+    width*1.5,
+    ds_list_find_value(trail_xs, ds_list_size(trail_xs)-1),
+    ds_list_find_value(trail_ys, ds_list_size(trail_xs)-1),
+    pinklaserdis/32,
+    0.5,
+    point_direction(
+        ds_list_find_value(trail_xs, ds_list_size(trail_xs)-1),
+        ds_list_find_value(trail_ys, ds_list_size(trail_xs)-1),
+        shootingatx,
+        shootingaty,
+    ),
+    c_white,
+    1
+);
+/*draw_set_color(c_gray);
+draw_line_width(
+                shootingatx,
+                shootingaty,
+                shootingatx+lengthdir_x(400, greylaserdir),
+                shootingaty+lengthdir_y(400, greylaserdir),
+                width*2);
+*/
+
+/* o = instance_create(shootingatx, shootingaty, PinkRoflcopterLaserImpact);
+o.image_xscale = width*2/3;
+o.image_yscale = width*2/3;
+o.image_angle = impactangle; */
+
+/* o = instance_create(RetX, RetY, PinkRoflcopterLaserImpact);
+o.sprite_index = PinkRoflcopterGreyLaserImpact;
+o.image_xscale = width*2/3;
+o.image_yscale = width*2/3;
+o.image_angle = greyimpactangle;
+greyimpactangle += 30; */
+
+draw_set_color(c_white);
+
+draw_sprite_ext(
+    spr_PinkRoflcopterSpin,
+    0,
+    ds_list_find_value(trail_xs, ds_list_size(trail_xs)-1),
+    ds_list_find_value(trail_ys, ds_list_size(trail_xs)-1),
+    width/16*1.2,
+    width/16*1.2,
+    vortexangle,
+    c_white,
+    image_alpha);
+    
+draw_sprite_ext(PinkRoflcopterLaserImpact, 0, shootingatx, shootingaty,0.5,0.5,impactangle,c_white,1);
+impactangle += 20;
+
+image_alpha += 0.1;  // Make swirl more visible
+vortexangle = (vortexangle + 360/6) mod 360;
+
+image_xscale = ogscale * scale_multiplier;
+image_yscale = image_xscale;
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

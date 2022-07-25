@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="ForcefieldPU" type="RESOURCE"/>
+  <resource name="Infihealth" type="RESOURCE"/>
+  <resource name="Hurt" type="RESOURCE"/>
+  <resource name="FollowerSpring" type="RESOURCE"/>
+  <resource name="HelpLeaf" type="RESOURCE"/>
+  <resource name="HelpElemna" type="RESOURCE"/>
+  <resource name="HelpSoap" type="RESOURCE"/>
+  <resource name="HelpShaman" type="RESOURCE"/>
+  <resource name="AbsentLeaf" type="RESOURCE"/>
+  <resource name="AbsentElemna" type="RESOURCE"/>
+  <resource name="AbsentSoap" type="RESOURCE"/>
+  <resource name="AbsentShaman" type="RESOURCE"/>
+</resources>

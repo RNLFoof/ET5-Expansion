@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">str[0] = "I suppose you expected a ton of [Gropples] here that you don't even deserve. TOO BAD! YOU GET NOTHING! NOTHING!!!"
+str[1] = "I'm mad now."
+str[2] = "Anyways, I suppose you wonder what's up with this [Circular Spinner Dispenser] here. They're just like normal [Spinner Dispensers,] except you can only use them once, so be careful!"
+str[3] = "Are there any [Gropples] past this wall here?"
+str[4] = "No, there aren't."
+str[5] = "I hate you now."
+str[6] = "You're blaming me? [Uni] is the one who designed this planet. And the one who placed the [Gropples,] I guess."
+str[7] = "I'm blaming you anyways."
+str[8] = "Aww.*"
+
+img[0] = SoapFace
+img[1] = AppFace
+img[2] = SoapFace
+img[3] = AppFace
+img[4] = SoapFace
+img[5] = AppFace
+img[6] = SoapFace
+img[7] = AppFace
+img[8] = SoapFace
+
+name[0] = "Soap"
+name[1] = "App"
+name[2] = "Soap"
+name[3] = "App"
+name[4] = "Soap"
+name[5] = "App"
+name[6] = "Soap"
+name[7] = "App"
+name[8] = "Soap"
+
+event_inherited();
+</argument>
+      </arguments>
+    </action>
+    <action id="201" library="1">
+      <!--action name: Create_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">Uncontrollable</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

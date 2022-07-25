@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">alarm[0] = irandom_range(1, 30)
+alarm[1] = 60;
+alarm[2] = 85;
+alarm[3] = 90;
+alphainc = 0;
+image_alpha = 0;
+image_speed = 0;
+shakies = 0;
+shakiesinc = 0;
+drawlightning = false;
+xmove = 0;
+
+segments = ds_list_create();
+segdir = ds_list_create();
+segdis = ds_list_create();
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

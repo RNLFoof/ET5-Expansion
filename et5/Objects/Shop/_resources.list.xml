@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="MaxSplappleIncrease" type="RESOURCE"/>
+  <resource name="TMaxSplappleIncrease" type="RESOURCE"/>
+  <resource name="SplapAtOnceIncrease" type="RESOURCE"/>
+  <resource name="TSplapAtOnceIncrease" type="RESOURCE"/>
+  <resource name="DiscountIncrease" type="RESOURCE"/>
+  <resource name="TDiscountIncrease" type="RESOURCE"/>
+  <resource name="GroppleValueIncrease" type="RESOURCE"/>
+  <resource name="TGroppleValueIncrease" type="RESOURCE"/>
+  <resource name="KeyIncrease" type="RESOURCE"/>
+  <resource name="TKeyIncrease" type="RESOURCE"/>
+  <resource name="ItemSpaceIncrease" type="RESOURCE"/>
+  <resource name="TItemSpaceIncrease" type="RESOURCE"/>
+</resources>

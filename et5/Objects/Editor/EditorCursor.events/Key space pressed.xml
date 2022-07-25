@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="KEYPRESS" id="32">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if dd = 0
+{
+if ss = 0 instance_create(self.x,self.y,BasicWall)
+if ss = 1 instance_create(self.x,self.y,Save)
+if ss = 2 instance_create(self.x,self.y,Gropple)
+if ss = 3 instance_create(self.x,self.y,Health)
+if ss = 4 instance_create(self.x,self.y,GACagedX)
+if ss = 5 instance_create(self.x,self.y,Exit)
+if ss = 6 instance_create(self.x,self.y,UnReverse)
+}
+if dd = 1
+{
+if ss = 0 instance_create(self.x,self.y,TransparentWall)
+if ss = 1 instance_create(self.x,self.y,Grating)
+if ss = 2 instance_create(self.x,self.y,RustyGrating)
+if ss = 3 instance_create(self.x,self.y,DisWall)
+if ss = 4 instance_create(self.x,self.y,Plock)
+if ss = 5 instance_create(self.x,self.y,KeyLlaw)
+if ss = 6 instance_create(self.x,self.y,YellowKey)
+if ss = 7 instance_create(self.x,self.y,ConveyorRight)
+if ss = 8 instance_create(self.x,self.y,ConveyorLeft)
+if ss = 9 instance_create(self.x,self.y,ConveyorRight2)
+if ss = 10 instance_create(self.x,self.y,ConveyorLeft2)
+if ss = 11 instance_create(self.x,self.y,ConveyorRight3)
+if ss = 12 instance_create(self.x,self.y,ConveyorLeft3)
+if ss = 13 instance_create(self.x,self.y,PipeTop)
+if ss = 14 instance_create(self.x,self.y,PipeMiddle)
+}
+if dd = 2
+{
+if ss = 0 instance_create(self.x,self.y,UnGButton1)
+if ss = 1 instance_create(self.x,self.y,UnGButton2)
+if ss = 2 instance_create(self.x,self.y,UnGButton3)
+if ss = 3 instance_create(self.x,self.y,UnUnGWall1)
+if ss = 4 instance_create(self.x,self.y,UnUnGWall2)
+if ss = 5 instance_create(self.x,self.y,UnUnGWall3)
+if ss = 6 instance_create(self.x,self.y,GWall)
+if ss = 7 instance_create(self.x,self.y,UnTarget1)
+if ss = 8 instance_create(self.x,self.y,UnTarget2)
+if ss = 9 instance_create(self.x,self.y,UnTarget3)
+if ss = 10 instance_create(self.x,self.y,UnUnRWall1)
+if ss = 11 instance_create(self.x,self.y,UnUnRWall2)
+if ss = 12 instance_create(self.x,self.y,UnUnRWall3)
+if ss = 13 instance_create(self.x,self.y,RWall)
+if ss = 14 instance_create(self.x,self.y,Switch)
+if ss = 15 instance_create(self.x,self.y,YWall)
+if ss = 16 instance_create(self.x,self.y,UnUnYWall)
+if ss = 17 instance_create(self.x,self.y,GroppleButton)
+if ss = 18 instance_create(self.x,self.y,UnRButton1)
+if ss = 19 instance_create(self.x,self.y,UnRButton2)
+if ss = 20 instance_create(self.x,self.y,UnUnRedRoflcopter1)
+if ss = 21 instance_create(self.x,self.y,UnUnRedRoflcopter2)
+if ss = 22 instance_create(self.x,self.y,UnUnCButton1)
+if ss = 23 instance_create(self.x,self.y,UnUnUnCButton1)
+if ss = 24 instance_create(self.x,self.y,UnUnCButton2)
+if ss = 25 instance_create(self.x,self.y,UnUnUnCButton2)
+}
+if dd = 3
+{
+if ss = 0 instance_create(self.x,self.y,RedRoflcopter)
+if ss = 1 instance_create(self.x,self.y,BlueRoflcopter)
+if ss = 2 instance_create(self.x,self.y,UnGreenRoflLR)
+if ss = 3 instance_create(self.x,self.y,UnGreenRoflUD)
+if ss = 4 instance_create(self.x,self.y,Spring)
+if ss = 5 instance_create(self.x,self.y,SmashPillarRed)
+if ss = 6 instance_create(self.x,self.y,SmashPillarBlue)
+if ss = 7 instance_create(self.x,self.y,SmashPillarGreen)
+if ss = 8 instance_create(self.x,self.y,SmashPillarYellow)
+if ss = 9 instance_create(self.x,self.y,Slant1)
+if ss = 10 instance_create(self.x,self.y,Slant2)
+if ss = 11 instance_create(self.x,self.y,Slant3)
+if ss = 12 instance_create(self.x,self.y,Slant4)
+if ss = 13 instance_create(self.x,self.y,Rail)
+if ss = 14 instance_create(self.x,self.y,MagneRail)
+if ss = 15 instance_create(self.x,self.y,SpinnerDispenser)
+if ss = 16 instance_create(self.x,self.y,MagneRailFast)
+}
+if dd = 4
+{
+if ss = 0 instance_create(self.x,self.y,Spike)
+if ss = 1 instance_create(self.x,self.y,DownSpike)
+if ss = 2 instance_create(self.x,self.y,FlameUpDown)
+if ss = 3 instance_create(self.x,self.y,FlameUpIdle)
+if ss = 4 instance_create(self.x,self.y,Soup)
+if ss = 5 instance_create(self.x,self.y,SoupBottom)
+if ss = 6 instance_create(self.x,self.y,UnBombTube)
+if ss = 7 instance_create(self.x,self.y,UnElectri)
+if ss = 8 instance_create(self.x,self.y,UnReactor)
+if ss = 9 instance_create(self.x,self.y,UnWater)
+}
+if dd = 5
+{
+if ss = 0 instance_create(self.x,self.y,BrownToast)
+if ss = 1 instance_create(self.x,self.y,RedToast)
+if ss = 2 instance_create(self.x,self.y,PurpleToast)
+if ss = 3 instance_create(self.x,self.y,GreenToast)
+if ss = 4 instance_create(self.x,self.y,YellowToast)
+if ss = 5 instance_create(self.x,self.y,CyanToast)
+if ss = 6 instance_create(self.x,self.y,BlueToast)
+if ss = 7 instance_create(self.x,self.y,WhiteToast)
+if ss = 8 instance_create(self.x,self.y,GreyToast)
+if ss = 9 instance_create(self.x,self.y,BlackToast)
+if ss = 10 instance_create(self.x,self.y,TinyToaster)
+if ss = 11 instance_create(self.x,self.y,HandyToaster)
+if ss = 12 instance_create(self.x,self.y,HotToaster)
+if ss = 13 instance_create(self.x,self.y,AngryToaster)
+if ss = 14 instance_create(self.x,self.y,MagicToaster)
+if ss = 15 instance_create(self.x,self.y,TinyRoaster)
+if ss = 16 instance_create(self.x,self.y,SmartToaster)
+if ss = 17 instance_create(self.x,self.y,TrickyToaster)
+if ss = 18 instance_create(self.x,self.y,UnFighterJet)
+if ss = 19 instance_create(self.x,self.y,YellowTumbler)
+if ss = 20 instance_create(self.x,self.y,RedTumbler)
+if ss = 21 instance_create(self.x,self.y,EvilRobot)
+}
+if dd = 6
+{
+if ss = 0 instance_create(self.x,self.y,OMGTRUCK)
+if ss = 1 instance_create(self.x,self.y,EvilCopter)
+if ss = 2 instance_create(self.x,self.y,WreckingBall)
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

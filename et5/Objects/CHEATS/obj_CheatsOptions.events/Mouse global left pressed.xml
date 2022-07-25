@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="MOUSE" id="53">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if instance_nearest(mouse_x,mouse_y,obj_CheatsBack)=id &amp;&amp; visible=true &amp;&amp; alarm[0]=-1
+{
+    with(obj_CheatsBox) visible=false;
+    with(obj_CheatsOptions) visible=false;
+    with(obj_CheatsSelection) visible=false;
+    with(obj_CheatsBack) visible=false;
+    with(obj_FuckItItsEasier) visible=true;
+    with(obj_FuckItItsEasier) alarm[0]=1;
+    if linkedoptions.s="REPLACE APPLES" scr_CheatsOptions("global.cheat_exvar_1");
+    if linkedoptions.s="KILL ANYTHING " scr_CheatsOptions("global.cheat_exvar_2");
+    if linkedoptions.s="CUSTOMIZE APP" 
+    {
+        instance_create(144,288,obj_Cheats_hs);
+        instance_create(304,288,obj_Cheats_v);
+        instance_create(480,192,obj_Cheats_Picker);
+        instance_create(480,248,obj_Cheats_PickerBottom);
+    };
+    scr_safesound(SaveHappified);
+};
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

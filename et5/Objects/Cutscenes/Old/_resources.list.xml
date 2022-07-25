@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Roaster01" type="RESOURCE"/>
+  <resource name="EvilToaster01" type="RESOURCE"/>
+  <resource name="EvilToaster02" type="RESOURCE"/>
+  <resource name="CutApple01" type="RESOURCE"/>
+  <resource name="RoasterCaged" type="RESOURCE"/>
+  <resource name="TheEnd" type="RESOURCE"/>
+  <resource name="Shaman01" type="RESOURCE"/>
+  <resource name="MalfunctWorm" type="RESOURCE"/>
+  <resource name="MalfunctApple" type="RESOURCE"/>
+  <resource name="WormPoof" type="RESOURCE"/>
+  <resource name="GrnApple" type="RESOURCE"/>
+  <resource name="LazySquare01" type="RESOURCE"/>
+  <resource name="LazySquare02" type="RESOURCE"/>
+  <resource name="Finish" type="RESOURCE"/>
+  <resource name="Tesseractinator" type="RESOURCE"/>
+  <resource name="TesseractWurp" type="RESOURCE"/>
+  <resource name="CutElemna01" type="RESOURCE"/>
+  <resource name="ToasterChip01" type="RESOURCE"/>
+</resources>

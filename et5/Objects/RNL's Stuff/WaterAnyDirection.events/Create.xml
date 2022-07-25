@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">event_inherited();
+if not scr_place_meeting_any_wall(x, y+2) and not place_meeting(x, y+2, WaterAnyDirection)
+{
+    sprite_index = spr_WaterAnyDirection;
+    x += 15;
+    y += 16;
+    image_angle=90+180;
+}
+else if not scr_place_meeting_any_wall(x, y-2) and not place_meeting(x, y-2, WaterAnyDirection)
+{
+    sprite_index = spr_WaterAnyDirection;
+    x += 16;
+    y += 15;
+    image_angle=270+180;
+}
+else if not scr_place_meeting_any_wall(x-2, y) and not place_meeting(x-2, y, WaterAnyDirection)
+{
+    sprite_index = spr_WaterAnyDirection;
+    x += 15;
+    y += 15;
+    image_angle=0+180;
+}
+else if not scr_place_meeting_any_wall(x+2, y) and not place_meeting(x+2, y, WaterAnyDirection)
+{
+    sprite_index = spr_WaterAnyDirection;
+    x += 16;
+    y += 16;
+    image_angle=180+180;
+}
+else
+{
+    sprite_index = WaterBelow;
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

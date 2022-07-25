@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="ElectricSquare" type="RESOURCE"/>
+  <resource name="MetalRed" type="RESOURCE"/>
+  <resource name="MetalOrange" type="RESOURCE"/>
+  <resource name="MetalYellow" type="RESOURCE"/>
+  <resource name="MetalGreen" type="RESOURCE"/>
+  <resource name="MetalTrans" type="RESOURCE"/>
+  <resource name="ESBlue" type="RESOURCE"/>
+  <resource name="ElectricBlue" type="RESOURCE"/>
+  <resource name="ESRed" type="RESOURCE"/>
+  <resource name="ElectricRed" type="RESOURCE"/>
+</resources>

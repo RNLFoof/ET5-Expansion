@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="KEYPRESS" id="90">
+  <actions>
+    <action id="404" library="1">
+      <!--action name: If_Number-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_number</functionName>
+      <relative>false</relative>
+      <not>true</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pQuackersFinal</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="422" library="1">
+      <!--action name: Start_Block-->
+      <kind>BEGIN</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pQuackersFinal</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pDreamForest</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="425" library="1">
+      <!--action name: Exit-->
+      <kind>EXIT</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="424" library="1">
+      <!--action name: End_Block-->
+      <kind>END</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pFrankBoss</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pQuackersFinal</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pMaze</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pFrankBoss</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pGeneratorRoom</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pMaze</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pDreksFleet</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pGeneratorRoom</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pFourPartPlan</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pDreksFleet</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pCoreBoss</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pFourPartPlan</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pAnubisRex</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pCoreBoss</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pMansion</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pAnubisRex</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pCellblockFight</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pMansion</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pMainStreet</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pCellblockFight</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pToasterFight</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pMainStreet</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pFirstAvenue</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pToasterFight</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pSamMuseum</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pFirstAvenue</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pSlipperyClimb</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pSamMuseum</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pRockIt</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pSlipperyClimb</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pBC2</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pRockIt</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pNightMachine</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pBC2</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pSpectersFactory</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pNightMachine</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pBreakfastMachine</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pSpectersFactory</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pQuackersBoss</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pBreakfastMachine</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pBelowAperture</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pQuackersBoss</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>pDreamForest</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">pBelowAperture</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

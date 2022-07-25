@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<path>
+  <points>
+    <point speed="100" x="1056" y="720"/>
+    <point speed="100" x="992" y="560"/>
+    <point speed="100" x="928" y="720"/>
+    <point speed="100" x="864" y="560"/>
+    <point speed="100" x="800" y="720"/>
+    <point speed="100" x="736" y="560"/>
+    <point speed="100" x="672" y="720"/>
+    <point speed="100" x="608" y="560"/>
+    <point speed="100" x="544" y="720"/>
+    <point speed="100" x="544" y="560"/>
+    <point speed="100" x="608" y="720"/>
+    <point speed="100" x="672" y="560"/>
+    <point speed="100" x="736" y="720"/>
+    <point speed="100" x="800" y="560"/>
+    <point speed="100" x="864" y="720"/>
+    <point speed="100" x="928" y="560"/>
+    <point speed="100" x="992" y="720"/>
+    <point speed="100" x="1056" y="560"/>
+  </points>
+  <backgroundRoom>1_2</backgroundRoom>
+  <closed>true</closed>
+  <precision>4</precision>
+  <smooth>false</smooth>
+  <snap x="32" y="16"/>
+</path>

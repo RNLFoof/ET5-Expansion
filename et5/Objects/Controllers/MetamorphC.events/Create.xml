@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>BasicWall</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

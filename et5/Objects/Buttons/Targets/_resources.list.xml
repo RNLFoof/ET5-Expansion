@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Target1" type="RESOURCE"/>
+  <resource name="Target2" type="RESOURCE"/>
+  <resource name="Target3" type="RESOURCE"/>
+  <resource name="TargetBlue" type="RESOURCE"/>
+  <resource name="RWall" type="RESOURCE"/>
+  <resource name="UnRWall1" type="RESOURCE"/>
+  <resource name="UnRWall2" type="RESOURCE"/>
+  <resource name="UnRWall3" type="RESOURCE"/>
+  <resource name="UnBWall" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="KEYPRESS" id="13">
+  <actions>
+    <action id="403" library="1">
+      <!--action name: If_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_object</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">MainApple</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">entrycode = get_string("ENTER THE SECRET CODE TO OPEN THE SAFE AND GET SOMETHING GOOD. THE CODE IS CASE SENSITIVE. ALSO, CAPS LOCK.","");
+
+if entrycode = "secretpigeon"
+{
+sound_play(snd_HealthUpgrade);
+show_message("YOU ENTERED THE CORRECT CODE! HERE'S THE 100,000 GROPPLES THAT WERE INSIDE THE SAFE! YOU WON'T NEED TO LIVE OFF OF INSTANT NOODLES ANYMORE!");
+global.gropples += 100000;
+global.opboss01 = 1;
+instance_destroy();
+exit;
+}
+
+else show_message("THAT'S NOT THE CODE, YOU IDIOT!");
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

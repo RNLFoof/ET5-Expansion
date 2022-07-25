@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">// Need to wait for the creation code
+if alarm[3] != -1
+{
+    exit;
+}
+// Glide
+var glidedistanceminus, glidedistancediv
+if gliding
+{
+    glidedistanceminus = glidedistance-6;
+    glidedistancediv = glidedistance/1.0.5;
+    glidedistance = max(glidedistanceminus, glidedistancediv);
+    if glidedistance &lt; 1
+    {
+        alarm[2] = 1;
+    }
+    else
+    {
+        x = glidestartx+((anchorx-glidestartx)/originalglidedistance)*(originalglidedistance-glidedistance);
+        y = glidestarty+((anchory-glidestarty)/originalglidedistance)*(originalglidedistance-glidedistance);
+        image_angle = pathenddir + (5*360)/originalglidedistance*(originalglidedistance-glidedistance)
+    }
+}
+
+// Shake
+else
+{
+    if pixelredrawneeded and not lineredrawneeded
+    {
+        var i, workingindex;
+        for(i=0; i&lt;pixelsatonce; i+=1)
+        {
+            workingindex = pixelshuffleindex+i;
+            if workingindex &lt; ds_list_size(pixelshuffle)
+            {
+                var saltyx, saltyy, saltycolor, saltyalpha;
+                surface_set_target(saltedsurface);
+                saltyx = ds_list_find_value(ds_list_find_value(pixelshuffle, workingindex), 0);
+                saltyy = ds_list_find_value(ds_list_find_value(pixelshuffle, workingindex), 1);
+                saltycolor = ds_list_find_value(ds_list_find_value(pixelshuffle, workingindex), 2);
+                saltyalpha = ds_list_find_value(ds_list_find_value(pixelshuffle, workingindex), 3);
+                draw_set_color(saltycolor);
+                draw_set_alpha(saltyalpha);
+                draw_point(saltyx, saltyy);
+                surface_reset_target();
+            }
+        }
+        pixelredrawneeded = false;
+        
+        draw_set_color(c_white);
+        draw_set_alpha(1);
+    }
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

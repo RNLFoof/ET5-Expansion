@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if punched
+{
+    draw_sprite_ext(sprite_index, 2, bodyx, bodyy, image_xscale, image_yscale, bodyangle, image_blend, image_alpha);
+    draw_sprite_ext(sprite_index, 3, armbasex, armbasey, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
+    if apppunchedheight &gt; 0
+    {
+        draw_sprite_ext(spr_AppPunched, 0, handx, handy, 640, apppunchedheight, image_angle, c_white, 1);
+        apppunchedheight -= 1/15;
+    }
+    with (DyingApp)
+    {
+        instance_destroy();
+    };
+}
+else
+{
+    if instance_exists(MainApple)
+    {
+        dis = point_distance(x,y,MainApple.x+16,MainApple.y+16);
+        if dis &gt; windupdis
+        {
+            draw_self();
+        }
+        else
+        {
+            draw_sprite_ext(sprite_index, 1, x, y, image_xscale, image_yscale, image_angle-power((windupdis-dis)/windupdis*40,1.2), image_blend, image_alpha);
+        }
+        // Punch
+        if dis &lt;= punchdis
+        {
+            punched = true;
+            speed = 0;
+            lives = 0;
+            // Arm calc
+            armbaseahead = 8;
+            armbasex = x+lengthdir_x(armbaseahead, image_angle);
+            armbasey = y+lengthdir_y(armbaseahead, image_angle);
+            // Body calc
+            bodyangleoffset = 22;
+            bodyangle = bodyangleoffset+image_angle;
+            bodyx = armbasex+lengthdir_x(14,bodyangle+90);
+            bodyy = armbasey+lengthdir_y(14,bodyangle+90);
+            // Hand calc
+            handx = armbasex + lengthdir_x(96/2, image_angle);
+            handy = armbasey + lengthdir_y(96/2, image_angle);
+            // Boom
+            effect_create_above(ef_explosion, handx, handy, 1, c_red);
+            scr_safesound(Punch);
+            // Break walls
+            o = instance_create(handx, handy, AppPunched);
+            o.image_xscale = 640;
+            o.image_angle = image_angle;
+        }
+    }
+    else
+    {
+        draw_self();
+    }
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

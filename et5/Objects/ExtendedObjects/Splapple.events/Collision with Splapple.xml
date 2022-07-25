@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="COLLISION" with="Splapple">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if global.cheat_exvar_2_2=true
+{
+    instance_create(x+(sprite_width/2*image_xscale)-sprite_xoffset-16,y+(sprite_height/2*image_yscale)-sprite_yoffset-16,Gropple);
+    instance_create(x+(sprite_width/2*image_xscale)-sprite_xoffset-48,y+(sprite_height/2*image_yscale)-sprite_yoffset-48,RobotExplosion);
+    scr_safesound(EnemyDie);
+    o="exception";
+    instance_destroy();
+};
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

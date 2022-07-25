@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">str[0] = "Alright, alright, I know the level design for these bonus levels is really lazy. What, did you expect something SPECIAL or something? These levels are just extraneous."
+str[1] = "I have a life, you know, and better things to do than make bonus levels for people like YOU! Really, you should be making bonus levels for ME. Now take your [Gold Gem] and stop your whining. You should be glad I'm finishing this stupid game at all."
+str[2] = "There. Aren't you happy you were actually skilled enough to be able to hear me vent my exclusive rage?!*"
+
+img[0] = Sign
+img[1] = Sign
+img[2] = Sign
+
+name[0] = "Sign"
+name[1] = "Sign"
+name[2] = "Sign"
+
+event_inherited();
+</argument>
+      </arguments>
+    </action>
+    <action id="201" library="1">
+      <!--action name: Create_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">Uncontrollable</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Clock" type="RESOURCE"/>
+  <resource name="ClockWall" type="RESOURCE"/>
+  <resource name="UnClockWall" type="RESOURCE"/>
+</resources>

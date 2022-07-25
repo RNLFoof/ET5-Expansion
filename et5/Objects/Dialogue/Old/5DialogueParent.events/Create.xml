@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">line_length = 420
+text_speed = 1
+string_x = 16
+string_y = 48
+vertical_spacing = 0
+question_box_x = 32
+question_box_y = 128
+question_x = 18
+question_y = 7
+name_x = 50
+name_y = 22
+headshot_x = 12
+headshot_y = 12
+question_vert_spacing = 2
+highlight_x = 2
+highlight_open_character = "["
+highlight_close_character = "]"
+end_character = "*"
+jump_character = "^"
+pause_open_character = "&lt;"
+pause_close_character = "&gt;"
+
+message_end = 0
+type_end = 0
+message_question = 0
+yes_position = 0
+no_position = 0
+question_selection = 1
+message_jump = 0
+jump_position = 0
+display_string = ""
+position = 0
+display_position= 0
+width_counter = 0
+last_space = 0
+message_display = 0
+highlight_number = 0
+highlight_position[0] = 0
+highlight_length[0] = 0
+pause_number = 0
+pause_position[0] = 0
+pause_length[0] = 0
+current_string = ""
+
+alarm[0] = 10
+</argument>
+      </arguments>
+    </action>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">nexted</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">str[0] = "Alright, [Grax.] We're back. I assume you named the rest of the apples and gave each of them false memories too?"
+str[1] = "Yes. I only gave names to the last two apples, though. I named them [Gertrude] and [Soap.]"
+str[2] = "What about the male red apple? And all of the green apples?!"
+str[3] = "There were way too many, so I just thought 'screw it.' If these apples are actually the punks that [Frank] will rely off of so much, then surely they'll be resourceful enough to name themselves. That goes for the red apple, too."
+str[4] = "Ugh. I should have been in charge of the [Bots,] not you! You're too clumsy."
+str[5] = "Blame [Seth.]"
+str[6] = "Oh sure. That's what you always say. So did you mess anything else up?"
+str[7] = "Yes, actually. In hindsight, I think I somehow got [Tex] and [Elemna] mixed up. I'm colorblind, so I have an excuse."
+str[8] = "YOU IDIOT! This will probably mess everything up! You better go fix everything right now!"
+str[9] = "It's too late. The apple deployment process has already been launched. The male red apple is already fighting with the [Evil Toaster.]"
+str[10] = "I... I give up..."
+str[11] = "Oh, come on. This is just the beginning.*"
+
+img[0] = EchagonFace
+img[1] = GraxFace
+img[2] = EchagonFace
+img[3] = GraxFace
+img[4] = EchagonFace
+img[5] = GraxFace
+img[6] = EchagonFace
+img[7] = GraxFace
+img[8] = EchagonFace
+img[9] = GraxFace
+img[10] = EchagonFace
+img[11] = GraxFace
+
+name[0] = "Echagon"
+name[1] = "Grax"
+name[2] = "Echagon"
+name[3] = "Grax"
+name[4] = "Echagon"
+name[5] = "Grax"
+name[6] = "Echagon"
+name[7] = "Grax"
+name[8] = "Echagon"
+name[9] = "Grax"
+name[10] = "Echagon"
+name[11] = "Grax"
+
+event_inherited();
+</argument>
+      </arguments>
+    </action>
+    <action id="201" library="1">
+      <!--action name: Create_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">Uncontrollable</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

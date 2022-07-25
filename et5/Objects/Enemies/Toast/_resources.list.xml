@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="BrownToast" type="RESOURCE"/>
+  <resource name="RedToast" type="RESOURCE"/>
+  <resource name="PurpleToast" type="RESOURCE"/>
+  <resource name="GreenToast" type="RESOURCE"/>
+  <resource name="YellowToast" type="RESOURCE"/>
+  <resource name="CyanToast" type="RESOURCE"/>
+  <resource name="BlueToast" type="RESOURCE"/>
+  <resource name="obj_WhiteToast" type="RESOURCE"/>
+  <resource name="GreyToast" type="RESOURCE"/>
+  <resource name="BlackToast" type="RESOURCE"/>
+</resources>

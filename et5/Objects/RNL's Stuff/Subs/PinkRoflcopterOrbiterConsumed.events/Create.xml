@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">for (i = 1; i &lt; ds_list_size(trail_xs); i += 1)
+{
+    ds_list_replace(trail_xs, i,  MainApple.x + ds_list_find_value(trail_xs, i)  + 16);
+    ds_list_replace(trail_ys, i,  MainApple.y + ds_list_find_value(trail_ys, i)  + 16 + yoffset);
+}
+
+ogscale = image_xscale;
+
+depth = 8;
+
+var dir;
+dir = point_direction(x, y, MainApple.x+16, MainApple.y+16) + 180;
+pointonappx = lengthdir_x(6, dir);
+pointonappy = lengthdir_y(6, dir);
+pointonappx = 0;
+pointonappy = 16;
+
+impactangle = irandom_range(0, 360);
+greyimpactangle = irandom_range(0, 360);
+vortexangle = irandom_range(0, 360);
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

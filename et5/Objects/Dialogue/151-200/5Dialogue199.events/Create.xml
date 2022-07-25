@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">str[0] = "This room has four large cylinders that seem to be providing power to the entire planet, which allows the conveyors, bomb shafts, and other things to run."
+str[1] = "Apparently there are two sections of the [Core,] both on the opposite side of the [Great Stone Wall] from each other. They're both pretty similar, except this area of the [Core] is farther away from the surface and only has one entrance."
+str[2] = "According to [Chroma,] this is because this section of the [Core] is used for storing the [Sprites.] There are no [Sprites] in the section of the [Core] that's on the other side of the [Great Stone Wall.]"
+str[3] = "However, these groups of [Power Cylinders] (apparently that's what these things are called) are present in both hemispheres of the planet, making there be a total of eight [Power Cylinders] in total. That's a lot of power!"
+str[4] = "The [Power Cylinders] have the phrase ['Sky-Blue Horizons'] written on them. Does this mean something significant? Or is it a company that [Frank] and [Seth] were working for? [Frank] refuses to tell [Chroma] anything about this. So many conspiracies...*"
+
+img[0] = Sign
+img[1] = Sign
+img[2] = Sign
+img[3] = Sign
+img[4] = Sign
+
+name[0] = "Sign"
+name[1] = "Sign"
+name[2] = "Sign"
+name[3] = "Sign"
+name[4] = "Sign"
+
+event_inherited();
+</argument>
+      </arguments>
+    </action>
+    <action id="201" library="1">
+      <!--action name: Create_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">Uncontrollable</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

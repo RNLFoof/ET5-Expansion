@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">str[0] = "Eh? Wha? Oh, it's you."
+str[1] = "Yep. I'm pretty sure it's me."
+str[2] = "This is the building that I found for everyone to sleep in. Everyone is pretty much asleep already. How come you arrived here so late?"
+str[3] = "Well, breaking cages that are placed in inconvenient locations isn't exactly easy."
+str[4] = "Zzzzzzzzzzzzzzz..."
+str[5] = "Oh, fine then. Now that everyone's asleep, I'll be able to check out what's up with that tunnel right now and no one will notice. I just hope nothing will go horribly wrong...*"
+
+img[0] = TexFace
+img[1] = AppFace
+img[2] = TexFace
+img[3] = AppFace
+img[4] = TexFace
+img[5] = AppFace
+
+name[0] = "Tex"
+name[1] = "App"
+name[2] = "Tex"
+name[3] = "App"
+name[4] = "Tex"
+name[5] = "App"
+
+event_inherited();
+</argument>
+      </arguments>
+    </action>
+    <action id="201" library="1">
+      <!--action name: Create_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">Uncontrollable</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

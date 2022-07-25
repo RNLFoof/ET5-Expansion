@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">//Enclosing a part of a message in square brackets [] will cause the 
+//enclosed string to be highlighted.
+
+//Placing an asterisk * at the end of a message tells the code that
+//the current message is the last message.
+
+//Putting an exponent sign ^ at the end of a message followed by a number will cause the 
+//next position to be at the number. If it is followed by a number, a comma, and then another number,
+//then the code will open up a box for the player to choose which path to take.
+//The first number is for the yes position, and the second is for the no position.
+
+//If you surround a number by a less than sign &lt; and a greater then sign &gt;, the code will do a manual
+//pause for the  specified number of steps.
+
+//These are the actual messages.
+str[0] = "Um, ow. That kind of hurt."
+str[1] = "Sorry about that. So anyways, I heard you guys talking about who the leader was here."
+str[2] = "It's me, obviously! IT'S ME! IT'S ME!"
+str[3] = "Are you sure?"
+str[4] = "OF COURSE! Why wouldn't I be sure?!"
+str[5] = "No idea. It's possible for you to be unsure. So, speaking of being unsure, are you sure that you're sure?"
+str[6] = "Grr..."
+str[7] = "Well, if you're going to be so grumpy about it, I'll lead the operation."
+str[8] = "Wait, what?! NO! I WANT TO BE THE LEADER!"
+str[9] = "But you suggested that you were unsure about being sure..."
+str[10] = "Why do you always have to be so difficult?!"
+str[11] = "I'm not being difficult, I'm just making sure that you're sure. Of course, you're not sure, so I'm going to lead this operation."
+str[12] = "I give up..."
+str[13] = "If you say so. And [Leaf...]"
+str[14] = "Yeah?"
+str[15] = "You must wear a helmet."
+str[16] = "...Fine."
+str[17] = "WHY DID YOU GIVE IN SO EASILY TO HIM BUT NOT ME?!"
+str[18] = "Because I know whatever plan he has might end up severely injuring me."
+str[19] = "Sigh..."
+str[20] = "Well, let's get going! [App] is almost here!*"
+//These are the headshots that correspond to each message.
+img[0] = MachFace
+img[1] = SoapFace
+img[2] = MachFace
+img[3] = SoapFace
+img[4] = MachFace
+img[5] = SoapFace
+img[6] = MachFace
+img[7] = SoapFace
+img[8] = MachFace
+img[9] = SoapFace
+img[10] = MachFace
+img[11] = SoapFace
+img[12] = MachFace
+img[13] = SoapFace
+img[14] = LeafFace
+img[15] = SoapFace
+img[16] = LeafFace
+img[17] = MachFace
+img[18] = LeafFace
+img[19] = MachFace
+img[20] = SoapFace
+//These are the names of the person talking in each message.
+name[0] = "Mach"
+name[1] = "Soap"
+name[2] = "Mach"
+name[3] = "Soap"
+name[4] = "Mach"
+name[5] = "Soap"
+name[6] = "Mach"
+name[7] = "Soap"
+name[8] = "Mach"
+name[9] = "Soap"
+name[10] = "Mach"
+name[11] = "Soap"
+name[12] = "Mach"
+name[13] = "Soap"
+name[14] = "Leaf"
+name[15] = "Soap"
+name[16] = "Leaf"
+name[17] = "Mach"
+name[18] = "Leaf"
+name[19] = "Mach"
+name[20] = "Soap"
+//As you can see, it is quite easy to add extra details for
+//each message simply by adding an extra array. 
+//It's that simple!
+
+//This determines the number of pixels each line can be.
+line_length = 420
+//This controls the speed of the the text.
+text_speed = 1
+//This is the  x position in which the string starts at.
+string_x = 16
+//This is the y position in which the string starts at.
+string_y = 48
+//This determines the vertical spacing between lines.
+//When set to zero, the spacing will only be the string's height.
+vertical_spacing = 0
+//This is the x position of the question box.
+question_box_x = 32
+//This is the y position of the question box.
+question_box_y = 128
+//This is the x position of the text drawn in relevance to question_box_x.
+question_x = 18
+//This is the y position of the text drawn in relevance to question_box_y.
+question_y = 7
+//This is the x position of the names.
+name_x = 50
+//This is the y position of the names.
+name_y = 22
+//This is the x position of the headshot.
+headshot_x = 12
+//This is the y position of the headshot.
+headshot_y = 12
+//This is the vertical spacing in between "Yes" and "No".
+question_vert_spacing = 2
+//This is the x postion in relevance to question_box_x.
+highlight_x = 2
+//If this charcter is detected, initiate a highlight.
+highlight_open_character = "["
+//This character determines the end of a highlight. Anything enclosed
+//will be highlighted.
+highlight_close_character = "]"
+//If this charcter is detected, end messages.
+end_character = "*"
+//If this charcter is detected, ask question or jump to next position.
+jump_character = "^"
+//If this character is detected, initiate a manual pause.
+pause_open_character = "&lt;"
+//This character determines the number. The enclosed number
+//is the length of the manual pause.
+pause_close_character = "&gt;"
+
+
+//The following variables do not need to be changed and are only used
+//by the code.
+
+
+
+//This determins if the messages end.
+message_end = 0
+//This determines when the typing is finished.
+type_end = 0
+//This determines if the meesage is a question message.
+message_question = 0
+//This is the target position if yes is selected.
+yes_position = 0
+//This is the target position if no is selected.
+no_position = 0
+//This is the option selected by the user.
+question_selection = 1
+//This detemins if the message is a jump message.
+message_jump = 0
+//This is the position of the next message.
+jump_position = 0
+//This is the string that is going to be displayed. It contains the
+//modified version of the actual string.
+display_string = ""
+//This states the current position we are at in str[x] for adding
+//characters into display_string.
+position = 0
+//This states the current position we are in display_string. This is
+//used to prevent line breaks in the middle of a word.
+display_position= 0
+//This counter tells us when it's time to make a line break.
+width_counter = 0
+//This finds the last space.
+last_space = 0
+//The array index of the message that is currently being displayed.
+message_display = 0
+//This is used to count the number of phrases that will be highlighted.
+highlight_number = 0
+//This stores the starting position of the highlighted text.
+highlight_position[0] = 0
+//This stores the length of the highlighted text.
+highlight_length[0] = 0
+//This is used to count the number of manual pauses that are in the message.
+pause_number = 0
+//This stores the position of the manual pause.
+pause_position[0] = 0
+//This stores the number of steps the manual pause lasts.
+pause_length[0] = 0
+//This variable stores the edited message.
+current_string = ""
+
+
+//Gives the user a second to realize the window has opened before the text
+//starts typing out.
+alarm[0] = 10
+</argument>
+      </arguments>
+    </action>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">nexted</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="201" library="1">
+      <!--action name: Create_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">Uncontrollable</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="ALARM" id="1">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if not instance_exists(MainApple) exit;
+alarm[1] = 3*health;
+
+sound_play(Hover);
+aa = instance_create(x,y-32,SheekBulletS2);
+aa.direction = point_direction(x,y-32,MainApple.x,MainApple.y)
+aa.speed = 1/(health/100)
+</argument>
+      </arguments>
+    </action>
+    <action id="532" library="1">
+      <!--action name: Effect-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_effect</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="MENU">1</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">-32</argument>
+        <argument kind="MENU">2</argument>
+        <argument kind="COLOR">65280</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

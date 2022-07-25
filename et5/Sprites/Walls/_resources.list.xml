@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="WallMask" type="RESOURCE"/>
+  <resource name="BasicWall" type="RESOURCE"/>
+  <resource name="spr_TransparentWall" type="RESOURCE"/>
+  <resource name="GreenWall" type="RESOURCE"/>
+  <resource name="RedWall" type="RESOURCE"/>
+  <resource name="YellowWall" type="RESOURCE"/>
+  <resource name="Conveyor" type="RESOURCE"/>
+  <resource name="DisWall" type="RESOURCE"/>
+  <resource name="ClockWall" type="RESOURCE"/>
+  <resource name="BlackWall" type="RESOURCE"/>
+  <resource name="OrangeWall" type="RESOURCE"/>
+  <resource name="DemoWall" type="RESOURCE"/>
+  <resource name="FadedGreen" type="RESOURCE"/>
+  <resource name="FadedRed" type="RESOURCE"/>
+  <resource name="FadedYellow" type="RESOURCE"/>
+  <resource name="FadedBlue" type="RESOURCE"/>
+  <resource name="ArenaWall" type="RESOURCE"/>
+  <resource name="UnArenaWall" type="RESOURCE"/>
+  <resource name="GreatWall" type="RESOURCE"/>
+  <resource name="Ice" type="RESOURCE"/>
+  <resource name="CWall" type="RESOURCE"/>
+  <resource name="CBlackWall" type="RESOURCE"/>
+  <resource name="AntiBouncerWall" type="RESOURCE"/>
+  <resource name="LWall" type="RESOURCE"/>
+</resources>

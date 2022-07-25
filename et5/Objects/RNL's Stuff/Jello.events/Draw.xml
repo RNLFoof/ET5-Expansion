@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">off1 = irandom_range(-jiggle, jiggle);
+off2 = irandom_range(-jiggle, jiggle);
+off3 = irandom_range(-jiggle, jiggle);
+off4 = irandom_range(-jiggle, jiggle);
+
+draw_set_alpha(192/255);
+draw_set_color(make_color_hsv(hue, 255, 72/100*255));
+draw_rectangle(x+off1+1, y+off2+1, x+32*image_xscale+off3-1, y+32*image_yscale+off4-1, false);
+
+draw_set_alpha(224/255);
+draw_set_color(make_color_hsv(hue, 95/100*255, 55/100*255));
+draw_rectangle(x+off1, y+off2, x+32*image_xscale+off3, y+32*image_yscale+off4, true);
+
+draw_set_alpha(192/255);
+draw_set_color(c_white);
+draw_rectangle(x+off1+2, y+off2+2, x+off1+3, y+32*image_yscale+off4-4, false);
+draw_rectangle(x+off1+2+2, y+off2+2, x+32*image_xscale+off3-4, y+off2+3, false);
+
+draw_set_alpha(1);
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

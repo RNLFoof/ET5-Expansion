@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="ALARM" id="1">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">// Start gliding
+
+// Move walls out of the way
+with (BasicWall)
+{
+    if variable_local_exists("ifthisvariableexiststheobjectcamefromashakerlmao")
+    {
+        y += 99999;
+    }
+}
+with (AntiBouncerWall)
+{
+    if variable_local_exists("ifthisvariableexiststheobjectcamefromashakerlmao")
+    {
+        y += 99999;
+    }
+}
+
+var i, possibledistances, numofdistances, working, dir, len, checkx, checky;
+dir = random(360);
+possibledistances = ds_list_create();
+numofdistances = 20;
+for(i=0;i&lt;numofdistances;i+=1)
+{
+    ds_list_add(possibledistances, i*16);
+}
+ds_list_shuffle(possibledistances);
+for(i=0;i&lt;numofdistances;i+=1)
+{
+    len = ds_list_find_value(possibledistances, i);
+    checkx = xstart+lengthdir_x(len, dir);
+    checky = ystart+lengthdir_y(len, dir);
+    if not collision_line(xstart, ystart, checkx, checky, BasicWall, false, true)
+    {
+        if not collision_line(xstart, ystart, checkx, checky, AntiBouncerWall, false, true)
+        {
+            if not place_meeting(checkx, checky, BasicWall)
+            {
+                if not place_meeting(checkx, checky, AntiBouncerWall)
+                {
+                    glidestartx = anchorx;
+                    glidestarty = anchory;
+                    anchorx = checkx-pathendx;
+                    anchory = checky-pathendy;
+                    gliding = true;
+                    glidedistance = point_distance(glidestartx, glidestarty, anchorx, anchory);
+                    originalglidedistance = glidedistance;
+                    break;
+                }
+            }
+        }
+    }
+}
+gliding = true;
+
+// Put walls back
+with (BasicWall)
+{
+    if variable_local_exists("ifthisvariableexiststheobjectcamefromashakerlmao")
+    {
+        y -= 99999;
+    }
+}
+with (AntiBouncerWall)
+{
+    if variable_local_exists("ifthisvariableexiststheobjectcamefromashakerlmao")
+    {
+        y -= 99999;
+    }
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

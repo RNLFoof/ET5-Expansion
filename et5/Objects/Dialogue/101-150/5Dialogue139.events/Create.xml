@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">//Enclosing a part of a message in square brackets [] will cause the 
+//enclosed string to be highlighted.
+
+//Placing an asterisk * at the end of a message tells the code that
+//the current message is the last message.
+
+//Putting an exponent sign ^ at the end of a message followed by a number will cause the 
+//next position to be at the number. If it is followed by a number, a comma, and then another number,
+//then the code will open up a box for the player to choose which path to take.
+//The first number is for the yes position, and the second is for the no position.
+
+//If you surround a number by a less than sign &lt; and a greater then sign &gt;, the code will do a manual
+//pause for the  specified number of steps.
+
+//These are the actual messages.
+str[0] = "Goodie! Now that all of the sane apples are united, we can verbalize the crap out of EVERYONE!"
+str[1] = "Guns are better."
+str[2] = "Are you joking?"
+str[3] = "No."
+str[4] = "Well, I was joking."
+str[5] = "Darn."
+str[6] = "So... did anyone get the [Bot Blueprints?]"
+str[7] = "[Aneroid] told me he burned them in lava."
+str[8] = "[Aneroid?]"
+str[9] = "The red robot. He took us to [Frank's Fleet] and locked everyone except [App] in a cage. Of course, [App] arrived and rescued [Angela, Chroma,] and I, as always."
+str[10] = "HE BURNED THE BLUEPRINTS? WHY?"
+str[11] = "[Aneroid] told me that any more [Bots] would be a bad thing. He never told me why."
+str[12] = "He's a cryptic one, isn't he?"
+str[13] = "Oh well. So who's this orange apple?"
+str[14] = "My name is [Chroma] and I have lived on [Frank's Fleet] for as long as I remember."
+str[15] = "How old are you?"
+str[16] = "I don't know. I lost track of time and I never asked [Frank.]"
+str[17] = "[FRANK?!] I mean... who's [Frank?]"
+str[18] = "[Mach,] do you know [Frank?]"
+str[19] = "No..."
+str[20] = "You're hiding something."
+str[21] = "No I'm not."
+str[22] = "I'll [D-Smash] you."
+str[23] = "Alright, fine. I confess. I'm older than I let on."
+str[24] = "Oh? Why didn't you tell us?"
+str[25] = "I was afraid that you guys would treat me differently."
+str[26] = "There's nothing wrong with being an old guy! You'll just die sooner than us!"
+str[27] = "Ouch."
+str[28] = "So you're old. And?"
+str[29] = "I was created to be a prototype apple. The only apple older than me was a red apple named [Jim.] Back in the day, there were lots of glowing thingies out and about."
+str[30] = "Glowing thingies? Did they have wings?"
+str[31] = "Huh? How do you know of them?"
+str[32] = "I went to a random tunnel in the middle of a charred place and I saw one floating in the entrance of the tunnel."
+str[33] = "YOU WENT THERE?!"
+str[34] = "Yeah."
+str[35] = "Never go back to that place again. I swear it's haunted."
+str[36] = "Alright, whatever."
+str[37] = "Anyways, I hung out with [Jim] for a week before we found an entrance to the [Core.] This core entrance is the same tunnel that [App] apparently went to and could've gotten himself killed at..."
+str[38] = "You're talking about that place with all the charred ground? That's the tunnel that [Gertrude] went into three years ago... She seemed scarred after that."
+str[39] = "[GERTRUDE] TOO?! Geez, this planet is full of idiots."
+str[40] = "Well, [Gertrude] IS an idiot, as proven by that last incident."
+str[41] = "ANYWAYS, [Jim] and I entered the tunnel in hopes of hiding. Soon later, I got an eye damaged by one of those glowing things. We left the tunnel after that and [Jim] gave me a pair of infrared goggles so I could see well again."
+str[42] = "Is [Jim] still alive?"
+str[43] = "I don't know. After he gave me these goggles, he went back into that tunnel without me and I haven't seen him since. He's probably still inside of his cozy little fortress down underground, laughing at us... I hate him."
+str[44] = "What did you do after [Jim] left?"
+str[45] = "I went to live with the [Bots...]*"
+//These are the headshots that correspond to each message.
+img[0] = MachFace
+img[1] = TexFace
+img[2] = MachFace
+img[3] = TexFace
+img[4] = MachFace
+img[5] = TexFace
+img[6] = MachFace
+img[7] = SoapFace
+img[8] = MachFace
+img[9] = SoapFace
+img[10] = MachFace
+img[11] = SoapFace
+img[12] = AngelaFace
+img[13] = MachFace
+img[14] = ChromaFace
+img[15] = MachFace
+img[16] = ChromaFace
+img[17] = MachFace
+img[18] = TexFace
+img[19] = MachFace
+img[20] = TexFace
+img[21] = MachFace
+img[22] = TexFace
+img[23] = MachFace
+img[24] = AppFace
+img[25] = MachFace
+img[26] = SoapFace
+img[27] = MachFace
+img[28] = TexFace
+img[29] = MachFace
+img[30] = AppFace
+img[31] = MachFace
+img[32] = AppFace
+img[33] = MachFace
+img[34] = AppFace
+img[35] = MachFace
+img[36] = AppFace
+img[37] = MachFace
+img[38] = AngelaFace
+img[39] = MachFace
+img[40] = TexFace
+img[41] = MachFace
+img[42] = AngelaFace
+img[43] = MachFace
+img[44] = AppFace
+img[45] = MachFace
+//These are the names of the person talking in each message.
+name[0] = "Mach"
+name[1] = "Tex"
+name[2] = "Mach"
+name[3] = "Tex"
+name[4] = "Mach"
+name[5] = "GUY WHO DIDN'T REALIZE STUFF"
+name[6] = "Mach"
+name[7] = "Soap"
+name[8] = "Mach"
+name[9] = "Soap"
+name[10] = "Mach"
+name[11] = "Soap"
+name[12] = "Angela"
+name[13] = "Mach"
+name[14] = "Chroma"
+name[15] = "Mach"
+name[16] = "Chroma"
+name[17] = "Mach"
+name[18] = "Tex"
+name[19] = "Mach"
+name[20] = "Tex"
+name[21] = "Mach"
+name[22] = "Tex (CAN'T ACTUALLY D-SMASH)"
+name[23] = "Mach"
+name[24] = "App"
+name[25] = "Mach"
+name[26] = "Soap"
+name[27] = "Mach"
+name[28] = "Tex"
+name[29] = "Mach"
+name[30] = "App"
+name[31] = "Mach"
+name[32] = "App"
+name[33] = "Mach"
+name[34] = "App"
+name[35] = "Mach"
+name[36] = "App"
+name[37] = "Mach"
+name[38] = "Angela"
+name[39] = "Mach"
+name[40] = "Tex"
+name[41] = "Mach"
+name[42] = "Angela"
+name[43] = "Mach"
+name[44] = "App"
+name[45] = "Mach"
+//As you can see, it is quite easy to add extra details for
+//each message simply by adding an extra array. 
+//It's that simple!
+
+//This determines the number of pixels each line can be.
+line_length = 420
+//This controls the speed of the the text.
+text_speed = 1
+//This is the  x position in which the string starts at.
+string_x = 16
+//This is the y position in which the string starts at.
+string_y = 48
+//This determines the vertical spacing between lines.
+//When set to zero, the spacing will only be the string's height.
+vertical_spacing = 0
+//This is the x position of the question box.
+question_box_x = 32
+//This is the y position of the question box.
+question_box_y = 128
+//This is the x position of the text drawn in relevance to question_box_x.
+question_x = 18
+//This is the y position of the text drawn in relevance to question_box_y.
+question_y = 7
+//This is the x position of the names.
+name_x = 50
+//This is the y position of the names.
+name_y = 22
+//This is the x position of the headshot.
+headshot_x = 12
+//This is the y position of the headshot.
+headshot_y = 12
+//This is the vertical spacing in between "Yes" and "No".
+question_vert_spacing = 2
+//This is the x postion in relevance to question_box_x.
+highlight_x = 2
+//If this charcter is detected, initiate a highlight.
+highlight_open_character = "["
+//This character determines the end of a highlight. Anything enclosed
+//will be highlighted.
+highlight_close_character = "]"
+//If this charcter is detected, end messages.
+end_character = "*"
+//If this charcter is detected, ask question or jump to next position.
+jump_character = "^"
+//If this character is detected, initiate a manual pause.
+pause_open_character = "&lt;"
+//This character determines the number. The enclosed number
+//is the length of the manual pause.
+pause_close_character = "&gt;"
+
+
+//The following variables do not need to be changed and are only used
+//by the code.
+
+
+
+//This determins if the messages end.
+message_end = 0
+//This determines when the typing is finished.
+type_end = 0
+//This determines if the meesage is a question message.
+message_question = 0
+//This is the target position if yes is selected.
+yes_position = 0
+//This is the target position if no is selected.
+no_position = 0
+//This is the option selected by the user.
+question_selection = 1
+//This detemins if the message is a jump message.
+message_jump = 0
+//This is the position of the next message.
+jump_position = 0
+//This is the string that is going to be displayed. It contains the
+//modified version of the actual string.
+display_string = ""
+//This states the current position we are at in str[x] for adding
+//characters into display_string.
+position = 0
+//This states the current position we are in display_string. This is
+//used to prevent line breaks in the middle of a word.
+display_position= 0
+//This counter tells us when it's time to make a line break.
+width_counter = 0
+//This finds the last space.
+last_space = 0
+//The array index of the message that is currently being displayed.
+message_display = 0
+//This is used to count the number of phrases that will be highlighted.
+highlight_number = 0
+//This stores the starting position of the highlighted text.
+highlight_position[0] = 0
+//This stores the length of the highlighted text.
+highlight_length[0] = 0
+//This is used to count the number of manual pauses that are in the message.
+pause_number = 0
+//This stores the position of the manual pause.
+pause_position[0] = 0
+//This stores the number of steps the manual pause lasts.
+pause_length[0] = 0
+//This variable stores the edited message.
+current_string = ""
+
+
+//Gives the user a second to realize the window has opened before the text
+//starts typing out.
+alarm[0] = 10
+</argument>
+      </arguments>
+    </action>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">nexted</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="201" library="1">
+      <!--action name: Create_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">Uncontrollable</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

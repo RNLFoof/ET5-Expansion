@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="ConnectorSpawnerController" type="RESOURCE"/>
+  <resource name="AppPunched" type="RESOURCE"/>
+  <resource name="BrassParent" type="RESOURCE"/>
+  <resource name="BrassBullet" type="RESOURCE"/>
+  <resource name="BrassEnergyBall" type="RESOURCE"/>
+  <resource name="BrassToast" type="RESOURCE"/>
+  <resource name="BrassBlock" type="RESOURCE"/>
+  <resource name="BrassRoflcopter" type="RESOURCE"/>
+  <resource name="Post" type="RESOURCE"/>
+  <resource name="MiniPost" type="RESOURCE"/>
+  <resource name="obj_Connector" type="RESOURCE"/>
+  <resource name="obj_Lightning" type="RESOURCE"/>
+  <resource name="PendingShakenObject" type="RESOURCE"/>
+  <resource name="ShakenObjectHandler" type="RESOURCE"/>
+  <resource name="ShakerColorStorer" type="RESOURCE"/>
+  <resource name="AnyTextDialogue" type="RESOURCE"/>
+  <resource name="PinkRoflcopterOrbiter" type="RESOURCE"/>
+  <resource name="PinkRoflcopterOrbiterConsumedOld" type="RESOURCE"/>
+  <resource name="PinkRoflcopterOrbiterDeflating" type="RESOURCE"/>
+  <resource name="PinkRoflcopterOrbiterConsumed" type="RESOURCE"/>
+  <resource name="ThisIsDumbWhyDidImakeThis" type="RESOURCE"/>
+</resources>

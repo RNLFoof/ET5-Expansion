@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="ALARM" id="11">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if global.cheat_LOAD_MUSIC_AS_NEEDED=false
+{
+saud_Load(working_directory+"\Music\AirshipTheme.mp3","AirshipTheme");
+saud_Load(working_directory+"\Music\AntAgony.mp3","AntAgony");
+saud_Load(working_directory+"\Music\AnubisRex.mp3","AnubisRex");
+saud_Load(working_directory+"\Music\AtticAdventure.mp3","AtticAdventure");
+saud_Load(working_directory+"\Music\BarrelBlast.mp3","BarrelBlast");
+saud_Load(working_directory+"\Music\BC2.mp3","BC2");
+saud_Load(working_directory+"\Music\BelowAperture.mp3","BelowAperture");
+saud_Load(working_directory+"\Music\BongoHills.mp3","BongoHills");
+saud_Load(working_directory+"\Music\BreakfastMachine.mp3","BreakfastMachine");
+saud_Load(working_directory+"\Music\CatTitle.mp3","CatTitle");
+saud_Load(working_directory+"\Music\CellblockFight.mp3","CellblockFight");
+saud_Load(working_directory+"\Music\ChooseYourRoom.mp3","ChooseYourRoom");
+saud_Load(working_directory+"\Music\CoreBoss.mp3","CoreBoss");
+saud_Load(working_directory+"\Music\DreamForest.mp3","DreamForest");
+saud_Load(working_directory+"\Music\DreksFleet.mp3","DreksFleet");
+saud_Load(working_directory+"\Music\ErwinsStronghold.mp3","ErwinsStronghold");
+saud_Load(working_directory+"\Music\Eudora.mp3","Eudora");
+saud_Load(working_directory+"\Music\FinalCyberErrol.mp3","FinalCyberErrol");
+saud_Load(working_directory+"\Music\FirstAvenue.mp3","FirstAvenue");
+saud_Load(working_directory+"\Music\FourPartPlan.mp3","FourPartPlan");
+saud_Load(working_directory+"\Music\FrankBoss.mp3","FrankBoss");
+saud_Load(working_directory+"\Music\GeneratorRoom.mp3","GeneratorRoom");
+saud_Load(working_directory+"\Music\HotDamned.mp3","HotDamned");
+saud_Load(working_directory+"\Music\IceTheme.mp3","IceTheme");
+saud_Load(working_directory+"\Music\LilSlugger.mp3","LilSlugger");
+saud_Load(working_directory+"\Music\MainStreet.mp3","MainStreet");
+saud_Load(working_directory+"\Music\Mansion.mp3","Mansion");
+saud_Load(working_directory+"\Music\Maze.mp3","Maze");
+saud_Load(working_directory+"\Music\MMShadowMan.mp3","MMShadowMan");
+saud_Load(working_directory+"\Music\MMSparkMan.mp3","MMSparkMan");
+saud_Load(working_directory+"\Music\Moskito.mp3","Moskito");
+saud_Load(working_directory+"\Music\MrDarkScrapped.mp3","MrDarkScrapped");
+saud_Load(working_directory+"\Music\Museum.mp3","Museum");
+saud_Load(working_directory+"\Music\NightMachine.mp3","NightMachine");
+saud_Load(working_directory+"\Music\PathTheme.mp3","PathTheme");
+saud_Load(working_directory+"\Music\QuackersBoss.mp3","QuackersBoss");
+saud_Load(working_directory+"\Music\QuackersFinal.mp3","QuackersFinal");
+saud_Load(working_directory+"\Music\RockIt.mp3","RockIt");
+saud_Load(working_directory+"\Music\SamMuseum.mp3","SamMuseum");
+saud_Load(working_directory+"\Music\SlipperyClimb.mp3","SlipperyClimb");
+saud_Load(working_directory+"\Music\SMN24.mp3","SMN24");
+saud_Load(working_directory+"\Music\SMN25.mp3","SMN25");
+saud_Load(working_directory+"\Music\SpecterCircus.mp3","SpecterCircus");
+saud_Load(working_directory+"\Music\SpectersFactory.mp3","SpectersFactory");
+saud_Load(working_directory+"\Music\Suspense2.mp3","Suspense2");
+saud_Load(working_directory+"\Music\ToasterFight.mp3","ToasterFight");
+};
+
+scr_LoadMusicLater("CatTitle");
+event_perform_object(MusicParent,ev_create,0);
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">while(collision==false) {
+    if (collision_line_direction(x,y,x+lengthdir_x(distance,dirn),y+lengthdir_y(distance,dirn),distance+accuracy,dirn,BasicWall) == true &amp;&amp; collision_line_direction(x,y,x+lengthdir_x(distance,dirn),y+lengthdir_y(distance,dirn),distance-accuracy,dirn,BasicWall) == false || amount&gt;20) {
+        collision=true;
+    }
+    else {
+        if (collision_line_direction(x,y,x+lengthdir_x(distance,dirn),y+lengthdir_y(distance,dirn),distance,dirn,BasicWall) == true) {
+            distance-=add_distance;
+            add_distance=max(ceil(add_distance/2),1);
+            amount+=1;
+        }
+        else {
+            distance+=add_distance;
+            add_distance=max(ceil(add_distance/2),1);
+            amount+=1;
+        }
+        
+    }
+}
+    draw_line_color(x,y,x+lengthdir_x(distance,dirn),y+lengthdir_y(distance,dirn),c_red,c_red);
+    draw_circle_color(x+lengthdir_x(distance,dirn),y+lengthdir_y(distance,dirn),3,c_red,c_red,false);
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

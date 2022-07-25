@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="NewCamera" type="RESOURCE"/>
+  <resource name="HealthBad" type="RESOURCE"/>
+  <resource name="objBombChute" type="RESOURCE"/>
+  <resource name="objHyperChute" type="RESOURCE"/>
+  <resource name="objBombSpin" type="RESOURCE"/>
+  <resource name="objBombSpam" type="RESOURCE"/>
+  <resource name="objRedCopterrofl" type="RESOURCE"/>
+  <resource name="objCameraApproach" type="RESOURCE"/>
+  <resource name="objCameraStop" type="RESOURCE"/>
+  <resource name="objNeonRoflcopter" type="RESOURCE"/>
+</resources>

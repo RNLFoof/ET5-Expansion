@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">draw_sprite(sprite_index,image_index,x,y);
+if instance_nearest(mouse_x,mouse_y,obj_CheatsBack)=id
+
+{
+    draw_sprite(TitleSelector.sprite_index,TitleSelector.image_index,x-80,y-16) if popped=false scr_safesound(Pop);
+    popped=true;
+}
+else popped=false;
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

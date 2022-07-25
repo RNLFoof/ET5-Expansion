@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="EvilSpatula" type="RESOURCE"/>
+  <resource name="EvilSpoon" type="RESOURCE"/>
+  <resource name="EvilFork" type="RESOURCE"/>
+  <resource name="EvilSpork" type="RESOURCE"/>
+  <resource name="EvilGrater" type="RESOURCE"/>
+  <resource name="Motewolon" type="RESOURCE"/>
+  <resource name="EvilToaster" type="RESOURCE"/>
+</resources>

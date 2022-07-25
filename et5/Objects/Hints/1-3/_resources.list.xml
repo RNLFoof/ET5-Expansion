@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="HRustyGrating" type="RESOURCE"/>
+  <resource name="HVStopJump" type="RESOURCE"/>
+  <resource name="HSoup" type="RESOURCE"/>
+  <resource name="HFlames" type="RESOURCE"/>
+</resources>

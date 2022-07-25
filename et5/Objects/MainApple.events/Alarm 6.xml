@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="ALARM" id="6">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">// This is ran every second if the disable distant objects cheat is on. The alarm is called in the room start event at first, and turned off in the room end event.
+// Stops and starts like that partially to make sure objects have a grace period on room start, and also so that it doesn't re-enable if you go into the menu and turn it off.
+
+// Turn everything back on, so things entering the Good Zone can be activated.
+instance_activate_all();
+// Uses a box (multiplier) times the width and height of the view.
+multiplier = 5; // Probably bigger than needed, but will still do a lot speed-wise
+instance_deactivate_region(
+    view_xview[0]-view_wview[0],
+    view_yview[0]-view_hview[0],
+    view_wview[0]*3,
+    view_hview[0]*3,
+    false,
+    true
+);
+// Reenables stuff that should probably stay on regardless.
+instance_activate_object(BasicWall);                    // I figure stuff might go through walls if the wall is right at the boundary. 
+instance_activate_object(Metamorph2);                   // I figure stuff might go through walls if the wall is right at the boundary. 
+instance_activate_object(OMGTRUCK);                     // The whole level is based around this thing being on, so...
+instance_activate_object(ParticleBitch);                // There's only one of these and other objects use it
+instance_activate_object(UnGWall1);                     // Needs to go off regardless of where the button is
+instance_activate_object(UnGWall2);                     // Needs to go off regardless of where the button is
+instance_activate_object(UnGWall3);                     // Needs to go off regardless of where the button is
+instance_activate_object(UnRedRoflcopter1);             // Needs to go off regardless of where the button is
+instance_activate_object(UnRedRoflcopter2);             // Needs to go off regardless of where the button is
+instance_activate_object(WorldController);              // This looks important.
+instance_activate_object(GravityBoi);                   // The orbiters would fly into oblivion without it.
+instance_activate_object(ConnectorSpawnerController);   // Used to sync those guys even if they get disabled, so
+// loop
+alarm[6] = 30;
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

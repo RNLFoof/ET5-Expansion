@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="SpinnerDispenser" type="RESOURCE"/>
+  <resource name="SpinnerDispenser2" type="RESOURCE"/>
+  <resource name="SpinnerGreen" type="RESOURCE"/>
+  <resource name="SpinnerYellow" type="RESOURCE"/>
+  <resource name="SpinnerRed" type="RESOURCE"/>
+  <resource name="SpinnerBlue" type="RESOURCE"/>
+  <resource name="SpinnerWhite" type="RESOURCE"/>
+</resources>

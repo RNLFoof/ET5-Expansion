@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if select=true
+{
+    px=mouse_x-x+128;
+    py=mouse_y-y+128;
+    if px&lt;0 px=0;
+    if px&gt;255 px=255;
+    if py&lt;0 py=0;
+    if py&gt;255 py=255;
+};
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

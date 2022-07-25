@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Test1" type="RESOURCE"/>
+  <resource name="Test2" type="RESOURCE"/>
+  <resource name="Test3" type="RESOURCE"/>
+  <resource name="Test4" type="RESOURCE"/>
+  <resource name="Test5" type="RESOURCE"/>
+  <resource name="Test6" type="RESOURCE"/>
+  <resource name="Test7" type="RESOURCE"/>
+</resources>

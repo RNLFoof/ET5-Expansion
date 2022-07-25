@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="EvilSpatula" type="RESOURCE"/>
+  <resource name="EvilSpoon" type="RESOURCE"/>
+  <resource name="EvilSpoonP2" type="RESOURCE"/>
+  <resource name="EvilFork" type="RESOURCE"/>
+  <resource name="EvilSpork" type="RESOURCE"/>
+  <resource name="EvilGrater" type="RESOURCE"/>
+  <resource name="Caginator" type="RESOURCE"/>
+  <resource name="ToastTank" type="RESOURCE"/>
+  <resource name="UtPo" type="RESOURCE"/>
+  <resource name="Brownie" type="RESOURCE"/>
+  <resource name="BrownieFace" type="RESOURCE"/>
+  <resource name="CLBall" type="RESOURCE"/>
+  <resource name="IronToast" type="RESOURCE"/>
+  <resource name="IronToastMask" type="RESOURCE"/>
+  <resource name="SmashCore" type="RESOURCE"/>
+  <resource name="SmashCoreA01" type="RESOURCE"/>
+  <resource name="Poly" type="RESOURCE"/>
+  <resource name="Pepsi" type="RESOURCE"/>
+  <resource name="PepsiFace" type="RESOURCE"/>
+</resources>

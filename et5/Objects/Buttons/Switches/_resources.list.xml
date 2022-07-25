@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Switch" type="RESOURCE"/>
+  <resource name="YWall" type="RESOURCE"/>
+  <resource name="UnYWall" type="RESOURCE"/>
+</resources>

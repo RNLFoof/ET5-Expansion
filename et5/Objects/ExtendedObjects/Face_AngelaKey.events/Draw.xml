@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">WideEyes</argument>
+        <argument kind="EXPRESSION">AngelaKey.x</argument>
+        <argument kind="EXPRESSION">AngelaKey.y</argument>
+        <argument kind="EXPRESSION">wideeyes</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">Mouth</argument>
+        <argument kind="EXPRESSION">AngelaKey.x</argument>
+        <argument kind="EXPRESSION">AngelaKey.y</argument>
+        <argument kind="EXPRESSION">mouth</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">Eyes</argument>
+        <argument kind="EXPRESSION">AngelaKey.x</argument>
+        <argument kind="EXPRESSION">AngelaKey.y</argument>
+        <argument kind="EXPRESSION">eyes</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">Eyebrows</argument>
+        <argument kind="EXPRESSION">AngelaKey.x</argument>
+        <argument kind="EXPRESSION">AngelaKey.y</argument>
+        <argument kind="EXPRESSION">eyebrows</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">OtherWear</argument>
+        <argument kind="EXPRESSION">AngelaKey.x</argument>
+        <argument kind="EXPRESSION">AngelaKey.y</argument>
+        <argument kind="EXPRESSION">otherwear</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">Eyelashes</argument>
+        <argument kind="EXPRESSION">AngelaKey.x</argument>
+        <argument kind="EXPRESSION">AngelaKey.y</argument>
+        <argument kind="EXPRESSION">eyelashes</argument>
+      </arguments>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>AngelaKey</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">launcher</argument>
+        <argument kind="EXPRESSION">1</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">LauncherPack</argument>
+        <argument kind="EXPRESSION">AngelaKey.x+AngelaKey.launcheroffset</argument>
+        <argument kind="EXPRESSION">AngelaKey.y</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

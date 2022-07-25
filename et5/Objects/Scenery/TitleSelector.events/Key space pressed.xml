@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="KEYPRESS" id="32">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if visible=false exit;
+
+sound_play(SaveHappified);
+
+if menuid = 0
+{
+    if y = 192 
+    {
+        if global.cheat_REPLACE_APPLES=false &amp;&amp; global.loadedapplereplacement!=-1 {scr_SpriteReplaceStart("sprites_apples");global.loadedapplereplacement=-1};
+        if global.cheat_REPLACE_APPLES=true &amp;&amp; global.cheat_exvar_1=0 &amp;&amp; global.loadedapplereplacement!=0 {scr_SpriteReplaceStart("sprites_hippos");global.loadedapplereplacement=0};
+        if global.cheat_REPLACE_APPLES=true &amp;&amp; global.cheat_exvar_1=1 &amp;&amp; global.loadedapplereplacement!=1 {scr_SpriteReplaceStart("sprites_trump");global.loadedapplereplacement=1};
+        room_goto(init);
+    };
+    if y = 256
+    {
+        menuid = 1;
+        TitleButton.sprite_index = TitleButtons2;
+        exit;
+    }
+    if y = 320 
+    {
+        with(TitleButton) visible=false;
+        with(TitleSelector) visible=false;
+        with(obj_CheatsBack) visible=true;
+        with(obj_CheatsOptions) alarm[0]=1;
+        with(obj_CheatsBox) alarm[0]=1;
+    };
+    if y = 384 game_end();
+}
+
+if menuid = 1
+{
+    if y = 192
+    {
+        menuid = 0;
+        TitleButton.sprite_index = TitleButtons1;
+        exit;
+    }
+    if y = 256
+    {
+        if global.soundon = 0
+        {
+            global.soundon = 1;
+            sound_global_volume(1);
+            break;
+        }
+        if global.soundon = 1
+        {
+            global.soundon = 0;
+            sound_global_volume(0);
+            break;
+        }
+    }
+    if y = 320
+    {
+        if global.musicon = 0
+        {
+            global.musicon = 1;
+            with(pCatTitle)
+            {
+                global.cmusic = "";
+                saud_StopAll();
+                alarm[1] = 1;
+            }
+            break;
+        }
+        if global.musicon = 1
+        {
+            global.musicon = 0;
+            with(pCatTitle)
+            {
+                global.cmusic = "";
+                saud_StopAll();
+                alarm[1] = 1;
+            }
+            break;
+        }
+    }
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

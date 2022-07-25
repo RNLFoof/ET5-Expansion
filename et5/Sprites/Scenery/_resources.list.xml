@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Worminator" type="RESOURCE"/>
+  <resource name="WormPoof" type="RESOURCE"/>
+  <resource name="Vortex" type="RESOURCE"/>
+  <resource name="AlanPortrait" type="RESOURCE"/>
+  <resource name="Sign" type="RESOURCE"/>
+  <resource name="SignCode" type="RESOURCE"/>
+  <resource name="BigSignBlank" type="RESOURCE"/>
+  <resource name="BigSignLeaf" type="RESOURCE"/>
+  <resource name="BigSignElemna" type="RESOURCE"/>
+  <resource name="BigSignSoap" type="RESOURCE"/>
+  <resource name="BigSignShaman" type="RESOURCE"/>
+  <resource name="Dots01" type="RESOURCE"/>
+  <resource name="Soapbox" type="RESOURCE"/>
+  <resource name="spr_PauseScreen" type="RESOURCE"/>
+  <resource name="MtFridgeSign" type="RESOURCE"/>
+  <resource name="spr_TitleName" type="RESOURCE"/>
+  <resource name="TitleButtons1" type="RESOURCE"/>
+  <resource name="TitleButtons2" type="RESOURCE"/>
+  <resource name="TitleSelectors" type="RESOURCE"/>
+  <resource name="TitleFlags" type="RESOURCE"/>
+  <resource name="Safe" type="RESOURCE"/>
+  <resource name="SBHGenerator" type="RESOURCE"/>
+  <resource name="McRSign" type="RESOURCE"/>
+</resources>

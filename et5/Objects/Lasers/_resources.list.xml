@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="LaserCCW2" type="RESOURCE"/>
+  <resource name="LaserRS2" type="RESOURCE"/>
+  <resource name="LaserLN2" type="RESOURCE"/>
+  <resource name="LaserFS" type="RESOURCE"/>
+</resources>

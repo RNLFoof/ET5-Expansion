@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="ALARM" id="2">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">l = ds_list_create();
+d = ds_map_create();
+for (i = 0; i &lt; instance_number(obj_Connector); i += 1)
+{
+    o = instance_find(obj_Connector, i);
+    if o.type = type 
+    {
+    dis = point_distance(x, y, o.x, o.y);
+    ds_list_add(l, dis);
+    ds_map_add(d, dis, o);
+    }
+}
+ds_list_sort(l, true);
+for (i = 0; i &lt; boltcount; i += 1)
+{
+    lightningx[i] = ds_map_find_value(d, ds_list_find_value(l, i+1)).x;
+    lightningy[i] = ds_map_find_value(d, ds_list_find_value(l, i+1)).y;
+}
+drawlightning = true;
+for (i = 0; i &lt; boltcount; i += 1)
+{
+dir = point_direction(x, y, lightningx[i], lightningy[i]);
+dis = point_distance(x, y, lightningx[i], lightningy[i]);
+o = instance_create(x, y, obj_Lightning)
+o.length=dis
+o.image_angle=dir
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

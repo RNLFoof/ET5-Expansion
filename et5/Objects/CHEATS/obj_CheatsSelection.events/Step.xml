@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">image_index=notimageindex+plus;
+if plus=0 &amp;&amp; notimageindex=0 with(obj_CheatsOptions) x=xstart;
+if plus=0 &amp;&amp; notimageindex=1 with(obj_CheatsOptions) x=xstart-(640*2);
+if plus=2 &amp;&amp; notimageindex=0 with(obj_CheatsOptions) y=ystart;
+if plus=2 &amp;&amp; notimageindex=1 with(obj_CheatsOptions) y=ystart-(480*2);
+if plus=0 &amp;&amp; notimageindex=0 with(obj_CheatsBox) x=xstart;
+if plus=0 &amp;&amp; notimageindex=1 with(obj_CheatsBox) x=xstart-(640*2);
+if plus=2 &amp;&amp; notimageindex=0 with(obj_CheatsBox) y=ystart;
+if plus=2 &amp;&amp; notimageindex=1 with(obj_CheatsBox) y=ystart-(480*2);
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

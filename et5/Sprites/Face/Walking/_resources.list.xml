@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="MouthWalk" type="RESOURCE"/>
+  <resource name="WideEyesWalk" type="RESOURCE"/>
+  <resource name="OtherWearWalk" type="RESOURCE"/>
+  <resource name="EyebrowsWalk" type="RESOURCE"/>
+  <resource name="EyesWalk" type="RESOURCE"/>
+  <resource name="EyelashesWalk" type="RESOURCE"/>
+</resources>

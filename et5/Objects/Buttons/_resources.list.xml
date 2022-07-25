@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Buttons" type="GROUP"/>
+  <resource name="Targets" type="GROUP"/>
+  <resource name="Switches" type="GROUP"/>
+  <resource name="Clocks" type="GROUP"/>
+  <resource name="Elevators" type="GROUP"/>
+  <resource name="Bouncers" type="GROUP"/>
+  <resource name="FlashOrbs" type="GROUP"/>
+</resources>

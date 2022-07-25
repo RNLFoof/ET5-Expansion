@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="501" library="1">
+      <!--action name: Draw_Sprite-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_sprite</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="SPRITE">WordBox2</argument>
+        <argument kind="EXPRESSION">view_xview</argument>
+        <argument kind="EXPRESSION">view_yview</argument>
+        <argument kind="EXPRESSION">-1</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">var i,j,k,line_counter,last_break;
+i = 0
+//Draws the text.
+draw_set_font(fnt_text)
+draw_set_color(c_white)
+//These local variables are used to draw each character of display_string.
+line_counter = 0
+last_break = 1
+//This draws the text. The trick to allowing highlighting is by drawing
+//each character individually.
+for(i=1;i&lt;string_length(display_string)+1;i+=1)
+{
+    //If the character being drawn is within the range of the highlighted text,
+    //then draw it red. Otherwise draw it white.
+    draw_set_color(c_white)  
+    for(k=0;k&lt;highlight_number;k+=1)
+        if i &gt;= highlight_position[k] &amp;&amp; i &lt; highlight_position[k]+highlight_length[k]
+        {
+            draw_set_color(c_red)
+            break
+        }
+    //If there is a line break at the position being drawn...
+    if string_char_at(display_string,i) = "#"
+    {
+        //Add one to the line counter.
+        line_counter += 1
+        //Store the position in last_break.
+        last_break = i
+    }
+    //The local variable j is used to precisely align the beginning charcter
+    //of each line.
+    if (i-1 = last_break || i = 1) &amp;&amp; i != 2
+    j = -1
+        else
+    j = 0
+    //This draws the character at the right position.
+    draw_text(view_xview[0]+string_x+string_width(string_copy(display_string,last_break,i-last_break))+j,view_yview[0]+string_y+line_counter*(string_height(" ")+vertical_spacing),string_char_at(display_string,i))
+}
+//If the message is done typing out...
+if type_end
+{
+    //If the current message is a question message...
+    if message_question
+    {
+        //Show the box to tell what the user is highlighting.
+        draw_sprite(spr_question_box,0,question_box_x,question_box_y)
+        draw_sprite(spr_highlight,0,question_box_x+highlight_x,question_box_y+question_y+(1-question_selection)*(string_height("No")+question_vert_spacing))
+        draw_set_color(c_white)
+        draw_text(question_box_x+question_x,question_box_y+question_y,"Yes")
+        draw_text(question_box_x+question_x,question_box_y+question_y+string_height("No")+question_vert_spacing,"No")
+    }
+    else
+    //Freeze the talking sprite.
+    i = 0
+}
+else
+    //If there is text in the string, animate the talking sprite.
+    if string_length(display_string)
+        i = -1
+        
+draw_sprite(img[message_display],i,view_xview[0]+headshot_x,view_yview[0]+headshot_y)
+//This draws the name of the talking person.
+draw_set_color(c_white)
+draw_text(view_xview[0]+name_x,view_yview[0]+name_y,name[message_display])
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="LB_0" type="RESOURCE"/>
+  <resource name="TB_0" type="RESOURCE"/>
+  <resource name="LB_1" type="RESOURCE"/>
+  <resource name="TB_1" type="RESOURCE"/>
+  <resource name="LB_2" type="RESOURCE"/>
+  <resource name="TB_2" type="RESOURCE"/>
+  <resource name="LB_3" type="RESOURCE"/>
+  <resource name="TB_3" type="RESOURCE"/>
+  <resource name="LB_4" type="RESOURCE"/>
+  <resource name="TB_4" type="RESOURCE"/>
+  <resource name="LB_0X" type="RESOURCE"/>
+  <resource name="TB_0X" type="RESOURCE"/>
+  <resource name="LB_1X" type="RESOURCE"/>
+  <resource name="TB_1X" type="RESOURCE"/>
+  <resource name="LB_2X" type="RESOURCE"/>
+  <resource name="TB_2X" type="RESOURCE"/>
+  <resource name="LB_3X" type="RESOURCE"/>
+  <resource name="TB_3X" type="RESOURCE"/>
+  <resource name="LB_4X" type="RESOURCE"/>
+  <resource name="TB_4X" type="RESOURCE"/>
+</resources>

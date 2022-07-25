@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="OTHER" id="4">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">gravitytype = true;
+visible = true;
+gravity = 0.1;
+
+switch(object_index)
+{
+    case(BrassBullet):
+        hue = 217.2/360*255;
+        break;
+    case(BrassRoflcopter):
+        hue = 149.8/360*255;
+        break;
+    case(BrassBlock):
+        hue = 34.2/360*255;
+        break;
+    case(BrassEnergyBall):
+        hue = 217.2/360*255;
+        break;
+    case(BrassToast):
+        hue = 0;
+        break;
+}
+trailcolor = make_color_hsv(hue, 226/240*255, 98/100*255);
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

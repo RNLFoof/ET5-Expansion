@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="HControl" type="RESOURCE"/>
+  <resource name="HSwitchFlips" type="RESOURCE"/>
+  <resource name="HDJumpRofls" type="RESOURCE"/>
+</resources>

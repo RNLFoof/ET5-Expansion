@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="AODDRBlock" type="RESOURCE"/>
+  <resource name="AODDBBlock" type="RESOURCE"/>
+  <resource name="AODDGBlock" type="RESOURCE"/>
+  <resource name="AODDYBlock" type="RESOURCE"/>
+  <resource name="DDHead" type="RESOURCE"/>
+  <resource name="DDRight" type="RESOURCE"/>
+  <resource name="DDLeft" type="RESOURCE"/>
+  <resource name="EvilRobot" type="RESOURCE"/>
+  <resource name="BlueZap" type="RESOURCE"/>
+  <resource name="PurpleZap" type="RESOURCE"/>
+  <resource name="RobotExplosion" type="RESOURCE"/>
+  <resource name="OMGTRUCK" type="RESOURCE"/>
+  <resource name="Helicopter" type="RESOURCE"/>
+  <resource name="ClaydudeUFO" type="RESOURCE"/>
+</resources>

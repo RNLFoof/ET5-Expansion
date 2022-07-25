@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Bouncer1" type="RESOURCE"/>
+  <resource name="Receiver1" type="RESOURCE"/>
+  <resource name="Receiver2" type="RESOURCE"/>
+  <resource name="BWall1" type="RESOURCE"/>
+  <resource name="BWall2" type="RESOURCE"/>
+  <resource name="AntiBouncerWall" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="L6_0" type="RESOURCE"/>
+  <resource name="T6_0" type="RESOURCE"/>
+  <resource name="L6_1" type="RESOURCE"/>
+  <resource name="T6_1" type="RESOURCE"/>
+  <resource name="L6_2" type="RESOURCE"/>
+  <resource name="T6_2" type="RESOURCE"/>
+  <resource name="L6_3" type="RESOURCE"/>
+  <resource name="T6_3" type="RESOURCE"/>
+  <resource name="L6_4" type="RESOURCE"/>
+  <resource name="T6_4" type="RESOURCE"/>
+  <resource name="L6_5" type="RESOURCE"/>
+  <resource name="T6_5" type="RESOURCE"/>
+  <resource name="L6_0X" type="RESOURCE"/>
+  <resource name="T6_0X" type="RESOURCE"/>
+  <resource name="L6_1X" type="RESOURCE"/>
+  <resource name="T6_1X" type="RESOURCE"/>
+  <resource name="L6_2X" type="RESOURCE"/>
+  <resource name="T6_2X" type="RESOURCE"/>
+  <resource name="L6_3X" type="RESOURCE"/>
+  <resource name="T6_3X" type="RESOURCE"/>
+  <resource name="L6_4X" type="RESOURCE"/>
+  <resource name="T6_4X" type="RESOURCE"/>
+  <resource name="L6_0A" type="RESOURCE"/>
+  <resource name="T6_0A" type="RESOURCE"/>
+</resources>

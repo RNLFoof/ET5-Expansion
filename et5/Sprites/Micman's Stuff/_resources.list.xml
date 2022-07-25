@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sprDangerousLife" type="RESOURCE"/>
+  <resource name="sprBombSpin" type="RESOURCE"/>
+  <resource name="sprBombTubeDirection" type="RESOURCE"/>
+  <resource name="RedCopterrofl" type="RESOURCE"/>
+  <resource name="sprCameraMarker" type="RESOURCE"/>
+  <resource name="sprNeonRoflcopter" type="RESOURCE"/>
+</resources>

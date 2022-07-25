@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">str[0] = "If you're reading this, good job getting this far. You are truly a seasoned adventurer. If you haven't run into one of those glowing things yet, you're very lucky."
+str[1] = "According to [Chroma,] these glowing things are called [Sprites.] They have wings that allow them to fly through the air. However, these wings also serve as a weapon, for they are very sharp. They have a spinning attack where they will spin around and try to scratch you."
+str[2] = "From what I can tell, the [Sprites] are invulnerable to almost all attacks. However, [D-Smashing] them will temporarily stun them allowing you to get a bit ahead of them before they catch up to you again."
+str[3] = "However, you cannot [D-Smash] them while they are using their spin attack. That will just get yourself hurt. Note that they can only use their spin attack once in a while. After they use their spin attack, they have to take a bit of time to 'charge it up' again."
+str[4] = "[Sprites] will only use their spin attack when they get close. After they use their spin attack, you have a short amount of time to [D-Smash] them before they use the spin attack again. Use this to your advantage."
+str[5] = "You will almost certainly run into some [Sprites] in the path ahead. Good luck."
+str[6] = "Oh yeah, I mentioned someone named [Chroma.] I should explain that real quick. Ever since I first got to [Planet Stone, Aneroid] has been communicating with me to make sure everything is going okay."
+str[7] = "Recently, [Chroma] was brought to life on [Frank's Fleet] (I wrote these signs one year after [Mach] left). Ever since, [Aneroid] has had us able to communicate through messages."
+str[8] = "Apparently, [Chroma] has a telekenetic link to [Frank] that allows them to communicate through thoughts for some reason. Apparently it's because [Frank] is just making sure that at least one apple will survive by making sure they're alright. Cliche, but convenient."
+str[9] = "Through [Chroma,] I learned a lot of things about this planet. However, [Frank] is refusing to tell anyone what the [Sprites] are doing here. Which is odd."
+str[10] = "Oh well. I shouldn't be questioning these kind of things. I shouldn't have you wasting your time reading these signs, anyways. On you go, and good luck.*"
+
+img[0] = Sign
+img[1] = Sign
+img[2] = Sign
+img[3] = Sign
+img[4] = Sign
+img[5] = Sign
+img[6] = Sign
+img[7] = Sign
+img[8] = Sign
+img[9] = Sign
+img[10] = Sign
+
+name[0] = "Sign"
+name[1] = "Sign"
+name[2] = "Sign"
+name[3] = "Sign"
+name[4] = "Sign"
+name[5] = "Sign"
+name[6] = "Sign"
+name[7] = "Sign"
+name[8] = "Sign"
+name[9] = "Sign"
+name[10] = "Sign"
+
+event_inherited();
+</argument>
+      </arguments>
+    </action>
+    <action id="201" library="1">
+      <!--action name: Create_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">Uncontrollable</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

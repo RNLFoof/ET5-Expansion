@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">str[0] = "Ugh..."
+str[1] = "[Mach?] You don't sound too good."
+str[2] = "It turns out that I'm deathly ill. Recently, I've begun experiencing short-term memory loss and headaches. Now, my memory loss has gotten worse and it feels like something is tearing me apart from the inside."
+str[3] = "[Mach...]"
+str[4] = "Don't worry about me. I can take care of myself. If I died from some weird sickness like this, I wouldn't be any better than [Leaf!] Hah... Well then, let's start."
+str[5] = "So I talked to [Gertrude] today. Absolutely nothing came out of it. Although I got a brief glimpse of a black apple with green eyes. I might have been imagining it."
+str[6] = "I've never known any black apples. Well, there's [Motewolon,] but he's robotic so he doesn't have a face... that punk."
+str[7] = "I don't know. There have been tons of strange going-ons recently. I'll just assume I imagined it for now."
+str[8] = "[Gertrude] didn't tell you anything at all?"
+str[9] = "Nope. She's vowed to steer clear of me from now on. I feel like she's hiding something from me. I'm going to try to find where she's been hiding all this time. Maybe there will be something substantial there."
+str[10] = "Sounds like a good plan. Anyways, I got another letter from [the Agent.]"
+str[11] = "MAIL TIME!!!"
+str[12] = "How naive of you."
+str[13] = "So, here's the message: 'Find the [Clostrum.]'"
+str[14] = "Clostrum?"
+str[15] = "Apparently clostrum is Latin for 'key.' 'Clostrum' was also a pronoun. So I don't know what this could mean. As usual. Anyways, what else happened to you punks?"
+str[16] = "I went to [Numera] today looking for trouble. Then [Uni] came, shot her with some red bullet thing, and then she just... disappeared! If she's dead, that was some pretty lame death."
+str[17] = "Oh, she's 'dead' alright. [Uni] quite literally deleted her from existance."
+str[18] = "Okay, I take back what I said. That's insanely awesome."
+str[19] = "But why would [Uni] show up there? [Bots] aren't supposed to interact with apples. Unless you're [Aneroid,] but he was a butt anyways."
+str[20] = "That's what I was wondering."
+str[21] = "Perhaps the [Bots] are finally getting sick of all the refrigerators and toasters and are starting to get rid of them. Maybe they're on our side!"
+str[22] = "Speaking of [Bots] on our side, there's something I've been meaning to tell you for a while now, [App.] Remember your first adventure with the [Worminator?]"
+str[23] = "Yeah?"
+str[24] = "[Grax] is the one who caused the [Worminator] to malfunction, since he has the ability to short-circuit any machines using some eye power thing. He was trying to prevent you from using it and thus damaging the timestream, but it kind of backfired..."
+str[25] = "I'll say. That's interesting to know, though."
+str[26] = "Cough cough... Well, I think we covered everything to talk about in this meeting."
+str[27] = "Actually, I went in the tunnel last night while everyone was sleeping."
+str[28] = "What?!"
+str[29] = "It wasn't even that scary, jeez. In fact, I learned a few things from signs that were placed around. Apparently, [Jim] and [Chroma] communicated via [Aneroid] and [Chroma] had a telekenetic connection to [Frank,] allowing her to communicate with him via thoughts at any time."
+str[30] = "So now we know that you forgot that you already asked [Chroma] the same question twice because of your odd disease, [Mach.] And now we know how [Chroma] figured out her age."
+str[31] = "I always thought there was something odd about her..."
+str[32] = "But what about the glowing thing?! Didn't it try to scratch your eye?!"
+str[33] = "They're called [Sprites.] And there are more than one. And they hate us, because apparently our eyes hinder their abilities somehow. Yes, they tried hard to kill me, but I'm [App!] Also, the [Sprites] are trying to save the universe from something called the [Purger.]"
+str[34] = "Well gee, that doesn't ring any bells at all."
+str[35] = "According to the [Sprites] we don't have any reason to exist anymore because we failed to do what we were created to do: Stopping [Zanifer] from escaping. Apparently he teleported out of [the Beast] as soon as it opened a crack, so he WAS in there."
+str[36] = "How were these [Sprites] communicating with you?"
+str[37] = "Oh, I forgot to mention that. When I got close to the very center of this planet, there was a dead yellow apple. A [Sprite] possessed the body in order to communicate with me. The body apparently belonged to someone who had 'moved on.' Whatever that means."
+str[38] = "THEN HE TRIED TO KILL YOU, RIGHT?"
+str[39] = "Yes, actually. Since our eyes impair the [Sprites'] abilities, they want us dead. Naturally I declined from the offer of having us all kill ourselves, but this [Purger] thing sounds really evil."
+str[40] = "Don't worry about this [Purger] or the [Sprites] who apparently hate us. We have ourselves to look after. Anyways, did you find [Jim?]"
+str[41] = "He was nowhere to be found. Everything seemed abandoned, although he did leave behind signs which were apparently from 9 years ago, which is where I got some of the information on the [Sprites.]"
+str[42] = "The [Sprites] are being stored in this tunnel. Why they're here, no one knows except [Frank,] who's being very secretive about it. Speaking of which, I found four of the eight [Power Cylinders] in the [Core] which apparently power everything on this planet."
+str[43] = "They had the phrase ['Sky-Blue Horizons'] written on it. I don't know what it could mean, although [Jim] speculated that it could have been a company that [Frank] and [Seth] work for."
+str[44] = "There's that [Seth] name again... At least now we know that [Frank] and [Seth] had a connection of some kind, at least according to [Jim.]"
+str[45] = "I don't think the [Power Cylinders] were put there by [Uni] if [Sky-Blue Horizons] is a company. The cylinders must have been supplied to [Frank] considering they actually have a pseudo-logo on it, unlike everything else."
+str[46] = "Speaking of [Frank,] I bet he's still alive if [Chroma] was able to communicate with him."
+str[47] = "Yeah. There's no reason he couldn't have taken an escape pod himself when [Frank's Fleet] blew up, right?"
+str[48] = "Right. I think our next course of action should be trying to find [Frank.] But we have no idea where he is. I guess I'll have to try to figure that out. Assuming I don't forget..."
+str[49] = "Anyways, [App,] how did you get out of [the Core?]"
+str[50] = "Some glowing guy appeared with a blinding flash of light, pointed at me, and the next thing I know I'm waking up in my bed, apparently having slept in."
+str[51] = "Glowing guy? Was it a humanoid?"
+str[52] = "Yeah, it was a humanoid."
+str[53] = "Well then, I believe you may have found the same glowing humanoid that [Leaf] described."
+str[54] = "Well! I think everything is finally starting to come together now. Slowly but surely. We don't want to assume anything, though."
+str[55] = "I also found an audio cassette tape right before the glowing humanoid appeared. In fact, I still have it! I bet there's something important on it."
+str[56] = "But... We don't have a cassette player."
+str[57] = "I'll build one, then!"
+str[58] = "Right. I think I covered everything substantial I found in the tunnel."
+str[59] = "Well, the meeting's over, then. BACK TO WORK!!!*"
+
+img[0] = MachFace
+img[1] = AppFace
+img[2] = MachFace
+img[3] = AngelaFace
+img[4] = MachFace
+img[5] = AngelaFace
+img[6] = TexFace
+img[7] = AngelaFace
+img[8] = AppFace
+img[9] = AngelaFace
+img[10] = MachFace
+img[11] = SoapFace
+img[12] = TexFace
+img[13] = MachFace
+img[14] = TexFace
+img[15] = MachFace
+img[16] = TexFace
+img[17] = MachFace
+img[18] = TexFace
+img[19] = AppFace
+img[20] = TexFace
+img[21] = AngelaFace
+img[22] = MachFace
+img[23] = AppFace
+img[24] = MachFace
+img[25] = AppFace
+img[26] = MachFace
+img[27] = AppFace
+img[28] = MachFace
+img[29] = AppFace
+img[30] = TexFace
+img[31] = AngelaFace
+img[32] = MachFace
+img[33] = AppFace
+img[34] = MachFace
+img[35] = AppFace
+img[36] = MachFace
+img[37] = AppFace
+img[38] = SoapFace
+img[39] = AppFace
+img[40] = AngelaFace
+img[41] = AppFace
+img[42] = AppFace
+img[43] = AppFace
+img[44] = MachFace
+img[45] = AppFace
+img[46] = TexFace
+img[47] = AngelaFace
+img[48] = MachFace
+img[49] = AngelaFace
+img[50] = AppFace
+img[51] = MachFace
+img[52] = AppFace
+img[53] = MachFace
+img[54] = AngelaFace
+img[55] = AppFace
+img[56] = AngelaFace
+img[57] = MachFace
+img[58] = AppFace
+img[59] = MachFace
+
+name[0] = "Mach"
+name[1] = "App"
+name[2] = "Mach"
+name[3] = "Angela"
+name[4] = "Mach"
+name[5] = "Angela"
+name[6] = "Tex"
+name[7] = "Angela"
+name[8] = "App"
+name[9] = "Angela"
+name[10] = "Mach"
+name[11] = "Soap"
+name[12] = "Tex"
+name[13] = "Mach"
+name[14] = "Tex"
+name[15] = "Mach"
+name[16] = "Tex"
+name[17] = "Mach"
+name[18] = "Tex"
+name[19] = "App"
+name[20] = "Tex"
+name[21] = "Angela"
+name[22] = "Mach"
+name[23] = "App"
+name[24] = "Mach"
+name[25] = "App"
+name[26] = "Mach"
+name[27] = "App"
+name[28] = "Mach"
+name[29] = "App"
+name[30] = "Tex"
+name[31] = "Angela"
+name[32] = "Mach"
+name[33] = "App"
+name[34] = "Mach"
+name[35] = "App"
+name[36] = "Mach"
+name[37] = "App"
+name[38] = "Soap"
+name[39] = "App"
+name[40] = "Angela"
+name[41] = "App"
+name[42] = "App"
+name[43] = "App"
+name[44] = "Mach"
+name[45] = "App"
+name[46] = "Tex"
+name[47] = "Angela"
+name[48] = "Mach"
+name[49] = "Angela"
+name[50] = "App"
+name[51] = "Mach"
+name[52] = "App"
+name[53] = "Mach"
+name[54] = "Angela"
+name[55] = "App"
+name[56] = "Angela"
+name[57] = "Mach"
+name[58] = "App"
+name[59] = "Mach"
+
+event_inherited();
+</argument>
+      </arguments>
+    </action>
+    <action id="201" library="1">
+      <!--action name: Create_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">Uncontrollable</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

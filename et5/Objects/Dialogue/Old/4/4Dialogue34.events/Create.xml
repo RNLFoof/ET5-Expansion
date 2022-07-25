@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">//Enclosing a part of a message in square brackets [] will cause the 
+//enclosed string to be highlighted.
+
+//Placing an asterisk * at the end of a message tells the code that
+//the current message is the last message.
+
+//Putting an exponent sign ^ at the end of a message followed by a number will cause the 
+//next position to be at the number. If it is followed by a number, a comma, and then another number,
+//then the code will open up a box for the player to choose which path to take.
+//The first number is for the yes position, and the second is for the no position.
+
+//If you surround a number by a less than sign &lt; and a greater then sign &gt;, the code will do a manual
+//pause for the  specified number of steps.
+
+//These are the actual messages.
+str[0] = "IT'S YOU!!"
+str[1] = "How are you, gentlemen?&lt;30&gt; All your base are belong to us.&lt;30&gt; You are on the way to destruction."
+str[2] = "What you say!"
+str[3] = "You have no chance to survive make your time.&lt;30&gt; Ha ha ha ha ...."
+str[4] = "All jokes aside... WHO ARE YOU?!"
+str[5] = "My name is [Tex]. And who are you?"
+str[6] = "Erm...&lt;30&gt; I don't know. People just call me [the Apple]. I am the holder of the [Seed of Peace]. If I find out my name from my nemesis, I can finally create world peace... but the [Evil Toaster] got away through the [Worminator]."
+str[7] = "World peace from some mere seed? How the hell do you expect that to work?"
+str[8] = "Well, the world's only magic blue apple told me a legend about it."
+str[9] = "[Shaman]? He's a legend and his existence is merely a coincidence. This [Seed of Peace] junk is also a legend. I have proof that it doesn't exist."
+str[10] = "Are you trying to dampen my confidence? You've tried to kill me twice with your funny [ARS] turrets that you built from unbreakable materials, so I wouldn't be surprised if you are."
+str[11] = "Seriously, think. Why would [the Bots] put such a seed inside of you? That's completely against their intentions."
+str[12] = "[The Bots]?"
+str[13] = "You don't know them? You've certainly been playing into their hands this entire time. Oh well, you'll find out soon enough. Well, actually, you won't, because you'll be dead."
+str[14] = "Dead? Who are you, really?! And what's with this [ARS] stuff?"
+str[15] = "I am part of [ARS]. [ARS] fights viscous kitchen appliances. I was sent here to kill you."
+str[16] = "What? You fight the toasters too? If [ARS] wants to fight the toasters, then why do they want to kill me?"
+str[17] = "Fighting toasters? We do not take part in such silliness - we have much stronger appliances to fight. As for [ARS] wanting you dead, it was not my decision to kill you. I know you're strong, but it's for the greater good."
+str[18] = "Tell me more about [ARS] and [The Bots]. What other kitchen appliances?"
+str[19] = "I am sorry. I cannot tell you because your knowing may rip a hole in the space-time continuum based off of your possible actions. I time traveled here from the recent future, see?"
+str[20] = "So much to take in... Now I can't go on any more adventures without my [Worminator]."
+str[21] = "That's true. The [Evil Toaster] is a coward - he ran away from me. He most certainly doesn't know your name. Why can't you go and just think up a name for yourself if you ever walk away from this scene?"
+str[22] = "I will walk away from this scene, that's for sure."
+str[23] = "Maybe you will, but you'll find yourself becoming overconfident if you always keep up such thoughts. Now that we're at the point, let's duel... [CRAZY LU], SEND IN THE [HURTS]!*"
+//These are the headshots that correspond to each message.
+img[0] = RedNoAnim
+img[1] = TexFace
+img[2] = RedNoAnim
+img[3] = TexFace
+img[4] = RedNoAnim
+img[5] = TexFace
+img[6] = RedNoAnim
+img[7] = TexFace
+img[8] = RedNoAnim
+img[9] = TexFace
+img[10] = RedNoAnim
+img[11] = TexFace
+img[12] = RedNoAnim
+img[13] = TexFace
+img[14] = RedNoAnim
+img[15] = TexFace
+img[16] = RedNoAnim
+img[17] = TexFace
+img[18] = RedNoAnim
+img[19] = TexFace
+img[20] = RedNoAnim
+img[21] = TexFace
+img[22] = RedNoAnim
+img[23] = TexFace
+//These are the names of the person talking in each message.
+name[0] = "The Apple"
+name[1] = "CATS???"
+name[2] = "The Apple"
+name[3] = "CATS???"
+name[4] = "The Apple"
+name[5] = "Tex"
+name[6] = "The Apple"
+name[7] = "Tex"
+name[8] = "The Apple"
+name[9] = "Tex"
+name[10] = "The Apple"
+name[11] = "Tex"
+name[12] = "The Apple"
+name[13] = "Tex"
+name[14] = "The Apple"
+name[15] = "Tex"
+name[16] = "The Apple"
+name[17] = "Tex"
+name[18] = "The Apple"
+name[19] = "Tex"
+name[20] = "The Apple"
+name[21] = "Tex"
+name[22] = "The Apple"
+name[23] = "Tex"
+//As you can see, it is quite easy to add extra details for
+//each message simply by adding an extra array. 
+//It's that simple!
+
+//This determines the number of pixels each line can be.
+line_length = 420
+//This controls the speed of the the text.
+text_speed = 1
+//This is the  x position in which the string starts at.
+string_x = 16
+//This is the y position in which the string starts at.
+string_y = 48
+//This determines the vertical spacing between lines.
+//When set to zero, the spacing will only be the string's height.
+vertical_spacing = 0
+//This is the x position of the question box.
+question_box_x = 32
+//This is the y position of the question box.
+question_box_y = 128
+//This is the x position of the text drawn in relevance to question_box_x.
+question_x = 18
+//This is the y position of the text drawn in relevance to question_box_y.
+question_y = 7
+//This is the x position of the names.
+name_x = 50
+//This is the y position of the names.
+name_y = 22
+//This is the x position of the headshot.
+headshot_x = 12
+//This is the y position of the headshot.
+headshot_y = 12
+//This is the vertical spacing in between "Yes" and "No".
+question_vert_spacing = 2
+//This is the x postion in relevance to question_box_x.
+highlight_x = 2
+//If this charcter is detected, initiate a highlight.
+highlight_open_character = "["
+//This character determines the end of a highlight. Anything enclosed
+//will be highlighted.
+highlight_close_character = "]"
+//If this charcter is detected, end messages.
+end_character = "*"
+//If this charcter is detected, ask question or jump to next position.
+jump_character = "^"
+//If this character is detected, initiate a manual pause.
+pause_open_character = "&lt;"
+//This character determines the number. The enclosed number
+//is the length of the manual pause.
+pause_close_character = "&gt;"
+
+
+//The following variables do not need to be changed and are only used
+//by the code.
+
+
+
+//This determins if the messages end.
+message_end = 0
+//This determines when the typing is finished.
+type_end = 0
+//This determines if the meesage is a question message.
+message_question = 0
+//This is the target position if yes is selected.
+yes_position = 0
+//This is the target position if no is selected.
+no_position = 0
+//This is the option selected by the user.
+question_selection = 1
+//This detemins if the message is a jump message.
+message_jump = 0
+//This is the position of the next message.
+jump_position = 0
+//This is the string that is going to be displayed. It contains the
+//modified version of the actual string.
+display_string = ""
+//This states the current position we are at in str[x] for adding
+//characters into display_string.
+position = 0
+//This states the current position we are in display_string. This is
+//used to prevent line breaks in the middle of a word.
+display_position= 0
+//This counter tells us when it's time to make a line break.
+width_counter = 0
+//This finds the last space.
+last_space = 0
+//The array index of the message that is currently being displayed.
+message_display = 0
+//This is used to count the number of phrases that will be highlighted.
+highlight_number = 0
+//This stores the starting position of the highlighted text.
+highlight_position[0] = 0
+//This stores the length of the highlighted text.
+highlight_length[0] = 0
+//This is used to count the number of manual pauses that are in the message.
+pause_number = 0
+//This stores the position of the manual pause.
+pause_position[0] = 0
+//This stores the number of steps the manual pause lasts.
+pause_length[0] = 0
+//This variable stores the edited message.
+current_string = ""
+
+
+//Gives the user a second to realize the window has opened before the text
+//starts typing out.
+alarm[0] = 10
+</argument>
+      </arguments>
+    </action>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">nexted</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="201" library="1">
+      <!--action name: Create_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">Uncontrollable</argument>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

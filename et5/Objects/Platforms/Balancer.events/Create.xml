@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">xrl = x;
+yrl = y;
+xi = x;
+yi = y;
+halfdistx = point_distance(x,y,mate.x,y)/2;
+halfdisty = point_distance(x,y,x,mate.y)/2;
+pivotx = x+halfdistx;
+pivoty = y-halfdisty;
+halfwall = 0;
+
+/*
+VARIABLES THAT SHOULD BE SET:
+
+mate: the id of the Balancer instance to correspond with
+tolerance: how fast (in pixels per frame) to move downwards when touched by App
+image_blend: of course
+
+*/
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

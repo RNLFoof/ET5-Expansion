@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">requirement</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">killed</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if room = 29 requirement = 1
+if room = 4 requirement = 2
+if room = 5 requirement = 1
+if room = 30 requirement = 3
+if room = 38 requirement = 2
+
+if room = 6 requirement = 4
+if room = 7 requirement = 2
+if room = 8 requirement = 1
+if room = 9 requirement = 1
+if room = 31 requirement = 2
+
+if room = 10 requirement = 1
+if room = 11 requirement = 1
+if room = 12 requirement = 2
+if room = 13 requirement = 1
+if room = 25 requirement = 2
+
+if room = 32 requirement = 1
+if room = 14 requirement = 2
+if room = 15 requirement = 1
+if room = 16 requirement = 1
+if room = 17 requirement = 2
+
+if room = 33 requirement = 1
+if room = 18 requirement = 1
+if room = 19 requirement = 2
+if room = 20 requirement = 2
+if room = 21 requirement = 3
+
+if room = 34 requirement = 1
+if room = 22 requirement = 2
+if room = 23 requirement = 3
+if room = 24 requirement = 2
+if room = 26 requirement = 2
+
+if room = 27 requirement = 3
+if room = 35 requirement = 1
+if room = 45 requirement = 2
+if room = 47 requirement = 3
+if room = 46 requirement = 3
+</argument>
+      </arguments>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>ArenaSpawner</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">1</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">scr_safesound(Spawn);
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

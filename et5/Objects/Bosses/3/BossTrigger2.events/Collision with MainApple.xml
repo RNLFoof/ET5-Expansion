@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="COLLISION" with="MainApple">
+  <actions>
+    <action id="203" library="1">
+      <!--action name: Kill_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_kill_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>BossTrigger2</appliesTo>
+      <arguments/>
+    </action>
+    <action id="119" library="1">
+      <!--action name: Path-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_path</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>EvilSpatula</appliesTo>
+      <arguments>
+        <argument kind="PATH">EvilSpatulaPath</argument>
+        <argument kind="EXPRESSION">12</argument>
+        <argument kind="MENU">1</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="101" library="1">
+      <!--action name: Move-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_move</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>EvilSpoon</appliesTo>
+      <arguments>
+        <argument kind="STRING">010000000</argument>
+        <argument kind="EXPRESSION">4</argument>
+      </arguments>
+    </action>
+    <action id="101" library="1">
+      <!--action name: Move-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_move</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>EvilFork</appliesTo>
+      <arguments>
+        <argument kind="STRING">010000000</argument>
+        <argument kind="EXPRESSION">8</argument>
+      </arguments>
+    </action>
+    <action id="101" library="1">
+      <!--action name: Move-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_move</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>EvilSpork</appliesTo>
+      <arguments>
+        <argument kind="STRING">000100000</argument>
+        <argument kind="EXPRESSION">5</argument>
+      </arguments>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>EvilSpork</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">50</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>EvilSpork</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">300</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="101" library="1">
+      <!--action name: Move-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_move</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>EvilGrater</appliesTo>
+      <arguments>
+        <argument kind="STRING">000100000</argument>
+        <argument kind="EXPRESSION">3</argument>
+      </arguments>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>EvilGrater</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">50</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>EvilGrater</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">500</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>EvilGrater</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">4500</argument>
+        <argument kind="MENU">2</argument>
+      </arguments>
+    </action>
+    <action id="611" library="1">
+      <!--action name: Variable-->
+      <kind>VARIABLE</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>Motewolon</appliesTo>
+      <arguments>
+        <argument kind="STRING">phase</argument>
+        <argument kind="EXPRESSION">1</argument>
+      </arguments>
+    </action>
+    <action id="203" library="1">
+      <!--action name: Kill_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_kill_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>GreenRoflcopterLR</appliesTo>
+      <arguments/>
+    </action>
+    <action id="404" library="1">
+      <!--action name: If_Number-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_number</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="201" library="1">
+      <!--action name: Create_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_create_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT"/>
+        <argument kind="EXPRESSION">0</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="612" library="1">
+      <!--action name: If_Variable-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_variable</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">room</argument>
+        <argument kind="EXPRESSION">27</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="202" library="1">
+      <!--action name: Change_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_change_object</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>Stop</appliesTo>
+      <arguments>
+        <argument kind="GMOBJECT">BasicWall</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+    <action id="301" library="1">
+      <!--action name: Set_Alarm-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_alarm</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>EvilToaster</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">50</argument>
+        <argument kind="MENU">0</argument>
+      </arguments>
+    </action>
+    <action id="107" library="1">
+      <!--action name: Set_Gravity-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_set_gravity</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>EvilToaster</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">270</argument>
+        <argument kind="EXPRESSION">0.6</argument>
+      </arguments>
+    </action>
+    <action id="101" library="1">
+      <!--action name: Move-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_move</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>RoasterB</appliesTo>
+      <arguments>
+        <argument kind="STRING">001000000</argument>
+        <argument kind="EXPRESSION">3</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

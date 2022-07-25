@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Dia06Trigger" type="RESOURCE"/>
+  <resource name="Dia09Trigger" type="RESOURCE"/>
+  <resource name="Dia13Trigger" type="RESOURCE"/>
+  <resource name="Dia16Trigger" type="RESOURCE"/>
+  <resource name="Dia18Trigger" type="RESOURCE"/>
+  <resource name="Dia26Trigger" type="RESOURCE"/>
+  <resource name="Dia27Trigger" type="RESOURCE"/>
+  <resource name="Dia32Trigger" type="RESOURCE"/>
+</resources>

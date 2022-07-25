@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if linkedoptions!=-1 linkedoptions.visible=image_index;
+
+draw_sprite(sprite_index,image_index,x,y);
+if instance_nearest(mouse_x,mouse_y,obj_CheatsBack)=id 
+{
+    draw_sprite(sprite_index,2,x,y);
+    draw_set_valign(fa_bottom);
+    draw_set_halign(fa_center);
+    draw_set_color(c_black);
+    draw_set_font(fnt_cheatsdesc);
+    draw_text_ext(320,448,desc,16,640-32);
+    draw_set_halign(fa_left);
+    if popped=false scr_safesound(Pop);
+    popped=true;
+} else popped=false;
+draw_set_valign(fa_center);
+draw_set_color(c_black);
+draw_set_font(fnt_cheats);
+draw_text(x+18,y,s);
+draw_set_valign(fa_top);
+draw_set_color(c_white);
+draw_set_font(fnt_text);
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

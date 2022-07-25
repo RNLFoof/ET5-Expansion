@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Old" type="GROUP"/>
+  <resource name="Misc" type="GROUP"/>
+  <resource name="CharactersP" type="GROUP"/>
+  <resource name="5Phase1" type="GROUP"/>
+  <resource name="5Phase2" type="GROUP"/>
+  <resource name="5Phase3" type="GROUP"/>
+  <resource name="5Phase4" type="GROUP"/>
+  <resource name="5Phase5" type="GROUP"/>
+  <resource name="5Phase6" type="GROUP"/>
+</resources>

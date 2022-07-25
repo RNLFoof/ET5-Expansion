@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="HRedButtons" type="RESOURCE"/>
+  <resource name="HMagneRails" type="RESOURCE"/>
+  <resource name="HGreenCopters" type="RESOURCE"/>
+  <resource name="HRailTop" type="RESOURCE"/>
+  <resource name="HCyanButtons" type="RESOURCE"/>
+  <resource name="HMagneHurry" type="RESOURCE"/>
+  <resource name="HDSmashDJump" type="RESOURCE"/>
+</resources>

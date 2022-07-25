@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="ALARM" id="1">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if not instance_exists(handling)
+{
+    instance_destroy();
+    exit;
+}
+if instance_number(MainApple) &gt; 1
+{
+    if point_distance(x,y,MainApple.x,MainApple.y) &lt; 640
+    {
+        part_particles_create_color(ParticleBitch.dustparticlesystem, handling.x+xoff, handling.y+yoff, ParticleBitch.dustparticlecreatetype, dustcolor, 20);
+    };
+};
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

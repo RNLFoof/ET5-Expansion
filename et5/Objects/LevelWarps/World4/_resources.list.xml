@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="L4_0" type="RESOURCE"/>
+  <resource name="T4_0" type="RESOURCE"/>
+  <resource name="L4_1" type="RESOURCE"/>
+  <resource name="T4_1" type="RESOURCE"/>
+  <resource name="L4_2" type="RESOURCE"/>
+  <resource name="T4_2" type="RESOURCE"/>
+  <resource name="L4_3" type="RESOURCE"/>
+  <resource name="T4_3" type="RESOURCE"/>
+  <resource name="L4_4" type="RESOURCE"/>
+  <resource name="T4_4" type="RESOURCE"/>
+  <resource name="L4_5" type="RESOURCE"/>
+  <resource name="T4_5" type="RESOURCE"/>
+  <resource name="L4_0X" type="RESOURCE"/>
+  <resource name="T4_0X" type="RESOURCE"/>
+  <resource name="L4_1X" type="RESOURCE"/>
+  <resource name="T4_1X" type="RESOURCE"/>
+  <resource name="L4_2X" type="RESOURCE"/>
+  <resource name="T4_2X" type="RESOURCE"/>
+  <resource name="L4_3X" type="RESOURCE"/>
+  <resource name="T4_3X" type="RESOURCE"/>
+  <resource name="L4_4X" type="RESOURCE"/>
+  <resource name="T4_4X" type="RESOURCE"/>
+  <resource name="L4_2A" type="RESOURCE"/>
+  <resource name="T4_2A" type="RESOURCE"/>
+</resources>

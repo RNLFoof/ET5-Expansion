@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DESTROY" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if string(o)="exception" exit;
+if global.cheat_KILL_ANYTHING_=true
+{
+    /*with(MainApple)
+    {
+        remy=y;
+        if other.y&lt;128 y=room_height-128 else y=64;
+    };
+    with(Gropple) 
+    {
+        remy=y;
+        if other.y&lt;128 y=room_height-128 else y=64;
+    };
+    with(Splapple){
+        remy=y;
+        if other.y&lt;128 y=room_height-128 else y=64;
+    };
+    with(GroppleDestroyer)
+    {
+        remy=y;
+        if other.y&lt;128 y=room_height-128 else y=64;
+    };
+    y=remy;*/
+    if global.cheat_exvar_2_1=false instance_deactivate_object(MainApple);
+    instance_deactivate_object(Splapple);
+    if global.cheat_exvar_2_3=false instance_deactivate_object(Gropple);
+    if global.cheat_exvar_2_4=false instance_deactivate_object(GroppleDestroyer);
+    if global.cheat_exvar_2_5=false instance_deactivate_object(RobotExplosion);
+    if global.cheat_exvar_2_6=false instance_deactivate_object(NewCamera);
+    
+    if o=noone o=instance_place(x,y,all);
+    if o=noone o=instance_place(x+hspeed,y+vspeed,all);
+    
+    
+    
+    /*with(MainApple) y=remy;
+    with(Gropple) y=remy;
+    with(Splapple) y=remy;
+    with(GroppleDestroyer) y=remy;*/
+    instance_activate_all();
+    
+    
+    
+    if o!=noone with(o) 
+    {
+        scr_safesound(EnemyHurt);
+        if variable_local_exists("HP") HP=0 else 
+        {
+            instance_create(x+(sprite_width/2*image_xscale)-sprite_xoffset-16,y+(sprite_height/2*image_yscale)-sprite_yoffset-16,Gropple);
+            instance_create(x+(sprite_width/2*image_xscale)-sprite_xoffset-48,y+(sprite_height/2*image_yscale)-sprite_yoffset-48,RobotExplosion);
+            scr_safesound(EnemyDie);
+            instance_destroy();
+        };
+    };
+};
+</argument>
+      </arguments>
+    </action>
+    <action id="532" library="1">
+      <!--action name: Effect-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_effect</functionName>
+      <relative>true</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="MENU">1</argument>
+        <argument kind="EXPRESSION">8</argument>
+        <argument kind="EXPRESSION">8</argument>
+        <argument kind="MENU">0</argument>
+        <argument kind="COLOR">16711680</argument>
+        <argument kind="MENU">1</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

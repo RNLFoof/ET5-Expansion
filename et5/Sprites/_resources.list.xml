@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Apple" type="GROUP"/>
+  <resource name="Walls" type="GROUP"/>
+  <resource name="Buttons" type="GROUP"/>
+  <resource name="Items" type="GROUP"/>
+  <resource name="Hazards" type="GROUP"/>
+  <resource name="SpecialTerrain" type="GROUP"/>
+  <resource name="Slants" type="GROUP"/>
+  <resource name="Enemies" type="GROUP"/>
+  <resource name="Projectiles" type="GROUP"/>
+  <resource name="Backgrounds" type="GROUP"/>
+  <resource name="Bosses" type="GROUP"/>
+  <resource name="Platforms" type="GROUP"/>
+  <resource name="Rails" type="GROUP"/>
+  <resource name="Water" type="GROUP"/>
+  <resource name="BigWords" type="GROUP"/>
+  <resource name="EnemyIndex" type="GROUP"/>
+  <resource name="Cutscenes" type="GROUP"/>
+  <resource name="Scenery" type="GROUP"/>
+  <resource name="PodCPU" type="GROUP"/>
+  <resource name="DejaVu" type="GROUP"/>
+  <resource name="Boxinator" type="GROUP"/>
+  <resource name="WeBrawl" type="GROUP"/>
+  <resource name="AODD" type="GROUP"/>
+  <resource name="Wefight" type="GROUP"/>
+  <resource name="SKB" type="GROUP"/>
+  <resource name="FranksFleet" type="GROUP"/>
+  <resource name="Spinners" type="GROUP"/>
+  <resource name="Editor" type="GROUP"/>
+  <resource name="Face" type="GROUP"/>
+  <resource name="AppleGates" type="GROUP"/>
+  <resource name="ASprites" type="GROUP"/>
+  <resource name="Presets" type="GROUP"/>
+  <resource name="Bots" type="GROUP"/>
+  <resource name="Soapbars" type="GROUP"/>
+  <resource name="Electricity" type="GROUP"/>
+  <resource name="CHEATS" type="GROUP"/>
+  <resource name="RNL's Stuff" type="GROUP"/>
+  <resource name="Micman's Stuff" type="GROUP"/>
+  <resource name="del BUT ONLY LATER" type="RESOURCE"/>
+  <resource name="sprTrapBomb" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="spr_CustomShineOld" type="RESOURCE"/>
+  <resource name="spr_CustomShine" type="RESOURCE"/>
+  <resource name="spr_CustomGear" type="RESOURCE"/>
+  <resource name="spr_CustomApple" type="RESOURCE"/>
+  <resource name="spr_CustomCategories" type="RESOURCE"/>
+  <resource name="spr_CustomCategories_0" type="RESOURCE"/>
+  <resource name="spr_CustomCategories_1" type="RESOURCE"/>
+  <resource name="spr_CustomCategories_2" type="RESOURCE"/>
+  <resource name="spr_CustomCategories_3" type="RESOURCE"/>
+  <resource name="spr_CustomCategories_4" type="RESOURCE"/>
+  <resource name="spr_CustomCategories_5" type="RESOURCE"/>
+  <resource name="spr_CustomCategories_6" type="RESOURCE"/>
+  <resource name="spr_CustomCategories_7" type="RESOURCE"/>
+  <resource name="spr_CustomParts" type="RESOURCE"/>
+</resources>

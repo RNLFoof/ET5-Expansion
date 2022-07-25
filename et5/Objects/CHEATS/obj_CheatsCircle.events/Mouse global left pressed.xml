@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="MOUSE" id="53">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if sprite_index=spr_CheatsCircle
+{
+    if instance_nearest(mouse_x,mouse_y,obj_CheatsCircle)=id &amp;&amp; visible=true &amp;&amp; alarm[0]=-1
+    {
+        with(obj_CheatsCircle) image_index=0;
+        image_index=1;
+        scr_safesound(SaveHappified);
+    };
+    if image_index=1 execute_string(vari+"=n");
+}
+else
+{
+    if instance_nearest(mouse_x,mouse_y,obj_CheatsCircle)=id &amp;&amp; visible=true &amp;&amp; alarm[0]=-1 
+    {
+        if image_index=0 image_index=1 else image_index=0;
+        scr_safesound(SaveHappified);
+        execute_string(vari+"_"+string(n+1)+"=image_index");
+    };
+};
+
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

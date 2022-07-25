@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<path>
+  <points>
+    <point speed="100" x="272" y="816"/>
+    <point speed="100" x="704" y="816"/>
+    <point speed="100" x="704" y="688"/>
+    <point speed="100" x="912" y="688"/>
+    <point speed="100" x="912" y="816"/>
+    <point speed="100" x="1104" y="816"/>
+    <point speed="100" x="1008" y="912"/>
+    <point speed="100" x="848" y="912"/>
+    <point speed="100" x="912" y="848"/>
+    <point speed="100" x="848" y="784"/>
+    <point speed="100" x="1008" y="688"/>
+    <point speed="100" x="1136" y="752"/>
+    <point speed="100" x="1168" y="752"/>
+    <point speed="100" x="1168" y="784"/>
+    <point speed="100" x="1200" y="784"/>
+    <point speed="100" x="1312" y="864"/>
+    <point speed="100" x="1344" y="704"/>
+    <point speed="100" x="1552" y="736"/>
+    <point speed="100" x="1584" y="784"/>
+    <point speed="100" x="1648" y="720"/>
+    <point speed="100" x="1712" y="784"/>
+    <point speed="100" x="1808" y="784"/>
+    <point speed="100" x="1808" y="912"/>
+    <point speed="100" x="1744" y="912"/>
+    <point speed="100" x="1744" y="816"/>
+    <point speed="100" x="2064" y="816"/>
+    <point speed="100" x="2064" y="912"/>
+    <point speed="100" x="2000" y="912"/>
+    <point speed="100" x="2000" y="848"/>
+    <point speed="100" x="2064" y="848"/>
+    <point speed="100" x="2064" y="752"/>
+    <point speed="100" x="2224" y="752"/>
+    <point speed="100" x="2816" y="944"/>
+    <point speed="100" x="3280" y="944"/>
+    <point speed="100" x="3280" y="848"/>
+    <point speed="100" x="3184" y="848"/>
+    <point speed="100" x="3248" y="896"/>
+    <point speed="100" x="3248" y="704"/>
+    <point speed="100" x="3504" y="704"/>
+    <point speed="100" x="3504" y="848"/>
+    <point speed="100" x="3408" y="848"/>
+    <point speed="100" x="3408" y="944"/>
+    <point speed="100" x="3600" y="944"/>
+    <point speed="100" x="3600" y="848"/>
+    <point speed="100" x="3536" y="848"/>
+    <point speed="100" x="3536" y="704"/>
+    <point speed="100" x="4016" y="704"/>
+    <point speed="100" x="4016" y="896"/>
+    <point speed="100" x="4160" y="896"/>
+    <point speed="100" x="4160" y="704"/>
+    <point speed="100" x="4368" y="704"/>
+    <point speed="100" x="4368" y="496"/>
+    <point speed="100" x="4080" y="496"/>
+    <point speed="100" x="4080" y="272"/>
+    <point speed="100" x="4224" y="272"/>
+    <point speed="100" x="4224" y="224"/>
+    <point speed="100" x="3936" y="224"/>
+    <point speed="100" x="3936" y="272"/>
+    <point speed="100" x="4080" y="256"/>
+    <point speed="100" x="4080" y="512"/>
+    <point speed="100" x="3952" y="496"/>
+    <point speed="100" x="3808" y="496"/>
+    <point speed="100" x="3808" y="80"/>
+    <point speed="100" x="4416" y="80"/>
+    <point speed="100" x="4592" y="272"/>
+    <point speed="100" x="4560" y="432"/>
+    <point speed="100" x="4560" y="784"/>
+    <point speed="100" x="5008" y="784"/>
+    <point speed="100" x="5008" y="688"/>
+    <point speed="100" x="4832" y="688"/>
+    <point speed="100" x="4752" y="720"/>
+    <point speed="100" x="4832" y="752"/>
+    <point speed="100" x="5168" y="752"/>
+    <point speed="100" x="5168" y="784"/>
+    <point speed="100" x="5232" y="784"/>
+    <point speed="100" x="5232" y="752"/>
+    <point speed="100" x="5264" y="752"/>
+    <point speed="100" x="5264" y="688"/>
+    <point speed="100" x="5232" y="688"/>
+    <point speed="100" x="5232" y="656"/>
+    <point speed="100" x="5168" y="656"/>
+    <point speed="100" x="5168" y="688"/>
+    <point speed="100" x="5136" y="688"/>
+    <point speed="100" x="5136" y="864"/>
+    <point speed="100" x="5520" y="864"/>
+    <point speed="100" x="5648" y="688"/>
+    <point speed="100" x="5760" y="848"/>
+    <point speed="100" x="5888" y="704"/>
+    <point speed="100" x="6016" y="832"/>
+    <point speed="100" x="6128" y="720"/>
+    <point speed="100" x="6192" y="768"/>
+    <point speed="100" x="6192" y="480"/>
+    <point speed="100" x="6224" y="560"/>
+    <point speed="100" x="6240" y="480"/>
+    <point speed="100" x="6256" y="560"/>
+    <point speed="100" x="6288" y="480"/>
+    <point speed="100" x="6288" y="560"/>
+    <point speed="100" x="6320" y="480"/>
+    <point speed="100" x="6320" y="768"/>
+    <point speed="100" x="6704" y="752"/>
+    <point speed="100" x="6704" y="560"/>
+    <point speed="100" x="6832" y="560"/>
+    <point speed="100" x="6832" y="752"/>
+    <point speed="100" x="7152" y="752"/>
+    <point speed="100" x="7728" y="784"/>
+  </points>
+  <backgroundRoom>1_2X</backgroundRoom>
+  <closed>false</closed>
+  <precision>4</precision>
+  <smooth>false</smooth>
+  <snap x="16" y="16"/>
+</path>

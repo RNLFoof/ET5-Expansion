@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="ExExplosion" type="RESOURCE"/>
+  <resource name="ExGround" type="RESOURCE"/>
+  <resource name="ExBrick" type="RESOURCE"/>
+  <resource name="ExQBlock" type="RESOURCE"/>
+  <resource name="ExPipeTop" type="RESOURCE"/>
+  <resource name="ExPipeMiddle" type="RESOURCE"/>
+</resources>

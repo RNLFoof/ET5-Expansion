@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="TurretL5T40D10" type="RESOURCE"/>
+  <resource name="TurretL8T30D10" type="RESOURCE"/>
+  <resource name="TurretR12T30D10" type="RESOURCE"/>
+  <resource name="BalloonBomb" type="RESOURCE"/>
+  <resource name="BBSpawner" type="RESOURCE"/>
+  <resource name="HBalloonBomb" type="RESOURCE"/>
+  <resource name="AngelaKey" type="RESOURCE"/>
+  <resource name="AngelaKeyD" type="RESOURCE"/>
+  <resource name="TurretBase" type="RESOURCE"/>
+</resources>

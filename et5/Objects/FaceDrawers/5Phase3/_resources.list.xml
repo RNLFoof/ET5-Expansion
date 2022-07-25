@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Face_Mach08" type="RESOURCE"/>
+  <resource name="Face_App05" type="RESOURCE"/>
+  <resource name="Face_Soap05" type="RESOURCE"/>
+  <resource name="Face_Leaf07" type="RESOURCE"/>
+  <resource name="Face_Crystal05" type="RESOURCE"/>
+  <resource name="Face_Soap06" type="RESOURCE"/>
+  <resource name="Face_Tex01" type="RESOURCE"/>
+  <resource name="Face_CL02" type="RESOURCE"/>
+  <resource name="Face_Gertrude04" type="RESOURCE"/>
+  <resource name="Face_App06" type="RESOURCE"/>
+  <resource name="Face_Soap07" type="RESOURCE"/>
+  <resource name="Face_Mach09" type="RESOURCE"/>
+  <resource name="Face_Jim03" type="RESOURCE"/>
+  <resource name="Face_AngelaB" type="RESOURCE"/>
+</resources>

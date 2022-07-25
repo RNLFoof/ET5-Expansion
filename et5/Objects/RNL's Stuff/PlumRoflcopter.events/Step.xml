@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">// Travel
+//exit;
+if travelling
+{
+    traveltimer += 1;
+    if traveltimer = traveltime
+    {
+        travelling  = false;
+        x = goalx;
+        y = goaly;
+    }
+    else
+    {
+        x = startx-((startx-goalx)/traveltime*traveltimer);
+        y = starty-((starty-goaly)/traveltime*traveltimer);
+    }
+}
+
+// Notice
+if not instance_exists(MainApple)
+{
+    exit;
+}
+
+var setto;
+setto = !collision_line(x+16, y+16, MainApple.x+16, MainApple.y+16, BasicWall, false, true) and !collision_line(x+16, y+16, MainApple.x+16, MainApple.y+16, AntiBouncerWall, false, true);
+if setto != noticed
+{
+    noticetimerplus = 1;
+    noticetimer = 0;
+}
+noticed = setto;
+
+// Notice timer
+noticetimer += noticetimerplus;
+if noticetimer == noticetimermax
+{
+    noticetimerplus = 0;
+    noticetimer = 0;
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

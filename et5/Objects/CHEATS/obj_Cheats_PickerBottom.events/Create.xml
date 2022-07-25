@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">instance_create(x-112-32,y,obj_Cheats_PickerArrow);
+var o;
+o=instance_create(x+112+32+1,y,obj_Cheats_PickerArrow);
+o.image_xscale=-1;
+
+var n,nn;
+n=0;
+if y=248 repeat(sprite_get_number(spr_CustomCategories))
+{
+    cycle[n]=0;
+    execute_string("spr=spr_CustomCategories_"+string(n));
+    nn=0;
+    repeat(sprite_get_number(spr))
+    {
+        color[n,nn]=-1;
+        nn+=1;
+    };
+    n+=1;
+};
+execute_string("spr=spr_CustomCategories_"+string(obj_Cheats_Picker.cycle));
+
+editingcolor1=0;
+editingcolor2=0;
+
+////Eyes
+color[2,(6*0)+0]=c_white;
+color[2,(6*0)+1]=c_white;
+color[2,(6*0)+2]=c_black;
+color[2,(6*0)+3]=c_black;
+
+////Hats
+//Two-Tone Crash Helmet
+color[6,(6*0)+0]=make_color_rgb(255,64,64);
+color[6,(6*0)+1]=make_color_rgb(255,255,64);
+//Three-Tone Crash Helmet
+color[6,(6*1)+0]=make_color_rgb(255,64,64);
+color[6,(6*1)+1]=make_color_rgb(255,255,64);
+color[6,(6*1)+2]=make_color_rgb(255,64,64);
+//Four-Tone Crash Helmet
+color[6,(6*2)+0]=make_color_rgb(255,64,64);
+color[6,(6*2)+1]=make_color_rgb(255,255,64);
+color[6,(6*2)+2]=make_color_rgb(64,255,255);
+color[6,(6*2)+3]=make_color_rgb(255,64,64);
+//Five-Tone Crash Helmet
+color[6,(6*3)+0]=make_color_rgb(255,64,64);
+color[6,(6*3)+1]=make_color_rgb(255,255,64);
+color[6,(6*3)+2]=make_color_rgb(255,64,64);
+color[6,(6*3)+3]=make_color_rgb(255,255,64);
+color[6,(6*3)+4]=make_color_rgb(255,64,64);
+
+obj_Cheats_hs.px=color_get_hue(color[editingcolor1,editingcolor2]);
+obj_Cheats_hs.py=color_get_saturation(color[editingcolor1,editingcolor2]);
+obj_Cheats_v.pz=color_get_value(color[editingcolor1,editingcolor2]);
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

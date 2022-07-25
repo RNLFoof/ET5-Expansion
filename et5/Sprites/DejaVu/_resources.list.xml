@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="LazySquare" type="RESOURCE"/>
+  <resource name="DVGround" type="RESOURCE"/>
+  <resource name="Spring" type="RESOURCE"/>
+  <resource name="DVBlueButton" type="RESOURCE"/>
+  <resource name="FighterJet" type="RESOURCE"/>
+  <resource name="Dizziness" type="RESOURCE"/>
+  <resource name="Finish" type="RESOURCE"/>
+  <resource name="DarkSpring" type="RESOURCE"/>
+  <resource name="GreenSpring" type="RESOURCE"/>
+  <resource name="BlueSpring" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">ang += 3;
+if ang = 360 ang = 0;
+
+orbstep += orbspeed;
+x = ET5B.x + 40 + lengthdir_x(distance,orbstep);
+y = ET5B.y + 40 + lengthdir_y(distance,orbstep);
+
+if HP &gt; 75 col = c_lime;
+if HP &gt; 50 &amp;&amp; HP &lt; 76 col = c_orange;
+if HP &gt; 25 &amp;&amp; HP &lt; 51 col = c_yellow;
+if HP &lt; 26 col = c_red;
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">draw_self();
+
+// Update arm values
+var spd, dir;
+for (i = 1; i &lt; ds_list_size(arm_xs_left); i += 1)
+{   
+    spd = ds_list_find_value(arm_speeds_left, i);
+    dir = ds_list_find_value(arm_directions_left, i);
+    ds_list_replace(arm_xs_left, i, ds_list_find_value(arm_xs_left, i)+lengthdir_x(spd, dir));
+    ds_list_replace(arm_ys_left, i, ds_list_find_value(arm_ys_left, i)+lengthdir_y(spd, dir));
+    ds_list_replace(arm_speeds_left, i, ds_list_find_value(arm_speeds_left, i)+arm_speed_increase);
+    
+    spd = ds_list_find_value(arm_speeds_right, i);
+    dir = ds_list_find_value(arm_directions_right, i);
+    ds_list_replace(arm_xs_right, i, ds_list_find_value(arm_xs_right, i)+lengthdir_x(spd, dir));
+    ds_list_replace(arm_ys_right, i, ds_list_find_value(arm_ys_right, i)+lengthdir_y(spd, dir));
+    ds_list_replace(arm_speeds_right, i, ds_list_find_value(arm_speeds_right, i)+arm_speed_increase);
+};
+
+// New arm values
+ds_list_add(arm_xs_left, x+lengthdir_x(12, image_angle+90));
+ds_list_add(arm_ys_left, y+lengthdir_y(12, image_angle+90));
+ds_list_add(arm_speeds_left, arm_speed+random_range(-arm_speed_random, arm_speed_random));
+ds_list_add(arm_directions_left, image_angle+90+random_range(-arm_direction_random, arm_direction_random));
+
+ds_list_add(arm_xs_right, x+lengthdir_x(12, image_angle-90));
+ds_list_add(arm_ys_right, y+lengthdir_y(12, image_angle-90));
+ds_list_add(arm_speeds_right, arm_speed+random_range(-arm_speed_random, arm_speed_random));
+ds_list_add(arm_directions_right, image_angle-90+random_range(-arm_direction_random, arm_direction_random));
+
+// Delete arm values
+arm_length = arm_length_base/maxhp*HP;
+while ds_list_size(arm_xs_left) &gt; arm_length
+{
+    ds_list_delete(arm_xs_left,0);
+    ds_list_delete(arm_ys_left,0);
+    ds_list_delete(arm_speeds_left,0);
+    ds_list_delete(arm_directions_left,0);
+    
+    ds_list_delete(arm_xs_right,0);
+    ds_list_delete(arm_ys_right,0);
+    ds_list_delete(arm_speeds_right,0);
+    ds_list_delete(arm_directions_right,0);
+}
+
+// Create arm path
+path_clear_points(arm_path_left);
+path_clear_points(arm_path_right);
+for (i = 0; i &lt; ds_list_size(arm_xs_left); i += 1)
+{
+    path_add_point(arm_path_left, ds_list_find_value(arm_xs_left, i), ds_list_find_value(arm_ys_left, i), 100);
+    
+    path_add_point(arm_path_right, ds_list_find_value(arm_xs_right, i), ds_list_find_value(arm_ys_right, i), 100);
+}
+
+// Draw arm path
+if path_get_length(arm_path_left) = 0
+{
+    exit;
+}
+for (pathindexthing = 0; pathindexthing &lt;=1; pathindexthing += 1)
+{
+    if pathindexthing = 0
+    {
+        arm_path = arm_path_left;
+    }
+    else
+    {
+        arm_path = arm_path_right;
+    }
+    linesize = 1/path_get_length(arm_path);
+    sectionsize = linesize*arm_section_size;
+    fullsize = linesize*(arm_section_size+1);
+    for (i = 0; i &lt;= 1-fullsize; i += fullsize)
+    {
+        draw_set_color(c_black);
+        draw_line_width(
+                path_get_x(arm_path, i),
+                path_get_y(arm_path, i),
+                path_get_x(arm_path, i+fullsize),
+                path_get_y(arm_path, i+fullsize),
+                arm_width+2
+            );
+        draw_set_color(arm_color);
+        draw_line_width(
+                path_get_x(arm_path, i),
+                path_get_y(arm_path, i),
+                path_get_x(arm_path, i+sectionsize),
+                path_get_y(arm_path, i+sectionsize),
+                arm_width
+            );
+        // draw_sprite(sprite_index, 1, path_get_x(arm_path, i), path_get_y(arm_path, i));
+    }
+    
+    draw_sprite_ext(sprite_index, pathindexthing+1, path_get_x(arm_path, 0), path_get_y(arm_path, 0), 1, 1, path_get_direction(arm_path, 0)+180, c_white, 1);
+}
+
+draw_set_color(c_white);
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="FrankHS" type="RESOURCE"/>
+  <resource name="MetalBlock" type="RESOURCE"/>
+  <resource name="AppleBlaster" type="RESOURCE"/>
+  <resource name="FrankB" type="RESOURCE"/>
+  <resource name="FrankN" type="RESOURCE"/>
+  <resource name="PieceTube" type="RESOURCE"/>
+  <resource name="HitMe" type="RESOURCE"/>
+</resources>

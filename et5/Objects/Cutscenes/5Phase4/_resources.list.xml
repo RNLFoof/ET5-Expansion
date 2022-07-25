@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="ET04" type="RESOURCE"/>
+  <resource name="Toast01" type="RESOURCE"/>
+  <resource name="EscapePod01" type="RESOURCE"/>
+  <resource name="TheBeast01" type="RESOURCE"/>
+  <resource name="Soap08" type="RESOURCE"/>
+  <resource name="Angela03" type="RESOURCE"/>
+  <resource name="Chroma03" type="RESOURCE"/>
+  <resource name="Leaf08" type="RESOURCE"/>
+  <resource name="Soap09" type="RESOURCE"/>
+  <resource name="Angela04" type="RESOURCE"/>
+  <resource name="App07" type="RESOURCE"/>
+  <resource name="Mach10" type="RESOURCE"/>
+  <resource name="Gertrude05" type="RESOURCE"/>
+  <resource name="Riddle01" type="RESOURCE"/>
+  <resource name="UDSoap" type="RESOURCE"/>
+  <resource name="DoomyLaser" type="RESOURCE"/>
+  <resource name="Numera03" type="RESOURCE"/>
+</resources>

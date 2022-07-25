@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="ALARM" id="3">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">// Maybe make clones
+if !variable_local_exists("clones")
+    clones = 0;
+for (cloneindex=0; cloneindex&lt;clones ;cloneindex+=1)
+{
+    cloneobject = instance_create(x,y,obj_Shaker);
+    cloneobject.spawnobject = spawnobject;
+}
+
+// Determine the color for the inside of the shaker
+var dustcolorsurface, size;
+size = 1;
+dustcolorsurface = surface_create(size,size);
+surface_set_target(dustcolorsurface);
+// spawnobject = RedRoflcopter;
+o = instance_create(x, y, spawnobject);
+o.ifthisvariableexiststheobjectcamefromashakerlmao = true;
+spawnsprite = o.sprite_index;
+with (o)
+{
+    instance_destroy();
+}
+w = sprite_get_width(spawnsprite);
+h = sprite_get_height(spawnsprite);
+xoff = sprite_get_xoffset(spawnsprite);
+yoff = sprite_get_yoffset(spawnsprite);
+draw_sprite_ext(spawnsprite, 0, xoff*(size/w), yoff*(size/h), size/w, size/h, 0, c_white, 1);
+surface_reset_target();
+dustcolor = surface_getpixel(dustcolorsurface, 0, 0);
+
+// Old dust color method
+/*precision = 16;
+o = instance_create(x, y, HandyToaster);
+w = sprite_get_width(o.sprite_index);
+h = sprite_get_height(o.sprite_index);
+xoff = sprite_get_xoffset(o.sprite_index);
+yoff = sprite_get_yoffset(o.sprite_index);
+for (xx=0; xx&lt;precision; xx+=1)
+{
+    for (yy=0; yy&lt;precision; yy+=1)
+    {
+        draw_sprite_ext(o.sprite_index, 0, xoff-(w/precision*xx), yoff-(h/precision*yy), 1, 1, 0, c_white, 1/255);
+        // draw_sprite_ext(o.sprite_index, 0, xoff-(w/precision*xx)+(w/precision/2), yoff-(h/precision*yy)+(h/precision/2), 1, 1, 0, c_white, 255/255);
+    }
+}*/
+
+// Set up the shaking path
+pathstartspeed = 30;
+pathupgravity = 4;
+pathdowngravity = 6;
+// pathenddir = 63.43+180; Old gross value
+pathenddir = 260.43;
+pathendx = lengthdir_x(32*3.5, pathenddir);
+pathendy = lengthdir_y(32*3.5, pathenddir);
+pixelredrawneeded = false;
+lineredrawneeded = false;
+
+// COLORS
+if not instance_exists(ShakerColorStorer)
+{
+    instance_create(0, 0, ShakerColorStorer);
+}
+// Get from dict?
+// show_message(ds_map_write(ShakerColorStorer.colors));
+if ds_map_exists(ShakerColorStorer.colors, spawnobject)
+{
+    pixelshuffle = ds_list_create();
+    //show_message(3);
+    ds_list_read(pixelshuffle, ds_map_find_value(ShakerColorStorer.colors, spawnobject));
+    // show_message(ds_list_write(pixelshuffle));
+    // show_message(ds_list_size(pixelshuffle));
+    //show_message(1);
+}
+// Gen
+else
+{
+    // Set up the surfaces used to determine color and alpha of each pixel
+    var referencecolorsurface, referencealphasurface;
+    referencecolorsurface = surface_create(w, h);
+    referencealphasurface = surface_create(w, h);
+    surface_set_target(referencecolorsurface);
+    draw_sprite_ext(spawnsprite, 0, xoff, yoff, 1, 1, 0, c_white, 1);
+    surface_reset_target();
+    surface_set_target(referencealphasurface);
+    draw_rectangle(0,0,w,h,false);
+    draw_sprite_ext(spawnsprite, 0, xoff, yoff, 1, 1, 0, c_black, 1);
+    surface_reset_target();
+    
+    // Set up the list used to get the x, y, color, and alpha of each pixel, respectively, also it gets shuffled
+    // It's done all at once like this because otherwise it's SO SLOW!!! AAAAAA!!!
+    var i, ii, iii;
+    pixelshuffle = ds_list_create();
+    for(i=0;i&lt;w;i+=1)
+    {
+        for(ii=0;ii&lt;h;ii+=1)
+        {
+            iii = ds_list_create();
+            ds_list_add(iii, i);
+            ds_list_add(iii, ii);
+            ds_list_add(iii, surface_getpixel(referencecolorsurface, i, ii));
+            ds_list_add(iii, 1-(color_get_value(surface_getpixel(referencealphasurface, i, ii))/255));
+            ds_list_add(pixelshuffle, iii);
+        }
+    }
+    
+    // Add to dict
+    ds_map_add(ShakerColorStorer.colors, spawnobject, ds_list_write(pixelshuffle));
+    //show_message(2);
+}
+pixelshuffleindex = 0;
+ds_list_shuffle(pixelshuffle);
+
+// Create the surface that the salt will appear on
+saltedsurface = surface_create(w, h);
+pixelredrawneeded = false;
+lineredrawneeded = false;
+
+// Used to control how quickly pixels are shat out
+lineredrawframecount = 3;
+lineredrawcurrentframe = 0;
+pixelsatonce = w*h div 10;
+
+// Start the thingy
+//show_message("hi lol");
+gliding = false;
+anchorx = x;
+anchory = y;
+alarm[1] = 1;
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

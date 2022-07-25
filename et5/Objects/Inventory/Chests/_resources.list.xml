@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Chest01" type="RESOURCE"/>
+  <resource name="Chest02" type="RESOURCE"/>
+  <resource name="Chest03" type="RESOURCE"/>
+  <resource name="Chest04" type="RESOURCE"/>
+  <resource name="Chest05" type="RESOURCE"/>
+  <resource name="Chest06" type="RESOURCE"/>
+  <resource name="Chest07" type="RESOURCE"/>
+  <resource name="Chest08" type="RESOURCE"/>
+  <resource name="Chest09" type="RESOURCE"/>
+  <resource name="Chest10" type="RESOURCE"/>
+  <resource name="Chest11" type="RESOURCE"/>
+  <resource name="Chest12" type="RESOURCE"/>
+  <resource name="Chest13" type="RESOURCE"/>
+  <resource name="Chest14" type="RESOURCE"/>
+  <resource name="Chest15" type="RESOURCE"/>
+  <resource name="Equipment01" type="RESOURCE"/>
+  <resource name="Equipment02" type="RESOURCE"/>
+  <resource name="Equipment03" type="RESOURCE"/>
+</resources>

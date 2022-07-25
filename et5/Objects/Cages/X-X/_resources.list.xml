@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="LeafCaged" type="RESOURCE"/>
+  <resource name="ElemnaCaged" type="RESOURCE"/>
+  <resource name="SoapCaged" type="RESOURCE"/>
+  <resource name="ShamanCaged" type="RESOURCE"/>
+  <resource name="FreeGreenApple" type="RESOURCE"/>
+  <resource name="FreeLeaf" type="RESOURCE"/>
+  <resource name="FreeElemna" type="RESOURCE"/>
+  <resource name="FreeSoap" type="RESOURCE"/>
+  <resource name="FreeShaman" type="RESOURCE"/>
+</resources>

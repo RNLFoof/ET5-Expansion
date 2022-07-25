@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">cycle=0;
+instance_create(x-112-32,y,obj_Cheats_PickerArrow);
+var o;
+o=instance_create(x+112+32+1,y,obj_Cheats_PickerArrow);
+o.image_xscale=-1;
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

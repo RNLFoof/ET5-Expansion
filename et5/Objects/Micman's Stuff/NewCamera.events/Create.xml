@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">zoom = 1
+zoomSpeed = 7 //1 = instant, higher numbers lead to slower zoom changes
+followSpeed = 2.5 //1 = instant, higher numbers lead to slower camera movement
+pixelAccuracy = 0.1 //pixel distance when the camera will just align to app
+maxSpeed = 320 //max camera speed O_O
+maxDistance = 600 //max distance camera will get before teleporting to app
+
+//don't change tehse down here
+xgoal = x
+ygoal = y
+xpos = 0
+ypos = 0
+changedxpos = 0
+changedypos = 0
+focusedApp = 0
+currentZoom = zoom
+startingFollowSpeed = followSpeed
+startingMaxSpeed = maxSpeed
+</argument>
+      </arguments>
+    </action>
+    <action id="605" library="1">
+      <!--action name: Comment-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">i'm on the title screen</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">alarm[1] = 1
+spawnerx = x;
+spawnery = y;
+rotate = 0;
+appeardistance = 32;
+fade = 1;
+image_speed = 0;
+
+orbcolor1 = make_color_rgb(84, 147, 250);     
+orbcolor2 = make_color_rgb(21, 71, 204);        
+spawncolor = merge_color(orbcolor1, orbcolor2, random(0.5));
+
+if !variable_local_exists("gravitytype")
+    gravitytype = false
+    
+showparticles = false;
+alarm[2] = 1;
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

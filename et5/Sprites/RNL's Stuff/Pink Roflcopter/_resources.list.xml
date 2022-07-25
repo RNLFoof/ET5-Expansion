@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="spr_PinkRoflcopter" type="RESOURCE"/>
+  <resource name="spr_PinkRoflcopterOrbiter" type="RESOURCE"/>
+  <resource name="PinkRoflcopterSpinJump" type="RESOURCE"/>
+  <resource name="PinkRoflcopterRing" type="RESOURCE"/>
+  <resource name="PinkRoflcopterOrbs" type="RESOURCE"/>
+  <resource name="PinkRoflcopterOrbsLarge" type="RESOURCE"/>
+  <resource name="PinkRoflcopterLaser" type="RESOURCE"/>
+  <resource name="PinkRoflcopterGreyLaser" type="RESOURCE"/>
+  <resource name="PinkRoflcopterGreyLaserFading" type="RESOURCE"/>
+  <resource name="PinkRoflcopterLaserImpact" type="RESOURCE"/>
+  <resource name="PinkRoflcopterGreyLaserImpact" type="RESOURCE"/>
+  <resource name="spr_PinkRoflcopterSpin" type="RESOURCE"/>
+</resources>

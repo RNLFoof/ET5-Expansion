@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="KEYPRESS" id="13">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">//This code is used to finish up the rest of the text quickly,
+//if the user decides to skip it.
+
+//If display_string hasn't finished typing out...
+if !type_end
+{
+    if current_string != ""
+        while(!type_end)
+            //The while loop is used until the text is finished.
+            scr_type()
+}
+//If display_string finished typing out...
+else
+{
+    //If the current message that's being displayed is not equal
+    //to the total number of messages...
+    if !message_end
+    {
+        //If the current message is ordinary..
+        if !message_question &amp;&amp; !message_jump
+            //Change the current message to the next message.
+            message_display +=1
+        //If the current message is a question message...       
+        if message_question
+            //If the user has selected yes...
+            if question_selection
+                //Go to the yes position.
+                message_display = yes_position
+            else
+                //Otherwise, go to the no position
+                message_display = no_position
+        //If the current message is a jump message...
+        if message_jump
+            //Jump to the specified position.
+            message_display = jump_position      
+        //Restart all the variables for the next message.
+        message_question = 0
+        message_jump = 0
+        type_end = 0
+        question_selection = 1
+        display_string = ""
+        position = 0
+        display_position = 0
+        width_counter = 0
+        last_space = 0
+        alarm[0] = text_speed
+        current_string = str[message_display]
+        highlight_number = 0
+        pause_number = 0
+    }
+    //If all the messages have been displayed
+    else
+    {
+        //You can put whichever actions you want to occur after a series of messages
+        //is done. Ordinarily, you'd close the text box, but for now, I'll exit
+        //the example
+        instance_destroy()
+    }
+}
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

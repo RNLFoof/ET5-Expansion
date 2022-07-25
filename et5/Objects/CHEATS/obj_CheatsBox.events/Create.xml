@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">image_speed=0;
+popped=false;
+var o;
+linkedoptions=-1;
+if s="REPLACE APPLES" {o=instance_create(x-21,y,obj_CheatsOptions);linkedoptions=o;o.linkedoptions=id};
+if s="KILL ANYTHING " {o=instance_create(x-21,y,obj_CheatsOptions);linkedoptions=o;o.linkedoptions=id};
+if s="CUSTOMIZE APP" {o=instance_create(x-21,y,obj_CheatsOptions);linkedoptions=o;o.linkedoptions=id};
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

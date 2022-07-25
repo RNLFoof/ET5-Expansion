@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="AneroidNoEyes" type="RESOURCE"/>
+  <resource name="Aneroid" type="RESOURCE"/>
+  <resource name="AneroidWing" type="RESOURCE"/>
+  <resource name="GraxBody" type="RESOURCE"/>
+  <resource name="GraxEyebrows" type="RESOURCE"/>
+  <resource name="Echagon" type="RESOURCE"/>
+  <resource name="Uni" type="RESOURCE"/>
+  <resource name="GraxFace" type="RESOURCE"/>
+  <resource name="AneroidFace" type="RESOURCE"/>
+  <resource name="EchagonFace" type="RESOURCE"/>
+</resources>

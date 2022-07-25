@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if not instance_exists(handling)
+{
+    instance_destroy();
+    exit;
+}
+if instance_number(MainApple)&gt;=1
+{
+    if MainApple.x &gt; handling.x-340 and MainApple.x &lt; handling.x+340 and MainApple.y &gt; handling.y-260 and MainApple.y &lt; handling.y+260
+    {
+        if irandom_range(0, 1) == 0
+        {
+            part_particles_create_color(ParticleBitch.dustparticlesystem, handling.x+xoff, handling.y+yoff, ParticleBitch.dustparticletype, dustcolor, 1);
+        }
+        if alarm[0] &lt; 30*1.5
+        {
+            part_particles_create_color(ParticleBitch.dustparticlesystem, handling.x+xoff, handling.y+yoff, ParticleBitch.dustparticletype, dustcolor, 5);
+            handling.image_alpha = 0.75 + lengthdir_x(0.25, alarm[0]*(360/15));
+        }
+    }
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

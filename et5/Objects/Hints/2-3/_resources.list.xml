@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="Water" type="RESOURCE"/>
+  <resource name="RoflLowAir" type="RESOURCE"/>
+  <resource name="HEnemyIndex" type="RESOURCE"/>
+</resources>

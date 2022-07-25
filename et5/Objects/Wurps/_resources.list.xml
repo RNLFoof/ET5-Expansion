@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="PW0To1" type="RESOURCE"/>
+  <resource name="PW1To2" type="RESOURCE"/>
+  <resource name="PW2To1" type="RESOURCE"/>
+  <resource name="PW3To4" type="RESOURCE"/>
+  <resource name="PW4To2" type="RESOURCE"/>
+  <resource name="PW5To6" type="RESOURCE"/>
+  <resource name="PW6To7" type="RESOURCE"/>
+  <resource name="PW7To8" type="RESOURCE"/>
+  <resource name="PW8To7" type="RESOURCE"/>
+</resources>
