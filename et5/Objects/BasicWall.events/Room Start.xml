@@ -13,7 +13,9 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="STRING">instance_change(Metamorph2, true);
+        <argument kind="STRING">if false {
+    instance_change(Metamorph2, true);
+}
 </argument>
       </arguments>
     </action>
