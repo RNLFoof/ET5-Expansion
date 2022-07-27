@@ -125,7 +125,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">Nowhere</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="MENU">2</argument>
       </arguments>
@@ -183,7 +183,7 @@
       <not>false</not>
       <appliesTo>Reverse</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">Stop</argument>
         <argument kind="MENU">1</argument>
       </arguments>
     </action>

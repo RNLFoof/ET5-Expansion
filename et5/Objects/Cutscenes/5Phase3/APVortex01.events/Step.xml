@@ -225,7 +225,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">ET03</argument>
         <argument kind="EXPRESSION">-40</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>

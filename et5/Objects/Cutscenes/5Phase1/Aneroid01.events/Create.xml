@@ -13,7 +13,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">Aneroid01LWing</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -30,7 +30,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">Aneroid01RWing</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>

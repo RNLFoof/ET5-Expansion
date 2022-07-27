@@ -168,7 +168,7 @@ scr_safesound(EnemyHurt);
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">HBalloonBomb</argument>
         <argument kind="EXPRESSION">x</argument>
         <argument kind="EXPRESSION">-96</argument>
       </arguments>

@@ -169,7 +169,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">4Dialogue23</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -203,7 +203,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">4Dialogue25</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -237,7 +237,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">4Dialogue27</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -271,7 +271,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">4Dialogue30</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -305,7 +305,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">4Dialogue34</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>

@@ -128,7 +128,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">Shaman01</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -193,7 +193,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">Dialogue33</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>

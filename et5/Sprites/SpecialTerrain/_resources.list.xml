@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-  <resource name="Grating" type="RESOURCE"/>
+  <resource name="spr_Grating" type="RESOURCE"/>
   <resource name="LeftRamp" type="RESOURCE"/>
   <resource name="RightRamp" type="RESOURCE"/>
   <resource name="LeftRampRed" type="RESOURCE"/>

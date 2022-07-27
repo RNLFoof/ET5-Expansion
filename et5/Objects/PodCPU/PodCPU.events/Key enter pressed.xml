@@ -92,7 +92,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">Pod</argument>
         <argument kind="EXPRESSION">room_width-64</argument>
         <argument kind="EXPRESSION">32</argument>
       </arguments>

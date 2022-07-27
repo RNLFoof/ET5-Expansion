@@ -61,7 +61,7 @@ if global.chapter &gt; 10 chapm = 1;
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">EIToast</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="MENU">0</argument>
       </arguments>
@@ -125,7 +125,7 @@ draw_set_color(c_black)
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">EIReturn</argument>
         <argument kind="EXPRESSION">1</argument>
         <argument kind="MENU">0</argument>
       </arguments>
@@ -518,7 +518,7 @@ draw_text(view_xview+506,view_yview+8,"Gripples: " + string(global.gripples))
       <not>false</not>
       <appliesTo>MainApple</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">PodCPU</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -570,7 +570,7 @@ draw_text(view_xview+506,view_yview+8,"Gripples: " + string(global.gripples))
       <not>false</not>
       <appliesTo>MainApple</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">Worminator</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -605,7 +605,7 @@ draw_text(view_xview+506,view_yview+8,"Gripples: " + string(global.gripples))
       <not>false</not>
       <appliesTo>MainApple</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">PW0To1</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -640,7 +640,7 @@ draw_text(view_xview+506,view_yview+8,"Gripples: " + string(global.gripples))
       <not>false</not>
       <appliesTo>MainApple</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">PW1To2</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -675,7 +675,7 @@ draw_text(view_xview+506,view_yview+8,"Gripples: " + string(global.gripples))
       <not>false</not>
       <appliesTo>MainApple</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">PW2To1</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -710,7 +710,7 @@ draw_text(view_xview+506,view_yview+8,"Gripples: " + string(global.gripples))
       <not>false</not>
       <appliesTo>MainApple</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">PW3To4</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -745,7 +745,7 @@ draw_text(view_xview+506,view_yview+8,"Gripples: " + string(global.gripples))
       <not>false</not>
       <appliesTo>MainApple</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">PW4To2</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -780,7 +780,7 @@ draw_text(view_xview+506,view_yview+8,"Gripples: " + string(global.gripples))
       <not>false</not>
       <appliesTo>MainApple</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">PW5To6</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -815,7 +815,7 @@ draw_text(view_xview+506,view_yview+8,"Gripples: " + string(global.gripples))
       <not>false</not>
       <appliesTo>MainApple</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">PW6To7</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -850,7 +850,7 @@ draw_text(view_xview+506,view_yview+8,"Gripples: " + string(global.gripples))
       <not>false</not>
       <appliesTo>MainApple</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">PW7To8</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -885,7 +885,7 @@ draw_text(view_xview+506,view_yview+8,"Gripples: " + string(global.gripples))
       <not>false</not>
       <appliesTo>MainApple</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">PW8To7</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -920,7 +920,7 @@ draw_text(view_xview+506,view_yview+8,"Gripples: " + string(global.gripples))
       <not>false</not>
       <appliesTo>MainApple</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">ActionMarker</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -955,7 +955,7 @@ draw_text(view_xview+506,view_yview+8,"Gripples: " + string(global.gripples))
       <not>false</not>
       <appliesTo>MainApple</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">Safe01</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -1108,7 +1108,7 @@ draw_text(view_xview+506,view_yview+8,"Gripples: " + string(global.gripples))
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">AppleCounter</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="MENU">2</argument>
       </arguments>
@@ -1255,7 +1255,7 @@ draw_text(view_xview+506,view_yview+8,"Gripples: " + string(global.gripples))
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">GemCounter</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="MENU">2</argument>
       </arguments>

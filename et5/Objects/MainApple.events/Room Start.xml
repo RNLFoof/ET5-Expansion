@@ -26,8 +26,6 @@ if global.cheat_DISABLE_DISTANT_OBJECTS
 {
     alarm[6] = 30; // Not set to 1 because I wanted to make sure everything initialized properly.
 };
-
-collision_line_direction()
 </argument>
       </arguments>
     </action>
@@ -183,7 +181,7 @@ collision_line_direction()
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">Face_MainApple</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -200,7 +198,7 @@ collision_line_direction()
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">GroppleMultiplier</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -217,7 +215,7 @@ collision_line_direction()
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">InventorySpace01</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -234,7 +232,7 @@ collision_line_direction()
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">InventorySpace02</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -251,7 +249,7 @@ collision_line_direction()
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">InventorySpace03</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -268,7 +266,7 @@ collision_line_direction()
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">InventorySpace04</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -285,7 +283,7 @@ collision_line_direction()
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">InventorySpace05</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -336,7 +334,7 @@ collision_line_direction()
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">NoApp</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="MENU">0</argument>
       </arguments>
@@ -436,7 +434,7 @@ collision_line_direction()
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">BasicWall</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>

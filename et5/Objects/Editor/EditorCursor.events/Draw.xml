@@ -383,7 +383,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="SPRITE">Grating</argument>
+        <argument kind="SPRITE">spr_Grating</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
@@ -418,7 +418,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="SPRITE">Grating</argument>
+        <argument kind="SPRITE">spr_Grating</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">1</argument>
@@ -4392,7 +4392,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="SPRITE">spr_WhiteToast</argument>
+        <argument kind="SPRITE">WhiteToast</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">-1</argument>

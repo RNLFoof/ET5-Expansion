@@ -13,7 +13,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">CSpriteBullet02</argument>
         <argument kind="EXPRESSION">-8</argument>
         <argument kind="EXPRESSION">-8</argument>
       </arguments>

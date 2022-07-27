@@ -2,11 +2,11 @@
 //argument1=y1
 //argument2=x2
 //argument3=y2
-//argument4=distamce
-//argument5=object
+//argument4=distance
+//argument5=direction
+//argument6=object
 var dir;
-dir=point_direction(argument0,argument1,argument2,argument3);
-if (collision_line(argument0,argument1,argument0+lengthdir_x(argument4,dir),argument1+lengthdir_y(argument4,dir),argument5,true,true)) {
+if (collision_line(argument0,argument1,argument0+lengthdir_x(argument4,argument5),argument1+lengthdir_y(argument4,argument5),argument6,true,true)) {
     return true;
 }
 else {

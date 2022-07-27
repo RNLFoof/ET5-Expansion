@@ -13,7 +13,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">Nowhere</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="MENU">2</argument>
       </arguments>
@@ -47,7 +47,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">AODD</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="MENU">2</argument>
       </arguments>
@@ -81,7 +81,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">PurpleZone</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="MENU">2</argument>
       </arguments>
@@ -111,7 +111,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">LaserWall</argument>
         <argument kind="MENU">1</argument>
       </arguments>
     </action>

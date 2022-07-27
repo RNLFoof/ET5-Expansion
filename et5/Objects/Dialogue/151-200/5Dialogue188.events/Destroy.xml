@@ -13,7 +13,7 @@
       <not>false</not>
       <appliesTo>Uni01</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">UniBullet01</argument>
         <argument kind="EXPRESSION">64</argument>
         <argument kind="EXPRESSION">16</argument>
       </arguments>

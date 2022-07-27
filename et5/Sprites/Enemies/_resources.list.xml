@@ -8,7 +8,7 @@
   <resource name="YellowToast" type="RESOURCE"/>
   <resource name="CyanToast" type="RESOURCE"/>
   <resource name="BlueToast" type="RESOURCE"/>
-  <resource name="spr_WhiteToast" type="RESOURCE"/>
+  <resource name="WhiteToast" type="RESOURCE"/>
   <resource name="GreyToast" type="RESOURCE"/>
   <resource name="BlackToast" type="RESOURCE"/>
   <resource name="CyanHToast" type="RESOURCE"/>

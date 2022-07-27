@@ -1069,7 +1069,7 @@ global.oitemid05 = 0
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="ROOM"/>
+        <argument kind="ROOM">Cutscene01</argument>
         <argument kind="MENU">0</argument>
       </arguments>
     </action>

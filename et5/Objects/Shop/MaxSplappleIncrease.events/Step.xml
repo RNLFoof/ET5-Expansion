@@ -60,7 +60,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">DejaVu</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="MENU">2</argument>
       </arguments>
@@ -170,7 +170,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">DejaVu</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="MENU">2</argument>
       </arguments>

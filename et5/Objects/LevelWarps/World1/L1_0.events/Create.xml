@@ -63,7 +63,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">ToLocked</argument>
         <argument kind="MENU">1</argument>
       </arguments>
     </action>

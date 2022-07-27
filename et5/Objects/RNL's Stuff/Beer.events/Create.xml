@@ -46,7 +46,7 @@
       <not>true</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT">objWater</argument>
+        <argument kind="GMOBJECT">obj_Water</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">-32</argument>
       </arguments>

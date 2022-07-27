@@ -13,7 +13,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">Uncontrollable</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="MENU">2</argument>
       </arguments>
@@ -154,7 +154,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">DarkDim</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="MENU">0</argument>
       </arguments>
@@ -184,7 +184,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">FirstLevel</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="MENU">0</argument>
       </arguments>
@@ -201,7 +201,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="ROOM"/>
+        <argument kind="ROOM">LevelSelect</argument>
         <argument kind="MENU">0</argument>
       </arguments>
     </action>
@@ -217,7 +217,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">FirstLevel</argument>
         <argument kind="EXPRESSION">1</argument>
         <argument kind="MENU">0</argument>
       </arguments>
@@ -251,7 +251,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="ROOM"/>
+        <argument kind="ROOM">LevelSelect</argument>
         <argument kind="MENU">0</argument>
       </arguments>
     </action>
@@ -293,7 +293,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="ROOM"/>
+        <argument kind="ROOM">LevelSelectX</argument>
         <argument kind="MENU">0</argument>
       </arguments>
     </action>

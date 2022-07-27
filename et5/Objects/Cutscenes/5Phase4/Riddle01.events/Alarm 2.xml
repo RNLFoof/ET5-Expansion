@@ -30,7 +30,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="ROOM"/>
+        <argument kind="ROOM">LevelSelect</argument>
         <argument kind="MENU">21</argument>
       </arguments>
     </action>

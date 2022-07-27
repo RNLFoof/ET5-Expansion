@@ -43,7 +43,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">Grabber01</argument>
         <argument kind="EXPRESSION">32</argument>
         <argument kind="EXPRESSION">-1</argument>
       </arguments>

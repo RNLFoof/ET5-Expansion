@@ -33,7 +33,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">BBlueZap</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">-16</argument>
         <argument kind="EXPRESSION">8</argument>
@@ -52,7 +52,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">BBlueZap</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">-16</argument>
         <argument kind="EXPRESSION">8</argument>

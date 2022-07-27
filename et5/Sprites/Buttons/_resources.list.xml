@@ -18,7 +18,7 @@
   <resource name="SwitchMask" type="RESOURCE"/>
   <resource name="ElevatorPlatform" type="RESOURCE"/>
   <resource name="ElevatorMarkers" type="RESOURCE"/>
-  <resource name="spr_Grating" type="RESOURCE"/>
+  <resource name="Grating" type="RESOURCE"/>
   <resource name="Bouncer" type="RESOURCE"/>
   <resource name="Receiver" type="RESOURCE"/>
   <resource name="FlashOrb" type="RESOURCE"/>

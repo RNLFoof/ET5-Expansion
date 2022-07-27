@@ -13,7 +13,7 @@
       <not>false</not>
       <appliesTo>.other</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">BadSplapple</argument>
         <argument kind="MENU">1</argument>
       </arguments>
     </action>

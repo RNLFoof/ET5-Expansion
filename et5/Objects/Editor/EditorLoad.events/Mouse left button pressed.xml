@@ -30,7 +30,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="ROOM"/>
+        <argument kind="ROOM">Editor(49)</argument>
         <argument kind="MENU">0</argument>
       </arguments>
     </action>
@@ -126,7 +126,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">EditorPlay</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">-1000</argument>
       </arguments>

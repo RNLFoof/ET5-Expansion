@@ -26,7 +26,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">VolvicRevive</argument>
         <argument kind="EXPRESSION">-48</argument>
         <argument kind="EXPRESSION">-96</argument>
       </arguments>

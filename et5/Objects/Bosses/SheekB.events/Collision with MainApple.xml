@@ -257,7 +257,7 @@ scr_safesound(DSmashImpact);
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">CSprite04</argument>
         <argument kind="EXPRESSION">-16</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>

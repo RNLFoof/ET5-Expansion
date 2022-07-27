@@ -125,7 +125,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">HomingHurt</argument>
         <argument kind="EXPRESSION">self.x</argument>
         <argument kind="EXPRESSION">200</argument>
       </arguments>

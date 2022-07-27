@@ -13,7 +13,7 @@
       <not>false</not>
       <appliesTo>BasicWall</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">Metamorph</argument>
         <argument kind="MENU">1</argument>
       </arguments>
     </action>

@@ -370,7 +370,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">ElectricToaster</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="MENU">0</argument>
       </arguments>
@@ -387,7 +387,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">ConvertibleToaster</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="MENU">0</argument>
       </arguments>
@@ -404,7 +404,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">RapidToaster</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="MENU">0</argument>
       </arguments>
@@ -421,7 +421,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">SlowToaster</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="MENU">0</argument>
       </arguments>
@@ -438,7 +438,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">BouncyToaster</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="MENU">0</argument>
       </arguments>
@@ -455,7 +455,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">RicochetToaster</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="MENU">0</argument>
       </arguments>

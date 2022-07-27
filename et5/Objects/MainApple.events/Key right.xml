@@ -13,7 +13,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">Uncontrollable</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="MENU">2</argument>
       </arguments>
@@ -150,7 +150,7 @@ if instance_number(AllUpgrades) != 0 or true
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">Ice</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">1</argument>
       </arguments>

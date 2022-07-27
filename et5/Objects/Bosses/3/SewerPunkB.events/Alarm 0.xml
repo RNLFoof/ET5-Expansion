@@ -29,7 +29,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">SPB</argument>
         <argument kind="EXPRESSION">16</argument>
         <argument kind="EXPRESSION">16</argument>
       </arguments>

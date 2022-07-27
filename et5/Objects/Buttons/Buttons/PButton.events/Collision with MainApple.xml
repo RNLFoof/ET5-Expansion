@@ -75,7 +75,7 @@
       <functionName>action_kill_object</functionName>
       <relative>false</relative>
       <not>false</not>
-      <appliesTo>objWater</appliesTo>
+      <appliesTo>obj_Water</appliesTo>
       <arguments/>
     </action>
     <action id="201" library="1">
@@ -90,7 +90,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT">objWater</argument>
+        <argument kind="GMOBJECT">obj_Water</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">32</argument>
       </arguments>
@@ -105,7 +105,7 @@
       <functionName>action_sprite_transform</functionName>
       <relative>false</relative>
       <not>false</not>
-      <appliesTo>objWater</appliesTo>
+      <appliesTo>obj_Water</appliesTo>
       <arguments>
         <argument kind="EXPRESSION">1000</argument>
         <argument kind="EXPRESSION">100</argument>

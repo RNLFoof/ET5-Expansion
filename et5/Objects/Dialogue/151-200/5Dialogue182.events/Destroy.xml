@@ -29,7 +29,7 @@
       <not>false</not>
       <appliesTo>Sheek01</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">SheekB</argument>
         <argument kind="MENU">1</argument>
       </arguments>
     </action>

@@ -109,7 +109,7 @@
       <not>false</not>
       <appliesTo>YWall</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">UnYWall</argument>
         <argument kind="MENU">1</argument>
       </arguments>
     </action>
@@ -234,7 +234,7 @@
       <not>false</not>
       <appliesTo>UnYWall</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">YWall</argument>
         <argument kind="MENU">1</argument>
       </arguments>
     </action>
@@ -278,7 +278,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">CutElemna01</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -374,7 +374,7 @@
       <not>false</not>
       <appliesTo>YWall</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">UnYWall</argument>
         <argument kind="MENU">1</argument>
       </arguments>
     </action>
@@ -403,7 +403,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">CutElemna01</argument>
         <argument kind="EXPRESSION">31</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -499,7 +499,7 @@
       <not>false</not>
       <appliesTo>UnYWall</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">YWall</argument>
         <argument kind="MENU">1</argument>
       </arguments>
     </action>

@@ -42,7 +42,7 @@
       <not>false</not>
       <appliesTo>.other</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">CaptureBox</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">-2</argument>
       </arguments>

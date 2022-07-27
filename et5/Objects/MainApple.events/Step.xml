@@ -30,7 +30,7 @@
       <not>true</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">OMGTRUCK</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">1</argument>
       </arguments>
@@ -305,7 +305,7 @@ if not place_meeting(x, y+1, Jello)
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">OMGTRUCK</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">1</argument>
       </arguments>
@@ -770,7 +770,7 @@ if not place_meeting(x, y+1, Jello)
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">OMGTRUCK</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">1</argument>
       </arguments>
@@ -1040,7 +1040,7 @@ if instance_number(PinkRoflcopterOrbiter) &gt; 0
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">DyingApp</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -1184,7 +1184,7 @@ if instance_number(PinkRoflcopterOrbiter) &gt; 0
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">EIReturn</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="MENU">2</argument>
       </arguments>
@@ -1275,7 +1275,7 @@ if instance_number(PinkRoflcopterOrbiter) &gt; 0
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">ConveyorRight</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">1</argument>
       </arguments>
@@ -1366,7 +1366,7 @@ if instance_number(PinkRoflcopterOrbiter) &gt; 0
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">ConveyorLeft</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">1</argument>
       </arguments>
@@ -1457,7 +1457,7 @@ if instance_number(PinkRoflcopterOrbiter) &gt; 0
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">ConveyorRight2</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">1</argument>
       </arguments>
@@ -1548,7 +1548,7 @@ if instance_number(PinkRoflcopterOrbiter) &gt; 0
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">ConveyorLeft2</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">1</argument>
       </arguments>
@@ -1639,7 +1639,7 @@ if instance_number(PinkRoflcopterOrbiter) &gt; 0
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">ConveyorRight3</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">1</argument>
       </arguments>
@@ -1730,7 +1730,7 @@ if instance_number(PinkRoflcopterOrbiter) &gt; 0
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">ConveyorLeft3</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">1</argument>
       </arguments>
@@ -1904,7 +1904,7 @@ if instance_number(PinkRoflcopterOrbiter) &gt; 0
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">BasicWall</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="MENU">0</argument>
       </arguments>
@@ -1937,7 +1937,7 @@ if instance_number(PinkRoflcopterOrbiter) &gt; 0
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">LeftRamp</argument>
         <argument kind="EXPRESSION">1</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -1971,7 +1971,7 @@ if instance_number(PinkRoflcopterOrbiter) &gt; 0
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">RightRamp</argument>
         <argument kind="EXPRESSION">-1</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -2038,7 +2038,7 @@ if instance_number(PinkRoflcopterOrbiter) &gt; 0
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">AirWaveUp</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -2194,7 +2194,7 @@ if instance_number(PinkRoflcopterOrbiter) &gt; 0
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">AirWaveDown</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -2244,7 +2244,7 @@ if instance_number(PinkRoflcopterOrbiter) &gt; 0
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">AirWaveRight</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -2294,7 +2294,7 @@ if instance_number(PinkRoflcopterOrbiter) &gt; 0
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">AirWaveLeft</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -2344,7 +2344,7 @@ if instance_number(PinkRoflcopterOrbiter) &gt; 0
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">ElevatorPlatform</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">6</argument>
       </arguments>
@@ -2782,7 +2782,7 @@ if instance_number(PinkRoflcopterOrbiter) &gt; 0
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">Ice</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">1</argument>
       </arguments>
@@ -3351,7 +3351,7 @@ if instance_number(PinkRoflcopterOrbiter) &gt; 0
       <not>true</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">Ice</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">1</argument>
       </arguments>
@@ -3442,7 +3442,7 @@ if instance_number(PinkRoflcopterOrbiter) &gt; 0
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">OMGTRUCK</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">4</argument>
       </arguments>

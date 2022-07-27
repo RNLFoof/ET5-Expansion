@@ -92,7 +92,7 @@
       <not>false</not>
       <appliesTo>PieceTube</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">HitMe</argument>
         <argument kind="EXPRESSION">16</argument>
         <argument kind="EXPRESSION">16</argument>
       </arguments>

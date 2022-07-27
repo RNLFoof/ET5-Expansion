@@ -286,7 +286,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">RSpikeS</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">-1</argument>
       </arguments>

@@ -26,7 +26,7 @@
       <not>false</not>
       <appliesTo>.other</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">AK42Explosion</argument>
         <argument kind="EXPRESSION">-32</argument>
         <argument kind="EXPRESSION">-32</argument>
       </arguments>

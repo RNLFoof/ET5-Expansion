@@ -59,7 +59,7 @@
       <not>false</not>
       <appliesTo>SentientLandmine</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">HomingSaw</argument>
         <argument kind="EXPRESSION">16</argument>
         <argument kind="EXPRESSION">16</argument>
       </arguments>

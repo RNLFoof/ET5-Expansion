@@ -13,7 +13,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">Uncontrollable</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="MENU">2</argument>
       </arguments>
@@ -291,7 +291,7 @@ if !place_meeting(x-1,y,StickyWall) and !place_meeting(x+1,y,StickyWall)
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">OMGTRUCK</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">1</argument>
       </arguments>
@@ -521,7 +521,7 @@ if !place_meeting(x-1,y,StickyWall) and !place_meeting(x+1,y,StickyWall)
       <not>true</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">OMGTRUCK</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">1</argument>
       </arguments>
@@ -815,7 +815,7 @@ with (PlumRoflcopter)
       <not>true</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">OMGTRUCK</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">1</argument>
       </arguments>

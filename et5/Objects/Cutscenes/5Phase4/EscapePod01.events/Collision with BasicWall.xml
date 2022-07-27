@@ -46,7 +46,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">5Dialogue137</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -79,7 +79,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">Soap08</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">96</argument>
       </arguments>
@@ -96,7 +96,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">Angela03</argument>
         <argument kind="EXPRESSION">32</argument>
         <argument kind="EXPRESSION">96</argument>
       </arguments>
@@ -113,7 +113,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">Chroma03</argument>
         <argument kind="EXPRESSION">64</argument>
         <argument kind="EXPRESSION">96</argument>
       </arguments>

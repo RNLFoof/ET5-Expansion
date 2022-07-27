@@ -26,7 +26,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">Dialogue27</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -76,7 +76,7 @@
       <not>false</not>
       <appliesTo>pCellblockFight</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">pAnubisRex</argument>
         <argument kind="MENU">1</argument>
       </arguments>
     </action>

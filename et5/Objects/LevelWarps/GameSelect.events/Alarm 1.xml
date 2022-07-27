@@ -47,7 +47,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="ROOM"/>
+        <argument kind="ROOM">LevelSelect</argument>
         <argument kind="MENU">0</argument>
       </arguments>
     </action>
@@ -80,7 +80,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="ROOM"/>
+        <argument kind="ROOM">LevelSelectX</argument>
         <argument kind="MENU">0</argument>
       </arguments>
     </action>
@@ -113,7 +113,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="ROOM"/>
+        <argument kind="ROOM">LevelSelectRNL</argument>
         <argument kind="MENU">0</argument>
       </arguments>
     </action>
@@ -146,7 +146,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="ROOM"/>
+        <argument kind="ROOM">LevelSelectMicman</argument>
         <argument kind="MENU">0</argument>
       </arguments>
     </action>
@@ -179,7 +179,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="ROOM"/>
+        <argument kind="ROOM">5_5_1</argument>
         <argument kind="MENU">0</argument>
       </arguments>
     </action>
@@ -212,7 +212,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="ROOM"/>
+        <argument kind="ROOM">6_5_3</argument>
         <argument kind="MENU">0</argument>
       </arguments>
     </action>
@@ -245,7 +245,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="ROOM"/>
+        <argument kind="ROOM">7_5</argument>
         <argument kind="MENU">0</argument>
       </arguments>
     </action>
@@ -308,7 +308,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="ROOM"/>
+        <argument kind="ROOM">8_0</argument>
         <argument kind="MENU">0</argument>
       </arguments>
     </action>
@@ -358,7 +358,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="ROOM"/>
+        <argument kind="ROOM">8_1</argument>
         <argument kind="MENU">0</argument>
       </arguments>
     </action>
@@ -408,7 +408,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="ROOM"/>
+        <argument kind="ROOM">8_2</argument>
         <argument kind="MENU">0</argument>
       </arguments>
     </action>
@@ -458,7 +458,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="ROOM"/>
+        <argument kind="ROOM">8_3</argument>
         <argument kind="MENU">0</argument>
       </arguments>
     </action>
@@ -491,7 +491,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="ROOM"/>
+        <argument kind="ROOM">8_4</argument>
         <argument kind="MENU">0</argument>
       </arguments>
     </action>

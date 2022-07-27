@@ -7,8 +7,8 @@
   <resource name="SaveProgress" type="RESOURCE"/>
   <resource name="LoadProgress" type="RESOURCE"/>
   <resource name="scr_type" type="RESOURCE"/>
+  <resource name="collision_line_direction_unused_I_think" type="RESOURCE"/>
   <resource name="collision_line_direction" type="RESOURCE"/>
-  <resource name="collision_line_direction_thatIdontthinkisusedbutIdidntwanttodeleteit" type="RESOURCE"/>
   <resource name="get_laser_stop" type="RESOURCE"/>
   <resource name="fx_quake_obj" type="RESOURCE"/>
   <resource name="tron" type="RESOURCE"/>

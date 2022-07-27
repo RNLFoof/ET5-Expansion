@@ -73,7 +73,7 @@
       <not>false</not>
       <appliesTo>ArenaWall</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">UnArenaWall</argument>
         <argument kind="MENU">1</argument>
       </arguments>
     </action>

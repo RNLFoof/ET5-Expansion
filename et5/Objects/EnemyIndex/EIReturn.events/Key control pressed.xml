@@ -63,7 +63,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="ROOM"/>
+        <argument kind="ROOM">LevelSelect</argument>
         <argument kind="MENU">21</argument>
       </arguments>
     </action>
@@ -96,7 +96,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="ROOM"/>
+        <argument kind="ROOM">LevelSelectX</argument>
         <argument kind="MENU">21</argument>
       </arguments>
     </action>

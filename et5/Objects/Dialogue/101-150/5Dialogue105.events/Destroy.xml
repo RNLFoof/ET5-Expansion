@@ -43,7 +43,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">APVortex01</argument>
         <argument kind="EXPRESSION">256</argument>
         <argument kind="EXPRESSION">704</argument>
       </arguments>

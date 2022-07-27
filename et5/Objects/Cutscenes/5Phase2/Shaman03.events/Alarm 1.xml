@@ -13,7 +13,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">5Dialogue57</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
       </arguments>
@@ -30,7 +30,7 @@
       <not>false</not>
       <appliesTo>Gertrude03</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">CBomb01</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">-26</argument>
       </arguments>

@@ -44,7 +44,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">WorldController</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">-1000</argument>
       </arguments>
@@ -61,7 +61,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">EditorLoad</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">-1000</argument>
       </arguments>
@@ -78,7 +78,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="GMOBJECT"/>
+        <argument kind="GMOBJECT">EditorPlay</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">-1000</argument>
       </arguments>

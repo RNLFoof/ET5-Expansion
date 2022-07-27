@@ -31,7 +31,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="SPRITE">spr_WhiteToast</argument>
+        <argument kind="SPRITE">WhiteToast</argument>
         <argument kind="EXPRESSION">48</argument>
         <argument kind="EXPRESSION">48</argument>
         <argument kind="EXPRESSION">0</argument>

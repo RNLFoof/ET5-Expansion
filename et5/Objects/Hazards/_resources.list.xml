@@ -28,7 +28,7 @@
   <resource name="OMGTRUCK" type="RESOURCE"/>
   <resource name="EvilCopter" type="RESOURCE"/>
   <resource name="WreckingBall" type="RESOURCE"/>
-  <resource name="objWater" type="RESOURCE"/>
+  <resource name="obj_Water" type="RESOURCE"/>
   <resource name="Boulder" type="RESOURCE"/>
   <resource name="Buzzsaw" type="RESOURCE"/>
   <resource name="Acid" type="RESOURCE"/>

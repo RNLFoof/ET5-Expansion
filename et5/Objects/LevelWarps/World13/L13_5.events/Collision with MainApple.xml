@@ -104,7 +104,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="ROOM"/>
+        <argument kind="ROOM">13_5</argument>
         <argument kind="MENU">21</argument>
       </arguments>
     </action>
