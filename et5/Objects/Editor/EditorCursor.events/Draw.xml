@@ -60,7 +60,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="SPRITE">BasicWall</argument>
+        <argument kind="SPRITE">spr_BasicWall</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">-1</argument>

@@ -17,7 +17,7 @@
 {
     for (yy=0; yy&lt;image_yscale; yy+=1)
     {
-        draw_sprite(BasicWall, 0, x+32*xx, y+32*yy);
+        draw_sprite(spr_BasicWall, 0, x+32*xx, y+32*yy);
     }
 }
 </argument>

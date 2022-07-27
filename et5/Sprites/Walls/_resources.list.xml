@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
   <resource name="WallMask" type="RESOURCE"/>
-  <resource name="BasicWall" type="RESOURCE"/>
+  <resource name="spr_BasicWall" type="RESOURCE"/>
   <resource name="spr_TransparentWall" type="RESOURCE"/>
   <resource name="GreenWall" type="RESOURCE"/>
   <resource name="RedWall" type="RESOURCE"/>
