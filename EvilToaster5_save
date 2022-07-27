@@ -1,0 +1,24 @@
+room_goto(14)
+MainApple.x=32
+MainApple.y=896
+global.maxlives[0] = 3
+global.levels[0] = 2
+global.splapatonce[0] = 1
+global.swimsuit[0] = 1
+global.toastblasting[0] = 0
+global.finalunlocked[0] = 0
+global.groppleup[0] = 1
+global.discount[0] = 0
+global.tjump[0] = 1
+global.ssmash[0] = 0
+global.chapter[0] = 5
+global.hover[0] = 1
+global.run[0] = 0
+global.charge[0] = 0
+global.spowers[0] = 0
+global.itemspace[0] = 0
+global.trials[0] = 0
+global.firstlevel[0] = 1
+global.maxsplapples[0] = 3
+
+global.usespawnpoint = 1
