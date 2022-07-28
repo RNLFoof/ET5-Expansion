@@ -18,6 +18,6 @@ Here's some videos I posted during development just as like. a preview I guess
 - All the editing is done with Game Maker 8.1.
 - We're using https://github.com/Medo42/Gmk-Splitter so that we can have actual version control. Use files-to-gm81.bat and gm81-to-files.bat to compile changes from github into something you can edit, and to expand your changes into something git can understand.
 - Try to make sure whatever new stuff you add is only accessable by enabling a cheat, and the old behavior is otherwise still there. The goal is to make it so that, with no cheats enabled, we're 1:1 with the original game.
-- You can add whatever you feel like adding even if it has nothing to do with what other people are doing.
+- You can add whatever you feel like adding even if it has nothing to do with what other people are doing. I'm just happy people want to make ET stuff, really. Just try to like, not actively get in somebody's way. Obviously.
 - Just so you're like, in the loop: Me and Janjan are working on new little hubs with their own Worminator entries, and Cookie is working on creating levels in the main game that MNIK named but never made.
 - "Cheats" is a garbage name and so is "Mods" please help by suggesting something better
