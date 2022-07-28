@@ -27,4 +27,5 @@
   <resource name="scr_place_meeting_any_wall" type="RESOURCE"/>
   <resource name="path_get_direction" type="RESOURCE"/>
   <resource name="scr_goto_room_by_name" type="RESOURCE"/>
+  <resource name="scr_euclidean_remainder" type="RESOURCE"/>
 </resources>
