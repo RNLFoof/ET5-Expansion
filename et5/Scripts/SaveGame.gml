@@ -1,5 +1,9 @@
 f=file_text_open_write("EvilToaster5_save");
-file_text_write_string(f,"room_goto("+string(room)+")
+file_text_write_string(f,
+
+// This used to just be "room_goto("+string(room)+")", but gmksplit doesn't guarentee room IDs will stay the same, so I rewrote it to use room names instead.
+"scr_goto_room_by_name('"+room_get_name(room)+"')
+
 MainApple.x="+string(MainApple.x)+"
 MainApple.y="+string(MainApple.y)+"
 global.maxlives[0] = "+string(global.maxlives[0])+"
