@@ -102,7 +102,9 @@ elif replacing == Target.dt:
             dtfullpathexists = os.path.exists(dtfullpath)
             if not dtfullpathexists or not filecmp.cmp(dtfullpath, tempfullpath): # If they aren't equal, there was a change
                 print(f"Gonna copy {tempfullpath} to {dtfullpath}")
-                done()
+                if dtfullpathexists:
+                    os.remove(dtfullpath)
+                shutil.copy(tempfullpath, dtfullpath)
     # Delete files that no longer exist in temp
     for root, dirs, files in os.walk(dtpath):
         for file in files:
@@ -111,6 +113,7 @@ elif replacing == Target.dt:
             tempfullpathexists = os.path.exists(tempfullpath)
             if not tempfullpathexists:
                 print(f"Gonna delete {dtfullpath} bc {tempfullpath} doesn't exist")
+                os.remove(dtfullpath)
     # Delete temp (duh)
     if os.path.exists(temppath):
         shutil.rmtree(temppath)
