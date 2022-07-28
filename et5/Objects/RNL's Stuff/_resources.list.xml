@@ -29,4 +29,5 @@
   <resource name="BlueSpring" type="RESOURCE"/>
   <resource name="Subs" type="GROUP"/>
   <resource name="Metamorph2" type="RESOURCE"/>
+  <resource name="PaperSkin" type="RESOURCE"/>
 </resources>
