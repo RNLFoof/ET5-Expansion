@@ -45,7 +45,8 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="STRING">validselections = "0 1 2 3";
+        <argument kind="STRING">// validselections can be modified to only show specific Worminator indexes based on cheats.
+validselections = "0 1 2 3";
 maxselection = 10;
 </argument>
       </arguments>
