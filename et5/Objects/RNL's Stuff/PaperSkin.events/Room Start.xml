@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="OTHER" id="4">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">while (not place_meeting(x+1, y, Stop)) {
+    image_xscale += 1;
+}
+
+while (not place_meeting(x, y+1, Stop)) {
+    image_yscale += 1;
+}
+
+for (xx=0; xx&lt;image_xscale; xx+=fineness)
+{
+    for (yy=0; yy&lt;image_yscale; yy+=fineness)
+    {
+        instance_create(x+32*xx, y+32*yy, PaperSkin);
+    }
+}
+
+instance_destroy();
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>
