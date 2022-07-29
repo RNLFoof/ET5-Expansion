@@ -19,6 +19,7 @@
 // Turn everything back on, so things entering the Good Zone can be activated.
 instance_activate_all();
 // Uses a box (multiplier) times the width and height of the view.
+var multiplier;
 multiplier = 5; // Probably bigger than needed, but will still do a lot speed-wise
 instance_deactivate_region(
     view_xview[0]-view_wview[0],
@@ -28,8 +29,12 @@ instance_deactivate_region(
     false,
     true
 );
+instance_activate_region(MainApple.x-64, MainApple.x-64, 128, 128, true); // So that, even if the camera moves away from App, whatever he's standing on will stay
 // Reenables stuff that should probably stay on regardless.
+instance_activate_object(MainApple);                    // I really FUCKING wonder why you wouldn't want to disable this.
 instance_activate_object(BasicWall);                    // I figure stuff might go through walls if the wall is right at the boundary. 
+instance_activate_object(TransparentWall);                    // I figure stuff might go through walls if the wall is right at the boundary. 
+instance_activate_object(Metamorph);                   // I figure stuff might go through walls if the wall is right at the boundary. 
 instance_activate_object(Metamorph2);                   // I figure stuff might go through walls if the wall is right at the boundary. 
 instance_activate_object(OMGTRUCK);                     // The whole level is based around this thing being on, so...
 instance_activate_object(ParticleBitch);                // There's only one of these and other objects use it
@@ -41,6 +46,7 @@ instance_activate_object(UnRedRoflcopter2);             // Needs to go off regar
 instance_activate_object(WorldController);              // This looks important.
 instance_activate_object(GravityBoi);                   // The orbiters would fly into oblivion without it.
 instance_activate_object(ConnectorSpawnerController);   // Used to sync those guys even if they get disabled, so
+instance_activate_object(Uncontrollable);               // Can't... break.... free!!!!!!!
 // loop
 alarm[6] = 30;
 </argument>

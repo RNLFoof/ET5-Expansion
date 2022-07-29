@@ -109,7 +109,7 @@
 }
 if instance_number(AllUpgrades) != 0 or true
 {
-    if place_meeting(x-1,y,StickyWall) or (place_meeting(x-1,y,BasicWall) and slimebuildup &gt; 0) // WHY IS THERE NO GML OPTION TO CHECK FOR COLLISIONS WITH SOLID OBJECTS WHEN THAT EXISTS IN DND
+    if place_meeting(x-1,y,StickyWall) or (place_meeting(x-1,y,BasicWall) and slimebuildup &gt; 0) // WHY IS THERE NO GML OPTION TO CHECK FOR COLLISIONS WITH SOLID OBJECTS WHEN THAT EXISTS IN DND &lt;-- I'm pretty sure it does and past me is stupid
     {
         wallslide = "left";
         dsmash = 0;

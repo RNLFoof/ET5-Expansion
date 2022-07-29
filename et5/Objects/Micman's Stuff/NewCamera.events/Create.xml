@@ -31,6 +31,11 @@ focusedApp = 0
 currentZoom = zoom
 startingFollowSpeed = followSpeed
 startingMaxSpeed = maxSpeed
+
+// For HOLD SHIFT TO SHIFT CAMERA cheat
+// Seperate from goalx and goaly so that it can easily revert when shift is released
+xshift = 0
+yshift = 0
 </argument>
       </arguments>
     </action>

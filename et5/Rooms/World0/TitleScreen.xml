@@ -511,6 +511,14 @@ desc="Disables objects that are far enough away from App, assuming they aren't n
 </creationCode>
       <locked>false</locked>
     </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="32" y="1232"/>
+      <creationCode>s="SHIFT CAMERA BY HOLDING SHIFT";
+desc="Then use the arrow keys to move it.";
+</creationCode>
+      <locked>false</locked>
+    </instance>
   </instances>
   <tiles/>
   <editorSettings remember="false"/>
