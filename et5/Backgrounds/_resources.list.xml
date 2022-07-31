@@ -20,4 +20,5 @@
   <resource name="MiddayBG" type="RESOURCE"/>
   <resource name="ReddisherBG" type="RESOURCE"/>
   <resource name="bck_cheats" type="RESOURCE"/>
+  <resource name="PaperSkins" type="GROUP"/>
 </resources>
