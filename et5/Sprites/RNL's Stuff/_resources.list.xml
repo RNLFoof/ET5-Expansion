@@ -15,6 +15,7 @@
   <resource name="SpikeAutoRotate" type="RESOURCE"/>
   <resource name="TwoSmallSpikesAutoRotate" type="RESOURCE"/>
   <resource name="TwoSmallSpikesUnrotated" type="RESOURCE"/>
+  <resource name="TwoSmallSpikesWrappyUnrotated" type="RESOURCE"/>
   <resource name="DirtyBoy" type="RESOURCE"/>
   <resource name="spr_Wanker" type="RESOURCE"/>
   <resource name="Reticle" type="RESOURCE"/>

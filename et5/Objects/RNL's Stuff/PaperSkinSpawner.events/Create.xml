@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">// Not intended to be used in actual levels.
+// On room start, expands to the right until it hits a Stop, and then expands down until it hits a Stop.
+// Then it converts into a grid of itself.
+// They're turned extra transparent when App touches them.
+// Left click anything in the grid to reset them all to full transparency. Right click to save the whole thing as PaperSkin.png, which can be loaded in as a tile to reference as you place things in the room.
+// The purpose is to map out exactly where App's jump arcs and the like go.
+
+// Fineness sets the size of Guys that are created, *32. They'll still display in a 32x32 grid.
+fineness = 0.5;
+
+// Expand
+while (not place_meeting(x+1, y, Stop)) {
+    image_xscale += 1;
+}
+
+while (not place_meeting(x, y+1, Stop)) {
+    image_yscale += 1;
+}
+
+// Fill in
+for (xx=0; xx&lt;image_xscale; xx+=fineness)
+{
+    for (yy=0; yy&lt;image_yscale; yy+=fineness)
+    {
+        o = instance_create(x+32*xx, y+32*yy, PaperSkin);
+        o.image_xscale = fineness;
+        o.image_yscale = fineness;
+        o.spawner = id;
+    }
+}
+
+takeascreenshot = false
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

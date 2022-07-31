@@ -93,11 +93,14 @@ if focusedApp = 1
     view_hport[0] = 480///currentZoom;
     view_hborder[0] = 320/currentZoom;
     view_vborder[0] = 640/currentZoom;
-
+    
+    combinedxgoal = xgoal + xshift
+    combinedygoal = ygoal + yshift
+    
     var xdifference, ydifference, tp;
     tp = 0
-    xdifference = (xgoal+changedxpos)-xpos
-    ydifference = (ygoal+changedypos)-ypos
+    xdifference = (combinedxgoal+changedxpos)-xpos
+    ydifference = (combinedygoal+changedypos)-ypos
     
     if sqrt(power(xdifference,2)+power(ydifference,2)) &gt; maxDistance tp = 1
     
@@ -107,14 +110,14 @@ if focusedApp = 1
     xpos += xdifference/followSpeed;
     ypos += ydifference/followSpeed;
     
-    if abs(xdifference) &lt; pixelAccuracy xpos = xgoal
-    if abs(ydifference) &lt; pixelAccuracy ypos = ygoal
+    if abs(xdifference) &lt; pixelAccuracy xpos = combinedxgoal
+    if abs(ydifference) &lt; pixelAccuracy ypos = combinedygoal
     
     //show_message("app y: "+string(MainApple.x)+" and my y: "+string(y))
     if tp = 1
     {
-        xpos=xgoal;
-        ypos=ygoal;
+        xpos=combinedxgoal;
+        ypos=combinedygoal;
     }
     x=xpos
     y=ypos
