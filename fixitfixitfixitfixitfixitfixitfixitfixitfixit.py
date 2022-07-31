@@ -110,19 +110,23 @@ try:
         if not os.path.exists(temppath):
             print("Pretty sure that command failed.")
             done()
+        print("The temp tree has been made, you don't have to worry about making changes to the gm81. (Not sure if you /ever/ have to worry about that, but)")
+        playsound(soundunlock)
         # Transfer changes from temp to the real one
-        for root, dirs, files in os.walk(temppath):
+        for fromdir, dirs, files in os.walk(temppath):
+            todir = os.path.join(dtpath, re.sub(r"^.*?($|[\/\\])", "", fromdir))
             for file in files:
-                tempfullpath = os.path.join(root, file)
-                dtfullpath = os.path.join(dtpath, re.sub(r"^.*?($|[\/\\])", "", root), file)
-                dtfullpathexists = os.path.exists(dtfullpath)
-                if not dtfullpathexists or not filecmp.cmp(dtfullpath, tempfullpath): # If they aren't equal, there was a change
-                    print(f"Gonna copy {tempfullpath} to {dtfullpath}")
-                    if dtfullpathexists:
-                        os.remove(dtfullpath)
-                    Path(os.path.join(dtpath, re.sub(r"^.*?($|[\/\\])", "", root))).mkdir(parents=True, exist_ok=True)
-                    shutil.copy(tempfullpath, dtfullpath)
+                fromfile = os.path.join(fromdir, file)
+                tofile = os.path.join(todir, file)
+                tofileexists = os.path.exists(tofile)
+                if not tofileexists or not filecmp.cmp(tofile, fromfile): # If they aren't equal, there was a change
+                    print(f"Gonna copy {fromfile} to {tofile}")
+                    if tofileexists:
+                        os.remove(tofile)
+                    Path(todir).mkdir(parents=True, exist_ok=True)
+                    shutil.copy(fromfile, tofile)
         # Delete files that no longer exist in temp
+        # This walks through the other tree so it can't be the same loop
         for root, dirs, files in os.walk(dtpath):
             for file in files:
                 dtfullpath = os.path.join(root, file)
