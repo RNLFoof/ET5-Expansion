@@ -30,6 +30,7 @@ instance_deactivate_region(
     true
 );
 instance_activate_region(MainApple.x-64, MainApple.x-64, 128, 128, true); // So that, even if the camera moves away from App, whatever he's standing on will stay
+instance_activate_region(0, 0, 1, 1, true); // Controllers and shit tend to spawn here
 // Reenables stuff that should probably stay on regardless.
 instance_activate_object(MainApple);                    // I really FUCKING wonder why you wouldn't want to disable this.
 instance_activate_object(BasicWall);                    // I figure stuff might go through walls if the wall is right at the boundary. 
