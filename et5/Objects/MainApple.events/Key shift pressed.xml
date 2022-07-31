@@ -13,7 +13,9 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="STRING">camerauncontrolableobject = instance_create(x,y,Uncontrollable)
+        <argument kind="STRING">if global.cheat_SHIFT_CAMERA_BY_HOLDING_SHIFT {
+    camerauncontrolableobject = instance_create(x,y,Uncontrollable)
+}
 </argument>
       </arguments>
     </action>
