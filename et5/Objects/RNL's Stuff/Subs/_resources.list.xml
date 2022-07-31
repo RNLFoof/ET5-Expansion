@@ -21,4 +21,5 @@
   <resource name="PinkRoflcopterOrbiterDeflating" type="RESOURCE"/>
   <resource name="PinkRoflcopterOrbiterConsumed" type="RESOURCE"/>
   <resource name="ThisIsDumbWhyDidImakeThis" type="RESOURCE"/>
+  <resource name="PaperSkin" type="RESOURCE"/>
 </resources>

@@ -209,5 +209,8 @@ Made music load when needed instead of all at once\par
 \par
 \b =ET5 Expansion V0.03 (Demo 1C Release)=\par
 \b0 Same as last time except this time I think it actually works\par
+\par
+\b =ET5 Expansion V0.04 (Demo 1D Release)=\b0\par
+Added SHIFT CAMERA BY HOLDING SHIFT cheat\par
 }
  

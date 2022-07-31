@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="MOUSE" id="5">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">// Move my corner to 0,0 so that it lines up with the surface
+view_object[0] = noone;
+view_xview[0] = 0;
+view_yview[0] = 0;
+view_wview[0] = image_xscale*32;
+view_hview[0] = image_yscale*32;
+view_wport[0] = image_xscale*32;
+view_hport[0] = image_yscale*32;
+instance_activate_all()
+with (all) {
+    x -= other.xstart
+    y -= other.ystart
+}
+
+// Create the surface, draw to it, take a screenshot
+_surface = surface_create(image_xscale*32, image_yscale*32)
+surface_set_target(_surface)
+screen_redraw()
+surface_save(_surface, "PaperSkin.png")
+surface_reset_target()
+
+// Undo changes
+with (all) {
+    x += other.xstart
+    y += other.ystart
+}
+view_object[0] = NewCamera
+// (all other changes are undone automatically by NewCamera)
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

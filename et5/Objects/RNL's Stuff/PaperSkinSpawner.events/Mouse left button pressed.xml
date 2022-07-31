@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<event category="OTHER" id="4">
+<event category="MOUSE" id="4">
   <actions>
     <action id="603" library="1">
       <!--action name: Code-->
@@ -11,25 +11,13 @@
       <functionName/>
       <relative>false</relative>
       <not>false</not>
-      <appliesTo>.self</appliesTo>
+      <appliesTo>.other</appliesTo>
       <arguments>
-        <argument kind="STRING">while (not place_meeting(x+1, y, Stop)) {
-    image_xscale += 1;
-}
-
-while (not place_meeting(x, y+1, Stop)) {
-    image_yscale += 1;
-}
-
-for (xx=0; xx&lt;image_xscale; xx+=fineness)
-{
-    for (yy=0; yy&lt;image_yscale; yy+=fineness)
-    {
-        instance_create(x+32*xx, y+32*yy, PaperSkin);
+        <argument kind="STRING">with (PaperSkin) {
+    if spawner=other.id {
+        image_alpha = 1;
     }
 }
-
-instance_destroy();
 </argument>
       </arguments>
     </action>
