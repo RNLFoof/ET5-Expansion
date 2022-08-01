@@ -24,32 +24,32 @@
 // A better way of doing this would probably be to add some set amount(like 1000ms) of the loop to the end of every intro, and once that bit is reached, seek the loop to match up with it. 
 // Right now I say I won't do it, but chances are the audio clipping will eventually drive me insane enough that I will.
 
-scr_LoadMusicLater(song + "Intro");
-scr_LoadMusicLater(song + "Loop");
+intromid = song + "Intro"
+loopmid = song + "Loop"
+scr_LoadMusicLater(intromid);
+scr_LoadMusicLater(loopmid);
 mid = song + "Intro";
 introisover = false;
 
-// This is copypasted because loop
-    // Stop if music is disabled
-    if global.musicon = 0 exit;
-    
-    // Stop if this song is already playing
-    if global.cmusic = string(mid) exit; // cmusic = current music, I think mid used to mean music ID but that's not really accurate anymore
-    
-    // Stop all other music
-    saud_StopAll();
-    
-    // Play this song
-    saud_Seek(0,string(mid));
-    saud_Play(string(mid));
-    
-    // Remember that this song is already playing
-    global.cmusic = string(mid);
-// Copypaste end
-
 alarm[1] = 999; // Set to 999 because the step event will correct it anyway
-
 startearly = 15; // Start the loop this many frames before it knows the intro is done, because without this there's a gap. I didn't come up with this number in an intelligent way, I just tried shit until it sounded right.
+
+// Stop if music is disabled
+if global.musicon = 0 exit;
+
+// Stop if this song is already playing
+if global.cmusic = string(intromid) exit; // cmusic = current music, I think mid used to mean music ID but that's not really accurate anymore
+if global.cmusic = string(loopmid) exit;
+
+// Stop all other music
+saud_StopAll();
+
+// Play this song
+saud_Seek(0,string(mid));
+saud_Play(string(mid));
+
+// Remember that this song is already playing
+global.cmusic = string(mid);
 </argument>
       </arguments>
     </action>

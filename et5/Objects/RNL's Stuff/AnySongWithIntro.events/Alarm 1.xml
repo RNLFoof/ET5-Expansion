@@ -13,12 +13,11 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="STRING">newmid = song + "Loop"
-saud_Seek(0,string(newmid));
-saud_Loop(string(newmid));
-mid = newmid;
+        <argument kind="STRING">saud_Seek(0,string(loopmid));
+saud_Loop(string(loopmid));
+global.cmusic = string(loopmid);
+mid = loopmid;
 introisover = true;
-global.cmusic = string(mid);
 </argument>
       </arguments>
     </action>
