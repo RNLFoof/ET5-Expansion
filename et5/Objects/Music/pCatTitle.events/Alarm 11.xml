@@ -24,6 +24,13 @@ if global.cheat_LOAD_MUSIC_AS_NEEDED=false and not variable_global_exists("loade
     }
     until (fname = "")
     
+    fname = file_find_first(working_directory + "\Music\*.wav", 0)
+    do {
+        saud_Load(working_directory + "\Music\"+fname, string_replace(filename_name(fname), filename_ext(fname), ""));
+        fname = file_find_next()
+    }
+    until (fname = "")
+    
     global.loaded_all_music = true;
 };
 

@@ -19,10 +19,7 @@
 // Check this out https://github.com/arkrow/PyMusicLooper to make loops.
 
 // There's probably a lib somewhere that would be better for this. But, while I cared enough to put way to much effort into this, I didn't care enough to redo everything having to do with saudio.dll.
-// I tried just checking each step if it was done playing, but that added a big gap.
-
-// A better way of doing this would probably be to add some set amount(like 1000ms) of the loop to the end of every intro, and once that bit is reached, seek the loop to match up with it. 
-// Right now I say I won't do it, but chances are the audio clipping will eventually drive me insane enough that I will.
+// To smoothly transition, the intro has 5s of the loop at the end, and the loop is seeked to line up properly.
 
 intromid = song + "Intro"
 loopmid = song + "Loop"
@@ -32,7 +29,6 @@ mid = song + "Intro";
 introisover = false;
 
 alarm[1] = 999; // Set to 999 because the step event will correct it anyway
-startearly = 15; // Start the loop this many frames before it knows the intro is done, because without this there's a gap. I didn't come up with this number in an intelligent way, I just tried shit until it sounded right.
 
 // Stop if music is disabled
 if global.musicon = 0 exit;
@@ -50,6 +46,8 @@ saud_Play(string(mid));
 
 // Remember that this song is already playing
 global.cmusic = string(mid);
+
+saud_Load(working_directory + "\Music\ClockTowerEnd.wav", "OtherEnd")
 </argument>
       </arguments>
     </action>
