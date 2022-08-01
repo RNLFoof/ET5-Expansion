@@ -31,5 +31,6 @@
   <resource name="Metamorph2" type="RESOURCE"/>
   <resource name="PaperSkinSpawner" type="RESOURCE"/>
   <resource name="AnySongWithIntro" type="RESOURCE"/>
+  <resource name="LaserFSHatesWalls" type="RESOURCE"/>
   <resource name="Subs" type="GROUP"/>
 </resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">// Version of LaserFS that is blocked by yellow walls. I wanted it for the brass level. Crazy.
+
+// Had this exchange:
+/* 
+    RNL
+    @MNIK Is there any particular reason you made lasers not interact with walls, and only Reverses?
+    Uh, when moving, I mean
+    MNIK
+    less collisions to check
+    ergo less lag
+    RNL
+    oh okay cool
+*/
+// and after the lag being directly acknowledged I felt weird adding the checks to the main object even though it would be negligible to check just yellow walls
+// Plus this makes sure nothing in the OG levels is broken
+
+event_inherited()
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>
