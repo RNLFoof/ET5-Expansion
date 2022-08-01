@@ -47,4 +47,5 @@
   <resource name="pSuspense2" type="RESOURCE"/>
   <resource name="pToasterFight" type="RESOURCE"/>
   <resource name="pPebbles" type="RESOURCE"/>
+  <resource name="pClockTower" type="RESOURCE"/>
 </resources>
