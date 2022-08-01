@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<event category="CREATE" id="0">
+<event category="ALARM" id="1">
   <actions>
     <action id="603" library="1">
       <!--action name: Code-->
@@ -13,20 +13,11 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="STRING">// Stop if music is disabled
-if global.musicon = 0 exit;
-
-// Stop if this song is already playing
-if global.cmusic = string(mid) exit; // cmusic = current music, I think mid used to mean music ID but that's not really accurate anymore
-
-// Stop all other music
-saud_StopAll();
-
-// Play this song
-saud_Seek(0,string(mid));
-saud_Loop(string(mid));
-
-// Remember that this song is already playing
+        <argument kind="STRING">newmid = song + "Loop"
+saud_Seek(0,string(newmid));
+saud_Loop(string(newmid));
+mid = newmid;
+introisover = true;
 global.cmusic = string(mid);
 </argument>
       </arguments>

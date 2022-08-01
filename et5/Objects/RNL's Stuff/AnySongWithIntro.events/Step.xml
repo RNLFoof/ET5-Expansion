@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">var new;
+if not introisover {
+    new = floor((saud_Length(mid)-saud_Position(mid))/1000*room_speed)-startearly;
+    if new &gt;= 1 {
+        alarm[1] = new;
+    }
+}
+/*if not introisover and saud_Status("ClockTowerIntro") != "playing" {
+    newmid = song + "Loop"
+    saud_Seek(0,string(newmid));
+    saud_Loop(string(newmid));
+    saud_Stop(mid);
+    mid = newmid;
+    show_message("h");
+    introisover = true;
+    //event_perform_object(MusicParent,ev_create,0)
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>
