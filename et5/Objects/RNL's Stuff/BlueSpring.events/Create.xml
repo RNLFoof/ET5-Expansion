@@ -13,7 +13,10 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="STRING">image_speed = 0;
+        <argument kind="STRING">// Causes App to jump when hit by a splapple.
+// Awful. Please never use this.
+
+image_speed = 0;
 </argument>
       </arguments>
     </action>

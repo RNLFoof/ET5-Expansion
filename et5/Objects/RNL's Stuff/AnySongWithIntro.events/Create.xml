@@ -16,6 +16,7 @@
         <argument kind="STRING">// Use song in the creation code to specify.
 // Ex. song = "ClockTower" to play ClockTowerIntro and ClockTowerLoop
 // Starts by playing ClockTowerIntro, then plays ClockTowerLoop when it's done. See the step event to find out about how that's timed.
+// Check this out https://github.com/arkrow/PyMusicLooper to make loops.
 
 // There's probably a lib somewhere that would be better for this. But, while I cared enough to put way to much effort into this, I didn't care enough to redo everything having to do with saudio.dll.
 // I tried just checking each step if it was done playing, but that added a big gap.
