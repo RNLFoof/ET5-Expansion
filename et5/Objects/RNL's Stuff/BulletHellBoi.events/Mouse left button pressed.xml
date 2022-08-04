@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="MOUSE" id="4">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if variable_local_exists("settingspath") {
+    f = file_text_open_read(settingspath);
+    while not file_text_eof(f) {
+        execute_string(file_text_read_string(f));
+        file_text_readln(f);
+    }
+    file_text_close(f);
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>
