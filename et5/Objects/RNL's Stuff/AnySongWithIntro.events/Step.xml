@@ -16,7 +16,7 @@
         <argument kind="STRING">var new;
 if not introisover {
     new = floor(
-        (((saud_Length(intromid) - saud_Position(intromid)) / 1000)) * room_speed);
+        (((saud_Length(intromid) - saud_Position(intromid)) / 1000)) * fps) - (room_speed*4);
     if new &gt;= 1 {
         alarm[1] = new;
     }

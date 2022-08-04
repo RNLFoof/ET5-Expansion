@@ -21,33 +21,40 @@
 // There's probably a lib somewhere that would be better for this. But, while I cared enough to put way to much effort into this, I didn't care enough to redo everything having to do with saudio.dll.
 // To smoothly transition, the intro has 5s of the loop at the end, and the loop is seeked to line up properly.
 
+// mp3s don't seem to have their positions reported correctly (which the intro needs) so the intro is a wav
+// wavs don't seem to consistently loop correctly (which the loop needs) so the loop is an mp3
+// it's gross I know. but the saudio documentation was deleted years ago and it works so I'm keeping it
+
 intromid = song + "Intro"
 loopmid = song + "Loop"
 scr_LoadMusicLater(intromid);
 scr_LoadMusicLater(loopmid);
-mid = song + "Intro";
-introisover = false;
-
-alarm[1] = 999; // Set to 999 because the step event will correct it anyway
 
 // Stop if music is disabled
 if global.musicon = 0 exit;
 
 // Stop if this song is already playing
-if global.cmusic = string(intromid) exit; // cmusic = current music, I think mid used to mean music ID but that's not really accurate anymore
-if global.cmusic = string(loopmid) exit;
+if global.cmusic != string(intromid) and global.cmusic != string(loopmid) {
+    introisover = false;
+    // Stop all other music
+    saud_StopAll();
+    
+    // Play this song
+    saud_Seek(0,string(intromid));
+    saud_Play(string(intromid));
+    
+    // Remember that this song is already playing
+    global.cmusic = string(intromid);
+}
+else if global.cmusic = string(intromid) {
+    introisover = false;
+}
+else if global.cmusic = string(loopmid) {
+    introisover = true;
+}
 
-// Stop all other music
-saud_StopAll();
 
-// Play this song
-saud_Seek(0,string(mid));
-saud_Play(string(mid));
 
-// Remember that this song is already playing
-global.cmusic = string(mid);
-
-saud_Load(working_directory + "\Music\ClockTowerEnd.wav", "OtherEnd")
 </argument>
       </arguments>
     </action>

@@ -13,11 +13,10 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="STRING">
-    saud_Seek( (5*1000)-(saud_Length(intromid)-saud_Position(intromid)) ,string(loopmid));saud_Loop(string(loopmid));
-saud_Stop(intromid)
-global.cmusic = string(loopmid);
-mid = loopmid;
+        <argument kind="STRING">saud_Seek( (5*1000)-(saud_Length(intromid)-saud_Position(intromid)) ,loopmid);
+saud_Loop(loopmid);
+saud_Stop(intromid);
+global.cmusic = loopmid;
 introisover = true;
 </argument>
       </arguments>

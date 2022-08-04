@@ -25,7 +25,6 @@ Loop len:" +string(saud_Length(loopmid))+"
 Loop speed:" +string(saud_BytesPerSec(loopmid))+"
 Loop status:" +string(saud_Status(loopmid))+"
 End len: "+string(saud_Length("ClockTowerEnd"))+"
-Other End len: "+string(saud_Length("OtherEnd"))+"
 introisover: "+string(introisover)+"
 "
 )
