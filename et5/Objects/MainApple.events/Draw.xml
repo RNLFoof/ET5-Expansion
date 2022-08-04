@@ -56,7 +56,7 @@ if slimebuildup &gt; 0
     draw_sprite_ext(DirtyBoy,min(22, slimebuildup),gearx,geary,image_xscale,image_yscale,image_angle+gearangle,c_white,1);
 }
 
-/*draw_text(view_xview[0], view_yview[0], "
+draw_text(view_xview[0], view_yview[0], "
 
 
 FPS: "+string(fps)+"
@@ -65,7 +65,7 @@ FPS: "+string(fps)+"
 if hspeed &gt; 0
 {
     show_message(hspeed*100000);
-}*/
+}
 //draw_sprite_ext(spr_CustomShine,image_index,x,y,image_xscale,image_yscale,image_angle,c_white,1);
 //draw_sprite_ext(spr_CustomGear,0,x+16,y+16,image_xscale,image_yscale,image_angle+gearangle,c_white,1);
 //draw_sprite_ext(spr_CustomGear,1,x+16,y+16,image_xscale,image_yscale,image_angle+gearangle,c_white,1);
