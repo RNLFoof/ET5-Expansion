@@ -250,9 +250,23 @@
       <locked>false</locked>
     </instance>
     <instance>
+      <object>AnyRoomPad</object>
+      <position x="288" y="416"/>
+      <creationCode>destination_room = RNL_1;
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
       <object>SpawnPoint</object>
       <position x="112" y="416"/>
       <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>AnySongWithIntro</object>
+      <position x="0" y="0"/>
+      <creationCode>song="ClockTower"
+</creationCode>
       <locked>false</locked>
     </instance>
   </instances>

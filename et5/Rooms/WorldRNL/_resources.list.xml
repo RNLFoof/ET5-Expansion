@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
   <resource name="RNL_0" type="RESOURCE"/>
+  <resource name="RNL_1" type="RESOURCE"/>
   <resource name="RNL_Test" type="RESOURCE"/>
 </resources>
