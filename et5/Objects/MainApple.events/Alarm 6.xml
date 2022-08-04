@@ -34,8 +34,8 @@ instance_activate_region(0, 0, 1, 1, true); // Controllers and shit tend to spaw
 // Reenables stuff that should probably stay on regardless.
 instance_activate_object(MainApple);                    // I really FUCKING wonder why you wouldn't want to disable this.
 instance_activate_object(BasicWall);                    // I figure stuff might go through walls if the wall is right at the boundary. 
-instance_activate_object(TransparentWall);                    // I figure stuff might go through walls if the wall is right at the boundary. 
-instance_activate_object(Metamorph);                   // I figure stuff might go through walls if the wall is right at the boundary. 
+instance_activate_object(TransparentWall);              // I figure stuff might go through walls if the wall is right at the boundary. 
+instance_activate_object(Metamorph);                    // I figure stuff might go through walls if the wall is right at the boundary. 
 instance_activate_object(Metamorph2);                   // I figure stuff might go through walls if the wall is right at the boundary. 
 instance_activate_object(OMGTRUCK);                     // The whole level is based around this thing being on, so...
 instance_activate_object(ParticleBitch);                // There's only one of these and other objects use it
@@ -48,6 +48,12 @@ instance_activate_object(WorldController);              // This looks important.
 instance_activate_object(GravityBoi);                   // The orbiters would fly into oblivion without it.
 instance_activate_object(ConnectorSpawnerController);   // Used to sync those guys even if they get disabled, so
 instance_activate_object(Uncontrollable);               // Can't... break.... free!!!!!!!
+instance_activate_object(BrassParent);                  // Need to finish their path, and they determine if the spawner is still needed
+instance_activate_object(BrassRoflcopter);              // Need to finish their path, and they determine if the spawner is still needed
+instance_activate_object(BrassBlock);                   // Need to finish their path, and they determine if the spawner is still needed
+instance_activate_object(BrassBullet);                  // Need to finish their path, and they determine if the spawner is still needed
+instance_activate_object(BrassToast);                   // Need to finish their path, and they determine if the spawner is still needed
+instance_activate_object(BrassEnergyBall);              // Need to finish their path, and they determine if the spawner is still needed
 // loop
 alarm[6] = 30;
 </argument>
