@@ -24,6 +24,7 @@ if gravitytype
 // Bullet hell bois
 else
 {
+    // Appearance effect
     if !visible
     {
         dis = point_distance(x, y, spawnerx, spawnery);
@@ -44,7 +45,48 @@ else
         }
     }
     
+    // Rotate    
     direction += rotate;
+    
+    // Friction
+    if xfriction != 0 {
+        if abs(hspeed) &lt; xfriction {
+            hspeed = 0
+        }
+        else if hspeed &gt; 0 {
+            hspeed -= xfriction
+        }
+        else {
+            hspeed += xfriction
+        }
+    }
+    if yfriction != 0 {
+        if abs(vspeed) &lt; yfriction {
+            vspeed = 0
+        }
+        else if vspeed &gt; 0 {
+            vspeed -= yfriction
+        }
+        else {
+            vspeed += yfriction
+        }
+    }
+    
+    // Maintain speed
+    if maintainspeed {
+        speed = originalspeed;
+    }
+    
+    // Keep spawner active
+    if keepactivefor mod 30 = 0 and instance_number(MainApple) &gt; 0 {
+        if point_distance(x,y,MainApple.x,MainApple.y) &lt;= 480 {
+            keepactivefor = 60
+        }
+    }
+    if keepactivefor &gt; 0 {
+        instance_activate_object(spawner)
+        keepactivefor -= 1
+    }
 }
 // Trails
 if visible and showparticles and global.timer mod 4 = 0

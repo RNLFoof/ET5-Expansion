@@ -30,6 +30,9 @@ if !variable_local_exists("gravitytype")
     
 showparticles = false;
 alarm[2] = 1;
+
+// Keep the spawner active if one of the bullets still matters
+keepactivefor = 0
 </argument>
       </arguments>
     </action>
