@@ -28,7 +28,6 @@ ds_map_add(trailcolors, BrassRoflcopter, make_color_hsv(149.8/360*255, 226/240*2
 ds_map_add(trailcolors, BrassBlock, make_color_hsv( 34.2/360*255, 226/240*255, 98/100*255));
 ds_map_add(trailcolors, BrassEnergyBall, make_color_hsv(217.2/360*255, 226/240*255, 98/100*255));
 ds_map_add(trailcolors, BrassToast, make_color_hsv(0, 226/240*255, 98/100*255));
-s = "";
 </argument>
       </arguments>
     </action>

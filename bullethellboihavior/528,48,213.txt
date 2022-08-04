@@ -1,0 +1,23 @@
+angmin[0] = 270; // Smallest angle a projectile can be launched it
+angmax[0] = 270; // Largest angle a projectile can be launched at
+angincrease[0] = 10; // Increase in base angle after each volley
+angspace[0] = 20; // Angle distance between each projectile
+anginitial[0] = 0; // Starting base angle
+
+offxmin[0] = -32*6; // Smallest x a projectile can be launched it
+offxmax[0] = 32*6; // Largest x a projectile can be launched at
+offxincrease[0] = 0; // Increase in base x after each volley
+offxspace[0] = 32*3; // X distance between each projectile
+offxinitial[0] = 0; // Starting base x
+
+projtype[0] = BrassRoflcopter; // Object being fired
+projspeed[0] = 3; // Speed the projectile moves at
+projrotate[0] = 0; // Rotation of an already-fired projectile each frame
+projdistance[0] = 32; // The circle distance at which the projectiles appear
+projdistancey[0] = 32; // The y distance at which the projectiles appear
+
+projyfriction[0] = -0.015;
+projmaintainspeed[0] = false;
+
+delay[0] = 15; // Time between volleys
+lifetime[0] = 30*20; // Time before projectile automatically breaks

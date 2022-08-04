@@ -30,8 +30,14 @@
     projtype[i] = BrassBullet; // Object being fired
     projspeed[i] = 5; // Speed the projectile moves at
     projrotate[i] = 0; // Rotation of an already-fired projectile each frame
+    
     projdistance[i] = 32; // The circle distance at which the projectiles appear
     projdistancey[i] = 32; // The y distance at which the projectiles appear
+    
+    projfriction[i] = 0; // speed slowdown each step
+    projxfriction[i] = 0; // hspeed slowdown each step
+    projyfriction[i] = 0; // vspeed slowdown each step
+    projmaintainspeed[i] = false; // If enabled, speed will increase if hspeed or vspeed are decreased so that it remains constant
     
     delay[i] = 20; // Time between volleys
     lifetime[i] = 30*20; // Time before projectile automatically breaks
@@ -43,6 +49,25 @@ for(i = 0; i &lt; projectiletypes; i += 1)
 {
     currentangle[i] = anginitial[i];
     currentoffx[i] = offxinitial[i];
+}
+
+if settings = "" {
+    var path;
+    path = working_directory + "/bullethellboihavior"
+    directory_create(path)
+    settingspath = path + "/" + string(x) + "," + string(y) + "," + string(room) + ".txt"
+    // Create file
+    if not file_exists(settingspath) {
+        f = file_text_open_write(settingspath)
+        file_text_close(f)
+    }
+    // Read file
+    f = file_text_open_read(settingspath);
+    while not file_text_eof(f) {
+        execute_string(file_text_read_string(f));
+        file_text_readln(f);
+    }
+    file_text_close(f);
 }
 </argument>
       </arguments>

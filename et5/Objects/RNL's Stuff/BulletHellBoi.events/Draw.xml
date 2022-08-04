@@ -13,7 +13,9 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="STRING">draw_text(x, y, s);
+        <argument kind="STRING">draw_self();
+if settings = ""
+    draw_text(x, y, "DEBUG")
 </argument>
       </arguments>
     </action>
