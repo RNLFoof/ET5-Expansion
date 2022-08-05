@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
   <resource name="Old" type="GROUP"/>
+  <resource name="NEWDIALOGS" type="GROUP"/>
   <resource name="5Soapbox12" type="RESOURCE"/>
   <resource name="5Soapbox14" type="RESOURCE"/>
   <resource name="5Soapbox15" type="RESOURCE"/>
