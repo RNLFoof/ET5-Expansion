@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
+  <resource name="TinyPurplePopsicle" type="RESOURCE"/>
   <resource name="TinyToast" type="RESOURCE"/>
+  <resource name="spr_FlatToast" type="RESOURCE"/>
   <resource name="NormalToast" type="RESOURCE"/>
   <resource name="Post" type="RESOURCE"/>
   <resource name="SmallWater" type="RESOURCE"/>
+  <resource name="spr_LavaRock" type="RESOURCE"/>
   <resource name="LargeWater" type="RESOURCE"/>
   <resource name="TinyRedToast" type="RESOURCE"/>
   <resource name="Fire" type="RESOURCE"/>
