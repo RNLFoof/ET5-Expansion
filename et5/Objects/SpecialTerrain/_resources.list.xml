@@ -11,6 +11,8 @@
   <resource name="PipeTop" type="RESOURCE"/>
   <resource name="PipeMiddle" type="RESOURCE"/>
   <resource name="LeftRamp" type="RESOURCE"/>
+  <resource name="obj_TopLeftRamp" type="RESOURCE"/>
+  <resource name="obj_TopRightRamp" type="RESOURCE"/>
   <resource name="RightRamp" type="RESOURCE"/>
   <resource name="InvisibleWall" type="RESOURCE"/>
   <resource name="Ice" type="RESOURCE"/>
