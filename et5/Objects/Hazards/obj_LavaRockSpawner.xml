@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<object id="2518">
+<object id="2526">
   <sprite>spr_LavaRock</sprite>
   <solid>false</solid>
   <visible>false</visible>
