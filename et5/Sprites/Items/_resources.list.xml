@@ -32,4 +32,5 @@
   <resource name="EquipmentBlank" type="RESOURCE"/>
   <resource name="Equipment" type="RESOURCE"/>
   <resource name="InfiniteLife" type="RESOURCE"/>
+  <resource name="spr_ForcefieldGiver" type="RESOURCE"/>
 </resources>
