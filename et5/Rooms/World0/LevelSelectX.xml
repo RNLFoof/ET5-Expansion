@@ -357,18 +357,6 @@
       <locked>false</locked>
     </instance>
     <instance>
-      <object>T7_4</object>
-      <position x="224" y="5760"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>T8_0</object>
-      <position x="224" y="7328"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
       <object>T8_1</object>
       <position x="224" y="7168"/>
       <creationCode/>
@@ -905,6 +893,18 @@
     <instance>
       <object>T7_3X</object>
       <position x="224" y="5920"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>T7_4X</object>
+      <position x="224" y="5760"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>T8_0X</object>
+      <position x="224" y="7328"/>
       <creationCode/>
       <locked>false</locked>
     </instance>
@@ -4948,12 +4948,6 @@
     </instance>
     <instance>
       <object>BasicWall</object>
-      <position x="32" y="5568"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>BasicWall</object>
       <position x="0" y="5568"/>
       <creationCode/>
       <locked>false</locked>
@@ -5542,12 +5536,6 @@
     </instance>
     <instance>
       <object>BasicWall</object>
-      <position x="32" y="6496"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>BasicWall</object>
       <position x="0" y="6496"/>
       <creationCode/>
       <locked>false</locked>
@@ -5819,12 +5807,6 @@
     <instance>
       <object>BasicWall</object>
       <position x="64" y="7424"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>BasicWall</object>
-      <position x="32" y="7424"/>
       <creationCode/>
       <locked>false</locked>
     </instance>
@@ -6772,12 +6754,6 @@
     </instance>
     <instance>
       <object>BasicWall</object>
-      <position x="32" y="8352"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>BasicWall</object>
       <position x="0" y="8352"/>
       <creationCode/>
       <locked>false</locked>
@@ -7157,12 +7133,6 @@
     <instance>
       <object>BasicWall</object>
       <position x="64" y="9280"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>BasicWall</object>
-      <position x="32" y="9280"/>
       <creationCode/>
       <locked>false</locked>
     </instance>
@@ -7702,12 +7672,6 @@
     </instance>
     <instance>
       <object>BasicWall</object>
-      <position x="32" y="10208"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>BasicWall</object>
       <position x="0" y="10208"/>
       <creationCode/>
       <locked>false</locked>
@@ -8237,12 +8201,6 @@
     <instance>
       <object>BasicWall</object>
       <position x="64" y="11136"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>BasicWall</object>
-      <position x="32" y="11136"/>
       <creationCode/>
       <locked>false</locked>
     </instance>
@@ -8782,12 +8740,6 @@
     </instance>
     <instance>
       <object>BasicWall</object>
-      <position x="32" y="12064"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>BasicWall</object>
       <position x="0" y="12064"/>
       <creationCode/>
       <locked>false</locked>
@@ -9317,12 +9269,6 @@
     <instance>
       <object>BasicWall</object>
       <position x="64" y="12992"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>BasicWall</object>
-      <position x="32" y="12992"/>
       <creationCode/>
       <locked>false</locked>
     </instance>
@@ -10509,18 +10455,6 @@
       <locked>false</locked>
     </instance>
     <instance>
-      <object>L7_4</object>
-      <position x="224" y="5824"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>L8_0</object>
-      <position x="224" y="7392"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
       <object>L8_1</object>
       <position x="224" y="7232"/>
       <creationCode/>
@@ -11045,6 +10979,18 @@
     <instance>
       <object>L7_3X</object>
       <position x="224" y="5984"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>L7_4X</object>
+      <position x="224" y="5824"/>
+      <creationCode/>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>L8_0X</object>
+      <position x="224" y="7392"/>
       <creationCode/>
       <locked>false</locked>
     </instance>

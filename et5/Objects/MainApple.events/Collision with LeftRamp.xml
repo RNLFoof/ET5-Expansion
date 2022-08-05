@@ -14,7 +14,7 @@
       <appliesTo>.self</appliesTo>
       <arguments>
         <argument kind="EXPRESSION">direction</argument>
-        <argument kind="EXPRESSION">gottam</argument>
+        <argument kind="EXPRESSION">16</argument>
         <argument kind="MENU">0</argument>
       </arguments>
     </action>

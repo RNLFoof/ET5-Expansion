@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
   <resource name="OrangePopsicle" type="RESOURCE"/>
+  <resource name="PurplePopsicle" type="RESOURCE"/>
   <resource name="ESprite" type="RESOURCE"/>
 </resources>

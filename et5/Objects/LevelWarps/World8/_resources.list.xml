@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
   <resource name="L8_0" type="RESOURCE"/>
+  <resource name="L8_0X" type="RESOURCE"/>
   <resource name="T8_0" type="RESOURCE"/>
+  <resource name="T8_0X" type="RESOURCE"/>
   <resource name="L8_1" type="RESOURCE"/>
   <resource name="T8_1" type="RESOURCE"/>
   <resource name="L8_2" type="RESOURCE"/>

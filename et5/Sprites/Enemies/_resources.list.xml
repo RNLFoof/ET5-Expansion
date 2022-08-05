@@ -39,5 +39,7 @@
   <resource name="SteelScorpionRight" type="RESOURCE"/>
   <resource name="SteelScroptionF" type="RESOURCE"/>
   <resource name="OrangePopsicle" type="RESOURCE"/>
+  <resource name="PurplePopsicle" type="RESOURCE"/>
+  <resource name="PurplePopsicleMask" type="RESOURCE"/>
   <resource name="Muncher" type="RESOURCE"/>
 </resources>

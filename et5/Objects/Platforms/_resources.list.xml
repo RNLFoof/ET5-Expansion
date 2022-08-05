@@ -31,4 +31,5 @@
   <resource name="FloaterBlue" type="RESOURCE"/>
   <resource name="Balancer" type="RESOURCE"/>
   <resource name="DoomyRoflcopters" type="GROUP"/>
+  <resource name="obj_Bubble" type="RESOURCE"/>
 </resources>

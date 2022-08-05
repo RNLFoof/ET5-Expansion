@@ -5572,12 +5572,6 @@
     </instance>
     <instance>
       <object>BasicWall</object>
-      <position x="32" y="6496"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>BasicWall</object>
       <position x="0" y="6496"/>
       <creationCode/>
       <locked>false</locked>
@@ -5849,12 +5843,6 @@
     <instance>
       <object>BasicWall</object>
       <position x="64" y="7424"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>BasicWall</object>
-      <position x="32" y="7424"/>
       <creationCode/>
       <locked>false</locked>
     </instance>
@@ -6802,12 +6790,6 @@
     </instance>
     <instance>
       <object>BasicWall</object>
-      <position x="32" y="8352"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>BasicWall</object>
       <position x="0" y="8352"/>
       <creationCode/>
       <locked>false</locked>
@@ -7187,12 +7169,6 @@
     <instance>
       <object>BasicWall</object>
       <position x="64" y="9280"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>BasicWall</object>
-      <position x="32" y="9280"/>
       <creationCode/>
       <locked>false</locked>
     </instance>
@@ -7732,12 +7708,6 @@
     </instance>
     <instance>
       <object>BasicWall</object>
-      <position x="32" y="10208"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>BasicWall</object>
       <position x="0" y="10208"/>
       <creationCode/>
       <locked>false</locked>
@@ -8267,12 +8237,6 @@
     <instance>
       <object>BasicWall</object>
       <position x="64" y="11136"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>BasicWall</object>
-      <position x="32" y="11136"/>
       <creationCode/>
       <locked>false</locked>
     </instance>
@@ -8812,12 +8776,6 @@
     </instance>
     <instance>
       <object>BasicWall</object>
-      <position x="32" y="12064"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>BasicWall</object>
       <position x="0" y="12064"/>
       <creationCode/>
       <locked>false</locked>
@@ -9347,12 +9305,6 @@
     <instance>
       <object>BasicWall</object>
       <position x="64" y="12992"/>
-      <creationCode/>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>BasicWall</object>
-      <position x="32" y="12992"/>
       <creationCode/>
       <locked>false</locked>
     </instance>

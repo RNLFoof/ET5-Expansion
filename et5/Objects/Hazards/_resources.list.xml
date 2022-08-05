@@ -44,4 +44,5 @@
   <resource name="Rotosaw2" type="RESOURCE"/>
   <resource name="RotosawN2" type="RESOURCE"/>
   <resource name="AK44Launcher" type="RESOURCE"/>
+  <resource name="obj_LavaRockSpawner" type="RESOURCE"/>
 </resources>

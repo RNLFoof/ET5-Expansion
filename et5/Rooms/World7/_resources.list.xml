@@ -9,5 +9,8 @@
   <resource name="7_3" type="RESOURCE"/>
   <resource name="7_3X" type="RESOURCE"/>
   <resource name="7_4" type="RESOURCE"/>
+  <resource name="7_4_Cookie" type="RESOURCE"/>
+  <resource name="7_4X" type="RESOURCE"/>
+  <resource name="7_4X_Cookie" type="RESOURCE"/>
   <resource name="7_5" type="RESOURCE"/>
 </resources>

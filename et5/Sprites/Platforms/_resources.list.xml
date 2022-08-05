@@ -36,4 +36,6 @@
   <resource name="FloaterMask" type="RESOURCE"/>
   <resource name="FloaterBlue" type="RESOURCE"/>
   <resource name="Balancer" type="RESOURCE"/>
+  <resource name="spr_Bubble" type="RESOURCE"/>
+  <resource name="spr_UsedBubble" type="RESOURCE"/>
 </resources>

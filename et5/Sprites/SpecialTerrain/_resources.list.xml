@@ -2,9 +2,13 @@
 <resources>
   <resource name="spr_Grating" type="RESOURCE"/>
   <resource name="LeftRamp" type="RESOURCE"/>
+  <resource name="spr_TopLeftRamp" type="RESOURCE"/>
+  <resource name="spr_TopRightRamp" type="RESOURCE"/>
   <resource name="RightRamp" type="RESOURCE"/>
   <resource name="LeftRampRed" type="RESOURCE"/>
   <resource name="RightRampRed" type="RESOURCE"/>
+  <resource name="spr_TopLeftRampRed" type="RESOURCE"/>
+  <resource name="spr_TopRightRampRed" type="RESOURCE"/>
   <resource name="LeftRampNowhere" type="RESOURCE"/>
   <resource name="RightRampNowhere" type="RESOURCE"/>
   <resource name="LeftRampBX" type="RESOURCE"/>
