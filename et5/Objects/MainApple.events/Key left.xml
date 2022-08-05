@@ -505,18 +505,22 @@ if hspeed != 0
         <argument kind="EXPRESSION">0</argument>
       </arguments>
     </action>
-    <action id="425" library="1">
-      <!--action name: Exit-->
-      <kind>EXIT</kind>
-      <allowRelative>false</allowRelative>
-      <question>false</question>
-      <canApplyTo>false</canApplyTo>
-      <actionType>NONE</actionType>
-      <functionName/>
-      <relative>false</relative>
+    <action id="403" library="1">
+      <!--action name: If_Object-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if_object</functionName>
+      <relative>true</relative>
       <not>false</not>
       <appliesTo>.self</appliesTo>
-      <arguments/>
+      <arguments>
+        <argument kind="GMOBJECT">RightRamp</argument>
+        <argument kind="EXPRESSION">-2</argument>
+        <argument kind="EXPRESSION">0</argument>
+      </arguments>
     </action>
     <action id="612" library="1">
       <!--action name: If_Variable-->
