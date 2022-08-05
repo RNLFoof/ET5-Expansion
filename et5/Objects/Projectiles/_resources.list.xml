@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
   <resource name="TinyToast" type="RESOURCE"/>
+  <resource name="obj_LavaRock" type="RESOURCE"/>
   <resource name="NormalToast" type="RESOURCE"/>
   <resource name="CyanHToast" type="RESOURCE"/>
   <resource name="TinyRedToast" type="RESOURCE"/>
+  <resource name="TinyPurplePopsicle" type="RESOURCE"/>
   <resource name="SmallWaterBall" type="RESOURCE"/>
   <resource name="LargeWaterBall" type="RESOURCE"/>
   <resource name="BadSplapple" type="RESOURCE"/>
