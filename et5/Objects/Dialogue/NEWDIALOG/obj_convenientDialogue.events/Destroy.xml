@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DESTROY" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">RoasterB02.ready = 1;
+RoasterB02.hspeed = 2;
+with(pErwinsStronghold)
+{
+    instance_destroy();
+    instance_create(x,y,pQuackersBoss);
+}
+event_inherited();
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>
