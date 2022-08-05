@@ -3,6 +3,11 @@
   <resource name="8_0" type="RESOURCE"/>
   <resource name="8_1" type="RESOURCE"/>
   <resource name="8_2" type="RESOURCE"/>
+  <resource name="8_0_Cookie" type="RESOURCE"/>
+  <resource name="8_0X_Cookie" type="RESOURCE"/>
+  <resource name="8_1_Cookie" type="RESOURCE"/>
+  <resource name="8_1X_Cookie" type="RESOURCE"/>
+  <resource name="8_2_Cookie" type="RESOURCE"/>
   <resource name="8_3" type="RESOURCE"/>
   <resource name="8_4" type="RESOURCE"/>
   <resource name="8_5" type="RESOURCE"/>
