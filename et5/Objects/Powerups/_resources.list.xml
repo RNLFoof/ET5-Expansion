@@ -8,6 +8,7 @@
   <resource name="HelpElemna" type="RESOURCE"/>
   <resource name="HelpSoap" type="RESOURCE"/>
   <resource name="HelpShaman" type="RESOURCE"/>
+  <resource name="obj_ForcefieldNotShaman" type="RESOURCE"/>
   <resource name="AbsentLeaf" type="RESOURCE"/>
   <resource name="AbsentElemna" type="RESOURCE"/>
   <resource name="AbsentSoap" type="RESOURCE"/>
