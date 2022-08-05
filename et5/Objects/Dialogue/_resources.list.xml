@@ -13,4 +13,5 @@
   <resource name="5Dialogue206" type="RESOURCE"/>
   <resource name="5Dialogue207" type="RESOURCE"/>
   <resource name="5Dialogue208" type="RESOURCE"/>
+  <resource name="NEWDIALOG" type="GROUP"/>
 </resources>
