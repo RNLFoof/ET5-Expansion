@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<event category="COLLISION" with="RightRamp">
+<event category="COLLISION" with="obj_TopLeftRamp">
   <actions>
     <action id="116" library="1">
       <!--action name: Move_Contact-->
@@ -14,7 +14,7 @@
       <appliesTo>.self</appliesTo>
       <arguments>
         <argument kind="EXPRESSION">direction</argument>
-        <argument kind="EXPRESSION">16</argument>
+        <argument kind="EXPRESSION">gottam</argument>
         <argument kind="MENU">0</argument>
       </arguments>
     </action>
