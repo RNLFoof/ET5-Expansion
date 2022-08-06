@@ -13,12 +13,12 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="STRING">zoomSpeed = 1 //1 = instant, higher numbers lead to slower zoom changes
-if variable_global_exists("cheat_NEW_CAMERA") {
-    if global.cheat_NEW_CAMERA {
-        zoomSpeed = 7 //1 = instant, higher numbers lead to slower zoom changes
+        <argument kind="STRING">if variable_global_exists("cheat_NEW_CAMERA") {
+    if not global.cheat_NEW_CAMERA {
+        exit
     }
 }
+
 if view_object[0] = 0
 {
     //show_message("hehe.. app time")

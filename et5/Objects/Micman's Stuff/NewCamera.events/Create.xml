@@ -14,8 +14,7 @@
       <appliesTo>.self</appliesTo>
       <arguments>
         <argument kind="STRING">zoom = 1
-// Set on room start now
-//zoomSpeed = 7 //1 = instant, higher numbers lead to slower zoom changes 
+zoomSpeed = 7 //1 = instant, higher numbers lead to slower zoom changes 
 followSpeed = 2.5 //1 = instant, higher numbers lead to slower camera movement
 pixelAccuracy = 0.1 //pixel distance when the camera will just align to app
 maxSpeed = 320 //max camera speed O_O

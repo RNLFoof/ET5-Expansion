@@ -13,7 +13,13 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="STRING">//say the view changes to someone that isn't app when app is in the room? stop camera updating then
+        <argument kind="STRING">if variable_global_exists("cheat_NEW_CAMERA") {
+    if not global.cheat_NEW_CAMERA {
+        exit
+    }
+}
+
+//say the view changes to someone that isn't app when app is in the room? stop camera updating then
 if view_object[0] != object_index &amp;&amp; focusedApp = 1
 {
     focusedApp = 0
