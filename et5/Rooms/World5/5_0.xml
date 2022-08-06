@@ -6795,216 +6795,216 @@
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="192" y="832"/>
-      <creationCode>mate = 262402;
+      <creationCode>pair = "idkwhattonamethese"
 tolerance = 4;
 image_blend = c_lime;
 </creationCode>
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="320" y="832"/>
-      <creationCode>mate = 262401;
+      <creationCode>pair = "idkwhattonamethese"
 tolerance = 4;
 image_blend = c_lime;
 </creationCode>
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="640" y="832"/>
-      <creationCode>mate = 262417;
+      <creationCode>pair = "text";
 tolerance = 6;
 image_blend = c_yellow;
 </creationCode>
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="704" y="768"/>
-      <creationCode>mate = 262416;
+      <creationCode>pair = "text";
 tolerance = 6;
 image_blend = c_yellow;
 </creationCode>
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="1120" y="672"/>
-      <creationCode>mate = 262422;
+      <creationCode>pair = "the biggest issue is accidentally repeating the same pair symbol";
 tolerance = 9;
 image_blend = c_red;
 </creationCode>
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="1344" y="672"/>
-      <creationCode>mate = 262421;
+      <creationCode>pair = "the biggest issue is accidentally repeating the same pair symbol";
 tolerance = 9;
 image_blend = c_red;
 </creationCode>
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="1824" y="768"/>
-      <creationCode>mate = 262530;
+      <creationCode>pair = "unique keyword";
 tolerance = 4;
 image_blend = c_lime;
 </creationCode>
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="2016" y="768"/>
-      <creationCode>mate = 262529;
+      <creationCode>pair = "unique keyword";
 tolerance = 4;
 image_blend = c_lime;
 </creationCode>
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="3680" y="832"/>
-      <creationCode>mate = 262918;
+      <creationCode>pair = "we can literally use sentences for these";
 tolerance = 2;
 image_blend = c_aqua;
 </creationCode>
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="3872" y="832"/>
-      <creationCode>mate = 262917;
+      <creationCode>pair = "we can literally use sentences for these";
 tolerance = 2;
 image_blend = c_aqua;
 </creationCode>
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="5088" y="768"/>
-      <creationCode>mate = 263136;
+      <creationCode>pair = "the quick brown fox jumps over the lazy dog";
 tolerance = 6;
 image_blend = c_yellow;
 </creationCode>
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="5376" y="768"/>
-      <creationCode>mate = 263135;
+      <creationCode>pair = "the quick brown fox jumps over the lazy dog";
 tolerance = 6;
 image_blend = c_yellow;
 </creationCode>
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="6688" y="480"/>
-      <creationCode>mate = 263477;
+      <creationCode>pair = "LongBoys";
 tolerance = 6;
 image_blend = c_yellow;
 </creationCode>
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="6752" y="480"/>
-      <creationCode>mate = 263476;
+      <creationCode>pair = "LongBoys";
 tolerance = 6;
 image_blend = c_yellow;
 </creationCode>
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="7136" y="832"/>
-      <creationCode>mate = 263530;
+      <creationCode>pair = "Stinky";
 tolerance = 9;
 image_blend = c_red;
 </creationCode>
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="7328" y="832"/>
-      <creationCode>mate = 263529;
+      <creationCode>pair = "Stinky";
 tolerance = 9;
 image_blend = c_red;
 </creationCode>
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="7360" y="640"/>
-      <creationCode>mate = 263532;
+      <creationCode>pair = "Loof";
 tolerance = 9;
 image_blend = c_red;
 </creationCode>
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="7552" y="640"/>
-      <creationCode>mate = 263531;
+      <creationCode>pair = "Loof";
 tolerance = 9;
 image_blend = c_red;
 </creationCode>
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
-      <position x="7328" y="448"/>
-      <creationCode>mate = 263534;
-tolerance = 9;
-image_blend = c_red;
-</creationCode>
-      <locked>false</locked>
-    </instance>
-    <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="7136" y="448"/>
-      <creationCode>mate = 263533;
+      <creationCode>pair = "Qookie";
 tolerance = 9;
 image_blend = c_red;
 </creationCode>
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
+      <position x="7328" y="448"/>
+      <creationCode>pair = "Qookie";
+tolerance = 9;
+image_blend = c_red;
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_BalancerFixed</object>
       <position x="7360" y="256"/>
-      <creationCode>mate = 263536;
+      <creationCode>pair = "Regner (Peegue is on a vacation)";
 tolerance = 9;
 image_blend = c_red;
 </creationCode>
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="7552" y="256"/>
-      <creationCode>mate = 263535;
+      <creationCode>pair = "Regner (Peegue is on a vacation)";
 tolerance = 9;
 image_blend = c_red;
 </creationCode>
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="8128" y="672"/>
-      <creationCode>mate = 263684;
+      <creationCode>pair = "Peegue";
 tolerance = 2;
 image_blend = c_aqua;
 </creationCode>
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="8256" y="672"/>
-      <creationCode>mate = 263683;
+      <creationCode>pair = "Peegue";
 tolerance = 2;
 image_blend = c_aqua;
 </creationCode>
