@@ -48,6 +48,8 @@ if (keyboard_check(vk_down))
     MainApple.isWalkable = true;
     MainApple.vspeed = 20;
 }
+
+MainApple.isWalkable = true;
 </argument>
       </arguments>
     </action>
