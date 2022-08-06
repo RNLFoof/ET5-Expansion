@@ -21,7 +21,7 @@ if MainApple.hurt = 0
 MainApple.hurt = 1
 lives -= 1
 MainApple.alarm[1] = 30
-sound_play(10)
+scr_safesound(PlayerHurt)
 }
 </argument>
       </arguments>
