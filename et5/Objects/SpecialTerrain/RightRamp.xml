@@ -3,7 +3,7 @@
   <sprite>RightRamp</sprite>
   <solid>true</solid>
   <visible>true</visible>
-  <depth>0</depth>
+  <depth>90</depth>
   <persistent>false</persistent>
   <parent/>
   <mask>RightRamp</mask>
