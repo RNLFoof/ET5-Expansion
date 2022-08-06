@@ -48,6 +48,14 @@ instance_activate_object(WorldController);              // This looks important.
 instance_activate_object(GravityBoi);                   // The orbiters would fly into oblivion without it.
 instance_activate_object(ConnectorSpawnerController);   // Used to sync those guys even if they get disabled, so
 instance_activate_object(Uncontrollable);               // Can't... break.... free!!!!!!!
+instance_activate_object(PW0To1);                       // Wurp
+instance_activate_object(PW1To2);                       // Wurp
+instance_activate_object(PW2To1);                       // Wurp
+instance_activate_object(PW3To4);                       // Wurp
+instance_activate_object(PW4To2);                       // Wurp
+instance_activate_object(PW5To6);                       // Wurp
+instance_activate_object(PW7To8);                       // Wurp
+instance_activate_object(PW8To7);                       // Wurp
 // loop
 alarm[6] = 30;
 </argument>
