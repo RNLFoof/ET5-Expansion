@@ -5115,18 +5115,18 @@
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="2848" y="736"/>
-      <creationCode>mate = 303776
+      <creationCode>pair = "uwu";
 tolerance = 9;
 image_blend = c_red;
 </creationCode>
       <locked>false</locked>
     </instance>
     <instance>
-      <object>Balancer</object>
+      <object>obj_BalancerFixed</object>
       <position x="3104" y="736"/>
-      <creationCode>mate = 303772
+      <creationCode>pair = "uwu";
 tolerance = 9;
 image_blend = c_red;
 </creationCode>
