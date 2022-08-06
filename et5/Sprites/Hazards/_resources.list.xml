@@ -12,6 +12,7 @@
   <resource name="GUpSpike" type="RESOURCE"/>
   <resource name="GSpikeS2" type="RESOURCE"/>
   <resource name="GLeftSpike" type="RESOURCE"/>
+  <resource name="SoupsButBetterNames" type="GROUP"/>
   <resource name="GRightSpike" type="RESOURCE"/>
   <resource name="Soup" type="RESOURCE"/>
   <resource name="SoupBottom" type="RESOURCE"/>

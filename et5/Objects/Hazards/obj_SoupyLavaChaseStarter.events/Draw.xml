@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">image_speed = 20;
+
+switch (facing)
+{
+    case ("Right"):
+    {
+        for (i = 0; i &lt; room_height; i += 32)
+        {
+            draw_sprite(spr_SoupSideRight, -1, x, i);
+        }
+        
+        draw_rectangle_color(0, 0, x, room_height, lavaColor, lavaColor, lavaColor, lavaColor, false);        
+        break;
+    }
+    
+    ////////////
+    case ("Left"):
+    {
+        for (i = x; i &gt; 0; i -= 32)
+        {
+            draw_sprite(spr_SoupSideLeft, -1, x, i);
+        }
+        
+        draw_rectangle_color(x + 4, 0, room_width, room_height, lavaColor, lavaColor, lavaColor, lavaColor, false);        
+        break;
+    }
+    
+    ////////////
+    case ("Up"):
+    {
+        for (i = y; i &lt; room_width; i += 32)
+        {
+            draw_sprite(spr_SoupUpside, -1, i, y);                        
+        }
+        
+        draw_rectangle_color(0, y + 4, room_width, room_height, lavaColor, lavaColor, lavaColor, lavaColor, false);
+        break;          
+    }
+    
+    ////////////
+    case ("Down"):
+    {
+        for (i = y; i &lt; room_width; i += 32)
+        {
+            draw_sprite(spr_Soup, -1, i, y);                        
+        }
+        
+        draw_rectangle_color(0, 0, room_width, y-4, lavaColor, lavaColor, lavaColor, lavaColor, false);
+        break;   
+    }
+}
+
+  
+            
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

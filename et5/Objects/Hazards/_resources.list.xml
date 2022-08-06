@@ -17,6 +17,7 @@
   <resource name="SoupUpside" type="RESOURCE"/>
   <resource name="SoupSide1" type="RESOURCE"/>
   <resource name="SoupSide2" type="RESOURCE"/>
+  <resource name="obj_SoupyLavaChaseStarter" type="RESOURCE"/>
   <resource name="BombTube" type="RESOURCE"/>
   <resource name="Bomb" type="RESOURCE"/>
   <resource name="BombExplosion" type="RESOURCE"/>

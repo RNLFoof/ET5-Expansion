@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">lavaColor = make_color_rgb(176, 27, 0);
+
+if (!variable_local_exists("facing"))
+    facing = "Right";
+    
+if (!variable_local_exists("chaseSpeed"))
+    chaseSpeed = 3;
+    
+// Creation Code can set the direction to:
+// Right, Left, Up, Down.
+
+switch(facing)
+{
+    case ("Right"):
+            y = room_height;
+            hspeed = chaseSpeed;        
+            break;
+        
+    case ("Left"):
+            y = room_height; 
+            hspeed = -chaseSpeed;          
+            break;                      
+        
+    case ("Up"):
+            x = 0; 
+            vspeed = -chaseSpeed; 
+            break;
+            
+    case ("Down"):
+            x = 0;
+            vspeed = chaseSpeed;
+            break;
+}
+
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

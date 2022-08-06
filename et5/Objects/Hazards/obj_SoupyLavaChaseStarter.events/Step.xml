@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if (instance_number(MainApple) = 1)
+{
+    switch (facing)
+    {
+        case ("Right"):
+            if (MainApple.x &lt; x)
+            {
+                lives = 0;
+                MainApple.alarm[0]=30;
+                scr_safesound(PlayerHurt);
+            }
+            
+            if (MainApple.x - x &gt; 340)
+                hspeed = chaseSpeed + 7;
+            else
+                hspeed = chaseSpeed;
+                
+            break;
+            
+            
+        case ("Left"):
+            if (MainApple.x &gt; x)
+            {
+                lives = 0;
+                MainApple.alarm[0]=30;
+                scr_safesound(PlayerHurt);
+            }
+            
+            if (x - MainApple.x &gt; 340)
+                hspeed = chaseSpeed - 7;
+            else
+                hspeed = chaseSpeed;
+                
+            break;
+            
+                
+        case ("Up"):
+            if (MainApple.y &gt; y)
+            {
+                lives = 0;
+                MainApple.alarm[0]=30;
+                scr_safesound(PlayerHurt);
+            }
+            
+            if (y - MainApple.y &gt; 340)
+                vspeed = -chaseSpeed - 7;
+            else
+                vspeed = chaseSpeed;
+                
+            break;
+        
+            
+        case ("Down"):
+            if (MainApple.y &lt; y)
+            {
+                lives = 0;
+                MainApple.alarm[0]=30;
+                scr_safesound(PlayerHurt);
+            }
+            
+            if (MainApple.y - y &gt; 340)
+                vspeed = chaseSpeed + 7;
+            else
+                vspeed = chaseSpeed;
+                
+            break;
+    }
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

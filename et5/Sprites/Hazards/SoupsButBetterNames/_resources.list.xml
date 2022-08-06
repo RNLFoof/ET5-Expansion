@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="spr_Soup" type="RESOURCE"/>
+  <resource name="spr_SoupUpside" type="RESOURCE"/>
+  <resource name="spr_SoupSideLeft" type="RESOURCE"/>
+  <resource name="spr_SoupSideRight" type="RESOURCE"/>
+</resources>
