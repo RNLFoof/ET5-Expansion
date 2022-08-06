@@ -13,7 +13,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="STRING">if false {
+        <argument kind="STRING">if global.cheat_COMBINE_WALLS and instance_number(OMGTRUCK) = 0 {
     instance_change(Metamorph2, true);
 }
 </argument>

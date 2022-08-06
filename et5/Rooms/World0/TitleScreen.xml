@@ -519,6 +519,30 @@ desc="Then use the arrow keys to move it.";
 </creationCode>
       <locked>false</locked>
     </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="32" y="272"/>
+      <creationCode>s="DISPLAY FPS"
+desc="Shows a lil FPS counter in the corner."
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="352" y="272"/>
+      <creationCode>s="NEW CAMERA"
+desc="Adds a new, smoother camera."
+</creationCode>
+      <locked>false</locked>
+    </instance>
+    <instance>
+      <object>obj_CheatsBox</object>
+      <position x="352" y="1232"/>
+      <creationCode>s="COMBINE WALLS"
+desc="Merges walls like in Final Exam to make the game run faster. Displays the same."
+</creationCode>
+      <locked>false</locked>
+    </instance>
   </instances>
   <tiles/>
   <editorSettings remember="false"/>
