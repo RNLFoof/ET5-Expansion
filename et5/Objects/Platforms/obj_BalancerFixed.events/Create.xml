@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">mateFound = false;
+alarm[0] = 2; // i hate you game maker.
+
+/*
+VARIABLES THAT SHOULD BE SET:
+
+pair: value which must equal in pairs.
+tolerance: how fast (in pixels per frame) to move downwards when touched by App
+image_blend: of course
+
+*/
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

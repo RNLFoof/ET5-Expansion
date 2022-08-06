@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="ALARM" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">// Gets all instances of balancerFixed into an array.
+if !variable_local_exists("pair")
+{
+   instance_destroy();
+   exit;
+}
+
+for (i = 0; i &lt; instance_number(obj_BalancerFixed); i += 1)
+{
+    balancers[i] = instance_find(obj_BalancerFixed,i);
+}
+
+// Checks for matches.
+for (i = 0; i &lt; instance_number(obj_BalancerFixed); i += 1)
+{
+    if (balancers[i].pair = pair &amp;&amp; balancers[i].id != id)
+    {
+        mateID = balancers[i].id
+        mateFound = true;        
+        break;
+    }
+}
+
+// Ones who can't find a match don't deserve to live.
+if (!mateFound)
+    instance_destroy();
+    
+// Normal MNIK code.
+xrl = x;
+yrl = y;
+xi = x;
+yi = y;
+halfdistx = point_distance(x,y,mateID.x,y)/2;
+halfdisty = point_distance(x,y,x,mateID.y)/2;
+pivotx = x+halfdistx;
+pivoty = y-halfdisty;
+halfwall = 0;
+
+/*
+VARIABLES THAT SHOULD BE SET:
+
+pair: value which must equal in pairs.
+tolerance: how fast (in pixels per frame) to move downwards when touched by App
+image_blend: of course
+
+*/
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

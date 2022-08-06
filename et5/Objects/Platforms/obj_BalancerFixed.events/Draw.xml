@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if !variable_local_exists("pair")
+   exit;
+
+if !variable_local_exists("mateID")
+   exit;
+      
+if x &lt; mateID.x
+{
+    draw_line_color(x+16,y+16,mateID.x+16,mateID.y+16,c_black,c_black);
+    draw_sprite(SpinnerRed,0,pivotx,pivoty);
+    draw_sprite_ext(sprite_index,image_index,x,y,1,1,0,image_blend,1);
+    draw_sprite_ext(mateID.sprite_index,mateID.image_index,mateID.x,mateID.y,1,1,0,mateID.image_blend,1);
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>
