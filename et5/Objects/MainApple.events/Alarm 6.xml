@@ -56,6 +56,8 @@ instance_activate_object(PW4To2);                       // Wurp
 instance_activate_object(PW5To6);                       // Wurp
 instance_activate_object(PW7To8);                       // Wurp
 instance_activate_object(PW8To7);                       // Wurp
+instance_activate_object(ChapterUnlocker);              // Needed for the hub
+instance_activate_object(ArenaWall);                    // Needed for the hub
 // loop
 alarm[6] = 30;
 </argument>
