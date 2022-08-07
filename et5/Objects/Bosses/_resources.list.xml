@@ -28,4 +28,5 @@
   <resource name="2" type="GROUP"/>
   <resource name="3" type="GROUP"/>
   <resource name="4" type="GROUP"/>
+  <resource name="RoasterBossCookie" type="GROUP"/>
 </resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="ALARM" id="1">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if (attackMode != 1)
+{
+    isShooting = false;
+    hasMoved = false;
+    spinSpeed = 0;
+    exit;
+}
+    
+if !instance_exists(MainApple) 
+    exit;
+
+if (!hasMoved) 
+{
+    destX = MainApple.x;
+    destY = 730;                    
+    hasMoved = true; // Prevents roaster from constantly following App like an idiot.
+}
+
+move_towards_point(destX, destY, 4 + attackSpeedIncrease);
+
+if (!isShooting)
+{
+    alarm[2] = 5;
+    isShooting = true;
+}
+
+while (attackStarted &amp;&amp; nextSpin &gt; 1)
+{
+    image_angle += spinSpeed;
+    nextSpin -= 1;
+    
+    if (spinSpeed &lt; 25)
+        spinSpeed += 0.1;
+        
+    if nextSpin == 2
+        hasMoved = false;                        
+}   
+
+if (nextSpin == 1)
+{   
+    hasMoved = false;
+    nextSpin = 9000 - attackSpeedIncrease;
+    alarm[1] = 1;
+}
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

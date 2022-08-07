@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">/* Roaster has three attack modes and two idle states: 
+0 - Fight hasn't started:
+    Initial value. 
+    
+1 - Spin attack:
+    His sprite spins around like crazy and he shoots toasts at various speeds in different directions.
+
+2 - Sweep attack: 
+    Roaster lowers himself to the ground, and starts charging left and right, 
+    this is the ideal time to attack him, but also the easiest to get hit with 
+    because he will shoot toasters once he reaches the edge of the platform temporarily.
+    
+3 - Shooting attack:
+    Roaster picks a random location on the sides of the field and starts firing
+    toasters at a reasonable speed towards App, usually accompanied with other attacks.
+    
+4 - Idle state:
+    Roaster stays out of reach from App for a few seconds, and lets App dodge other attacks such as: bigass cyan toasts, laser beams, or AK-42s.
+    
+
+When Roaster hits 30% HP, his attack speeds increase and the time between attacks is decreased
+*/
+
+
+hp = 1000;
+attackMode = 0; // Describes current attack mode.
+attackSpeedIncrease = 0; // The lower roaster's health is, the higher this number should get.
+attackChangeSpeed = 150 // Substract this from the timer once roaster hits 30% HP (333)
+attackStarted = false; // Used to check that an attack is not constantly started again after the first time.
+
+
+isShooting = false; // Used to determine shooting for Attack 1.
+hasMoved = false; // Determines if roaster has begun moving or not.
+
+spinSpeed = 0; // Spinning speed for spin attack.
+nextSpin = 90 - attackSpeedIncrease; // Determines when the next spin should begin.
+
+
+attackMode = 1 //irandom_range(1, 4); // Picks a random attack mode for the first phase.
+alarm[0] = irandom_range(600, 900); // Each attack lasts 10 to 15 seconds.
+
+
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

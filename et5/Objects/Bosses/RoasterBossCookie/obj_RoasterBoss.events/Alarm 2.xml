@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="ALARM" id="2">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if !instance_exists(MainApple) 
+    exit;
+
+
+if (attackStarted &amp;&amp; isShooting &amp;&amp; attackMode == 1)
+{
+    xx=x+lengthdir_x(0,image_angle);
+    yy=y+lengthdir_y(0,image_angle);
+    
+    nn=instance_create(xx,yy,NormalToast);
+    nn.speed= irandom_range(4, 16);
+    nn.direction=image_angle;
+    nn.image_angle=image_angle;
+
+    alarm[2] = 3;
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

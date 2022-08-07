@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="ALARM" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">// Changes the attack mode.
+
+
+x = attackMode;
+while (x == attackMode)
+{
+    x = irandom_range(1, 4); // Ensures a single attack isn't repeating twice in a row.
+}
+
+attackStarted = false;
+attackMode = x;
+
+if (hp &gt; 333)
+    alarm[0] = irandom_range(300, 600);
+else
+    alarm[0] = irandom_range(300 - attackSpeedIncrease, 600 - attackSpeedIncrease); // At low health attacks change every 5 - 10 seconds.
+    
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>
