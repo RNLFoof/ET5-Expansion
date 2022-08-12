@@ -21,4 +21,5 @@
   <resource name="ReddisherBG" type="RESOURCE"/>
   <resource name="bck_cheats" type="RESOURCE"/>
   <resource name="PaperSkins" type="GROUP"/>
+  <resource name="WallSides" type="GROUP"/>
 </resources>
