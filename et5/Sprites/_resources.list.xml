@@ -38,7 +38,4 @@
   <resource name="CHEATS" type="GROUP"/>
   <resource name="RNL's Stuff" type="GROUP"/>
   <resource name="Micman's Stuff" type="GROUP"/>
-  <resource name="del BUT ONLY LATER" type="RESOURCE"/>
-  <resource name="sprTrapBomb" type="RESOURCE"/>
-  <resource name="BrassWall" type="RESOURCE"/>
 </resources>

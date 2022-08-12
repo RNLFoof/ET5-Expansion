@@ -44,4 +44,8 @@
   <resource name="Shaker" type="RESOURCE"/>
   <resource name="DustParticle" type="RESOURCE"/>
   <resource name="spr_WaterAnyDirection" type="RESOURCE"/>
+  <resource name="WallSides" type="RESOURCE"/>
+  <resource name="BrassWall" type="RESOURCE"/>
+  <resource name="del BUT ONLY LATER" type="RESOURCE"/>
+  <resource name="sprTrapBomb" type="RESOURCE"/>
 </resources>
