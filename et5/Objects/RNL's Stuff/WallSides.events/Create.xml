@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">with (BasicWall) {
+    above=false;
+    below=false;
+    right=false;
+    left=false;
+    topleft=false;
+    topright=false;
+    bottomleft=false;
+    bottomright=false;
+    if place_meeting(x,y-32,BasicWall) {above=true};
+    if place_meeting(x,y+32,BasicWall) {below=true};
+    if place_meeting(x+32,y,BasicWall) {right=true};
+    if place_meeting(x-32,y,BasicWall) {left=true};
+    if place_meeting(x-32,y-32,BasicWall) {topleft=true};
+    if place_meeting(x+32,y-32,BasicWall) {topright=true};
+    if place_meeting(x-32,y+32,BasicWall) {bottomleft=true};
+    if place_meeting(x+32,y+32,BasicWall) {bottomright=true};
+    ///Sides
+    if above=false {tile_add(WallSidesBrass,0,0,32,32,x,y,80)};
+    if right=false {tile_add(WallSidesBrass,32,0,32,32,x,y,80)};
+    if below=false {tile_add(WallSidesBrass,64,0,32,32,x,y,80)};
+    if left=false {tile_add(WallSidesBrass,96,0,32,32,x,y,80)};
+    ///Outer Corners
+    if above=false &amp;&amp; left=false {tile_add(WallSidesBrass,0,32,32,32,x,y,80)};
+    if above=false &amp;&amp; right=false {tile_add(WallSidesBrass,32,32,32,32,x,y,80)};
+    if below=false &amp;&amp; right=false {tile_add(WallSidesBrass,64,32,32,32,x,y,80)};
+    if below=false &amp;&amp; left=false {tile_add(WallSidesBrass,96,32,32,32,x,y,80)};
+    ///Inner Corners
+    if above=true &amp;&amp; left=true &amp;&amp; topleft=false {tile_add(WallSidesBrass,0,64,32,32,x,y,80)};
+    if above=true &amp;&amp; right=true &amp;&amp; topright=false {tile_add(WallSidesBrass,32,64,32,32,x,y,80)};
+    if below=true &amp;&amp; right=true &amp;&amp; bottomright=false {tile_add(WallSidesBrass,64,64,32,32,x,y,80)};
+    if below=true &amp;&amp; left=true &amp;&amp; bottomleft=false {tile_add(WallSidesBrass,96,64,32,32,x,y,80)};
+    ///Non-Corners
+    if above=false &amp;&amp; right=true {tile_add(WallSidesBrass,0,96,32,32,x,y,80)};
+    if above=false &amp;&amp; left=true {tile_add(WallSidesBrass,32,96,32,32,x,y,80)};
+    if left=false &amp;&amp; below=true {tile_add(WallSidesBrass,64,96,32,32,x,y,80)};
+    if left=false &amp;&amp; above=true {tile_add(WallSidesBrass,96,96,32,32,x,y,80)};
+    if right=false &amp;&amp; below=true {tile_add(WallSidesBrass,0,128,32,32,x,y,80)};
+    if right=false &amp;&amp; above=true {tile_add(WallSidesBrass,32,128,32,32,x,y,80)};
+    if below=false &amp;&amp; left=true {tile_add(WallSidesBrass,64,128,32,32,x,y,80)};
+    if below=false &amp;&amp; right=true {tile_add(WallSidesBrass,96,128,32,32,x,y,80)};
+}
+instance_destroy();
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>
