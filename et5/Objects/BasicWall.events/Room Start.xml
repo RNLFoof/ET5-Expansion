@@ -14,7 +14,10 @@
       <appliesTo>.self</appliesTo>
       <arguments>
         <argument kind="STRING">if true {
+    var spr;
+    spr = sprite_index;
     instance_change(Metamorph2, true);
+    sprite_index = spr;
 }
 </argument>
       </arguments>

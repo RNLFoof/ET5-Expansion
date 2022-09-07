@@ -16,6 +16,7 @@
         <argument kind="STRING">draw_self();
 if settings = ""
     draw_text(x, y, "DEBUG")
+    draw_text(x, y+10, currentoffy[0])
 </argument>
       </arguments>
     </action>

@@ -23,6 +23,7 @@
   <resource name="StickyParticle" type="RESOURCE"/>
   <resource name="StarYellow" type="RESOURCE"/>
   <resource name="Star" type="RESOURCE"/>
+  <resource name="SmallStar" type="RESOURCE"/>
   <resource name="StarRep" type="RESOURCE"/>
   <resource name="StarCyan" type="RESOURCE"/>
   <resource name="StarLightYellow" type="RESOURCE"/>

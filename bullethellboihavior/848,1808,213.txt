@@ -1,0 +1,20 @@
+angmin[0] = 0; // Smallest angle a projectile can be launched it
+angmax[0] = 0; // Largest angle a projectile can be launched at
+angincrease[0] = 0; // Increase in base angle after each volley
+angspace[0] = 10; // Angle distance between each projectile
+anginitial[0] = 0; // Starting base angle
+
+offymin[0] = -10; // Smallest x a projectile can be launched it
+offymax[0] = 10+20; // Largest x a projectile can be launched at
+offyincrease[0] = 20; // Increase in base x after each volley
+offyspace[0] = 32; // X distance between each projectile
+offyinitial[0] = -10; // Starting base x
+
+projtype[0] = BrassBlock; // Object being fired
+projspeed[0] = 3; // Speed the projectile moves at
+projrotate[0] = 0; // Rotation of an already-fired projectile each frame
+projdistance[0] = 0//32; // The circle distance at which the projectiles appear
+projdistancey[0] = 32; // The y distance at which the projectiles appear
+
+delay[0] = 30; // Time between volleys
+lifetime[0] = 30*20; // Time before projectile automatically breaks

@@ -21,47 +21,66 @@ for(i = 0; i &lt; projectiletypes; i += 1)
 {
     if timer mod delay[i] == 0
     {
-        //s = string(currentoffx[i]) + " " +string(offxspace[i]) + " ";
         for(offx = currentoffx[i]; offxmin[i] &lt;= offx and offx &lt;= offxmax[i]; offx+=offxspace[i])
         {
-            for(dir = currentangle[i]; dir &lt; 360; dir+=angspace[i])
+            for(offy = currentoffy[i]; offymin[i] &lt;= offy and offy &lt;= offymax[i]; offy+=offyspace[i])
             {
-                if dir &gt;= angmin[i] and dir &lt;= angmax[i]
+                for(dir = currentangle[i]; dir &lt; 360; dir+=angspace[i])
                 {
-                    o = instance_create(x+offx, y, projtype[i]);
-                    o.direction = dir;
-                    o.speed = projspeed[i];
-                    o.friction = projfriction[i];
-                    o.xfriction = projxfriction[i];
-                    o.yfriction = projyfriction[i];
-                    o.maintainspeed = projmaintainspeed[i];
-                    if o.maintainspeed {
-                        o.originalspeed = o.speed;
+                    if dir &gt;= angmin[i] and dir &lt;= angmax[i]
+                    {
+                        o = instance_create(x+offx, y+offy, projtype[i]);
+                        o.direction = dir;
+                        o.speed = projspeed[i];
+                        o.friction = projfriction[i];
+                        o.xfriction = projxfriction[i];
+                        o.yfriction = projyfriction[i];
+                        o.maintainspeed = projmaintainspeed[i];
+                        if o.maintainspeed {
+                            o.originalspeed = o.speed;
+                        }
+                        o.spawnerx = x;
+                        o.spawnery = y;
+                        o.spawner = id;
+                        o.rotate = projrotate[i];
+                        o.appeardistance = projdistance[i];
+                        o.appeardistancey = projdistancey[i];
+                        o.lifetime = lifetime[i];
+                        o.trailcolor = ds_map_find_value(trailcolors, projtype[i]);
                     }
-                    o.spawnerx = x;
-                    o.spawnery = y;
-                    o.spawner = id;
-                    o.rotate = projrotate[i];
-                    o.appeardistance = projdistance[i];
-                    o.appeardistancey = projdistancey[i];
-                    o.lifetime = lifetime[i];
-                    o.trailcolor = ds_map_find_value(trailcolors, projtype[i]);
                 }
+            
+                currentangle[i] += angincrease[i];
+                currentangle[i] = currentangle[i] mod angspace[i];
             }
-        
-            currentangle[i] += angincrease[i];
-            currentangle[i] = currentangle[i] mod angspace[i];
         }
         
         currentoffx[i] += offxincrease[i];
         while currentoffx[i] - offxspace[i] &gt;= offxmin[i]
-        {   
-            //s +="wow";
+        {
             currentoffx[i] -= offxspace[i];
         }
+        
+        /*currentoffy[i] += offyincrease[i];
+        if offymax[i] != offymin[i] {
+            currentoffy[i] = scr_euclidean_remainder(currentoffy[i], abs(offymax[i])+abs(offymin[i]))
+        }*/
+            
+        currentoffy[i] += offyincrease[i];
+        currentoffy[i] -= offymin[i];
+        //if offyspace[i] != 0 {
+        //    currentoffy[i] = currentoffy[i] mod offyspace[i]
+        //}
+        if offymax[i] != offymin[i] {
+            currentoffy[i] = scr_euclidean_remainder(currentoffy[i], abs(offymax[i])+abs(offymin[i]))
+        }
+        currentoffy[i] += offymin[i];
     }
 }
 timer += 1;
+
+
+
 </argument>
       </arguments>
     </action>

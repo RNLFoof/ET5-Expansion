@@ -27,6 +27,12 @@
     offxspace[i] = 32; // X distance between each projectile
     offxinitial[i] = 0; // Starting base x
     
+    offymin[i] = 0; // Smallest y a projectile can be launched it
+    offymax[i] = 0; // Largest y a projectile can be launched at
+    offyincrease[i] = 0; // Increase in base y after each volley
+    offyspace[i] = 32; // Y distance between each projectile
+    offyinitial[i] = 0; // Starting base y
+    
     projtype[i] = BrassBullet; // Object being fired
     projspeed[i] = 5; // Speed the projectile moves at
     projrotate[i] = 0; // Rotation of an already-fired projectile each frame
@@ -49,6 +55,7 @@ for(i = 0; i &lt; projectiletypes; i += 1)
 {
     currentangle[i] = anginitial[i];
     currentoffx[i] = offxinitial[i];
+    currentoffy[i] = offyinitial[i];
 }
 
 if settings = "" {

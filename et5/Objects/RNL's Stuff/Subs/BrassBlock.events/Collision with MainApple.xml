@@ -291,7 +291,7 @@ other.y = y-48+12;
       <appliesTo>.self</appliesTo>
       <arguments>
         <argument kind="STRING">image_alpha = 0.5;
-alarm[3] = 30;
+alarm[3] = 15;
 other.hovered = 0;
 </argument>
       </arguments>
